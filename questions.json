@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "tresc_pl": "Co jest głównym celem regresji liniowej jednej zmiennej przy dopasowywaniu prostej $y = ax + b$?",
+    "tresc_eng": "What is the main goal of single-variable linear regression when fitting the line $y = ax + b$?",
+    "odp_a_pl": "Zminimalizowanie błędu kwadratowego wyrażonego wzorem $\\sum_{i=1}^n (y_i - (ax_i + b))^2$.",
+    "odp_b_pl": "Maksymalizacja współczynnika uczenia $\\eta$.",
+    "odp_c_pl": "Odwrócenie macierzy cech tekstowych reprezentacji tf-idf.",
+    "odp_d_pl": "Wyznaczenie optymalnej liczby pokoi w prognozie cen mieszkań.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 2,
+    "tresc_pl": "Jaki jest główny problem związany z obliczaniem wektora wag bezpośrednio ze wzoru analitycznego $\\mathbf{w} = (\\mathbf{X}^{\\rm T}\\mathbf{X})^{-1} \\mathbf{X}^{\\rm T}\\mathbf{y}$ w regresji wielowymiarowej?",
+    "tresc_eng": "What is the main problem with calculating the weight vector directly from the analytical formula $\\mathbf{w} = (\\mathbf{X}^{\\rm T}\\mathbf{X})^{-1} \\mathbf{X}^{\\rm T}\\mathbf{y}$ in multivariate regression?",
+    "odp_a_pl": "Odwracanie macierzy nie jest tanie obliczeniowo.",
+    "odp_b_pl": "Wzór ten nie uwzględnia wyrazu wolnego $w_0$.",
+    "odp_c_pl": "Wzór można stosować wyłącznie do cech zerojedynkowych.",
+    "odp_d_pl": "Wymaga on wcześniejszego obliczenia błędu MAE i RMSE.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 3,
+    "tresc_pl": "W jaki sposób aktualizowane są wagi $w_i$ w każdej iteracji metody gradientu prostego (gradient descent)?",
+    "tresc_eng": "How are the weights $w_i$ updated in each iteration of the gradient descent method?",
+    "odp_a_pl": "Według wzoru $w_i := w_i - x_i (\\hat{y} - y) \\eta$, gdzie $\\eta$ to współczynnik uczenia.",
+    "odp_b_pl": "Poprzez obliczenie pierwiastka kwadratowego ze średniej sumy błędów.",
+    "odp_c_pl": "Poprzez losowe wyznaczenie nowej wartości z rozkładu tf-idf.",
+    "odp_d_pl": "Według stałego wzoru $\\hat{a} = \\bar{y} - \\hat{b}\\,\\bar{x}$ bez użycia parametru $\\eta$.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 4,
+    "tresc_pl": "Który z wymienionych wzorów reprezentuje średni błąd kwadratowy (Mean Squared Error, MSE)?",
+    "tresc_eng": "Which of the following formulas represents the Mean Squared Error (MSE)?",
+    "odp_a_pl": "$\\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2$",
+    "odp_b_pl": "$\\frac{1}{n}\\sum_{i=1}^n |\\hat{y}_i - y_i|$",
+    "odp_c_pl": "$\\sqrt{\\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2}$",
+    "odp_d_pl": "$\\sum_{i=1}^n (y_i - (ax_i + b))^2$",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 5,
+    "tresc_pl": "Która miara ewaluacji regresji wylicza błąd bezwzględny i jest zdefiniowana jako $\\frac{1}{n}\\sum_{i=1}^n |\\hat{y}_i - y_i|$?",
+    "tresc_eng": "Which regression evaluation metric calculates the absolute error and is defined as $\\frac{1}{n}\\sum_{i=1}^n |\\hat{y}_i - y_i|$?",
+    "odp_a_pl": "MAE (Mean Absolute Error)",
+    "odp_b_pl": "MSE (Mean Squared Error)",
+    "odp_c_pl": "RMSE (Root Mean Squared Error)",
+    "odp_d_pl": "Gradient Descent",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 6,
+    "tresc_pl": "Jakie cechy tekstu mogą służyć jako wektor $\\vec{x}$ w regresji liniowej dla zadań przetwarzania języka naturalnego (NLP), takich jak wyzwanie RetroC2?",
+    "tresc_eng": "What text features can serve as the vector $\\vec{x}$ in linear regression for natural language processing (NLP) tasks, such as the RetroC2 challenge?",
+    "odp_a_pl": "Reprezentacja tf-idf, Word2vec lub trik z haszowaniem.",
+    "odp_b_pl": "Wyłącznie cechy zerojedynkowe określające obecność jacuzzi.",
+    "odp_c_pl": "Wskaźniki liczby pokoi i numeru piętra tekstu.",
+    "odp_d_pl": "Współczynnik uczenia obliczany na podstawie długości słów.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 7,
+    "tresc_pl": "W kontekście uogólnienia regresji na wiele wymiarów ($k$), jak definiowana jest prognoza wartości $y$?",
+    "tresc_eng": "In the context of generalizing regression to multiple dimensions ($k$), how is the predicted value $y$ defined?",
+    "odp_a_pl": "$y = w_0 + w_1x_1 + \\ldots + w_kx_k = w_0 + \\vec{w}\\vec{x}$",
+    "odp_b_pl": "$y = \\hat{b} - \\hat{a}\\,\\bar{x}$",
+    "odp_c_pl": "$y = \\sqrt{|\\hat{y} - y|}$",
+    "odp_d_pl": "$y = \\eta (\\hat{y} - y)$",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 8,
+    "tresc_pl": "Jakie ograniczenie modelu regresji liniowej zostało wprost wskazane w treści wykładu?",
+    "tresc_eng": "What limitation of the linear regression model was explicitly pointed out in the lecture content?",
+    "odp_a_pl": "Czasami kompletnie nie ma sensu (np. wzrost człowieka w stosunku do wieku).",
+    "odp_b_pl": "Nie pozwala na stosowanie cech o charakterze ciągłym, takich jak powierzchnia w $m^2$.",
+    "odp_c_pl": "Zawsze wymaga stosowania wyłącznie algorytmów iteracyjnych bez możliwości użycia wzorów.",
+    "odp_d_pl": "Błąd RMSE dla tego modelu musi być zawsze równy zero.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 1,
+    "tresc_pl": "Jak definiowana jest funkcja logitowa, która rozciąga wartości prawdopodobieństwa z przedziału [0, 1] do przedziału $[-\\infty, +\\infty]$?",
+    "tresc_eng": "How is the logit function defined, which stretches probability values from the [0, 1] interval to the $[-\\infty, +\\infty]$ interval?",
+    "odp_a_pl": "$logit(x) = \\log\\frac{x}{1-x}$",
+    "odp_b_pl": "$logit(x) = \\log\\frac{1-x}{x}$",
+    "odp_c_pl": "$logit(x) = \\frac{e^x}{\\sum e^x}$",
+    "odp_d_pl": "$logit(x) = -\\frac{1}{n}\\sum x_i$",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 2,
+    "tresc_pl": "Dlaczego klasyczna regresja liniowa nie nadaje się bezpośrednio do klasyfikacji binarnej z użyciem funkcji logit na danych uczących z etykietami 0 i 1?",
+    "tresc_eng": "Why is classic linear regression not directly suitable for binary classification using the logit function on training data with 0 and 1 labels?",
+    "odp_a_pl": "Dla przykladów uczących logit(y) wynosiłby $-\\infty$ lub $+\\infty$, a regresja liniowa nie działa dobrze na wartościach nieskończonych.",
+    "odp_b_pl": "Regresja liniowa potrafi przewidywać wyłącznie wartości ujemne.",
+    "odp_c_pl": "Wzór Bayesa uniemożliwia obliczenie wag dla cech ciągłych.",
+    "odp_d_pl": "Funkcja logitowa nie pozwala na zastosowanie techniki gradientu prostego.",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 3,
+    "tresc_pl": "Jaką funkcję błędu (kosztu) minimalizuje się podczas uczenia modelu regresji logistycznej?",
+    "tresc_eng": "Which error (loss) function is minimized during the training of a logistic regression model?",
+    "odp_a_pl": "Log-loss (logloss $:= -\\frac{1}{n}\\sum_{i=1}^{n}(y_{i}\\log(p_{i}) + (1-y_{i})\\log(1-p_{i})))$",
+    "odp_b_pl": "Średni błąd kwadratowy (MSE)",
+    "odp_c_pl": "Pierwiastek błędu średniokwadratowego (RMSE)",
+    "odp_d_pl": "Szarżę Bayesa (Naive Bayes Loss)",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 4,
+    "tresc_pl": "Do jakiego wzoru sprowadza się wyznaczenie logarytmu szans (log-odds) w modelu Naiwnego Bayesa, co pokazuje jego liniową naturę?",
+    "tresc_eng": "What formula is the log-odds calculation in the Naive Bayes model reduced to, demonstrating its linear nature?",
+    "odp_a_pl": "$w_{0} + \\sum_{i} w_{i}x_{i}$",
+    "odp_b_pl": "$\\sigma(\\vec{w}\\vec{x}) \\cdot \\log(loss)$",
+    "odp_c_pl": "$\\frac{z_i}{\\sum z_j}$",
+    "odp_d_pl": "$logit^{-1}(w_0)$",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 42,
+    "tresc_pl": "Na czym polega 'hashing trick' stosowany w regresji logistycznej na tekstach?",
+    "tresc_eng": "What does the 'hashing trick' used in logistic regression on texts consist of?",
+    "odp_a_pl": "Na mapowaniu słów za pomocą funkcji skrótu $H: V \\rightarrow \\{1, ..., 2^b\\}$ do wektora o stałym rozmiarze, co eliminuje wymóg wcześniejszego budowania słownika.",
+    "odp_b_pl": "Na losowym usuwaniu połowy cech tekstowych w celu przyspieszenia mnożenia macierzy.",
+    "odp_c_pl": "Na zamianie wszystkich słów na ich reprezentacje numeryczne przy użyciu błędu RMSE.",
+    "odp_d_pl": "Na szyfrowaniu wag modelu w celu zabezpieczenia go przed przeuczeniem.",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 6,
+    "tresc_pl": "Które z poniższych narzędzi implementują mechanizm 'hashing trick' (np. poprzez HashingVectorizer)?",
+    "tresc_eng": "Which of the following tools implement the 'hashing trick' mechanism (e.g., via HashingVectorizer)?",
+    "odp_a_pl": "scikit-learn oraz Vowpal Wabbit",
+    "odp_b_pl": "Wyłącznie standardowa biblioteka Math w Pythonie",
+    "odp_c_pl": "Naiwny klasyfikator Bayesa bez rozszerzeń liniowych",
+    "odp_d_pl": "Excel oraz podstawowe bazy danych SQL",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 7,
+    "tresc_pl": "Jaką funkcję należy zastosować jako poprawne rozwiązanie (right solution) w klasyfikacji wieloklasowej ($k > 2$), aby przekształcić wyjścia sieci $z_1, ..., z_k$ w rozkład prawdopodobieństwa?",
+    "tresc_eng": "Which function should be used as the correct solution in multi-class classification ($k > 2$) to transform the network outputs $z_1, ..., z_k$ into a probability distribution?",
+    "odp_a_pl": "Softmax: $s(z_{i}) = \\frac{e^{z_{i}}}{\\sum_{j=1}^{k}e^{z_{j}}}$",
+    "odp_b_pl": "Zwykłe dzielenie przez sumę: $s(Z_{i}) = \\frac{z_{i}}{\\sum_{j=1}^{k}Z_{j}}$",
+    "odp_c_pl": "Funkcję logitową: $logit(z) = \\log\\frac{z}{1-z}$",
+    "odp_d_pl": "Sigmoidę jednoargumentową dla każdej klasy niezależnie",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 8,
+    "tresc_pl": "Jakie cechy można bez problemu obsługiwać w miliardowych produktach/modelach dzięki zastosowaniu 'hashing trick'?",
+    "tresc_eng": "What features can be easily handled in billions of products/models thanks to the use of the 'hashing trick'?",
+    "odp_a_pl": "Słowa znormalizowane, n-gramy słowowe i znakowe, cechy morfologiczne (POS) oraz metryki tekstu (np. długość).",
+    "odp_b_pl": "Wyłącznie współrzędne geograficzne i cechy zerojedynkowe nieruchomości.",
+    "odp_c_pl": "Wartości błędu MSE obliczone dla sieci neuronowych.",
+    "odp_d_pl": "Tylko i wyłącznie słowa w ich podstawowej, nieznormalizowanej formie.",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 9,
+    "tresc_pl": "Na podstawie wykładu o regresji liniowej, jakie wartości wag (b i a) uzyskano jako przykład dla wyceny mieszkań?",
+    "tresc_eng": "Based on the linear regression lecture, what weight values (b and a) were obtained as an example for apartment pricing?",
+    "odp_a_pl": "b = -30809.203 zł, a = 5733.693 zł/m$^2$",
+    "odp_b_pl": "b = 7000 zł, a = -30000 zł/m$^2$",
+    "odp_c_pl": "b = 0 zł, a = 1000 zł/m$^2$",
+    "odp_d_pl": "b = -40000 zł, a = 5000 zł/m$^2$",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 10,
+    "tresc_pl": "Która cecha mieszkania wymieniona w przykładzie regresji wielowymiarowej otrzymała przykładową wagę w_8 = -40000?",
+    "tresc_eng": "Which apartment feature mentioned in the multivariate regression example received a sample weight of w_8 = -40000?",
+    "odp_a_pl": "czy jest grzyb? ($x_8 = 0$)",
+    "odp_b_pl": "czy jest jacuzzi? ($x_7 = 1$)",
+    "odp_c_pl": "liczba pokoi ($x_2 = 3$)",
+    "odp_d_pl": "czy to Kielce? ($x_9 = 1$)",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 11,
+    "tresc_pl": "Jak w wykładzie zdefiniowano pojęcie 'szansy' (odds) używane przy przejściu od naiwnego Bayesa do regresji logistycznej?",
+    "tresc_eng": "How did the lecture define 'odds' used in the transition from Naive Bayes to logistic regression?",
+    "odp_a_pl": "Stosunek prawdopodobieństwa zajścia czegoś do prawdopodobieństwa niezajścia.",
+    "odp_b_pl": "Logarytm z błędu średniokwadratowego (MSE).",
+    "odp_c_pl": "Suma wszystkich wag modelu podzielona przez liczbę cech tekstowych.",
+    "odp_d_pl": "Iloczyn prawdopodobieństw a priori dla wszystkich klas $k > 2$.",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 12,
+    "tresc_pl": "Jakie żartobliwe podsumowanie alternatywy dla regresji liniowej jako 'najprostszego modelu' pojawiło się w slajdach?",
+    "tresc_eng": "What humorous summary of an alternative to linear regression as the 'simplest model' appeared in the slides?",
+    "odp_a_pl": "funkcja stała?? LOL",
+    "odp_b_pl": "Naiwny Bayes to idiot-model!",
+    "odp_c_pl": "nie jesteśmy Duchem Św., żeby twierdzić coś na pewno",
+    "odp_d_pl": "To nie jest błąd copy and paste!",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 13,
+    "tresc_pl": "W jaki sposób autor wykładu uzasadnia fakt, że klasyfikator w regresji logistycznej powinien zwracać prawdopodobieństwo, a nie sztywne wartości 0 lub 1?",
+    "tresc_eng": "How does the lecture author justify that the logistic regression classifier should return probability rather than hard 0 or 1 values?",
+    "odp_a_pl": "Słowami: 'w sumie słusznie, nie jesteśmy Duchem Św., żeby twierdzić coś na pewno jest albo nie jest'.",
+    "odp_b_pl": "Wskazując, że błąd RMSE musi wynosić dokładnie zero dla ułamków.",
+    "odp_c_pl": "Tłumacząc, że wymaga tego algorytm Vowpal Wabbit z opcją -b.",
+    "odp_d_pl": "Ponieważ funkcja softmax zwraca liczby wyłącznie całkowite.",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 14,
+    "tresc_pl": "Co radzi autor wykładu, jeżeli Twój klasyfikator logistyczny ma zwracać prawdopodobieństwo równe dokładnie $p_i = 0$ albo $p_i = 1$?",
+    "tresc_eng": "What does the lecture author advise if your logistic classifier is to return a probability equal to exactly $p_i = 0$ or $p_i = 1$?",
+    "odp_a_pl": "Radzi być pewnym!",
+    "odp_b_pl": "Zaleca natychmiastowe użycie algorytmu MurmurHash3.",
+    "odp_c_pl": "Nakazuje zmianę funkcji kosztu na błąd kwadratowy.",
+    "odp_d_pl": "Sugeruje dodanie sztucznej cechy tekstowej o nazwie 'zygote'.",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 15,
+    "tresc_pl": "Jaki komentarz pojawia się w wykładzie przy opisie iteracyjnego wzoru modyfikacji wag $w_i := w_i - x_i (\\hat{y} - y) \\eta$ dla regresji logistycznej?",
+    "tresc_eng": "What comment appears in the lecture when describing the iterative weight modification formula $w_i := w_i - x_i (\\hat{y} - y) \\eta$ for logistic regression?",
+    "odp_a_pl": "(To nie jest błąd copy and paste!)",
+    "odp_b_pl": "(Wagi nie są dobierane optymalnie)",
+    "odp_c_pl": "(Ograniczenie do cech zerojedynkowych)",
+    "odp_d_pl": "(Odwracanie macierzy nie jest tanie :()",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 16,
+    "tresc_pl": "W kontekście regresji logistycznej na tekstach, jakie konkretne słowo angielskie zostało użyte na schemacie jako przykład wartości dla stałej cechy x_0 (bias)?",
+    "tresc_eng": "In the context of logistic regression on texts, which specific English word was used in the diagram as an example value for the constant feature x_0 (bias)?",
+    "odp_a_pl": "1",
+    "odp_b_pl": "a",
+    "odp_c_pl": "Aachen",
+    "odp_d_pl": "zygote",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 17,
+    "tresc_pl": "Jaką przykładową funkcję skrótu (hashing function) wskazano w materiale do realizacji 'hashing trick'?",
+    "tresc_eng": "What sample hashing function was indicated in the material to implement the 'hashing trick'?",
+    "odp_a_pl": "MurmurHash3",
+    "odp_b_pl": "VowpalWabbit-NN",
+    "odp_c_pl": "Softargmax3",
+    "odp_d_pl": "Tf-Idf-Hash",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 18,
+    "tresc_pl": "Jak brzmi pełna, poprawna nazwa dla funkcji 'softmax' według informacji zawartej w podsumowaniu wykładu?",
+    "tresc_eng": "What is the full, correct name for the 'softmax' function according to the information contained in the lecture summary?",
+    "odp_a_pl": "Should be called softargmax actually",
+    "odp_b_pl": "Should be called logit-inverse actually",
+    "odp_c_pl": "Should be called linear Bayes expansion",
+    "odp_d_pl": "Should be called multi-class logloss",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 19,
+    "tresc_pl": "Która opcja w narzędziu VowpalWabbit pozwala na stworzenie małej sieci neuronowej na bazie regresji logistycznej?",
+    "tresc_eng": "Which option in the VowpalWabbit tool allows for creating a small neural network based on logistic regression?",
+    "odp_a_pl": "-nn",
+    "odp_b_pl": "-b",
+    "odp_c_pl": "-logit",
+    "odp_d_pl": "-softmax",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 20,
+    "tresc_pl": "Która opcja (flaga) odpowiada za hashing trick w implementacji narzędzia VowpalWabbit?",
+    "tresc_eng": "Which option (flag) is responsible for the hashing trick in the VowpalWabbit tool implementation?",
+    "odp_a_pl": "-b option",
+    "odp_b_pl": "-nn option",
+    "odp_c_pl": "-h option",
+    "odp_d_pl": "-v option",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 21,
+    "tresc_pl": "Dlaczego proste rozwiązanie polegające na dzieleniu wartości wyjściowych przez ich sumę $s(Z_{i}) = \\frac{z_{i}}{\\sum Z_{j}}$ zostało określone jako błędne ('wrong solution') dla klasyfikacji wieloklasowej?",
+    "tresc_eng": "Why was the simple solution of dividing output values by their sum $s(Z_{i}) = \\frac{z_{i}}{\\sum Z_{j}}$ designated as a 'wrong solution' for multi-class classification?",
+    "odp_a_pl": "Ponieważ nie gwarantuje, że wyniki znajdą się w przedziale [0, 1] dla wartości ujemnych i nie tworzy poprawnego rozkładu prawdopodobieństwa.",
+    "odp_b_pl": "Ponieważ wymaga wcześniejszego obliczenia słownika metodą wycinania cech.",
+    "odp_c_pl": "Ponieważ całkowicie usuwa wpływ wyrazu wolnego (bias) ze struktury sieci.",
+    "odp_d_pl": "Ponieważ działa wyłącznie w środowisku scikit-learn, a nie działa w VowpalWabbit.",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 22,
+    "tresc_pl": "Jakie słowa kluczowe pojawiają się w tekście slajdu jako przykłady normalizacji słów przy przygotowywaniu cech do hashing tricka?",
+    "tresc_eng": "What keywords appear in the slide text as examples of word normalization when preparing features for the hashing trick?",
+    "odp_a_pl": "lemmatized, stemmed, lowercased",
+    "odp_b_pl": "tokenized, vectorized, optimized",
+    "odp_c_pl": "hashed, encoded, classified",
+    "odp_d_pl": "gradiented, absolute, calculated",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  }
+]
