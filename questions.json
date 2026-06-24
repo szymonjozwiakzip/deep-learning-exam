@@ -80,7 +80,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 1,
+    "id": 9,
     "tresc_pl": "Jak definiowana jest funkcja logitowa, która rozciąga wartości prawdopodobieństwa z przedziału [0, 1] do przedziału $[-\\infty, +\\infty]$?",
     "tresc_eng": "How is the logit function defined, which stretches probability values from the [0, 1] interval to the $[-\\infty, +\\infty]$ interval?",
     "odp_a_pl": "$logit(x) = \\log\\frac{x}{1-x}$",
@@ -90,7 +90,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 2,
+    "id": 10,
     "tresc_pl": "Dlaczego klasyczna regresja liniowa nie nadaje się bezpośrednio do klasyfikacji binarnej z użyciem funkcji logit na danych uczących z etykietami 0 i 1?",
     "tresc_eng": "Why is classic linear regression not directly suitable for binary classification using the logit function on training data with 0 and 1 labels?",
     "odp_a_pl": "Dla przykladów uczących logit(y) wynosiłby $-\\infty$ lub $+\\infty$, a regresja liniowa nie działa dobrze na wartościach nieskończonych.",
@@ -100,7 +100,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 3,
+    "id": 11,
     "tresc_pl": "Jaką funkcję błędu (kosztu) minimalizuje się podczas uczenia modelu regresji logistycznej?",
     "tresc_eng": "Which error (loss) function is minimized during the training of a logistic regression model?",
     "odp_a_pl": "Log-loss (logloss $:= -\\frac{1}{n}\\sum_{i=1}^{n}(y_{i}\\log(p_{i}) + (1-y_{i})\\log(1-p_{i})))$",
@@ -110,7 +110,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 4,
+    "id": 12,
     "tresc_pl": "Do jakiego wzoru sprowadza się wyznaczenie logarytmu szans (log-odds) w modelu Naiwnego Bayesa, co pokazuje jego liniową naturę?",
     "tresc_eng": "What formula is the log-odds calculation in the Naive Bayes model reduced to, demonstrating its linear nature?",
     "odp_a_pl": "$w_{0} + \\sum_{i} w_{i}x_{i}$",
@@ -120,7 +120,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 42,
+    "id": 13,
     "tresc_pl": "Na czym polega 'hashing trick' stosowany w regresji logistycznej na tekstach?",
     "tresc_eng": "What does the 'hashing trick' used in logistic regression on texts consist of?",
     "odp_a_pl": "Na mapowaniu słów za pomocą funkcji skrótu $H: V \\rightarrow \\{1, ..., 2^b\\}$ do wektora o stałym rozmiarze, co eliminuje wymóg wcześniejszego budowania słownika.",
@@ -130,7 +130,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 6,
+    "id": 14,
     "tresc_pl": "Które z poniższych narzędzi implementują mechanizm 'hashing trick' (np. poprzez HashingVectorizer)?",
     "tresc_eng": "Which of the following tools implement the 'hashing trick' mechanism (e.g., via HashingVectorizer)?",
     "odp_a_pl": "scikit-learn oraz Vowpal Wabbit",
@@ -140,7 +140,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 7,
+    "id": 15,
     "tresc_pl": "Jaką funkcję należy zastosować jako poprawne rozwiązanie (right solution) w klasyfikacji wieloklasowej ($k > 2$), aby przekształcić wyjścia sieci $z_1, ..., z_k$ w rozkład prawdopodobieństwa?",
     "tresc_eng": "Which function should be used as the correct solution in multi-class classification ($k > 2$) to transform the network outputs $z_1, ..., z_k$ into a probability distribution?",
     "odp_a_pl": "Softmax: $s(z_{i}) = \\frac{e^{z_{i}}}{\\sum_{j=1}^{k}e^{z_{j}}}$",
@@ -150,7 +150,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 8,
+    "id": 16,
     "tresc_pl": "Jakie cechy można bez problemu obsługiwać w miliardowych produktach/modelach dzięki zastosowaniu 'hashing trick'?",
     "tresc_eng": "What features can be easily handled in billions of products/models thanks to the use of the 'hashing trick'?",
     "odp_a_pl": "Słowa znormalizowane, n-gramy słowowe i znakowe, cechy morfologiczne (POS) oraz metryki tekstu (np. długość).",
@@ -160,7 +160,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 9,
+    "id": 17,
     "tresc_pl": "Na podstawie wykładu o regresji liniowej, jakie wartości wag (b i a) uzyskano jako przykład dla wyceny mieszkań?",
     "tresc_eng": "Based on the linear regression lecture, what weight values (b and a) were obtained as an example for apartment pricing?",
     "odp_a_pl": "b = -30809.203 zł, a = 5733.693 zł/m$^2$",
@@ -170,7 +170,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 10,
+    "id": 18,
     "tresc_pl": "Która cecha mieszkania wymieniona w przykładzie regresji wielowymiarowej otrzymała przykładową wagę w_8 = -40000?",
     "tresc_eng": "Which apartment feature mentioned in the multivariate regression example received a sample weight of w_8 = -40000?",
     "odp_a_pl": "czy jest grzyb? ($x_8 = 0$)",
@@ -180,7 +180,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 11,
+    "id": 19,
     "tresc_pl": "Jak w wykładzie zdefiniowano pojęcie 'szansy' (odds) używane przy przejściu od naiwnego Bayesa do regresji logistycznej?",
     "tresc_eng": "How did the lecture define 'odds' used in the transition from Naive Bayes to logistic regression?",
     "odp_a_pl": "Stosunek prawdopodobieństwa zajścia czegoś do prawdopodobieństwa niezajścia.",
@@ -190,7 +190,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 12,
+    "id": 20,
     "tresc_pl": "Jakie żartobliwe podsumowanie alternatywy dla regresji liniowej jako 'najprostszego modelu' pojawiło się w slajdach?",
     "tresc_eng": "What humorous summary of an alternative to linear regression as the 'simplest model' appeared in the slides?",
     "odp_a_pl": "funkcja stała?? LOL",
@@ -200,7 +200,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 13,
+    "id": 21,
     "tresc_pl": "W jaki sposób autor wykładu uzasadnia fakt, że klasyfikator w regresji logistycznej powinien zwracać prawdopodobieństwo, a nie sztywne wartości 0 lub 1?",
     "tresc_eng": "How does the lecture author justify that the logistic regression classifier should return probability rather than hard 0 or 1 values?",
     "odp_a_pl": "Słowami: 'w sumie słusznie, nie jesteśmy Duchem Św., żeby twierdzić coś na pewno jest albo nie jest'.",
@@ -210,7 +210,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 14,
+    "id": 22,
     "tresc_pl": "Co radzi autor wykładu, jeżeli Twój klasyfikator logistyczny ma zwracać prawdopodobieństwo równe dokładnie $p_i = 0$ albo $p_i = 1$?",
     "tresc_eng": "What does the lecture author advise if your logistic classifier is to return a probability equal to exactly $p_i = 0$ or $p_i = 1$?",
     "odp_a_pl": "Radzi być pewnym!",
@@ -220,7 +220,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 15,
+    "id": 23,
     "tresc_pl": "Jaki komentarz pojawia się w wykładzie przy opisie iteracyjnego wzoru modyfikacji wag $w_i := w_i - x_i (\\hat{y} - y) \\eta$ dla regresji logistycznej?",
     "tresc_eng": "What comment appears in the lecture when describing the iterative weight modification formula $w_i := w_i - x_i (\\hat{y} - y) \\eta$ for logistic regression?",
     "odp_a_pl": "(To nie jest błąd copy and paste!)",
@@ -230,7 +230,7 @@
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
-    "id": 16,
+    "id": 24,
     "tresc_pl": "W kontekście regresji logistycznej na tekstach, jakie konkretne słowo angielskie zostało użyte na schemacie jako przykład wartości dla stałej cechy x_0 (bias)?",
     "tresc_eng": "In the context of logistic regression on texts, which specific English word was used in the diagram as an example value for the constant feature x_0 (bias)?",
     "odp_a_pl": "1",
@@ -240,7 +240,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 17,
+    "id": 25,
     "tresc_pl": "Jaką przykładową funkcję skrótu (hashing function) wskazano w materiale do realizacji 'hashing trick'?",
     "tresc_eng": "What sample hashing function was indicated in the material to implement the 'hashing trick'?",
     "odp_a_pl": "MurmurHash3",
@@ -250,7 +250,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 18,
+    "id": 26,
     "tresc_pl": "Jak brzmi pełna, poprawna nazwa dla funkcji 'softmax' według informacji zawartej w podsumowaniu wykładu?",
     "tresc_eng": "What is the full, correct name for the 'softmax' function according to the information contained in the lecture summary?",
     "odp_a_pl": "Should be called softargmax actually",
@@ -260,7 +260,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 19,
+    "id": 27,
     "tresc_pl": "Która opcja w narzędziu VowpalWabbit pozwala na stworzenie małej sieci neuronowej na bazie regresji logistycznej?",
     "tresc_eng": "Which option in the VowpalWabbit tool allows for creating a small neural network based on logistic regression?",
     "odp_a_pl": "-nn",
@@ -270,7 +270,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 20,
+    "id": 28,
     "tresc_pl": "Która opcja (flaga) odpowiada za hashing trick w implementacji narzędzia VowpalWabbit?",
     "tresc_eng": "Which option (flag) is responsible for the hashing trick in the VowpalWabbit tool implementation?",
     "odp_a_pl": "-b option",
@@ -280,7 +280,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 21,
+    "id": 29,
     "tresc_pl": "Dlaczego proste rozwiązanie polegające na dzieleniu wartości wyjściowych przez ich sumę $s(Z_{i}) = \\frac{z_{i}}{\\sum Z_{j}}$ zostało określone jako błędne ('wrong solution') dla klasyfikacji wieloklasowej?",
     "tresc_eng": "Why was the simple solution of dividing output values by their sum $s(Z_{i}) = \\frac{z_{i}}{\\sum Z_{j}}$ designated as a 'wrong solution' for multi-class classification?",
     "odp_a_pl": "Ponieważ nie gwarantuje, że wyniki znajdą się w przedziale [0, 1] dla wartości ujemnych i nie tworzy poprawnego rozkładu prawdopodobieństwa.",
@@ -290,7 +290,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 22,
+    "id": 30,
     "tresc_pl": "Jakie słowa kluczowe pojawiają się w tekście slajdu jako przykłady normalizacji słów przy przygotowywaniu cech do hashing tricka?",
     "tresc_eng": "What keywords appear in the slide text as examples of word normalization when preparing features for the hashing trick?",
     "odp_a_pl": "lemmatized, stemmed, lowercased",
@@ -300,17 +300,7 @@
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
-    "id": 23,
-    "tresc_pl": "Kto został wskazany jako autor zdjęcia 'Morskie oko' wykorzystanego jako ilustracja metody gradientu prostego?",
-    "tresc_eng": "Who was indicated as the author of the 'Morskie oko' photo used as an illustration for the gradient descent method?",
-    "odp_a_pl": "Krzysztof Dudzik",
-    "odp_b_pl": "Filip Graliński",
-    "odp_c_pl": "AITech",
-    "odp_d_pl": "Gonito",
-    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
-  },
-  {
-    "id": 24,
+    "id": 31,
     "tresc_pl": "Jakie konkretne wyzwanie z platformy gonito.net zostało podane jako przykład zastosowania regresji liniowej dla tekstu?",
     "tresc_eng": "Which specific challenge from the gonito.net platform was given as an example of applying linear regression to text?",
     "odp_a_pl": "RetroC2",
@@ -320,7 +310,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 25,
+    "id": 32,
     "tresc_pl": "Na czym polega zadanie w wyzwaniu RetroC2 podanym w treści wykładu?",
     "tresc_eng": "What is the task in the RetroC2 challenge mentioned in the lecture?",
     "odp_a_pl": "Na odgadywaniu roku dla krótkiego tekstu (1814-2013)",
@@ -330,27 +320,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 26,
-    "tresc_pl": "Które z wymienionych słów (obciętych do 7 znaków) z wyzwania RetroC2 otrzymało największą pozytywną wagę wynoszącą 0.12307300?",
-    "tresc_eng": "Which of the mentioned words (truncated to 7 characters) from the RetroC2 challenge received the highest positive weight of 0.12307300?",
-    "odp_a_pl": "wielomi",
-    "odp_b_pl": "wielost",
-    "odp_c_pl": "faktura",
-    "odp_d_pl": "kumulat",
-    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
-  },
-  {
-    "id": 27,
-    "tresc_pl": "Które z wymienionych słów (obciętych do 7 znaków) z wyzwania RetroC2 otrzymało najmniejszą (najbardziej ujemną) wagę wynoszącą -0.08071490?",
-    "tresc_eng": "Which of the mentioned words (truncated to 7 characters) from the RetroC2 challenge received the lowest (most negative) weight of -0.08071490?",
-    "odp_a_pl": "wzbudze",
-    "odp_b_pl": "paczka",
-    "odp_c_pl": "szarpi",
-    "odp_d_pl": "daley",
-    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
-  },
-  {
-    "id": 28,
+    "id": 33,
     "tresc_pl": "Jaki jest pierwszy krok w praktycznym algorytmie uczenia wag metodą gradientu prostego opisanym w wykładzie?",
     "tresc_eng": "What is the first step in the practical gradient descent weight training algorithm described in the lecture?",
     "odp_a_pl": "Zacznij od byle jakich wag $w_i$ (np. wylosuj)",
@@ -360,7 +330,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 29,
+    "id": 34,
     "tresc_pl": "Który wzór opisuje Root Mean Squared Error (RMSE) jako jedną z miar ewaluacji regresji?",
     "tresc_eng": "Which formula describes the Root Mean Squared Error (RMSE) as one of the regression evaluation metrics?",
     "odp_a_pl": "$\\sqrt{\\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2}$",
@@ -370,7 +340,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 30,
+    "id": 35,
     "tresc_pl": "W przykladzie wielowymiarowej wyceny nieruchomości, jaka przykładowa cecha została powiązana z wagą w_1 = 7000?",
     "tresc_eng": "In the multivariate real estate pricing example, what sample feature was associated with the weight w_1 = 7000?",
     "odp_a_pl": "powierzchnia w $m^2$ ($x_1 = 32.3$)",
@@ -380,7 +350,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 31,
+    "id": 36,
     "tresc_pl": "Jak definiowany jest wyraz wolny (bias) we wzorze na wielowymiarową regresję liniową $y = w_0 + w_1x_1 + \\ldots + w_kx_k$?",
     "tresc_eng": "How is the intercept (bias) defined in the multivariate linear regression formula $y = w_0 + w_1x_1 + \\ldots + w_kx_k$?",
     "odp_a_pl": "Jako waga $w_0$, która nie jest powiązana z żadną zmienną wejściową $x$.",
@@ -390,7 +360,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 32,
+    "id": 37,
     "tresc_pl": "Co charakteryzuje podejście iteracyjne (metodę gradientu prostego) w porównaniu do wyznaczania wag regresji liniowej bezpośrednio ze wzoru analitycznego?",
     "tresc_eng": "What characterizes the iterative approach (gradient descent method) compared to determining linear regression weights directly from the analytical formula?",
     "odp_a_pl": "Pozwala uniknąć kosztownego obliczeniowo odwracania macierzy $(\\mathbf{X}^{\\rm T}\\mathbf{X})^{-1}$.",
@@ -400,7 +370,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 33,
+    "id": 38,
     "tresc_pl": "Czym jest parametr $\\eta$ (learning rate) we wzorze aktualizacji wag regresji liniowej metodą gradientu prostego?",
     "tresc_eng": "What is the parameter $\\eta$ (learning rate) in the gradient descent weight update formula for linear regression?",
     "odp_a_pl": "Współczynnikiem uczenia, który kontroluje wielkość kroku modyfikacji wag w kierunku spadku błędu.",
@@ -410,7 +380,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 34,
+    "id": 39,
     "tresc_pl": "W jaki sposób podstawowa zależność w modelu regresji liniowej definiuje relację między wejściem a wyjściem?",
     "tresc_eng": "How does the basic relationship in a linear regression model define the relation between input and output?",
     "odp_a_pl": "Im czegoś więcej na wejściu, tym proporcjonalnie więcej lub mniej na wyjściu.",
@@ -420,7 +390,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 35,
+    "id": 40,
     "tresc_pl": "Która z miar ewaluacji regresji jako jedyna wykorzystuje pierwiastek kwadratowy w celu powrotu do oryginalnych jednostek błędu?",
     "tresc_eng": "Which of the regression evaluation metrics is the only one to use a square root to return to the original error units?",
     "odp_a_pl": "RMSE (Root Mean Squared Error)",
@@ -430,7 +400,7 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 36,
+    "id": 41,
     "tresc_pl": "Co dzieje się w kroku 5 algorytmu gradientu prostego, gdy obliczone wyjście $\\hat{y}$ różni się od rzeczywistego $y$?",
     "tresc_eng": "What happens in step 5 of the gradient descent algorithm when the calculated output $\\hat{y}$ differs from the actual $y$?",
     "odp_a_pl": "Modyfikuje się lekko wagi ($w_i$) w kierunku spadku funkcji błędu.",
@@ -440,417 +410,417 @@
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
-    "id": 37,
+    "id": 42,
     "tresc_pl": "Na czym polega podstawowy problem z wektorową reprezentacją typu tf-idf, który uzasadnia stosowanie gęstych reprezentacji?",
     "tresc_eng": "What is the primary problem with the tf-idf vector representation that justifies the use of dense representations?",
-    "odp_a_pl": "Wektory dokumentów oraz macierz całej kolekcji są rzadkie, co oznacza, że zawierają bardzo dużo zer[cite: 4].",
-    "odp_b_pl": "Uniemożliwia ona obliczanie podobieństwa kosinusowego między dokumentami[cite: 4].",
-    "odp_c_pl": "Wymaga stosowania wyłącznie języka programowania Haskell do reprezentacji napisów[cite: 4].",
-    "odp_d_pl": "Rozmiar wektora maleje wraz ze wzrostem wielkości słownika kolekcji[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
-  },
-  {
-    "id": 38,
-    "tresc_pl": "Jaki rozmiar będzie miał wektor dokumentu uzyskany przy użyciu techniki 'hashing trick'?",
-    "tresc_eng": "What size will a document vector obtained using the 'hashing trick' technique have?",
-    "odp_a_pl": "Zawsze stały rozmiar wynoszący $2^b$, bez względu na rozmiar słownika[cite: 4].",
-    "odp_b_pl": "Rozmiar dynamiczny, dokładnie równy liczbie unikalnych słów w danym dokumencie[cite: 4].",
-    "odp_c_pl": "Rozmiar równy logarytmowi naturalnemu z liczby wszystkich dokumentów w kolekcji[cite: 4].",
-    "odp_d_pl": "Dokładnie 100 wymiarów, niezależnie od parametru $b$ funkcji mieszającej[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
-  },
-  {
-    "id": 39,
-    "tresc_pl": "Która z wymienionych funkcji została wprost wskazana w wykładzie jako przykład funkcji mieszającej $H$ do realizacji sztuczki z haszowaniem?",
-    "tresc_eng": "Which of the mentioned functions was explicitly pointed out in the lecture as an example of a hashing function $H$ for implementing the hashing trick?",
-    "odp_a_pl": "MurmurHash2 lub MurmurHash3[cite: 4].",
-    "odp_b_pl": "Word2vec-Hash[cite: 4].",
-    "odp_c_pl": "CosineSim-Hash[cite: 4].",
-    "odp_d_pl": "TfIdf-Optimizer[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
-  },
-  {
-    "id": 40,
-    "tresc_pl": "Jakie zjawisko stanowi główną wadę stosowania sztuczki z haszowaniem (hashing trick), zwłaszcza gdy parametr $b$ jest za mały?",
-    "tresc_eng": "What phenomenon constitutes the main disadvantage of using the hashing trick, especially when the parameter $b$ is too small?",
-    "odp_a_pl": "Kolizja, czyli sytuacja, w której dwa różne słowa mogą wpaść do jednej przegródki[cite: 4].",
-    "odp_b_pl": "Całkowita utrata możliwości uwzględniania słów, których nie było w początkowej kolekcji[cite: 4].",
-    "odp_c_pl": "Konieczność ciągłego pamiętania w pamięci RAM całego odwzorowania rzutującego słowa na ich numery[cite: 4].",
-    "odp_d_pl": "Gwałtowny spadek szybkości obliczeń matematycznych[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
-  },
-  {
-    "id": 41,
-    "tresc_pl": "Co dzieje się w sytuacji, gdy parametr b w sztuczce z haszowaniem zostanie ustawiony jako zbyt duży?",
-    "tresc_eng": "What happens in a situation where the parameter b in the hashing trick is set too large?",
-    "odp_a_pl": "Wektory mogą okazać się nawet większe niż w przypadku standardowego podejścia słownikowego[cite: 4].",
-    "odp_b_pl": "Algorytm przestaje obsługiwać miarę idf jako skalar[cite: 4].",
-    "odp_c_pl": "Podobieństwo kosinusowe między wszystkimi dokumentami przyjmuje zawsze wartość 1.00[cite: 4].",
-    "odp_d_pl": "Liczba zer w wektorze spada do zera, drastycznie zagęszczając macierz[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
-  },
-  {
-    "id": 42,
-    "tresc_pl": "W jaki sposób na bazie modelu Word2vec można zbudować prosty wektor dla całego dokumentu?",
-    "tresc_eng": "How can a simple vector for an entire document be constructed based on the Word2vec model?",
-    "odp_a_pl": "Poprzez sumowanie gotowych wektorów poszczególnych słów wchodzących w skład dokumentu[cite: 4].",
-    "odp_b_pl": "Poprzez obliczenie funkcji skrótu MurmurHash z całego tekstu dokumentu[cite: 4].",
-    "odp_c_pl": "Poprzez wyznaczenie odwrotności częstości dokumentowej (idf) dla całej macierzy[cite: 4].",
-    "odp_d_pl": "Poprzez usunięcie wszystkich słów kluczowych i pozostawienie wyłącznie stop-words[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
+    "odp_a_pl": "Wektory dokumentów oraz macierz całej kolekcji są rzadkie, co oznacza, że zawierają bardzo dużo zer.",
+    "odp_b_pl": "Uniemożliwia ona obliczanie podobieństwa kosinusowego między dokumentami.",
+    "odp_c_pl": "Wymaga stosowania wyłącznie języka programowania Haskell do reprezentacji napisów.",
+    "odp_d_pl": "Rozmiar wektora maleje wraz ze wzrostem wielkości słownika kolekcji.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 43,
-    "tresc_pl": "Jaką modyfikację składania wektora dokumentu z modelu Word2vec można zastosować, aby uwzględnić ogólną specyfikę rzadkości słów w kolekcji?",
-    "tresc_eng": "What modification to constructing a document vector from the Word2vec model can be applied to account for the general word rarity specificity in the collection?",
-    "odp_a_pl": "Można przemnożyć wektory Word2vec poszczególnych słów przez idf traktowane jako skalar[cite: 4].",
-    "odp_b_pl": "Można zastosować funkcję logiczną sprawdzającą wyłącznie obecność stop-words[cite: 4].",
-    "odp_c_pl": "Można sztucznie ograniczyć długość każdego wektora do wartości parametru $b=6$[cite: 4].",
-    "odp_d_pl": "Należy zastąpić model Word2vec reprezentacją binarną o rozmiarze stałym[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
+    "tresc_pl": "Jaki rozmiar będzie miał wektor dokumentu uzyskany przy użyciu techniki 'hashing trick'?",
+    "tresc_eng": "What size will a document vector obtained using the 'hashing trick' technique have?",
+    "odp_a_pl": "Zawsze stały rozmiar wynoszący $2^b$, bez względu na rozmiar słownika.",
+    "odp_b_pl": "Rozmiar dynamiczny, dokładnie równy liczbie unikalnych słów w danym dokumencie.",
+    "odp_c_pl": "Rozmiar równy logarytmowi naturalnemu z liczby wszystkich dokumentów w kolekcji.",
+    "odp_d_pl": "Dokładnie 100 wymiarów, niezależnie od parametru $b$ funkcji mieszającej.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 44,
-    "tresc_pl": "Która z wymienionych zalet została przypisana sztuczce z haszowaniem (hashing trick) w podsumowaniu materiału?",
-    "tresc_eng": "Which of the mentioned advantages was attributed to the hashing trick in the material summary?",
-    "odp_a_pl": "W naturalny sposób uwzględniamy termy, których nie było w początkowej kolekcji[cite: 4].",
-    "odp_b_pl": "Całkowicie eliminuje ona potrzebę stosowania wag tf-idf lub idf[cite: 4].",
-    "odp_c_pl": "Gwarantuje brak jakichkolwiek kolizji między różnymi napisami[cite: 4].",
-    "odp_d_pl": "Automatycznie dokonuje pełnej lematyzacji i stemmingu tekstu bez użycia słowników[cite: 4].",
-    "nazwa_pliku": "5.Gęste reprezentacje wektorowe[wykład]"
+    "tresc_pl": "Która z wymienionych funkcji została wprost wskazana w wykładzie jako przykład funkcji mieszającej $H$ do realizacji sztuczki z haszowaniem?",
+    "tresc_eng": "Which of the mentioned functions was explicitly pointed out in the lecture as an example of a hashing function $H$ for implementing the hashing trick?",
+    "odp_a_pl": "MurmurHash2 lub MurmurHash3.",
+    "odp_b_pl": "Word2vec-Hash.",
+    "odp_c_pl": "CosineSim-Hash.",
+    "odp_d_pl": "TfIdf-Optimizer.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 45,
-    "tresc_pl": "Jaka jest główna wada prostych schematów kodowania słów i dokumentów, takich jak tf (kodowanie 1-hot / 'gorąca jedynka') lub tf-idf[cite: 5]?",
-    "tresc_eng": "What is the main disadvantage of simple word and document encoding schemes, such as tf (1-hot encoding) or tf-idf[cite: 5]?",
-    "odp_a_pl": "Występowanie dużej liczby zer, czyli rzadkość (sparsity) macierzy[cite: 5].",
-    "odp_b_pl": "Brak możliwości sumowania wektorów słów w celu otrzymania wektora dokumentu[cite: 5].",
-    "odp_c_pl": "Konieczność trenowania modelu wyłącznie na systemach bez użycia procesorów GPU[cite: 5].",
-    "odp_d_pl": "Zbyt wysoka czułość na małe i wielkie litery w korpusie tekstowym[cite: 5].",
-    "nazwa_pliku": "Część I Word2vec"
+    "tresc_pl": "Jakie zjawisko stanowi główną wadę stosowania sztuczki z haszowaniem (hashing trick), zwłaszcza gdy parametr $b$ jest za mały?",
+    "tresc_eng": "What phenomenon constitutes the main disadvantage of using the hashing trick, especially when the parameter $b$ is too small?",
+    "odp_a_pl": "Kolizja, czyli sytuacja, w której dwa różne słowa mogą wpaść do jednej przegródki.",
+    "odp_b_pl": "Całkowita utrata możliwości uwzględniania słów, których nie było w początkowej kolekcji.",
+    "odp_c_pl": "Konieczność ciągłego pamiętania w pamięci RAM całego odwzorowania rzutującego słowa na ich numery.",
+    "odp_d_pl": "Gwałtowny spadek szybkości obliczeń matematycznych.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 46,
-    "tresc_pl": "Które metody ciągłej reprezentacji słów były znane przed powstaniem algorytmu Word2vec[cite: 5]?",
-    "tresc_eng": "Which continuous word representation methods were known before the creation of the Word2vec algorithm[cite: 5]?",
-    "odp_a_pl": "Latent Semantic Analysis (LSA) oraz Latent Dirichlet Allocation (LDA)[cite: 5].",
-    "odp_b_pl": "Bag-of-Words oraz technika Negative Sampling[cite: 5].",
-    "odp_c_pl": "Hashing trick oraz HashingVectorizer z biblioteki scikit-learn[cite: 5].",
-    "odp_d_pl": "Doc2vec oraz sieci neuronowe typu Deeplearning4j[cite: 5].",
-    "nazwa_pliku": "Część I Word2vec"
+    "tresc_pl": "Co dzieje się w sytuacji, gdy parametr b w sztuczce z haszowaniem zostanie ustawiony jako zbyt duży?",
+    "tresc_eng": "What happens in a situation where the parameter b in the hashing trick is set too large?",
+    "odp_a_pl": "Wektory mogą okazać się nawet większe niż w przypadku standardowego podejścia słownikowego.",
+    "odp_b_pl": "Algorytm przestaje obsługiwać miarę idf jako skalar.",
+    "odp_c_pl": "Podobieństwo kosinusowe między wszystkimi dokumentami przyjmuje zawsze wartość 1.00.",
+    "odp_d_pl": "Liczba zer w wektorze spada do zera, drastycznie zagęszczając macierz.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 47,
-    "tresc_pl": "W jaki sposób przypadkowo odkryto interesujące własności wektorów słów, które doprowadziły do powstania Word2vec[cite: 5]?",
-    "tresc_eng": "How were the interesting properties of word vectors accidentally discovered, leading to the creation of Word2vec[cite: 5]?",
-    "odp_a_pl": "Odkryto, że ma je pierwsza ukryta warstwa neuronowego modelu języka (Mikolov i in. 2013)[cite: 5].",
-    "odp_b_pl": "Zaobserwowano je podczas optymalizacji klasyfikacji wieloklasowej za pomocą funkcji softmax[cite: 5].",
-    "odp_c_pl": "Wykazano je matematycznie poprzez odwrócenie rzadkiej macierzy tf-idf[cite: 5].",
-    "odp_d_pl": "Zauważono je w trakcie analizy błędów algorytmu Latent Dirichlet Allocation (LDA)[cite: 5].",
-    "nazwa_pliku": "Część I Word2vec"
+    "tresc_pl": "W jaki sposób na bazie modelu Word2vec można zbudować prosty wektor dla całego dokumentu?",
+    "tresc_eng": "How can a simple vector for an entire document be constructed based on the Word2vec model?",
+    "odp_a_pl": "Poprzez sumowanie gotowych wektorów poszczególnych słów wchodzących w skład dokumentu.",
+    "odp_b_pl": "Poprzez obliczenie funkcji skrótu MurmurHash z całego tekstu dokumentu.",
+    "odp_c_pl": "Poprzez wyznaczenie odwrotności częstości dokumentowej (idf) dla całej macierzy.",
+    "odp_d_pl": "Poprzez usunięcie wszystkich słów kluczowych i pozostawienie wyłącznie stop-words.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 48,
-    "tresc_pl": "Czym różni się architektura Skip-Gram od architektury Bag-of-Words (CBOW) w modelu Word2vec[cite: 5]?",
-    "tresc_eng": "How does the Skip-Gram architecture differ from the Bag-of-Words (CBOW) architecture in the Word2vec model[cite: 5]?",
-    "odp_a_pl": "In Bag-of-Words odgadujemy słowo na podstawie kontekstu, a w Skip-Gram odgadujemy kontekst na podstawie słowa[cite: 5].",
-    "odp_b_pl": "Architektura Skip-Gram jest znacznie szybsza w obliczeniach, lecz daje gorsze wyniki[cite: 5].",
-    "odp_c_pl": "Skip-Gram przewiduje wyłącznie prawdopodobieństwo kolejnego słowa, ignorując słowa poprzednie[cite: 5].",
-    "odp_d_pl": "Bag-of-Words wymaga użycia algorytmu Negative Sampling, podczas gdy Skip-Gram działa bez funkcji kosztu[cite: 5].",
-    "nazwa_pliku": "Część I Word2vec"
+    "tresc_pl": "Jaką modyfikację składania wektora dokumentu z modelu Word2vec można zastosować, aby uwzględnić ogólną specyfikę rzadkości słów w kolekcji?",
+    "tresc_eng": "What modification to constructing a document vector from the Word2vec model can be applied to account for the general word rarity specificity in the collection?",
+    "odp_a_pl": "Można przemnożyć wektory Word2vec poszczególnych słów przez idf traktowane jako skalar.",
+    "odp_b_pl": "Można zastosować funkcję logiczną sprawdzającą wyłącznie obecność stop-words.",
+    "odp_c_pl": "Można sztucznie ograniczyć długość każdego wektora do wartości parametru $b=6$.",
+    "odp_d_pl": "Należy zastąpić model Word2vec reprezentacją binarną o rozmiarze stałym.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 49,
-    "tresc_pl": "Co dzieje się z wektorami $\\vec{c}_i$ po zakończeniu trenowania modelu Word2vec w architekturze Skip-gram z Negative Sampling[cite: 5]?",
-    "tresc_eng": "What happens to the vectors $\\vec{c}_i$ after the Word2vec model training is finished in the Skip-gram architecture with Negative Sampling[cite: 5]?",
-    "odp_a_pl": "Wektory $\\vec{c}_i$ są odrzucane (discarded)[cite: 5].",
-    "odp_b_pl": "Są one wykorzystywane jako ostateczna reprezentacja dokumentów (doc2vec)[cite: 5].",
-    "odp_c_pl": "Służą jako wagi wejściowe dla algorytmu GloVe[cite: 5].",
-    "odp_d_pl": "Przechodzą proces wstępnego uczenia (pre-training) w celu eliminacji kolizji haszujących[cite: 5].",
-    "nazwa_pliku": "Część III Word2vec"
+    "tresc_pl": "Która z wymienionych zalet została przypisana sztuczce z haszowaniem (hashing trick) w podsumowaniu materiału?",
+    "tresc_eng": "Which of the mentioned advantages was attributed to the hashing trick in the material summary?",
+    "odp_a_pl": "W naturalny sposób uwzględniamy termy, których nie było w początkowej kolekcji.",
+    "odp_b_pl": "Całkowicie eliminuje ona potrzebę stosowania wag tf-idf lub idf.",
+    "odp_c_pl": "Gwarantuje brak jakichkolwiek kolizji między różnymi napisami.",
+    "odp_d_pl": "Automatycznie dokonuje pełnej lematyzacji i stemmingu tekstu bez użycia słowników.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 50,
-    "tresc_pl": "Do czego dąży model Word2vec, biorąc pod uwagę, że nie używamy go jako klasycznego modelu języka i nie interesują nas same prawdopodobieństwa[cite: 5]?",
-    "tresc_eng": "What does the Word2vec model aim for, considering that we do not use it as a classical language model and we are not interested in the probabilities themselves[cite: 5]?",
-    "odp_a_pl": "Dąży do przewidywania słowa w luce (gap) lub określenia prawdopodobieństwa, czy dane słowo znajduje się w otoczeniu innego słowa[cite: 5].",
-    "odp_b_pl": "Dąży do zminimalizowania średniego błędu kwadratowego (MSE) dla całej kolekcji dokumentów[cite: 5].",
-    "odp_c_pl": "Stara się przyporządkować każdemu dokumentowi unikalny kod binarnej funkcji mieszającej MurmurHash[cite: 5].",
-    "odp_d_pl": "Dąży do maksymalizacji liczby zer w macierzy kontekstowej[cite: 5].",
-    "nazwa_pliku": "Część III Word2vec"
+    "tresc_pl": "Jaka jest główna wada prostych schematów kodowania słów i dokumentów, takich jak tf (kodowanie 1-hot / 'gorąca jedynka') lub tf-idf?",
+    "tresc_eng": "What is the main disadvantage of simple word and document encoding schemes, such as tf (1-hot encoding) or tf-idf?",
+    "odp_a_pl": "Występowanie dużej liczby zer, czyli rzadkość (sparsity) macierzy.",
+    "odp_b_pl": "Brak możliwości sumowania wektorów słów w celu otrzymania wektora dokumentu.",
+    "odp_c_pl": "Konieczność trenowania modelu wyłącznie na systemach bez użycia procesorów GPU.",
+    "odp_d_pl": "Zbyt wysoka czułość na małe i wielkie litery w korpusie tekstowym.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 51,
-    "tresc_pl": "Jak definiowane jest prawdopodobieństwo $P(u|t)$ w funkcji kosztu algorytmu Skip-gram z Negative Sampling[cite: 5]?",
-    "tresc_eng": "How is the probability $P(u|t)$ defined in the loss function of the Skip-gram algorithm with Negative Sampling[cite: 5]?",
-    "odp_a_pl": "$P(u|t) = \\frac{1}{1+e^{-(\\vec{w}_{t}\\vec{c}_{u})}}$[cite: 5]",
-    "odp_b_pl": "$P(u|t) = \\log\\frac{\\vec{w}_t}{1-\\vec{c}_u}$[cite: 5]",
-    "odp_c_pl": "$P(u|t) = \\frac{e^{z_i}}{\\sum e^{z_j}}$[cite: 5]",
-    "odp_d_pl": "$P(u|t) = w_0 + \\sum w_i x_i$[cite: 5]",
-    "nazwa_pliku": "Część III Word2vec"
+    "tresc_pl": "Które metody ciągłej reprezentacji słów były znane przed powstaniem algorytmu Word2vec?",
+    "tresc_eng": "Which continuous word representation methods were known before the creation of the Word2vec algorithm?",
+    "odp_a_pl": "Latent Semantic Analysis (LSA) oraz Latent Dirichlet Allocation (LDA).",
+    "odp_b_pl": "Bag-of-Words oraz technika Negative Sampling.",
+    "odp_c_pl": "Hashing trick oraz HashingVectorizer z biblioteki scikit-learn.",
+    "odp_d_pl": "Doc2vec oraz sieci neuronowe typu Deeplearning4j.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 52,
-    "tresc_pl": "Co jest odpowiednikiem grania samemu ze sobą (stosowanego m.in. w AlphaZero) w świecie komputerowego przetwarzania tekstu[cite: 6]?",
-    "tresc_eng": "What is the equivalent of playing against oneself (used e.g. in AlphaZero) in the world of computer text processing[cite: 6]?",
-    "odp_a_pl": "Pretrenowanie (pretraining) modelu na bardzo dużym korpusie tekstu[cite: 6].",
-    "odp_b_pl": "Dostrajanie (fine-tuning) za pomocą wyłącznie algorytmu back-propagation[cite: 6].",
-    "odp_c_pl": "Wykorzystanie zewnętrznych słowników i bazy danych Word2vec[cite: 6].",
-    "odp_d_pl": "Stosowanie probabilistycznego próbkowania hierarchicznego w sieciach RNN[cite: 6].",
-    "nazwa_pliku": "14.Pretrenowane modele języka[wykład]"
+    "tresc_pl": "W jaki sposób przypadkowo odkryto interesujące własności wektorów słów, które doprowadziły do powstania Word2vec?",
+    "tresc_eng": "How were the interesting properties of word vectors accidentally discovered, leading to the creation of Word2vec?",
+    "odp_a_pl": "Odkryto, że ma je pierwsza ukryta warstwa neuronowego modelu języka (Mikolov i in. 2013).",
+    "odp_b_pl": "Zaobserwowano je podczas optymalizacji klasyfikacji wieloklasowej za pomocą funkcji softmax.",
+    "odp_c_pl": "Wykazano je matematycznie poprzez odwrócenie rzadkiej macierzy tf-idf.",
+    "odp_d_pl": "Zauważono je w trakcie analizy błędów algorytmu Latent Dirichlet Allocation (LDA).",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 53,
-    "tresc_pl": "Przy użyciu jakiej funkcji kosztu karany jest model języka podczas pretrenowania, gdy przewiduje prawdopodobieństwo rzeczywistego wyrazu $w_j$ z korpusu[cite: 6]?",
-    "tresc_eng": "Using which loss function is a language model penalized during pretraining when it predicts the probability of an actual word $w_j$ from the corpus[cite: 6]?",
-    "odp_a_pl": "Funkcji log loss definiowanej jako $-\\log(p_j)$[cite: 6].",
-    "odp_b_pl": "Średniego błędu kwadratowego (MSE) mierzącego rzadkość macierzy[cite: 6].",
-    "odp_c_pl": "Funkcji pierwiastka błędu średniokwadratowego (RMSE)[cite: 6].",
-    "odp_d_pl": "Funkcji kosinusowej wyznaczanej bezpośrednio z wag ukrytych[cite: 6].",
-    "nazwa_pliku": "14.Pretrenowane modele języka[wykład]"
+    "tresc_pl": "Czym różni się architektura Skip-Gram od architektury Bag-of-Words (CBOW) w modelu Word2vec?",
+    "tresc_eng": "How does the Skip-Gram architecture differ from the Bag-of-Words (CBOW) architecture in the Word2vec model?",
+    "odp_a_pl": "In Bag-of-Words odgadujemy słowo na podstawie kontekstu, a w Skip-Gram odgadujemy kontekst na podstawie słowa.",
+    "odp_b_pl": "Architektura Skip-Gram jest znacznie szybsza w obliczeniach, lecz daje gorsze wyniki.",
+    "odp_c_pl": "Skip-Gram przewiduje wyłącznie prawdopodobieństwo kolejnego słowa, ignorując słowa poprzednie.",
+    "odp_d_pl": "Bag-of-Words wymaga użycia algorytmu Negative Sampling, podczas gdy Skip-Gram działa bez funkcji kosztu.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 54,
-    "tresc_pl": "Która z wymienionych cech stanowi podstawową wadę podejścia opartego na prostym przewidywaniu następnego słowa (np. w GPT-2)[cite: 6]?",
-    "tresc_eng": "Which of the mentioned features constitutes the primary disadvantage of the approach based on simple next-word prediction (e.g., in GPT-2)[cite: 6]?",
-    "odp_a_pl": "Asymetryczność i przetwarzanie tylko z lewej do prawej strony, co faworyzuje lewy kontekst[cite: 6].",
-    "odp_b_pl": "Niska skuteczność w zadaniach uczenia typu few-shot oraz zero-shot[cite: 6].",
-    "odp_c_pl": "Całkowity brak możliwości wykorzystania tego podejścia do generowania fake newsów czy streszczeń[cite: 6].",
-    "odp_d_pl": "Wymóg drastycznego obcinania słownika wejściowego do stałego rozmiaru b bitów[cite: 6].",
-    "nazwa_pliku": "14.Pretrenowane modele języka[wykład]"
+    "tresc_pl": "Co dzieje się z wektorami $\\vec{c}_i$ po zakończeniu trenowania modelu Word2vec w architekturze Skip-gram z Negative Sampling?",
+    "tresc_eng": "What happens to the vectors $\\vec{c}_i$ after the Word2vec model training is finished in the Skip-gram architecture with Negative Sampling?",
+    "odp_a_pl": "Wektory $\\vec{c}_i$ są odrzucane (discarded).",
+    "odp_b_pl": "Są one wykorzystywane jako ostateczna reprezentacja dokumentów (doc2vec).",
+    "odp_c_pl": "Służą jako wagi wejściowe dla algorytmu GloVe.",
+    "odp_d_pl": "Przechodzą proces wstępnego uczenia (pre-training) w celu eliminacji kolizji haszujących.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 55,
-    "tresc_pl": "W jaki sposób w modelu BERT realizowany jest schemat maskowania słów (Masked Language Modeling, MLM)[cite: 6]?",
-    "tresc_eng": "How is the word masking scheme (Masked Language Modeling, MLM) implemented in the BERT model[cite: 6]?",
-    "odp_a_pl": "Wybiera się losowe 15% wyrazów do odgadnięcia, z czego część zastępuje się tokenem [MASK], część innym wyrazem, a część pozostawia bez zmian[cite: 6].",
-    "odp_b_pl": "Zastępuje się dokładnie każde słowo w dokumencie specjalną funkcją skrótu MurmurHash[cite: 6].",
-    "odp_c_pl": "Model odgaduje słowo w luce wyłącznie na podstawie 4 słów poprzednich, całkowicie ignorując prawy kontekst[cite: 6].",
-    "odp_d_pl": "Ukrywa się wyraz wolny (bias) we wzorze na reprezentację kontekstową przed funkcją softmax[cite: 6].",
-    "nazwa_pliku": "14.Pretrenowane modele języka[wykład]"
+    "tresc_pl": "Do czego dąży model Word2vec, biorąc pod uwagę, że nie używamy go jako klasycznego modelu języka i nie interesują nas same prawdopodobieństwa?",
+    "tresc_eng": "What does the Word2vec model aim for, considering that we do not use it as a classical language model and we are not interested in the probabilities themselves?",
+    "odp_a_pl": "Dąży do przewidywania słowa w luce (gap) lub określenia prawdopodobieństwa, czy dane słowo znajduje się w otoczeniu innego słowa.",
+    "odp_b_pl": "Dąży do zminimalizowania średniego błędu kwadratowego (MSE) dla całej kolekcji dokumentów.",
+    "odp_c_pl": "Stara się przyporządkować każdemu dokumentowi unikalny kod binarnej funkcji mieszającej MurmurHash.",
+    "odp_d_pl": "Dąży do maksymalizacji liczby zer w macierzy kontekstowej.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 56,
-    "tresc_pl": "Który z wymienionych modeli reprezentuje podejście generatywne oparte na architekturze koder-dekoder (text-to-text)[cite: 6]?",
-    "tresc_eng": "Which of the mentioned models represents a generative approach based on the encoder-decoder (text-to-text) architecture[cite: 6]?",
-    "odp_a_pl": "T5 (lub mT5)[cite: 6].",
-    "odp_b_pl": "BERT[cite: 6].",
-    "odp_c_pl": "GPT-2[cite: 6].",
-    "odp_d_pl": "RoBERTa[cite: 6].",
-    "nazwa_pliku": "14.Pretrenowane modele języka[wykład]"
+    "tresc_pl": "Jak definiowane jest prawdopodobieństwo $P(u|t)$ w funkcji kosztu algorytmu Skip-gram z Negative Sampling?",
+    "tresc_eng": "How is the probability $P(u|t)$ defined in the loss function of the Skip-gram algorithm with Negative Sampling?",
+    "odp_a_pl": "$P(u|t) = \\frac{1}{1+e^{-(\\vec{w}_{t}\\vec{c}_{u})}}$",
+    "odp_b_pl": "$P(u|t) = \\log\\frac{\\vec{w}_t}{1-\\vec{c}_u}$",
+    "odp_c_pl": "$P(u|t) = \\frac{e^{z_i}}{\\sum e^{z_j}}$",
+    "odp_d_pl": "$P(u|t) = w_0 + \\sum w_i x_i$",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 57,
-    "tresc_pl": "Do jakich zadań pretrenowane modele autoregresyjne (takie jak GPT-3 czy DialoGPT) stanowią najlepszą podstawę do dostrajania[cite: 6]?",
-    "tresc_eng": "For which tasks do pretrained autoregressive models (such as GPT-3 or DialoGPT) provide the best foundation for fine-tuning[cite: 6]?",
-    "odp_a_pl": "Do systemów generowania tekstu otwartego, takich jak systemy dialogowe czy streszczanie tekstu[cite: 6].",
-    "odp_b_pl": "Do zadań polegających wyłącznie na analitycznym odwracaniu macierzy kolekcji[cite: 6].",
-    "odp_c_pl": "Do tradycyjnego tłumaczenia maszynowego opartego na rzadkich wektorach cech tf-idf[cite: 6].",
-    "odp_d_pl": "Do redukcji wymiarowości gęstych reprezentacji wektorowych z błędem RMSE równym zero[cite: 6].",
-    "nazwa_pliku": "14.Pretrenowane modele języka[wykład]"
+    "tresc_pl": "Co jest odpowiednikiem grania samemu ze sobą (stosowanego m.in. w AlphaZero) w świecie komputerowego przetwarzania tekstu?",
+    "tresc_eng": "What is the equivalent of playing against oneself (used e.g. in AlphaZero) in the world of computer text processing?",
+    "odp_a_pl": "Pretrenowanie (pretraining) modelu na bardzo dużym korpusie tekstu.",
+    "odp_b_pl": "Dostrajanie (fine-tuning) za pomocą wyłącznie algorytmu back-propagation.",
+    "odp_c_pl": "Wykorzystanie zewnętrznych słowników i bazy danych Word2vec.",
+    "odp_d_pl": "Stosowanie probabilistycznego próbkowania hierarchicznego w sieciach RNN.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 58,
-    "tresc_pl": "Jak interpretowany jest mechanizm atencji w modelach Transformer według treści wykładu[cite: 7]?",
-    "tresc_eng": "How is the attention mechanism in Transformer models interpreted according to the lecture content[cite: 7]?",
-    "odp_a_pl": "Jako rodzaj „miękkiego” odpytywania bazy danych, w której przechowywane są pary klucz-wartość[cite: 7].",
-    "odp_b_pl": "Jako dynamiczne haszowanie napisów za pomocą losowej funkcji mieszającej MurmurHash[cite: 7].",
-    "odp_c_pl": "Jako klasyczny neuronowy model języka wyliczający wyłącznie prawdopodobieństwo następnego słowa z lewej do prawej[cite: 7].",
-    "odp_d_pl": "Jako analityczne i bezbłędne odwracanie macierzy cech rzadkich[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Przy użyciu jakiej funkcji kosztu karany jest model języka podczas pretrenowania, gdy przewiduje prawdopodobieństwo rzeczywistego wyrazu $w_j$ z korpusu?",
+    "tresc_eng": "Using which loss function is a language model penalized during pretraining when it predicts the probability of an actual word $w_j$ from the corpus?",
+    "odp_a_pl": "Funkcji log loss definiowanej jako $-\\log(p_j)$.",
+    "odp_b_pl": "Średniego błędu kwadratowego (MSE) mierzącego rzadkość macierzy.",
+    "odp_c_pl": "Funkcji pierwiastka błędu średniokwadratowego (RMSE).",
+    "odp_d_pl": "Funkcji kosinusowej wyznaczanej bezpośrednio z wag ukrytych.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 59,
-    "tresc_pl": "Co oznaczają symbole Q, K i V w kontekście obliczania wektorów atencji[cite: 7]?",
-    "tresc_eng": "What do the symbols Q, K, and V mean in the context of calculating attention vectors[cite: 7]?",
-    "odp_a_pl": "Q to macierz zapytań, K to macierz kluczy, a V to macierz wartości odpowiadających kluczom K[cite: 7].",
-    "odp_b_pl": "Q to współczynnik uczenia, K to liczba wymiarów, a V to ostateczny wektor błędów RMSE[cite: 7].",
-    "odp_c_pl": "Q to miara log-loss, K to token maskujący [MASK], a V to stop-word[cite: 7].",
-    "odp_d_pl": "Q to rzadka macierz dokumentów, K to słownik jednostek BPE, a V to skalar idf[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Która z wymienionych cech stanowi podstawową wadę podejścia opartego na prostym przewidywaniu następnego słowa (np. w GPT-2)?",
+    "tresc_eng": "Which of the mentioned features constitutes the primary disadvantage of the approach based on simple next-word prediction (e.g., in GPT-2)?",
+    "odp_a_pl": "Asymetryczność i przetwarzanie tylko z lewej do prawej strony, co faworyzuje lewy kontekst.",
+    "odp_b_pl": "Niska skuteczność w zadaniach uczenia typu few-shot oraz zero-shot.",
+    "odp_c_pl": "Całkowity brak możliwości wykorzystania tego podejścia do generowania fake newsów czy streszczeń.",
+    "odp_d_pl": "Wymóg drastycznego obcinania słownika wejściowego do stałego rozmiaru b bitów.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 60,
-    "tresc_pl": "Który wzór poprawnie opisuje podstawową operację obliczania atencji (bez dodatkowej normalizacji skalarnej)[cite: 7]?",
-    "tresc_eng": "Which formula correctly describes the basic attention calculation operation (without additional scalar normalization)[cite: 7]?",
-    "odp_a_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{softmax}(QK^T)V$[cite: 7]",
-    "odp_b_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{logit}(QK^T) + V$[cite: 7]",
-    "odp_c_pl": "$\\operatorname{Attention}(Q,K,V) = \\frac{e^{QK^T}}{\\sum e^V}$[cite: 7]",
-    "odp_d_pl": "$\\operatorname{Attention}(Q,K,V) = Q \\cdot \\operatorname{softmax}(K \\cdot V)$[cite: 7]",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "W jaki sposób w modelu BERT realizowany jest schemat maskowania słów (Masked Language Modeling, MLM)?",
+    "tresc_eng": "How is the word masking scheme (Masked Language Modeling, MLM) implemented in the BERT model?",
+    "odp_a_pl": "Wybiera się losowe 15% wyrazów do odgadnięcia, z czego część zastępuje się tokenem [MASK], część innym wyrazem, a część pozostawia bez zmian.",
+    "odp_b_pl": "Zastępuje się dokładnie każde słowo w dokumencie specjalną funkcją skrótu MurmurHash.",
+    "odp_c_pl": "Model odgaduje słowo w luce wyłącznie na podstawie 4 słów poprzednich, całkowicie ignorując prawy kontekst.",
+    "odp_d_pl": "Ukrywa się wyraz wolny (bias) we wzorze na reprezentację kontekstową przed funkcją softmax.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 61,
-    "tresc_pl": "W jaki sposób zasada dopasowania klucza do zapytania wpływa na wynikowy wkład wartości V w mechanizmie atencji[cite: 7]?",
-    "tresc_eng": "How does the principle of matching a key to a query affect the resulting contribution of value V in the attention mechanism[cite: 7]?",
-    "odp_a_pl": "Im bardziej klucz pasuje do zapytania, tym większy wkład wynosi odpowiednia wartość[cite: 7].",
-    "odp_b_pl": "Im słabiej klucz pasuje do zapytania, tym silniej modyfikowany jest wyraz wolny (bias)[cite: 7].",
-    "odp_c_pl": "Dopasowanie klucza do zapytania powoduje całkowite wyzerowanie odpowiadającej mu wartości[cite: 7].",
-    "odp_d_pl": "Wynikowy wkład wartości jest stały i zależy wyłącznie od rozmiaru embeddingu słów[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Który z wymienionych modeli reprezentuje podejście generatywne oparte na architekturze koder-dekoder (text-to-text)?",
+    "tresc_eng": "Which of the mentioned models represents a generative approach based on the encoder-decoder (text-to-text) architecture?",
+    "odp_a_pl": "T5 (lub mT5).",
+    "odp_b_pl": "BERT.",
+    "odp_c_pl": "GPT-2.",
+    "odp_d_pl": "RoBERTa.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 62,
-    "tresc_pl": "Przez jaki czynnik normalizuje się iloczyn $QK^T$ w pełnej, praktycznej wersji wzoru na atencję, gdzie $d_k$ to rozmiar wektora klucza[cite: 7]?",
-    "tresc_eng": "By what factor is the product $QK^T$ normalized in the full, practical version of the attention formula, where $d_k$ is the size of the key vector[cite: 7]?",
-    "odp_a_pl": "Przez $\\sqrt{d_k}$[cite: 7].",
-    "odp_b_pl": "Przez $\\log(d_k)$[cite: 7].",
-    "odp_c_pl": "Przez współczynnik uczenia $\\eta$[cite: 7].",
-    "odp_d_pl": "Przez sumę kwadratów błędów bezwzględnych MAE[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Do jakich zadań pretrenowane modele autoregresyjne (takie jak GPT-3 czy DialoGPT) stanowią najlepszą podstawę do dostrajania?",
+    "tresc_eng": "For which tasks do pretrained autoregressive models (such as GPT-3 or DialoGPT) provide the best foundation for fine-tuning?",
+    "odp_a_pl": "Do systemów generowania tekstu otwartego, takich jak systemy dialogowe czy streszczanie tekstu.",
+    "odp_b_pl": "Do zadań polegających wyłącznie na analitycznym odwracaniu macierzy kolekcji.",
+    "odp_c_pl": "Do tradycyjnego tłumaczenia maszynowego opartego na rzadkich wektorach cech tf-idf.",
+    "odp_d_pl": "Do redukcji wymiarowości gęstych reprezentacji wektorowych z błędem RMSE równym zero.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 63,
-    "tresc_pl": "Skąd pochodzą macierze Q, K i V w pierwszej warstwie sieci Transformer[cite: 7]?",
-    "tresc_eng": "Where do the matrices Q, K, and V come from in the first layer of a Transformer network[cite: 7]?",
-    "odp_a_pl": "Pochodzą z przemnożenia embeddingów tokenów $E$ przez wyuczone macierze wag ($W^Q, W^K, W^V$)[cite: 7].",
-    "odp_b_pl": "Są generowane losowo na początku każdej iteracji algorytmu gradientu prostego[cite: 7].",
-    "odp_c_pl": "Są pobierane bezpośrednio jako gotowe wektory z bazy pre-trained Word2vec[cite: 7].",
-    "odp_d_pl": "Pochodzą bezpośrednio z wyjścia głowicy realizującej etykietowanie sekwencji[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Jak interpretowany jest mechanizm atencji w modelach Transformer według treści wykładu?",
+    "tresc_eng": "How is the attention mechanism in Transformer models interpreted according to the lecture content?",
+    "odp_a_pl": "Jako rodzaj „miękkiego” odpytywania bazy danych, w której przechowywane są pary klucz-wartość.",
+    "odp_b_pl": "Jako dynamiczne haszowanie napisów za pomocą losowej funkcji mieszającej MurmurHash.",
+    "odp_c_pl": "Jako klasyczny neuronowy model języka wyliczający wyłącznie prawdopodobieństwo następnego słowa z lewej do prawej.",
+    "odp_d_pl": "Jako analityczne i bezbłędne odwracanie macierzy cech rzadkich.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 64,
-    "tresc_pl": "Skąd pobierane są dane wejściowe do obliczenia Q, K i V w kolejnych (głębszych) warstwach sieci Transformer[cite: 7]?",
-    "tresc_eng": "Where is the input data taken from to calculate Q, K, and V in subsequent (deeper) layers of a Transformer network[cite: 7]?",
-    "odp_a_pl": "Wykorzystywane jest wyjście z poprzedniej warstwy sieci[cite: 7].",
-    "odp_b_pl": "Ponownie oblicza się je wyłącznie z bazowych embeddingów jednostek BPE[cite: 7].",
-    "odp_c_pl": "Są pobierane z funkcji log-loss wyznaczonej na etapie MLM[cite: 7].",
-    "odp_d_pl": "Są wprowadzane ręcznie przez mechanizm miękkiego odpytywania par klucz-wartość[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Co oznaczają symbole Q, K i V w kontekście obliczania wektorów atencji?",
+    "tresc_eng": "What do the symbols Q, K, and V mean in the context of calculating attention vectors?",
+    "odp_a_pl": "Q to macierz zapytań, K to macierz kluczy, a V to macierz wartości odpowiadających kluczom K.",
+    "odp_b_pl": "Q to współczynnik uczenia, K to liczba wymiarów, a V to ostateczny wektor błędów RMSE.",
+    "odp_c_pl": "Q to miara log-loss, K to token maskujący [MASK], a V to stop-word.",
+    "odp_d_pl": "Q to rzadka macierz dokumentów, K to słownik jednostek BPE, a V to skalar idf.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 65,
-    "tresc_pl": "Jaką głowicę można dołączyć do sieci Transformer w celu bezpośredniego wykorzystania jej w zadaniach ekstrakcji informacji[cite: 7]?",
-    "tresc_eng": "What head can be attached to a Transformer network to directly utilize it in information extraction tasks[cite: 7]?",
-    "odp_a_pl": "Głowicę realizującą etykietowanie sekwencji[cite: 7].",
-    "odp_b_pl": "Głowicę liczącą błąd średniokwadratowy (MSE) cen nieruchomości[cite: 7].",
-    "odp_c_pl": "Głowicę realizującą autouzupełnianie brakujących słów w locie[cite: 7].",
-    "odp_d_pl": "Głowicę wykonującą nieliniową funkcję aktywacji logit[cite: 7].",
-    "nazwa_pliku": "15.Sieci Transformer i ich zastosowanie w ekstrakcji informacji[wykład]"
+    "tresc_pl": "Który wzór poprawnie opisuje podstawową operację obliczania atencji (bez dodatkowej normalizacji skalarnej)?",
+    "tresc_eng": "Which formula correctly describes the basic attention calculation operation (without additional scalar normalization)?",
+    "odp_a_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{softmax}(QK^T)V$",
+    "odp_b_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{logit}(QK^T) + V$",
+    "odp_c_pl": "$\\operatorname{Attention}(Q,K,V) = \\frac{e^{QK^T}}{\\sum e^V}$",
+    "odp_d_pl": "$\\operatorname{Attention}(Q,K,V) = Q \\cdot \\operatorname{softmax}(K \\cdot V)$",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 66,
-    "tresc_pl": "Jak na podstawie diagramu przedstawiającego relację pojęć w sztucznej inteligencji zdefiniowano uczenie głębokie (Deep Learning)[cite: 8]?",
-    "tresc_eng": "How is Deep Learning defined based on the diagram showing the relationship of concepts in artificial intelligence[cite: 8]?",
-    "odp_a_pl": "Jako podzbiór uczenia maszynowego składający się z algorytmów, które pozwalają oprogramowaniu na samodzielne trenowanie zadań poprzez eksponowanie wielowarstwowych sieci neuronowych na ogromne ilości danych[cite: 8].",
-    "odp_b_pl": "Jako dowolna technika umożliwiająca komputerom naśladowanie ludzkiej inteligencji wyłącznie za pomocą reguł logicznych typu if-then oraz drzew decyzyjnych[cite: 8].",
-    "odp_c_pl": "Jako zestaw zaawansowanych technik statystycznych wykluczających stosowanie sieci neuronowych na rzecz rzadkich macierzy tf-idf[cite: 8].",
-    "odp_d_pl": "Jako deterministyczny algorytm pamiętania etykiet obrazów testowych o stałym czasie predykcji $O(1)$[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "W jaki sposób zasada dopasowania klucza do zapytania wpływa na wynikowy wkład wartości V w mechanizmie atencji?",
+    "tresc_eng": "How does the principle of matching a key to a query affect the resulting contribution of value V in the attention mechanism?",
+    "odp_a_pl": "Im bardziej klucz pasuje do zapytania, tym większy wkład wynosi odpowiednia wartość.",
+    "odp_b_pl": "Im słabiej klucz pasuje do zapytania, tym silniej modyfikowany jest wyraz wolny (bias).",
+    "odp_c_pl": "Dopasowanie klucza do zapytania powoduje całkowite wyzerowanie odpowiadającej mu wartości.",
+    "odp_d_pl": "Wynikowy wkład wartości jest stały i zależy wyłącznie od rozmiaru embeddingu słów.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 67,
-    "tresc_pl": "Które zjawisko historyczne z roku 2012 zostało wskazane na osi czasu jako przełomowy sukces w konkursie ILSVRC, który utorował drogę dla rozwoju wizji komputerowej opartej na AI[cite: 8]?",
-    "tresc_eng": "Which historical event from 2012 was pointed out on the timeline as a breakthrough success in the ILSVRC challenge, paving the way for AI-based computer vision[cite: 8]?",
-    "odp_a_pl": "Osiągnięcie przełomowego sukcesu przez model AlexNet[cite: 8].",
-    "odp_b_pl": "Sformułowanie terminu 'sztuczna inteligencja' na seminarium w Dartmouth[cite: 8].",
-    "odp_c_pl": "Odkrycie przez neurofizjologów, że ludzki wzrok ma charakter hierarchiczny[cite: 8].",
-    "odp_d_pl": "Pojawienie się myślących robotów w mitologii greckiej[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Przez jaki czynnik normalizuje się iloczyn $QK^T$ w pełnej, praktycznej wersji wzoru na atencję, gdzie $d_k$ to rozmiar wektora klucza?",
+    "tresc_eng": "By what factor is the product $QK^T$ normalized in the full, practical version of the attention formula, where $d_k$ is the size of the key vector?",
+    "odp_a_pl": "Przez $\\sqrt{d_k}$.",
+    "odp_b_pl": "Przez $\\log(d_k)$.",
+    "odp_c_pl": "Przez współczynnik uczenia $\\eta$.",
+    "odp_d_pl": "Przez sumę kwadratów błędów bezwzględnych MAE.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 68,
-    "tresc_pl": "Ile klas obiektów oraz ile łącznie obrazów zawierał zbiór danych wykorzystywany w wyzwaniu klasyfikacji obrazów ImageNet (ILSVRC)[cite: 8]?",
-    "tresc_eng": "How many object classes and how many total images did the dataset used in the ImageNet (ILSVRC) image classification challenge contain[cite: 8]?",
-    "odp_a_pl": "1 000 klas obiektów i 1 431 167 obrazów[cite: 8].",
-    "odp_b_pl": "10 klas obiektów i 50 000 obrazów treningowych[cite: 8].",
-    "odp_c_pl": "3072 klasy obiektów i 10 000 obrazów testowych[cite: 8].",
-    "odp_d_pl": "255 klas obiektów i milion obrazów typu RGB[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Skąd pochodzą macierze Q, K i V w pierwszej warstwie sieci Transformer?",
+    "tresc_eng": "Where do the matrices Q, K, and V come from in the first layer of a Transformer network?",
+    "odp_a_pl": "Pochodzą z przemnożenia embeddingów tokenów $E$ przez wyuczone macierze wag ($W^Q, W^K, W^V$).",
+    "odp_b_pl": "Są generowane losowo na początku każdej iteracji algorytmu gradientu prostego.",
+    "odp_c_pl": "Są pobierane bezpośrednio jako gotowe wektory z bazy pre-trained Word2vec.",
+    "odp_d_pl": "Pochodzą bezpośrednio z wyjścia głowicy realizującej etykietowanie sekwencji.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 69,
-    "tresc_pl": "Jak definiowana jest reprezentacja obliczeniowa cyfrowego obrazu kolorowego w kontekście systemów wizyjnych[cite: 8]?",
-    "tresc_eng": "How is the computational representation of a digital color image defined in the context of vision systems[cite: 8]?",
-    "odp_a_pl": "Jako tensor liczb całkowitych z przedziału [0, 255], np. o wymiarach 1920 x 1080 x 3 dla formatu RGB[cite: 8].",
-    "odp_b_pl": "Jako jednowymiarowy wektor o stałym rozmiarze równym zawsze $2^b$ po zastosowaniu funkcji skrótu[cite: 8].",
-    "odp_c_pl": "Jako macierz rzadka, w której każda unikalna wartość piksela odpowiada logarytmowi szans (log-odds)[cite: 8].",
-    "odp_d_pl": "Jako ciągła funkcja liniowa typu $ax + by + c = 0$ niezależna od przesunięcia kamery[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Skąd pobierane są dane wejściowe do obliczenia Q, K i V w kolejnych (głębszych) warstwach sieci Transformer?",
+    "tresc_eng": "Where is the input data taken from to calculate Q, K, and V in subsequent (deeper) layers of a Transformer network?",
+    "odp_a_pl": "Wykorzystywane jest wyjście z poprzedniej warstwy sieci.",
+    "odp_b_pl": "Ponownie oblicza się je wyłącznie z bazowych embeddingów jednostek BPE.",
+    "odp_c_pl": "Są pobierane z funkcji log-loss wyznaczonej na etapie MLM.",
+    "odp_d_pl": "Są wprowadzane ręcznie przez mechanizm miękkiego odpytywania par klucz-wartość.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 70,
-    "tresc_pl": "Na czym polega zasada działania klasyfikatora najbliższego sąsiada (Nearest Neighbor) w fazie treningu i testowania[cite: 8]?",
-    "tresc_eng": "What is the operating principle of the Nearest Neighbor classifier in the training and testing phases[cite: 8]?",
-    "odp_a_pl": "W fazie treningu zapamiętuje wszystkie dane i etykiety, a w fazie testowej przewiduje etykietę najbardziej podobnego obrazu treningowego[cite: 8].",
-    "odp_b_pl": "W fazie treningu odwraca macierz cech, a w fazie testowej wykonuje nieliniowe mapowanie współrzędnych biegunowych[cite: 8].",
-    "odp_c_pl": "W fazie treningu i testu losuje wagi modelu $W$, dążąc do zminimalizowania błędu średniokwadratowego (MSE)[cite: 8].",
-    "odp_d_pl": "W fazie treningu maskuje 15% pikseli, a w fazie testowej odpytuje bazę danych o pary klucz-wartość[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Jaką głowicę można dołączyć do sieci Transformer w celu bezpośredniego wykorzystania jej w zadaniach ekstrakcji informacji?",
+    "tresc_eng": "What head can be attached to a Transformer network to directly utilize it in information extraction tasks?",
+    "odp_a_pl": "Głowicę realizującą etykietowanie sekwencji.",
+    "odp_b_pl": "Głowicę liczącą błąd średniokwadratowy (MSE) cen nieruchomości.",
+    "odp_c_pl": "Głowicę realizującą autouzupełnianie brakujących słów w locie.",
+    "odp_d_pl": "Głowicę wykonującą nieliniową funkcję aktywacji logit.",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
     "id": 71,
-    "tresc_pl": "Jaka jest złożoność obliczeniowa czasu trenowania (Train) oraz prognozowania (Predict) dla klasycznego klasyfikatora najbliższego sąsiada (Nearest Neighbor)[cite: 8]?",
-    "tresc_eng": "What is the computational complexity of training time (Train) and prediction time (Predict) for a classic Nearest Neighbor classifier[cite: 8]?",
-    "odp_a_pl": "Train: $O(1)$, Predict: $O(N)$[cite: 8].",
-    "odp_b_pl": "Train: $O(N)$, Predict: $O(1)$[cite: 8].",
-    "odp_c_pl": "Train: $O(N^2)$, Predict: $O(N)$[cite: 8].",
-    "odp_d_pl": "Train: $O(1)$, Predict: $O(1)$[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Jak na podstawie diagramu przedstawiającego relację pojęć w sztucznej inteligencji zdefiniowano uczenie głębokie (Deep Learning)?",
+    "tresc_eng": "How is Deep Learning defined based on the diagram showing the relationship of concepts in artificial intelligence?",
+    "odp_a_pl": "Jako podzbiór uczenia maszynowego składający się z algorytmów, które pozwalają oprogramowaniu na samodzielne trenowanie zadań poprzez eksponowanie wielowarstwowych sieci neuronowych na ogromne ilości danych.",
+    "odp_b_pl": "Jako dowolna technika umożliwiająca komputerom naśladowanie ludzkiej inteligencji wyłącznie za pomocą reguł logicznych typu if-then oraz drzew decyzyjnych.",
+    "odp_c_pl": "Jako zestaw zaawansowanych technik statystycznych wykluczających stosowanie sieci neuronowych na rzecz rzadkich macierzy tf-idf.",
+    "odp_d_pl": "Jako deterministyczny algorytm pamiętania etykiet obrazów testowych o stałym czasie predykcji $O(1)$.",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 72,
-    "tresc_pl": "Który wzór matematyczny definiuje odległość L1 (Manhattan distance) stosowaną do porównywania pikseli dwóch obrazów[cite: 8]?",
-    "tresc_eng": "Which mathematical formula defines the L1 distance (Manhattan distance) used to compare pixels of two images[cite: 8]?",
-    "odp_a_pl": "$d_{1}(I_{1},I_{2})=\\sum_{p}|I_{1}^{p}-I_{2}^{p}|$[cite: 8]",
-    "odp_b_pl": "$d_{2}(I_{1},I_{2})=\\sqrt{\\sum_{p}(I_{1}^{p}-I_{2}^{p})^{2}}$[cite: 8]",
-    "odp_c_pl": "$d(I_1, I_2) = \\operatorname{softmax}(I_1 \\cdot I_2^T)$[cite: 8]",
-    "odp_d_pl": "$d(I_1, I_2) = -\\frac{1}{n}\\sum (I_1^p \\log I_2^p)$[cite: 5, 6]",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Które zjawisko historyczne z roku 2012 zostało wskazane na osi czasu jako przełomowy sukces w konkursie ILSVRC, który utorował drogę dla rozwoju wizji komputerowej opartej na AI?",
+    "tresc_eng": "Which historical event from 2012 was pointed out on the timeline as a breakthrough success in the ILSVRC challenge, paving the way for AI-based computer vision?",
+    "odp_a_pl": "Osiągnięcie przełomowego sukcesu przez model AlexNet.",
+    "odp_b_pl": "Sformułowanie terminu 'sztuczna inteligencja' na seminarium w Dartmouth.",
+    "odp_c_pl": "Odkrycie przez neurofizjologów, że ludzki wzrok ma charakter hierarchiczny.",
+    "odp_d_pl": "Pojawienie się myślących robotów w mitologii greckiej.",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 73,
-    "tresc_pl": "Czym różni się podejście klasyfikatora k-Najbliższych Sąsiadów (k-NN) od klasyfikatora 1-Najbliższego Sąsiada[cite: 8]?",
-    "tresc_eng": "How does the k-Nearest Neighbors (k-NN) classifier approach differ from the 1-Nearest Neighbor classifier[cite: 8]?",
-    "odp_a_pl": "Zamiast kopiować etykietę z jednego najbliższego sąsiada, przyjmuje etykietę większościową z K najbliższych punktów[cite: 8].",
-    "odp_b_pl": "Wymaga stosowania wyłącznie metryki euklidesowej L2, całkowicie odrzucając odległość L1[cite: 8].",
-    "odp_c_pl": "Pozwala na automatyczne uczenie hiperparametrów bezpośrednio z danych treningowych bez użycia zbioru walidacyjnego[cite: 8].",
-    "odp_d_pl": "Działa efektywnie wyłącznie na dużych zbiorach danych uczenia głębokiego, drastycznie przyspieszając fazę predykcji[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Ile klas obiektów oraz ile łącznie obrazów zawierał zbiór danych wykorzystywany w wyzwaniu klasyfikacji obrazów ImageNet (ILSVRC)?",
+    "tresc_eng": "How many object classes and how many total images did the dataset used in the ImageNet (ILSVRC) image classification challenge contain?",
+    "odp_a_pl": "1 000 klas obiektów i 1 431 167 obrazów.",
+    "odp_b_pl": "10 klas obiektów i 50 000 obrazów treningowych.",
+    "odp_c_pl": "3072 klasy obiektów i 10 000 obrazów testowych.",
+    "odp_d_pl": "255 klas obiektów i milion obrazów typu RGB.",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 74,
-    "tresc_pl": "Jaka jest poprawna metoda (Idea #3) dobierania hiperparametrów, takich jak wartość k lub metryka odległości w algorytmie k-NN[cite: 8]?",
-    "tresc_eng": "What is the correct method (Idea #3) for selecting hyperparameters, such as the value of k or the distance metric in the k-NN algorithm[cite: 8]?",
-    "odp_a_pl": "Podział danych na zbiór treningowy i walidacyjny; wybór hiperparametrów na zbiorze walidacyjnym i ocena na zbiorze testowym[cite: 8].",
-    "odp_b_pl": "Wybór tych hiperparametrów, które dają najlepsze wyniki bezpośrednio na danych treningowych (training data)[cite: 8].",
-    "odp_c_pl": "Wybór tych konfiguracji, które działają najlepiej na danych testowych (test data) przed ostatecznym wdrożeniem modelu[cite: 8].",
-    "odp_d_pl": "Ręczne ustawienie parametru $k=1$ dla każdej kolekcji danych, niezależnie od specyfiki problemu[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Jak definiowana jest reprezentacja obliczeniowa cyfrowego obrazu kolorowego w kontekście systemów wizyjnych?",
+    "tresc_eng": "How is the computational representation of a digital color image defined in the context of vision systems?",
+    "odp_a_pl": "Jako tensor liczb całkowitych z przedziału [0, 255], np. o wymiarach 1920 x 1080 x 3 dla formatu RGB.",
+    "odp_b_pl": "Jako jednowymiarowy wektor o stałym rozmiarze równym zawsze $2^b$ po zastosowaniu funkcji skrótu.",
+    "odp_c_pl": "Jako macierz rzadka, w której każda unikalna wartość piksela odpowiada logarytmowi szans (log-odds).",
+    "odp_d_pl": "Jako ciągła funkcja liniowa typu $ax + by + c = 0$ niezależna od przesunięcia kamery.",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 75,
-    "tresc_pl": "Jakie cechy posiada zbiór danych CIFAR10 wykorzystywany jako przykład w wykładzie[cite: 8]?",
-    "tresc_eng": "What characteristics does the CIFAR10 dataset used as an example in the lecture possess[cite: 8]?",
-    "odp_a_pl": "Zawiera 10 klas, 50 000 obrazów treningowych oraz 10 000 obrazów testowych[cite: 8].",
-    "odp_b_pl": "Składa się z 1 000 klas i ponad miliona wielowarstwowych obrazów wysokiej rozdzielczości[cite: 8].",
-    "odp_c_pl": "Zawiera wyłącznie obrazy binarne o wymiarach 32x32 piksele, których łączna liczba wynosi $10^{308}$[cite: 8].",
-    "odp_d_pl": "Jest zbiorem rzadkich wektorów tekstowych służących do ekstrakcji informacji metodą HoG[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Na czym polega zasada działania klasyfikatora najbliższego sąsiada (Nearest Neighbor) w fazie treningu i testowania?",
+    "tresc_eng": "What is the operating principle of the Nearest Neighbor classifier in the training and testing phases?",
+    "odp_a_pl": "W fazie treningu zapamiętuje wszystkie dane i etykiety, a w fazie testowej przewiduje etykietę najbardziej podobnego obrazu treningowego.",
+    "odp_b_pl": "W fazie treningu odwraca macierz cech, a w fazie testowej wykonuje nieliniowe mapowanie współrzędnych biegunowych.",
+    "odp_c_pl": "W fazie treningu i testu losuje wagi modelu $W$, dążąc do zminimalizowania błędu średniokwadratowego (MSE).",
+    "odp_d_pl": "W fazie treningu maskuje 15% pikseli, a w fazie testowej odpytuje bazę danych o pary klucz-wartość.",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 76,
-    "tresc_pl": "W kontekście podejścia parametrycznego (Linear Classifier), jeśli wejściowy obraz ze zbioru CIFAR10 po spłaszczeniu (flattening) ma formę wektora o rozmiarze (3072, 1), a klasyfikator przewiduje punkty dla 10 klas, jaki kształt (shape) musi mieć macierz parametrów/wag W[cite: 8]?",
-    "tresc_eng": "In the context of the parametric approach (Linear Classifier), if an input image from the CIFAR10 dataset after flattening is a vector of shape (3072, 1), and the classifier predicts scores for 10 classes, what shape must the parameter/weight matrix W have[cite: 8]?",
-    "odp_a_pl": "(10, 3072)[cite: 8]",
-    "odp_b_pl": "(3072, 10)[cite: 8]",
-    "odp_c_pl": "(10, 1)[cite: 8]",
-    "odp_d_pl": "(3072, 1)[cite: 8]",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Jaka jest złożoność obliczeniowa czasu trenowania (Train) oraz prognozowania (Predict) dla klasycznego klasyfikatora najbliższego sąsiada (Nearest Neighbor)?",
+    "tresc_eng": "What is the computational complexity of training time (Train) and prediction time (Predict) for a classic Nearest Neighbor classifier?",
+    "odp_a_pl": "Train: $O(1)$, Predict: $O(N)$.",
+    "odp_b_pl": "Train: $O(N)$, Predict: $O(1)$.",
+    "odp_c_pl": "Train: $O(N^2)$, Predict: $O(N)$.",
+    "odp_d_pl": "Train: $O(1)$, Predict: $O(1)$.",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 77,
-    "tresc_pl": "Do czego służy funkcja straty (Loss Function, oznaczana jako L) w podejściu parametrycznym klasyfikatora liniowego[cite: 8]?",
-    "tresc_eng": "What is the purpose of the Loss Function (denoted as L) in the parametric approach of a linear classifier[cite: 8]?",
-    "odp_a_pl": "Mierzy, jak duże straty w klasyfikacji danych ponosi nasz model, oceniając jakość zestawu wartości macierzy wag W[cite: 8].",
-    "odp_b_pl": "Służy do automatycznego przekształcania współrzędnych kartezjańskich obrazu na współrzędne biegunowe[cite: 8].",
-    "odp_c_pl": "Odpowiada za spłaszczanie trójwymiarowych tensorów wejściowych RGB do postaci wektora jednowymiarowego[cite: 8].",
-    "odp_d_pl": "Umożliwia całkowite wyeliminowanie wyrazu wolnego b (bias) ze wzoru $f(x,W) = Wx + b$[cite: 8].",
-    "nazwa_pliku": "Deep Learning (Wojciech Palubicki)"
+    "tresc_pl": "Który wzór matematyczny definiuje odległość L1 (Manhattan distance) stosowaną do porównywania pikseli dwóch obrazów?",
+    "tresc_eng": "Which mathematical formula defines the L1 distance (Manhattan distance) used to compare pixels of two images?",
+    "odp_a_pl": "$d_{1}(I_{1},I_{2})=\\sum_{p}|I_{1}^{p}-I_{2}^{p}|$",
+    "odp_b_pl": "$d_{2}(I_{1},I_{2})=\\sqrt{\\sum_{p}(I_{1}^{p}-I_{2}^{p})^{2}}$",
+    "odp_c_pl": "$d(I_1, I_2) = \\operatorname{softmax}(I_1 \\cdot I_2^T)$",
+    "odp_d_pl": "$d(I_1, I_2) = -\\frac{1}{n}\\sum (I_1^p \\log I_2^p)$[cite: 5, 6]",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 78,
+    "tresc_pl": "Czym różni się podejście klasyfikatora k-Najbliższych Sąsiadów (k-NN) od klasyfikatora 1-Najbliższego Sąsiada?",
+    "tresc_eng": "How does the k-Nearest Neighbors (k-NN) classifier approach differ from the 1-Nearest Neighbor classifier?",
+    "odp_a_pl": "Zamiast kopiować etykietę z jednego najbliższego sąsiada, przyjmuje etykietę większościową z K najbliższych punktów.",
+    "odp_b_pl": "Wymaga stosowania wyłącznie metryki euklidesowej L2, całkowicie odrzucając odległość L1.",
+    "odp_c_pl": "Pozwala na automatyczne uczenie hiperparametrów bezpośrednio z danych treningowych bez użycia zbioru walidacyjnego.",
+    "odp_d_pl": "Działa efektywnie wyłącznie na dużych zbiorach danych uczenia głębokiego, drastycznie przyspieszając fazę predykcji.",
+    "nazwa_pliku": "Palub.pdf"
+  },
+  {
+    "id": 79,
+    "tresc_pl": "Jaka jest poprawna metoda (Idea #3) dobierania hiperparametrów, takich jak wartość k lub metryka odległości w algorytmie k-NN?",
+    "tresc_eng": "What is the correct method (Idea #3) for selecting hyperparameters, such as the value of k or the distance metric in the k-NN algorithm?",
+    "odp_a_pl": "Podział danych na zbiór treningowy i walidacyjny; wybór hiperparametrów na zbiorze walidacyjnym i ocena na zbiorze testowym.",
+    "odp_b_pl": "Wybór tych hiperparametrów, które dają najlepsze wyniki bezpośrednio na danych treningowych (training data).",
+    "odp_c_pl": "Wybór tych konfiguracji, które działają najlepiej na danych testowych (test data) przed ostatecznym wdrożeniem modelu.",
+    "odp_d_pl": "Ręczne ustawienie parametru $k=1$ dla każdej kolekcji danych, niezależnie od specyfiki problemu.",
+    "nazwa_pliku": "Palub.pdf"
+  },
+  {
+    "id": 80,
+    "tresc_pl": "Jakie cechy posiada zbiór danych CIFAR10 wykorzystywany jako przykład w wykładzie?",
+    "tresc_eng": "What characteristics does the CIFAR10 dataset used as an example in the lecture possess?",
+    "odp_a_pl": "Zawiera 10 klas, 50 000 obrazów treningowych oraz 10 000 obrazów testowych.",
+    "odp_b_pl": "Składa się z 1 000 klas i ponad miliona wielowarstwowych obrazów wysokiej rozdzielczości.",
+    "odp_c_pl": "Zawiera wyłącznie obrazy binarne o wymiarach 32x32 piksele, których łączna liczba wynosi $10^{308}$.",
+    "odp_d_pl": "Jest zbiorem rzadkich wektorów tekstowych służących do ekstrakcji informacji metodą HoG.",
+    "nazwa_pliku": "Palub.pdf"
+  },
+  {
+    "id": 81,
+    "tresc_pl": "W kontekście podejścia parametrycznego (Linear Classifier), jeśli wejściowy obraz ze zbioru CIFAR10 po spłaszczeniu (flattening) ma formę wektora o rozmiarze (3072, 1), a klasyfikator przewiduje punkty dla 10 klas, jaki kształt (shape) musi mieć macierz parametrów/wag W?",
+    "tresc_eng": "In the context of the parametric approach (Linear Classifier), if an input image from the CIFAR10 dataset after flattening is a vector of shape (3072, 1), and the classifier predicts scores for 10 classes, what shape must the parameter/weight matrix W have?",
+    "odp_a_pl": "(10, 3072)",
+    "odp_b_pl": "(3072, 10)",
+    "odp_c_pl": "(10, 1)",
+    "odp_d_pl": "(3072, 1)",
+    "nazwa_pliku": "Palub.pdf"
+  },
+  {
+    "id": 82,
+    "tresc_pl": "Do czego służy funkcja straty (Loss Function, oznaczana jako L) w podejściu parametrycznym klasyfikatora liniowego?",
+    "tresc_eng": "What is the purpose of the Loss Function (denoted as L) in the parametric approach of a linear classifier?",
+    "odp_a_pl": "Mierzy, jak duże straty w klasyfikacji danych ponosi nasz model, oceniając jakość zestawu wartości macierzy wag W.",
+    "odp_b_pl": "Służy do automatycznego przekształcania współrzędnych kartezjańskich obrazu na współrzędne biegunowe.",
+    "odp_c_pl": "Odpowiada za spłaszczanie trójwymiarowych tensorów wejściowych RGB do postaci wektora jednowymiarowego.",
+    "odp_d_pl": "Umożliwia całkowite wyeliminowanie wyrazu wolnego b (bias) ze wzoru $f(x,W) = Wx + b$.",
+    "nazwa_pliku": "Palub.pdf"
+  },
+  {
+    "id": 83,
     "tresc_pl": "Dlaczego podczas obliczania łącznego prawdopodobieństwa w modelach klasyfikacji unika się bezpośredniego mnożenia wielu małych wartości prawdopodobieństw na rzecz sumowania ich logarytmów?",
     "tresc_eng": "Why is direct multiplication of many small probability values avoided in favor of summing their logarithms when calculating joint probability in classification models?",
     "odp_a_pl": "Aby uniknąć zjawiska niedomiaru (underflow), gdzie iloczyn bardzo małych liczb (np. $0.9 \\cdot 0.1 \\cdot 0.01 = 0.0009$) staje się numerycznie niepożądany.",
@@ -860,7 +830,7 @@
     "nazwa_pliku": "DL2.pdf"
   },
   {
-    "id": 79,
+    "id": 84,
     "tresc_pl": "Jaka tożsamość matematyczna pozwala na przekształcenie iloczynu prawdopodobieństw w sumę podczas wyznaczania funkcji wiarygodności?",
     "tresc_eng": "Which mathematical identity allows transforming a product of probabilities into a sum when determining the likelihood function?",
     "odp_a_pl": "$\\log(a \\cdot b) = \\log(a) + \\log(b)$",
@@ -870,7 +840,7 @@
     "nazwa_pliku": "DL2.pdf"
   },
   {
-    "id": 80,
+    "id": 85,
     "tresc_pl": "Jak inaczej w literaturze uczenia głębokiego i statystyki nazywany jest klasyfikator Softmax?",
     "tresc_eng": "What is the Softmax classifier otherwise called in deep learning and statistics literature?",
     "odp_a_pl": "Wielomianowa regresja logistyczna (Multinomial Logistic Regression).",
@@ -880,7 +850,7 @@
     "nazwa_pliku": "DL2.pdf"
   },
   {
-    "id": 81,
+    "id": 86,
     "tresc_pl": "W kontekście działania klasyfikatora Softmax, czym są wartości liczbowe przypisywane poszczególnym klasom (np. cat: 3.2, car: 5.1, frog: -1.7) przed nałożeniem funkcji eksponencjalnej?",
     "tresc_eng": "In the context of the Softmax classifier, what are the numerical values assigned to individual classes (e.g., cat: 3.2, car: 5.1, frog: -1.7) before applying the exponential function?",
     "odp_a_pl": "Nieznormalizowanymi logarytmami prawdopodobieństw (unnormalized log probabilities).",
@@ -890,7 +860,7 @@
     "nazwa_pliku": "DL2.pdf"
   },
   {
-    "id": 82,
+    "id": 87,
     "tresc_pl": "Jaki jest pierwszy krok transformacji nieznormalizowanych logarytmów prawdopodobieństw w klasyfikatorze Softmax w celu uzyskania unormowanych prawdopodobieństw?",
     "tresc_eng": "What is the first step in transforming unnormalized log probabilities in a Softmax classifier to obtain normalized probabilities?",
     "odp_a_pl": "Obliczenie wartości funkcji wykładniczej (exp) dla każdego wyniku, aby uzyskać nieznormalizowane prawdopodobieństwa.",
@@ -900,7 +870,7 @@
     "nazwa_pliku": "DL2.pdf"
   },
   {
-    "id": 83,
+    "id": 88,
     "tresc_pl": "Co należy zrobić z wartościami uzyskanymi po operacji eksponencjalnej (unnormalized probabilities), aby przekształcić je w poprawny rozkład prawdopodobieństwa?",
     "tresc_eng": "What must be done with the values obtained after the exponential operation (unnormalized probabilities) to transform them into a valid probability distribution?",
     "odp_a_pl": "Należy je znormalizować (normalize), dzieląc każdą wartość przez sumę wszystkich uzyskanych wartości wykładniczych.",
@@ -910,7 +880,7 @@
     "nazwa_pliku": "DL2.pdf"
   },
   {
-    "id": 84,
+    "id": 89,
     "tresc_pl": "Jak definiowana jest faza trenowania (train) w klasyfikatorze Najbliższego Sąsiada (Nearest Neighbor)?",
     "tresc_eng": "How is the training phase (train) defined in the Nearest Neighbor classifier?",
     "odp_a_pl": "Polega ona wyłącznie na zapamiętaniu wszystkich danych i ich etykiet.",
@@ -920,7 +890,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 85,
+    "id": 90,
     "tresc_pl": "W jaki sposób klasyfikator Najbliższego Sąsiada (Nearest Neighbor) prognozuje etykietę dla nowego obrazu w fazie testowej (predict)?",
     "tresc_eng": "How does the Nearest Neighbor classifier predict the label for a new image in the testing phase (predict)?",
     "odp_a_pl": "Przewiduje etykietę najbardziej podobnego obrazu ze zbioru treningowego.",
@@ -930,7 +900,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 86,
+    "id": 91,
     "tresc_pl": "Który z wymienionych wzorów reprezentuje funkcję straty typu 'hinge loss' (Multi-class SVM loss) dla pojedynczego przykładu?",
     "tresc_eng": "Which of the following formulas represents the 'hinge loss' (Multi-class SVM loss) for a single example?",
     "odp_a_pl": "$L_{i}=\\sum_{j\\ne y_{i}}max(0,s_{j}-s_{y_{i}}+1)$",
@@ -940,7 +910,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 87,
+    "id": 92,
     "tresc_pl": "Kiedy dla danego przykładu cząstkowa strata we wzorze hinge loss wynosi dokładnie 0 (brak kary)?",
     "tresc_eng": "When is the partial loss in the hinge loss formula exactly 0 (no penalty) for a given example?",
     "odp_a_pl": "Gdy wynik dla poprawnej klasy ($s_{y_i}$) jest większy bądź równy wynikowi klasy niepoprawnej ($s_j$) powiększonemu o margines bezpieczny równy 1 ($s_{y_i} \\ge s_j + 1$).",
@@ -950,7 +920,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 88,
+    "id": 93,
     "tresc_pl": "Jaka metoda optymalizacji oparta na gradiencie jest standardowo używana do minimalizacji funkcji straty i trenowania modeli w uczeniu głębokim?",
     "tresc_eng": "Which gradient-based optimization method is standardly used to minimize loss functions and train models in deep learning?",
     "odp_a_pl": "Stochastyczny spadek wzdłuż gradientu (Stochastic Gradient Descent, SGD).",
@@ -960,7 +930,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 89,
+    "id": 94,
     "tresc_pl": "Jaką złożoność obliczeniową ma operacja odwracania macierzy Hessianu w metodach optymalizacji drugiego rzędu (Second-Order Optimization)?",
     "tresc_eng": "What computational complexity does the Hessian matrix inversion operation have in Second-Order Optimization methods?",
     "odp_a_pl": "$O(N^3)$",
@@ -970,7 +940,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 90,
+    "id": 95,
     "tresc_pl": "Ile elementów zawiera macierz Hessianu w metodach optymalizacji drugiego rzędu, co przy milionach parametrów (N) utrudnia jej stosowanie?",
     "tresc_eng": "How many elements does the Hessian matrix contain in second-order optimization methods, which makes its use difficult with millions of parameters (N)?",
     "odp_a_pl": "Zawiera $O(N^2)$ elementów.",
@@ -980,7 +950,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 91,
+    "id": 96,
     "tresc_pl": "Który algorytm optymalizacji jest wskazany w podsumowaniu jako dobry, domyślny wybór (good default choice) w wielu przypadkach praktycznych?",
     "tresc_eng": "Which optimization algorithm is indicated in the summary as a good default choice in many practical cases?",
     "odp_a_pl": "Adam",
@@ -990,7 +960,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 92,
+    "id": 97,
     "tresc_pl": "Kiedy warto wypróbować algorytm optymalizacji L-BFGS, pamiętając jednocześnie o wyłączeniu wszelkich źródeł szumu (noise)?",
     "tresc_eng": "When is it worth trying the L-BFGS optimization algorithm, while remembering to disable all sources of noise?",
     "odp_a_pl": "Gdy możemy sobie pozwolić na wykonywanie aktualizacji wag na pełnym pakiecie danych (full batch updates).",
@@ -1000,7 +970,7 @@
     "nazwa_pliku": "DL3.pdf"
   },
   {
-    "id": 93,
+    "id": 98,
     "tresc_pl": "Jaka jest główna motywacja do przejścia od klasyfikatora k-NN (k-Najbliższych Sąsiadów) do klasyfikatorów parametrycznych (liniowych)?",
     "tresc_eng": "What is the main motivation for moving from a k-NN (k-Nearest Neighbors) classifier to parametric (linear) classifiers?",
     "odp_a_pl": "Klasyfikator k-NN buduje granice decyzyjne dopiero w fazie predykcji; klasyfikatory parametryczne pozwalają na bezpośrednie zdefiniowanie prostej funkcji opisującej te granice już podczas trenowania.",
@@ -1010,7 +980,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 94,
+    "id": 99,
     "tresc_pl": "Jeśli wejściowy obraz o wymiarach $32\\times32\\times3$ (3072 liczby) jest spłaszczany do wektora kolumnowego, a model przewiduje wyniki dla 10 klas, czym jest pojedynczy wynik (score) dla danej klasy w klasyfikatorze liniowym?",
     "tresc_eng": "If an input image of size $32\\times32\\times3$ (3072 numbers) is flattened into a column vector, and the model predicts scores for 10 classes, what is a single score for a given class in a linear classifier?",
     "odp_a_pl": "Wynikiem iloczynu skalarnego (dot product) pomiędzy odpowiednim wierszem macierzy wag W a wektorem wejściowym obrazu.",
@@ -1020,7 +990,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 95,
+    "id": 100,
     "tresc_pl": "Który z wymienionych wzorów poprawnie opisuje operację matematyczną wykonywaną przez dwuwarstwową sieć neuronową (2-layer Neural Network)?",
     "tresc_eng": "Which of the following formulas correctly describes the mathematical operation performed by a 2-layer neural network?",
     "odp_a_pl": "$f = W_{2}max(0, W_{1}x)$",
@@ -1030,7 +1000,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 96,
+    "id": 101,
     "tresc_pl": "Co stałoby się z wielowarstwową siecią neuronową, gdybyśmy całkowicie usunęli z niej nieliniowe funkcje aktywacji (np. funkcję ReLU)?",
     "tresc_eng": "What would happen to a multi-layer neural network if we completely removed non-linear activation functions (e.g., the ReLU function) from it?",
     "odp_a_pl": "Zwinęłaby się ona matematycznie do postaci $s = W_{3}x$ (gdzie $W_3 = W_2W_1$), stając się zwykłym klasyfikatorem liniowym.",
@@ -1040,7 +1010,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 97,
+    "id": 102,
     "tresc_pl": "Jak w kontekście interpretacji wizualnej interpretowany jest klasyfikator liniowy w porównaniu do wielowarstwowego perceptrona (MLP) lub sieci splotowych?",
     "tresc_eng": "How is a linear classifier interpreted in a visual context compared to a multi-layer perceptron (MLP) or convolutional networks?",
     "odp_a_pl": "Klasyfikator liniowy uczy się dokładnie jednego wzorca (template) na klasę, przez co nie potrafi obsłużyć wielu modalności danych wewnątrz jednej kategorii.",
@@ -1050,7 +1020,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 98,
+    "id": 103,
     "tresc_pl": "W jaki sposób w architekturze sieci splotowych (Convolutional Network) realizowana jest operacja warstwy splotowej (Convolution Layer)?",
     "tresc_eng": "How is the operation of a convolution layer implemented in the convolutional network architecture?",
     "odp_a_pl": "Filtry są przesuwane przestrzennie nad obrazem, obliczając iloczyny skalarne z lokalnymi fragmentami, zachowując jednocześnie strukturę przestrzenną wejścia.",
@@ -1060,7 +1030,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 99,
+    "id": 104,
     "tresc_pl": "Czego najczęściej uczą się filtry splotowe w pierwszej warstwie sieci neuronowej (first-layer conv filters) dla obrazów naturalnych?",
     "tresc_eng": "What do first-layer convolutional filters most often learn for natural images?",
     "odp_a_pl": "Lokalnych wzorców obrazu, takich jak zorientowane krawędzie (oriented edges) oraz kolory przeciwstawne (opposing colors).",
@@ -1070,7 +1040,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 100,
+    "id": 105,
     "tresc_pl": "Jaki jest podstawowy cel stosowania członów regularyzacji ($R(W)$) w pełnej funkcji straty $L(W) = \\frac{1}{N}\\sum L_i + \\lambda R(W)$?",
     "tresc_eng": "What is the primary purpose of using regularization terms ($R(W)$) in the full loss function $L(W) = \\frac{1}{N}\\sum L_i + \\lambda R(W)$?",
     "odp_a_pl": "Zapobieganie sytuacji, w której model radzi sobie „zbyt dobrze” na danych treningowych, co chroni przed przeuczeniem (overfitting).",
@@ -1080,7 +1050,7 @@
     "nazwa_pliku": "DL4.pdf"
   },
   {
-    "id": 101,
+    "id": 106,
     "tresc_pl": "W jaki sposób algorytm stochastycznego spadku wzdłuż gradientu z pędem (SGD with Momentum) aktualizuje wektor prędkości $v$ na podstawie bieżącego gradientu $dw$ i współczynnika tarcia/pędu $\\rho$ (rho)?",
     "tresc_eng": "How does the Stochastic Gradient Descent with Momentum algorithm update the velocity vector $v$ based on the current gradient $dw$ and the friction/momentum coefficient $\\rho$ (rho)?",
     "odp_a_pl": "Według wzoru $v = \\rho \\cdot v + dw$, co pozwala na akumulację prędkości z poprzednich kroków.",
@@ -1090,7 +1060,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 102,
+    "id": 107,
     "tresc_pl": "Jak wygląda pełna reguła aktualizacji parametrów (wag $w$) w algorytmie SGD z pędem po wyznaczeniu nowej prędkości $v$?",
     "tresc_eng": "What does the full parameter (weights $w$) update rule look like in the SGD with Momentum algorithm after calculating the new velocity $v$?",
     "odp_a_pl": "$w -= \\text{learning\\_rate} \\cdot v$",
@@ -1100,7 +1070,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 103,
+    "id": 108,
     "tresc_pl": "Zgodnie z treścią materiałów, z jakiej perspektywy analizowane są ograniczenia i wady klasyfikatorów liniowych (Linear Classifiers shortcomings)?",
     "tresc_eng": "According to the lecture materials, from which perspectives are the shortcomings and limitations of linear classifiers analyzed?",
     "odp_a_pl": "Z perspektywy geometrycznej (Geometric Viewpoint) oraz wizualnej (Visual Viewpoint).",
@@ -1110,7 +1080,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 104,
+    "id": 109,
     "tresc_pl": "Jaki jest cel stosowania operacji spłaszczania (flatten) w głębokich sieciach splotowych, co zilustrowano na przykładzie architektury wielowarstwowej?",
     "tresc_eng": "What is the purpose of using the flatten operation in deep convolutional networks, as illustrated in the multi-layer architecture example?",
     "odp_a_pl": "Przekształcenie wielowymiarowych map cech (np. z warstwy pool5) w jednowymiarowy wektor przed podaniem danych na warstwy w pełni połączone (fc).",
@@ -1120,7 +1090,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 105,
+    "id": 110,
     "tresc_pl": "W przedstawionej strukturze warstw klasycznej sieci (np. AlexNet), dlaczego ostatnia warstwa w pełni połączona (fc8) ma rozmiar wyjściowy równy dokładnie 1000?",
     "tresc_eng": "In the presented layer structure of a classic network (e.g., AlexNet), why does the last fully connected layer (fc8) have an output size equal to exactly 1000?",
     "odp_a_pl": "Ponieważ odpowiada to liczbie klas obiektów w standardowym wyzwaniu ImageNet (ILSVRC).",
@@ -1130,7 +1100,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 106,
+    "id": 111,
     "tresc_pl": "Przeanalizuj tabelę warstw w architekturze sieci (np. AlexNet). Jaka operacja jest wykonywana bezpośrednio po warstwie 'conv5', a przed operacją 'flatten' w celu redukcji wymiarowości przestrzennej?",
     "tresc_eng": "Analyze the layer table in the network architecture (e.g., AlexNet). What operation is performed directly after the 'conv5' layer and before the 'flatten' operation to reduce spatial dimensionality?",
     "odp_a_pl": "Warstwa łączenia (pool5).",
@@ -1140,7 +1110,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 107,
+    "id": 112,
     "tresc_pl": "W jaki sposób wprowadzenie pędu (Momentum) do stochastycznego spadku wzdłuż gradientu (SGD) pomaga w procesie optymalizacji trudnych topologii funkcji straty?",
     "tresc_eng": "How does introducing Momentum into Stochastic Gradient Descent (SGD) help in the optimization process of complex loss function topologies?",
     "odp_a_pl": "Pozwala modelowi na akumulację prędkości w kierunkach o stałym znaku gradientu, co pomaga 'przeskakiwać' lokalne minima i przyspiesza zbieżność.",
@@ -1150,7 +1120,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 108,
+    "id": 113,
     "tresc_pl": "Co oznacza parametr $\\rho$ (rho) we wzorze aktualizacji prędkości $v = \\rho \\cdot v + dw$ w algorytmie SGD z pędem?",
     "tresc_eng": "What does the parameter $\\rho$ (rho) mean in the velocity update formula $v = \\rho \\cdot v + dw$ in the SGD with Momentum algorithm?",
     "odp_a_pl": "Współczynnik tarcia/tłumienia pędu, zazwyczaj przyjmujący wartości bliskie 0.9 lub 0.99, który decyduje o sile wpływu poprzednich kroków.",
@@ -1160,7 +1130,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 109,
+    "id": 114,
     "tresc_pl": "W klasycznym algorytmie uczenia sieci neuronowych, w której pętli (for loop) dokonuje się obliczenia gradientu ($dw$) oraz modyfikacji parametrów wagowych?",
     "tresc_eng": "In a classic neural network training algorithm, within which loop (for loop) is the gradient calculation ($dw$) and parameter weight modification performed?",
     "odp_a_pl": "W pętli iterującej po kolejnych krokach optymalizacji (num_steps) na pakietach danych.",
@@ -1170,7 +1140,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 110,
+    "id": 115,
     "tresc_pl": "Patrząc na strukturę AlexNet opisaną w slajdach, co dzieje się z rozmiarem wektora/mapy cech pomiędzy warstwą 'flatten' (rozmiar 9216) a pierwszą warstwą w pełni połączoną 'fc6' (rozmiar 4096)?",
     "tresc_eng": "Looking at the AlexNet structure described in the slides, what happens to the size of the feature vector/map between the 'flatten' layer (size 9216) and the first fully connected layer 'fc6' (size 4096)?",
     "odp_a_pl": "Następuje rzutowanie i redukcja wymiarów przestrzeni cech do 4096 za pomocą operacji mnożenia przez macierz wag warstwy fc6.",
@@ -1180,7 +1150,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 111,
+    "id": 116,
     "tresc_pl": "Dlaczego w pełnym schemacie funkcji straty (Loss function) człon regularyzacji $R(W)$ jest sumowany wraz z błędem dopasowania danych (data loss)?",
     "tresc_eng": "Why in the full loss function scheme is the regularization term $R(W)$ summed together with the data loss?",
     "odp_a_pl": "Aby stworzyć kompromis pomiędzy idealnym dopasowaniem do danych uczących a prostotą wag modelu (preferencja dla gładkich wag).",
@@ -1190,7 +1160,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 112,
+    "id": 117,
     "tresc_pl": "Który z punktów widzenia na ograniczenia klasyfikatorów liniowych analizuje sytuacje, w których dane nie są liniowo separowalne (np. problem XOR)?",
     "tresc_eng": "Which of the viewpoints on the limitations of linear classifiers analyzes situations where data is not linearly separable (e.g., the XOR problem)?",
     "odp_a_pl": "Geometryczny punkt widzenia (Geometric Viewpoint).",
@@ -1200,7 +1170,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 113,
+    "id": 118,
     "tresc_pl": "Zgodnie z zaprezentowaną tabelą parametrów, które warstwy w sieci splotowej typu AlexNet (fc6, fc7, fc8) posiadają największą liczbę uczonych parametrów wagowych?",
     "tresc_eng": "According to the presented parameter table, which layers in the AlexNet convolutional network (fc6, fc7, fc8) possess the largest number of trained weight parameters?",
     "odp_a_pl": "Warstwy w pełni połączone (Fully Connected layers), ze szczególnym uwzględnieniem fc6.",
@@ -1210,7 +1180,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 114,
+    "id": 119,
     "tresc_pl": "Jakie są cztery podstawowe komponenty sieci splotowej wymienione na wstępie materiału?",
     "tresc_eng": "What are the four basic components of a convolutional network listed at the beginning of the material?",
     "odp_a_pl": "Warstwy splotowe (Convolution), warstwy łączące (Pooling), warstwy w pełni połączone (Fully-Connected) oraz funkcja aktywacji (Activation Function).",
@@ -1220,7 +1190,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 115,
+    "id": 120,
     "tresc_pl": "Jaki jest matematyczny wzór podany dla warstwy normalizacji (Normalization) w sieciach splotowych?",
     "tresc_eng": "What is the mathematical formula provided for the normalization layer in convolutional networks?",
     "odp_a_pl": "$\\hat{x}_{i,j}=\\frac{x_{i,j}-\\mu_{j}}{\\sqrt{\\sigma_{j}^{2}+\\epsilon}}$",
@@ -1230,7 +1200,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 116,
+    "id": 121,
     "tresc_pl": "W jaki sposób zmienia się rozmiar pola recepcyjnego (receptive field size) wraz z dodawaniem kolejnych warstw splotowych o rozmiarze jądra K?",
     "tresc_eng": "How does the receptive field size change with each successive convolution layer of kernel size K?",
     "odp_a_pl": "Każda kolejna warstwa splotu zwiększa rozmiar pola recepcyjnego o $K-1$, a dla L warstw wynosi on $1+L \\cdot (K-1)$.",
@@ -1240,7 +1210,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 117,
+    "id": 122,
     "tresc_pl": "Jakie trzy hiperparametry charakteryzują warstwę łączącą (Pooling Layer) jako kolejną metodę downsamplingu?",
     "tresc_eng": "What three hyperparameters characterize the pooling layer as another downsampling method?",
     "odp_a_pl": "Rozmiar jądra (Kernel Size), krok (Stride) oraz funkcja łącząca (Pooling function).",
@@ -1250,7 +1220,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 118,
+    "id": 123,
     "tresc_pl": "W sieci GoogLeNet, co stanowiło główny powód wprowadzenia pomocniczych klasyfikatorów (Auxiliary Classifiers) dołączanych w pośrednich punktach sieci?",
     "tresc_eng": "In the GoogLeNet network, what was the main reason for introducing auxiliary classifiers attached at several intermediate points?",
     "odp_a_pl": "Sieć była zbyt głęboka, przez co sygnał błędu (gradient) nie propagował się dobrze z samego końca sieci.",
@@ -1260,7 +1230,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 119,
+    "id": 124,
     "tresc_pl": "Dlaczego w nowoczesnych architekturach (po sieci GoogLeNet) zaprzestano stosowania pomocniczych klasyfikatorów?",
     "tresc_eng": "Why did modern architectures stop using auxiliary classifiers after GoogLeNet?",
     "odp_a_pl": "Ponieważ wprowadzono warstwę normalizacji pakietowej (Batch Normalization), dzięki której ta metoda przestała być potrzebna do poprawnej propagacji gradientu.",
@@ -1270,7 +1240,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 120,
+    "id": 125,
     "tresc_pl": "Na czym polega problem degradacji (Degradation Problem) w bardzo głębokich tradycyjnych sieciach ('plain networks') zaobserwowany przez He i in. (2016)?",
     "tresc_eng": "What is the degradation problem in very deep plain networks observed by He et al. (2016)?",
     "odp_a_pl": "Wraz ze wzrostem głębokości sieci błąd treningowy (a w konsekwencji błąd testowy) zaczyna rosnąć, co oznacza trudność w optymalizacji.",
@@ -1280,7 +1250,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 121,
+    "id": 126,
     "tresc_pl": "W jaki sposób bloki rezydualne (Residual Blocks) w sieciach ResNet rozwiązują matematycznie problem degradacji głębokich sieci?",
     "tresc_eng": "How do residual blocks in ResNet networks mathematically solve the degradation problem of deep networks?",
     "odp_a_pl": "Zamiast uczyć się bezpośredniego odwzorowania $H(x)$, sieć uczy się funkcji rezydualnej $F(x) = H(x) - x$ i dodaje wejście $x$ z powrotem za pomocą połączenia skrótowego (Skip connection).",
@@ -1290,7 +1260,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 122,
+    "id": 127,
     "tresc_pl": "Czym różni się blok typu 'Bottleneck' od bloku podstawowego ('Basic Block') w architekturach ResNet pod względem struktury i kosztu obliczeniowego?",
     "tresc_eng": "How does a 'Bottleneck' block differ from a 'Basic Block' in ResNet architectures in terms of structure and computational cost?",
     "odp_a_pl": "Wykorzystuje warstwy splotu $1 \\times 1$ do zmniejszenia i późniejszego przywrócenia wymiaru kanałów, co pozwala na dodanie większej liczby warstw przy mniejszym koszcie obliczeniowym (FLOPs).",
@@ -1300,7 +1270,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 123,
+    "id": 128,
     "tresc_pl": "W jaki sposób sieci typu Squeeze-and-Excitation (SENet) modyfikują standardowe bloki sieci splotowych w celu poprawy wyników?",
     "tresc_eng": "How do Squeeze-and-Excitation networks (SENet) modify standard convolutional network blocks to improve performance?",
     "odp_a_pl": "Dodają gałąź realizującą globalne uśrednianie (Global Pooling), warstwy w pełni połączone i funkcję aktywacji Sigmoid, aby dynamicznie ważyć znaczenie poszczególnych kanałów cech (channel-wise information).",
@@ -1310,7 +1280,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 124,
+    "id": 129,
     "tresc_pl": "Na czym polega mechanizm przeszukiwania architektury neuronowej (Neural Architecture Search - NAS) zaproponowany przez Zopha i Le (2017)?",
     "tresc_eng": "What does the Neural Architecture Search (NAS) mechanism proposed by Zoph and Le (2017) consist of?",
     "odp_a_pl": "Wykorzystuje sieć sterującą (Controller) opartą na RNN, która generuje i próbkuje architektury sieci dziecięcych (child networks), a następnie uaktualnia swoje wagi na podstawie osiąganej przez nie dokładności przy użyciu algorytmu gradientu polityki.",
@@ -1320,7 +1290,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 125,
+    "id": 130,
     "tresc_pl": "Jaka jest główna wada klasycznego podejścia do Neural Architecture Search (NAS) wskazana w podsumowaniu tematu?",
     "tresc_eng": "What is the main disadvantage of the classic Neural Architecture Search (NAS) approach pointed out in the topic summary?",
     "odp_a_pl": "Jest skrajnie kosztowne obliczeniowo (np. wymagało użycia 800 układów GPU przez 28 dni w oryginalnej pracy).",
@@ -1330,7 +1300,7 @@
     "nazwa_pliku": "DL6.pdf"
   },
   {
-    "id": 126,
+    "id": 131,
     "tresc_pl": "Czym różni się zadanie detekcji obiektów (Object Detection) od klasyfikacji obrazu (Image Classification) w kontekście wizji komputerowej?",
     "tresc_eng": "How does the Object Detection task differ from Image Classification in the context of computer vision?",
     "odp_a_pl": "Klasyfikacja określa jedynie kategorię głównego obiektu na obrazie, podczas gdy detekcja identyfikuje wiele obiektów oraz wyznacza ich położenie przestrzenne za pomocą otaczających ramek (bounding boxes).",
@@ -1340,7 +1310,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 127,
+    "id": 132,
     "tresc_pl": "Na czym polega podstawowa zasada działania klasycznej, pierwotnej architektury R-CNN ('Slow' R-CNN)?",
     "tresc_eng": "What is the basic operating principle of the classic, original R-CNN ('Slow' R-CNN) architecture?",
     "odp_a_pl": "Polega na niezależnym przepuszczeniu każdego z zaproponowanych regionów (~2k) przez sieć splotową ConvNet.",
@@ -1350,7 +1320,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 128,
+    "id": 133,
     "tresc_pl": "Jakie kluczowe usprawnienie wprowadziła architektura Fast R-CNN w porównaniu do swojego poprzednika R-CNN?",
     "tresc_eng": "What key improvement did the Fast R-CNN architecture introduce compared to its predecessor R-CNN?",
     "odp_a_pl": "Przepuszcza cały obraz przez sieć splotową tylko raz, a następnie stosuje różniczkowalne wycinanie (cropping/RoI Pooling) na współdzielonych mapach cech obrazu.",
@@ -1360,7 +1330,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 129,
+    "id": 134,
     "tresc_pl": "Jaka innowacja wyróżnia architekturę Faster R-CNN na tle modeli R-CNN i Fast R-CNN?",
     "tresc_eng": "What innovation distinguishes the Faster R-CNN architecture from R-CNN and Fast R-CNN models?",
     "odp_a_pl": "Propozycje regionów (proposals) są obliczane bezpośrednio przez zintegrowaną sieć splotową (RPN), eliminując zewnętrzne algorytmy heurystyczne.",
@@ -1370,7 +1340,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 130,
+    "id": 135,
     "tresc_pl": "Czym charakteryzują się jednofazowe metody detekcji (Single-Stage methods) w porównaniu do modeli z rodziny R-CNN?",
     "tresc_eng": "What characterizes Single-Stage detection methods compared to models from the R-CNN family?",
     "odp_a_pl": "Są to w pełni splotowe detektory, które przewidują kategorie i współrzędne ramek bezpośrednio podczas jednego przejścia sieci, bez osobnego etapu generowania propozycji regionów.",
@@ -1380,7 +1350,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 131,
+    "id": 136,
     "tresc_pl": "Która z wymienionych technik została wskazana w podsumowaniu jako trik poprawiający wydajność współczesnych detektorów obiektów?",
     "tresc_eng": "Which of the mentioned techniques was indicated in the summary as a trick to improve the performance of modern object detectors?",
     "odp_a_pl": "Zastosowanie wieloskalowego szkieletu sieci w postaci wielopoziomowych sieci piramid cech (Feature Pyramid Networks).",
@@ -1390,7 +1360,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 132,
+    "id": 137,
     "tresc_pl": "Co oznacza pojęcie 'Test-time augmentation' (TTA) wymienione jako jedna z metod podnoszących skuteczność modeli detekcji?",
     "tresc_eng": "What does 'Test-time augmentation' (TTA) mean, mentioned as one of the methods increasing the effectiveness of detection models?",
     "odp_a_pl": "Technika augmentacji (modyfikacji/wzbogacania) danych wejściowych stosowana w fazie testowania/predykcji w celu uzyskania stabilniejszych wyników.",
@@ -1400,7 +1370,7 @@
     "nazwa_pliku": "DL11.pdf"
   },
   {
-    "id": 133,
+    "id": 138,
     "tresc_pl": "Czym różni się zadanie segmentacji instancji (Instance Segmentation) od segmentacji semantycznej (Semantic Segmentation) przedstawionej w zestawieniu zadań wizyjnych?",
     "tresc_eng": "How does Instance Segmentation differ from Semantic Segmentation as presented in the computer vision tasks overview?",
     "odp_a_pl": "Segmentacja semantyczna klasyfikuje wszystkie piksele danej kategorii jako jedną masę (np. trawa, niebo), podczas gdy segmentacja instancji potrafi dodatkowo rozróżnić i odseparować od siebie poszczególne, indywidualne obiekty tej samej klasy (np. osobne koty).",
@@ -1410,7 +1380,7 @@
     "nazwa_pliku": "DL12.pdf"
   },
   {
-    "id": 134,
+    "id": 139,
     "tresc_pl": "Jaka metryka jest powszechnie stosowana do oceny skuteczności algorytmów detekcji i lokalizacji obiektów (np. w kontekście historycznego wykresu dla bazy PASCAL VOC)?",
     "tresc_eng": "Which metric is commonly used to evaluate the performance of object detection and localization algorithms (e.g., in the context of the historical chart for the PASCAL VOC dataset)?",
     "odp_a_pl": "mAP (mean Average Precision)",
@@ -1420,7 +1390,7 @@
     "nazwa_pliku": "DL12.pdf"
   },
   {
-    "id": 135,
+    "id": 140,
     "tresc_pl": "Na czym polega zadanie gęstego opisywania obrazu (Dense Captioning) realizowane przez architekturę DenseCap (Johnson i in., 2016)?",
     "tresc_eng": "What does the Dense Captioning task consist of, as implemented by the DenseCap architecture (Johnson et al., 2016)?",
     "odp_a_pl": "Na jednoczesnej lokalizacji wielu regionów na obrazie oraz generowaniu opisów tekstowych w języku naturalnym dla każdego z tych regionów.",
@@ -1430,7 +1400,7 @@
     "nazwa_pliku": "DL12.pdf"
   },
   {
-    "id": 136,
+    "id": 141,
     "tresc_pl": "Jakie unikalne zadanie realizuje zaawansowana architektura Mesh R-CNN zaproponowana przez Gkioxari i in. (2019)?",
     "tresc_eng": "What unique task is performed by the advanced Mesh R-CNN architecture proposed by Gkioxari et al. (2019)?",
     "odp_a_pl": "Zadanie przewidywania kształtu 3D poprzez estymację trójwymiarowej siatki trójkątów (3D triangle mesh) niezależnie dla każdego wykrytego regionu obiektu.",
@@ -1440,7 +1410,7 @@
     "nazwa_pliku": "DL12.pdf"
   },
   {
-    "id": 137,
+    "id": 142,
     "tresc_pl": "Jakie trzy rodzaje komponentów funkcji straty (losses/predictors) są połączone w architekturze sieci Mesh R-CNN w celu optymalizacji predykcji obiektów w 3D?",
     "tresc_eng": "Which three types of loss components (losses/predictors) are combined in the Mesh R-CNN network architecture to optimize 3D object prediction?",
     "odp_a_pl": "Strata klasyfikacji (Classification loss), strata regresji ramki otaczającej (Bounding-box regression loss) oraz predyktor siatki 3D (Mesh predictor).",
@@ -1450,7 +1420,7 @@
     "nazwa_pliku": "DL12.pdf"
   },
   {
-    "id": 114,
+    "id": 143,
     "tresc_pl": "Jak zmienia się rola wektora prędkości $v$ w czasie, jeśli w algorytmie SGD z pędem gradient $dw$ w kolejnych krokach ma stale ten sam znak i kierunek?",
     "tresc_eng": "How does the role of the velocity vector $v$ change over time if the gradient $dw$ in successive steps has constantly the same sign and direction in the SGD with Momentum algorithm?",
     "odp_a_pl": "Wartość prędkości $v$ rośnie (kumuluje się), co powoduje, że kroki aktualizacji wag stają się coraz większe, przyspieszając schodzenie w dół topologii błędu.",
@@ -1460,7 +1430,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 115,
+    "id": 144,
     "tresc_pl": "W jaki sposób w kodzie uczenia sieci neuronowej (zamieszczonym w slajdach) inicjalizowany jest wektor pędu/prędkości $v$ przed wejściem do pętli optymalizacji?",
     "tresc_eng": "How is the momentum/velocity vector $v$ initialized in the neural network training code (provided in the slides) before entering the optimization loop?",
     "odp_a_pl": "Jest inicjalizowany jako zero ($v = 0$).",
@@ -1470,7 +1440,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 116,
+    "id": 145,
     "tresc_pl": "Który z poniższych zapisów poprawnie przedstawia pełne sformułowanie całkowitej funkcji straty (Total Loss $L$) modelu, uwzględniające zarówno dopasowanie do danych, jak i regularyzację?",
     "tresc_eng": "Which of the following notations correctly presents the full formulation of the model's total loss ($L$), taking into account both data loss and regularization?",
     "odp_a_pl": "$L = \\frac{1}{N}\\sum_{i=1}^{N}L_{i} + R(W)$",
@@ -1480,7 +1450,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 117,
+    "id": 146,
     "tresc_pl": "Jak na schemacie blokowym podsumowania zdefiniowano relację wejścia $x$ i wag $W$ w podstawowym modelu liniowym (Linear Classifier) przed obliczeniem straty?",
     "tresc_eng": "How is the relationship between input $x$ and weights $W$ in the basic linear model (Linear Classifier) defined on the summary block diagram before calculating the loss?",
     "odp_a_pl": "Jako funkcję punktacji $s = f(x;W) = Wx$.",
@@ -1490,7 +1460,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 118,
+    "id": 147,
     "tresc_pl": "Wizualny punkt widzenia (Visual Viewpoint) na ograniczenia klasyfikatorów liniowych pokazuje, że potrafią one uczyć się tylko jednego szablonu (template) dla każdej klasy. Dlaczego jest to problemem np. dla kategorii 'koń'?",
     "tresc_eng": "The Visual Viewpoint on the limitations of linear classifiers shows that they can only learn one template per class. Why is this a problem, for example, for the 'horse' category?",
     "odp_a_pl": "Ponieważ konie mogą występować w różnych orientacjach przestrzennych (np. profil lewy lub prawy), a klasyfikator liniowy próbuje połączyć te wzorce w jeden rozmyty szablon (np. koń z dwiema głowami).",
@@ -1500,7 +1470,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 119,
+    "id": 148,
     "tresc_pl": "Przeanalizuj tabelę architektury sieci wielowarstwowej. Jaki jest rozmiar wyjściowy (output size) cech bezpośrednio po przejściu przez warstwę 'fc7', a przed wejściem do ostatniej warstwy klasyfikującej 'fc8'?",
     "tresc_eng": "Analyze the multi-layer network architecture table. What is the output size of features directly after passing through the 'fc7' layer, and before entering the final classifying layer 'fc8'?",
     "odp_a_pl": "4096",
@@ -1510,7 +1480,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 120,
+    "id": 149,
     "tresc_pl": "Na podstawie tabeli parametrów sieci, ile wynosi rozmiar wektora po operacji spłaszczenia ('flatten'), która przygotowuje mapy cech z warstwy 'pool5' dla warstw w pełni połączonych?",
     "tresc_eng": "Based on the network parameter table, what is the size of the vector after the 'flatten' operation, which prepares feature maps from the 'pool5' layer for fully connected layers?",
     "odp_a_pl": "9216",
@@ -1520,7 +1490,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 121,
+    "id": 150,
     "tresc_pl": "Która funkcja straty (Loss Function) została wymieniona w podsumowaniu slajdu 2 obok funkcji Softmax jako alternatywny sposób oceniania predykcji?",
     "tresc_eng": "Which loss function was listed in the summary of slide 2 alongside the Softmax function as an alternative way to evaluate predictions?",
     "odp_a_pl": "SVM (Hinge loss: $L_{i}=\\sum_{j\\ne y_{i}}\\max(0,s_{j}-s_{y_{i}}+1)$).",
@@ -1530,7 +1500,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 122,
+    "id": 151,
     "tresc_pl": "W tabeli warstw sieci, jaka jest nazwa i kolejność trzech ostatnich warstw oznaczonych skrótem 'fc'?",
     "tresc_eng": "In the network layers table, what is the name and order of the last three layers abbreviated as 'fc'?",
     "odp_a_pl": "fc6, fc7, fc8",
@@ -1540,7 +1510,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 123,
+    "id": 152,
     "tresc_pl": "Co dzieje się z wagami modelu podczas wykonywania operacji $w -= \\text{learning\\_rate} \\cdot v$ w algorytmie stochastycznego spadku z pędem?",
     "tresc_eng": "What happens to the model weights during the operation $w -= \\text{learning\\_rate} \\cdot v$ in the stochastic gradient descent with momentum algorithm?",
     "odp_a_pl": "Wagi są modyfikowane o krok proporcjonalny do zgromadzonej prędkości $v$, a nie tylko do chwilowego gradientu.",
@@ -1550,7 +1520,7 @@
     "nazwa_pliku": "DL5.pdf"
   },
   {
-    "id": 138,
+    "id": 153,
     "tresc_pl": "Które z zadań przetwarzania sekwencji zostało wskazane w materiale jako przykład relacji 'jeden do wielu' (one to many) w sieciach RNN?",
     "tresc_eng": "Which sequence processing task was indicated in the material as an example of a 'one to many' relationship in RNNs?",
     "odp_a_pl": "Automatyczne opisywanie obrazów (Image Captioning), gdzie wejściem jest pojedynczy obraz, a wyjściem sekwencja słów.",
@@ -1560,7 +1530,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 139,
+    "id": 154,
     "tresc_pl": "Jakie zadanie odpowiada relacji 'wiele do jednego' (many to one) w kontekście sekwencyjnego przetwarzania przez sieci rekurencyjne?",
     "tresc_eng": "Which task corresponds to a 'many to one' relationship in the context of sequential processing by recurrent networks?",
     "odp_a_pl": "Klasyfikacja wideo (Video classification), gdzie sekwencja obrazów wejściowych daje na wyjściu jedną globalną etykietę.",
@@ -1570,7 +1540,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 140,
+    "id": 155,
     "tresc_pl": "Które zjawisko stanowi klasyczny przykład relacji 'wiele do wielu' (many to many), w której cała sekwencja wejściowa musi zostać przetworzona przed wygenerowaniem sekwencji wyjściowej?",
     "tresc_eng": "Which phenomenon constitutes a classic example of a 'many to many' relationship, where the entire input sequence must be processed before generating the output sequence?",
     "odp_a_pl": "Tłumaczenie maszynowe (Machine Translation).",
@@ -1580,7 +1550,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 141,
+    "id": 156,
     "tresc_pl": "Na czym polega idea sekwencyjnego przetwarzania danych niesekwencyjnych (Sequential Processing of Non-Sequential Data) zaprezentowana przez Ba i in. (2015)?",
     "tresc_eng": "What does the idea of sequential processing of non-sequential data presented by Ba et al. (2015) consist of?",
     "odp_a_pl": "Na klasyfikacji obrazów poprzez wykonywanie serii ukradkowych spojrzeń (glimpses) przy użyciu mechanizmu uwagi wizualnej.",
@@ -1590,7 +1560,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 142,
+    "id": 157,
     "tresc_pl": "Co daje dodanie mechanizmu atencji (Attention) do modelów rekurencyjnych (RNN) według pracy Xu i in. (2015)?",
     "tresc_eng": "What does adding the Attention mechanism to recurrent models (RNN) provide according to the work of Xu et al. (2015)?",
     "odp_a_pl": "Pozwala modelom na spoglądanie w każdym kroku czasowym na zupełnie inne części danych wejściowych.",
@@ -1600,7 +1570,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 143,
+    "id": 158,
     "tresc_pl": "Jak definiowane są sieci Transformer w podsumowaniu dotyczącym ich struktury?",
     "tresc_eng": "How are Transformer networks defined in the summary regarding their structure?",
     "odp_a_pl": "Jako model sieci neuronowej, który opiera się wyłącznie na mechanizmie atencji (only uses attention).",
@@ -1610,7 +1580,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 144,
+    "id": 159,
     "tresc_pl": "Które komponenty strukturalne są połączone w architekturze Transformer obok mechanizmu Self-Attention?",
     "tresc_eng": "Which structural components are combined in the Transformer architecture alongside the Self-Attention mechanism?",
     "odp_a_pl": "Normalizacja warstwowa (Layer Normalization) oraz wielowarstwowy perceptron (MLP).",
@@ -1620,7 +1590,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 145,
+    "id": 160,
     "tresc_pl": "Ile parametrów posiada podstawowy model Transformer-Base, a ile jego powiększona wersja Transformer-Large według tabeli skalowania?",
     "tresc_eng": "How many parameters does the basic Transformer-Base model have, and how many does its enlarged version Transformer-Large have according to the scaling table?",
     "odp_a_pl": "Transformer-Base ma 65 milionów parametrów, a Transformer-Large ma 213 milionów parametrów.",
@@ -1630,7 +1600,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 146,
+    "id": 161,
     "tresc_pl": "Czym charakteryzuje się podstawowy typ architektury sieci oznaczony jako 'jeden do jednego' (one to one) w kontekście przetwarzania danych?",
     "tresc_eng": "What characterizes the basic network architecture type designated as 'one to one' in the context of data processing?",
     "odp_a_pl": "Jest to klasyczna sieć jednokierunkowa (Feedforward), gdzie pojedynczemu elementowi wejściowemu (np. obrazowi) odpowiada jedna etykieta wyjściowa.",
@@ -1640,7 +1610,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 147,
+    "id": 162,
     "tresc_pl": "Które z zadań przetwarzania wideo odpowiada relacji 'wiele do wielu' (many to many) w wersji zsynchronizowanej krok po kroku, gdzie wyjście jest generowane dla każdego elementu wejściowego na bieżąco?",
     "tresc_eng": "Which video processing task corresponds to a 'many to many' relationship in a step-by-step synchronized version, where an output is generated for each input element in real time?",
     "odp_a_pl": "Klasyfikacja wideo klatka po klatce (Per-frame video classification), gdzie sekwencji obrazów odpowiada sekwencja etykiet.",
@@ -1650,7 +1620,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 148,
+    "id": 163,
     "tresc_pl": "Na czym polega główna zaleta przetwarzania sekwencyjnego przez sieci rekurencyjne (RNN) w porównaniu do standardowych sieci wielowarstwowych (Feedforward)?",
     "tresc_eng": "What is the main advantage of sequential processing by recurrent networks (RNNs) compared to standard feedforward networks?",
     "odp_a_pl": "Pozwalają na przetwarzanie danych wejściowych i wyjściowych o zmiennej długości sekwencji dzięki współdzieleniu wag w kolejnych krokach czasowych.",
@@ -1660,7 +1630,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 149,
+    "id": 164,
     "tresc_pl": "W jaki sposób model Xu i in. (2015) realizuje zadanie automatycznego opisywania obrazów za pomocą sieci rekurencyjnej wzbogaconej o mechanizm uwagi (Attention)?",
     "tresc_eng": "How does the model by Xu et al. (2015) implement the image captioning task using a recurrent network enriched with an attention mechanism?",
     "odp_a_pl": "Sieć rekurencyjna w każdym kroku czasowym generowania słowa skupia się (spogląda) na innych, istotnych przestrzennych fragmentach obrazu wejściowego.",
@@ -1670,7 +1640,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 150,
+    "id": 165,
     "tresc_pl": "Biorąc pod uwagę uogólniony mechanizm Self-Attention (Generalized Self-Attention), jak został on określony w podsumowaniu wykładu?",
     "tresc_eng": "Considering the Generalized Self-Attention mechanism, how was it designated in the lecture summary?",
     "odp_a_pl": "Jako potężny prymityw sieci neuronowej (powerful neural network primitive).",
@@ -1680,7 +1650,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 151,
+    "id": 166,
     "tresc_pl": "Ile unikalnych głów atencji (Heads) posiada podstawowy model Transformer-Base, a ile jego powiększona wersja Transformer-Large według tabeli parametrów?",
     "tresc_eng": "How many unique attention heads does the basic Transformer-Base model have, and how many does its enlarged version Transformer-Large have according to the parameter table?",
     "odp_a_pl": "Transformer-Base posiada 8 głów, natomiast Transformer-Large posiada 16 głów.",
@@ -1690,7 +1660,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 152,
+    "id": 167,
     "tresc_pl": "Jaka jest szerokość (Width/Embedding dimension) wektorów ukrytych dla modelu Transformer-Base oraz Transformer-Large w tabeli skalowania?",
     "tresc_eng": "What is the width (Embedding dimension) of hidden vectors for the Transformer-Base and Transformer-Large models in the scaling table?",
     "odp_a_pl": "512 dla modelu Transformer-Base oraz 1024 dla modelu Transformer-Large.",
@@ -1700,7 +1670,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 153,
+    "id": 168,
     "tresc_pl": "Która operacja normalizacyjna (Normalization) jest bezpośrednio zintegrowana w bloku sieci Transformer (występuje dwukrotnie w architekturze obok warstwy MLP)?",
     "tresc_eng": "Which normalization operation is directly integrated within the Transformer network block (appears twice in the architecture alongside the MLP layer)?",
     "odp_a_pl": "Normalizacja warstwowa (Layer Normalization).",
@@ -1710,7 +1680,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 154,
+    "id": 169,
     "tresc_pl": "Jaki blok matematyczny odpowiada za przekształcenie wyjścia z warstwy Layer Normalization wewnątrz struktury Transformer, występując niezależnie dla każdego tokenu sekwencji?",
     "tresc_eng": "Which mathematical block is responsible for transforming the output from the Layer Normalization layer within the Transformer structure, appearing independently for each sequence token?",
     "odp_a_pl": "Wielowarstwowy perceptron (MLP).",
@@ -1720,7 +1690,7 @@
     "nazwa_pliku": "DL9.pdf"
   },
   {
-    "id": 155,
+    "id": 170,
     "tresc_pl": "Co stanowi kluczową różnicę strukturalną między modelami rekurencyjnymi (RNN) a sieciami Transformer (jak zaznaczono w podsumowaniu)?",
     "tresc_eng": "What is the key structural difference between recurrent models (RNNs) and Transformer networks (as highlighted in the summary)?",
     "odp_a_pl": "Transformers to model sieci neuronowej, który całkowicie rezygnuje z rekurencji i opiera się wyłącznie na mechanizmie atencji (only uses attention).",
@@ -1728,5 +1698,425 @@
     "odp_c_pl": "Networks RNN wymagają użycia procesorów graficznych GPU, podczas gdy Transformers uczą się efektywnie bez GPU.",
     "odp_d_pl": "Transformers działają tylko na rzadkich reprezentacjach słowników, nie obsługując embeddingów.",
     "nazwa_pliku": "DL9.pdf"
+  },
+  {
+    "tresc_pl": "Czy funkcja mieszająca $H$ używana w hashing trick może być różnowartościowa (injektywna)?",
+    "tresc_eng": "Can the hashing function $H$ used in the hashing trick be injective (one-to-one)?",
+    "odp_a_pl": "Nie — domena napisów $\\Sigma^{*}$ jest nieskończona, a wartości funkcji mieszczą się w skończonym zbiorze $\\{0,\\dots,2^b-1\\}$.",
+    "odp_b_pl": "Tak — MurmurHash gwarantuje brak kolizji dla wszystkich par słów w słowniku.",
+    "odp_c_pl": "Tak — injektywność jest warunkiem koniecznym poprawnego działania tf-idf.",
+    "odp_d_pl": "Nie — ale wyłącznie dlatego, że wektory dokumentów muszą być gęste.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb",
+    "id": 171
+  },
+  {
+    "tresc_pl": "Podobne napisy mają zupełnie różne wartości funkcji haszującej — czy to zjawisko jest pożądane w kontekście hashing trick?",
+    "tresc_eng": "Similar strings have completely different hash function values — is this phenomenon desirable in the context of the hashing trick?",
+    "odp_a_pl": "Tak — pożądane jest, by podobne napisy nie koncentrowały się w tych samych przegródkach; liczy się raczej równomierny rozkład.",
+    "odp_b_pl": "Nie — podobne napisy powinny zawsze trafiać do tej samej przegródki, aby zachować semantykę.",
+    "odp_c_pl": "Nie — różne wartości hash oznaczają błąd implementacji MurmurHash.",
+    "odp_d_pl": "Tak — ale tylko wtedy, gdy parametr $b$ jest ustawiony na wartość mniejszą niż 4.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb",
+    "id": 172
+  },
+  {
+    "tresc_pl": "Jak zbudowany jest wektor pojedynczego termu $t$ przy stosowaniu hashing trick ze schematem tf-idf?",
+    "tresc_eng": "How is the vector of a single term $t$ constructed when using the hashing trick with the tf-idf weighting scheme?",
+    "odp_a_pl": "Wektor rozmiaru $2^b$ wypełniony zerami, z wyjątkiem pozycji $H(t)$, gdzie umieszcza się wartość idf danego termu.",
+    "odp_b_pl": "Wektor one-hot o długości równej liczbie unikalnych słów w kolekcji.",
+    "odp_c_pl": "Wektor Word2vec pobrany bezpośrednio z gotowej bazy embeddingów.",
+    "odp_d_pl": "Wektor dwuwymiarowy zawierający tf na pierwszej pozycji i idf na drugiej.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb",
+    "id": 173
+  },
+  {
+    "tresc_pl": "Jak uzyskuje się wektor całego dokumentu $d = (t_1, \\ldots, t_n)$ przy hashing trick ze schematem tf-idf?",
+    "tresc_eng": "How is the vector of an entire document $d = (t_1, \\ldots, t_n)$ obtained when using the hashing trick with tf-idf?",
+    "odp_a_pl": "Poprzez zsumowanie wektorów poszczególnych termów: $\\vec{d} = \\sum_i \\vec{t_i}$.",
+    "odp_b_pl": "Poprzez uśrednienie wektorów Word2vec wszystkich słów dokumentu.",
+    "odp_c_pl": "Poprzez iloczyn macierzy odwrotnej $\\mathbf{X}^{-1}$ i wektora etykiet.",
+    "odp_d_pl": "Poprzez wybranie wektora termu o najwyższej wartości idf w dokumencie.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb",
+    "id": 174
+  },
+  {
+    "tresc_pl": "Co dzieje się w hashing trick, gdy zwiększamy parametr $b$ (rozmiar odcisku)?",
+    "tresc_eng": "What happens in the hashing trick when we increase the parameter $b$ (fingerprint size)?",
+    "odp_a_pl": "Kolizje stają się mniej prawdopodobne, ale wektory mogą stać się większe niż w standardowym podejściu tf-idf.",
+    "odp_b_pl": "Wektory stają się krótsze, a liczba kolizji rośnie proporcjonalnie do $b$.",
+    "odp_c_pl": "Traci się możliwość uwzględniania słów spoza początkowej kolekcji.",
+    "odp_d_pl": "Konieczne staje się przechowywanie pełnego słownika w pamięci RAM.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb",
+    "id": 175
+  },
+  {
+    "tresc_pl": "Jakie własności powinny mieć „dobre” wektory słów według wykładu o gęstych reprezentacjach?",
+    "tresc_eng": "What properties should 'good' word vectors have according to the dense representations lecture?",
+    "odp_a_pl": "Podobne znaczeniowo słowa powinny być reprezentowane przez podobne wektory (blisko siebie w przestrzeni wektorowej).",
+    "odp_b_pl": "Każde słowo powinno mieć wektor one-hot o rozmiarze całego słownika języka.",
+    "odp_c_pl": "Wektory muszą być rzadkie i zawierać jak najwięcej zer.",
+    "odp_d_pl": "Wartości wektorów powinny odpowiadać dokładnie wagom regresji liniowej wyceny mieszkań.",
+    "nazwa_pliku": "05_Geste_wektory.ipynb",
+    "id": 176
+  },
+  {
+    "tresc_pl": "Do czego sprowadza się pretrenowanie modelu językowego na dużym korpusie tekstu, według wykładu?",
+    "tresc_eng": "What does pretraining a language model on a large text corpus boil down to, according to the lecture?",
+    "odp_a_pl": "Do odgadywania następnego lub zamaskowanego słowa, z użyciem softmax na reprezentacji kontekstowej $\\vec{p} = \\operatorname{softmax}(f(\\vec{c}))$.",
+    "odp_b_pl": "Do ręcznego etykietowania każdego słowa w korpusie przez anotatorów.",
+    "odp_c_pl": "Do minimalizacji błędu MAE między ceną mieszkania a opisem tekstowym.",
+    "odp_d_pl": "Do budowy słownika odwzorowującego słowa na indeksy bez użycia funkcji skrótu.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb",
+    "id": 177
+  },
+  {
+    "tresc_pl": "Jaka jest dokładna proporcja w schemacie maskowania BERT dla wybranych 15% wyrazów do odgadnięcia?",
+    "tresc_eng": "What is the exact proportion in the BERT masking scheme for the 15% of words selected for prediction?",
+    "odp_a_pl": "80% zastępuje się tokenem [MASK], 10% innym losowym wyrazem, a 10% pozostawia bez zmian.",
+    "odp_b_pl": "100% zastępuje się tokenem [MASK], bez wyjątków.",
+    "odp_c_pl": "50% zastępuje się tokenem [MASK], a 50% pozostawia bez zmian.",
+    "odp_d_pl": "15% zastępuje się tokenem [MASK], 15% losowym wyrazem, a 70% pozostawia bez zmian.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb",
+    "id": 178
+  },
+  {
+    "tresc_pl": "Która z wymienionych zalet przypisano w wykładzie modelom autoregresyjnym typu GPT pod kątem uczenia few-shot i zero-shot?",
+    "tresc_eng": "Which of the following advantages was attributed in the lecture to autoregressive models like GPT regarding few-shot and zero-shot learning?",
+    "odp_a_pl": "Zaskakującą skuteczność przy uczeniu few-shot i zero-shot.",
+    "odp_b_pl": "Pełną symetrię przetwarzania kontekstu lewego i prawego.",
+    "odp_c_pl": "Wyższą skuteczność niż BERT w zadaniach klasyfikacji sekwencji.",
+    "odp_d_pl": "Brak konieczności stosowania funkcji softmax na reprezentacji kontekstowej.",
+    "nazwa_pliku": "14_pretrenowanie.ipynb",
+    "id": 179
+  },
+  {
+    "tresc_pl": "Jak w pierwszej warstwie sieci Transformer wyznaczane są macierze Q, K i V z embeddingów tokenów $E$?",
+    "tresc_eng": "How are the Q, K, and V matrices computed from token embeddings $E$ in the first layer of a Transformer network?",
+    "odp_a_pl": "$Q = EW^Q$, $K = EW^K$, $V = EW^V$, gdzie $W^Q$, $W^K$, $W^V$ to wyuczone macierze wag.",
+    "odp_b_pl": "$Q = K = V = E$ — embeddingi są używane bezpośrednio bez transformacji.",
+    "odp_c_pl": "$Q$, $K$ i $V$ są losowane na początku każdej epoki uczenia.",
+    "odp_d_pl": "$Q$, $K$ i $V$ pochodzą z gotowych wektorów Word2vec pobranych z zewnętrznej bazy.",
+    "nazwa_pliku": "15_transformer.ipynb",
+    "id": 180
+  },
+  {
+    "tresc_pl": "Co oznacza w praktyce wektor atencji wskazujący, że drugie słowo zdania „najbardziej patrzy” na pierwsze słowo?",
+    "tresc_eng": "What does it mean in practice when an attention vector indicates that the second word in a sentence 'looks at' the first word the most?",
+    "odp_a_pl": "Że przy obliczaniu reprezentacji drugiego tokena największy wkład pochodzi od wartości $V$ powiązanej z pierwszym tokenem (najwyższa zgodność zapytania $Q$ z kluczem $K$).",
+    "odp_b_pl": "Że drugi token zostanie zastąpiony tokenem [MASK] podczas pretrenowania BERT.",
+    "odp_c_pl": "Że pierwszy token ma zerową wagę w funkcji straty log-loss.",
+    "odp_d_pl": "Że macierze $W^Q$, $W^K$ i $W^V$ nie wymagają uczenia w tej warstwie.",
+    "nazwa_pliku": "15_transformer.ipynb",
+    "id": 181
+  },
+  {
+    "tresc_pl": "Które cechy w przykładzie wielowymiarowej regresji liniowej (wycena mieszkań) mają charakter zerojedynkowy?",
+    "tresc_eng": "Which features in the multivariate linear regression example (apartment pricing) are binary (zero-one) features?",
+    "odp_a_pl": "Np. czy wielka płyta?, czy jest jacuzzi?, czy jest grzyb?, czy to Kielce/Kraków/Katowice.",
+    "odp_b_pl": "Wyłącznie powierzchnia w $m^2$ i liczba pokoi.",
+    "odp_c_pl": "Wiek budynku i odległość od Dworca Centralnego.",
+    "odp_d_pl": "Wektor tf-idf opisu mieszkania.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb",
+    "id": 182
+  },
+  {
+    "tresc_pl": "Regresja liniowa jednej zmiennej jest łatwa do rozwiązania analitycznie — na czym to polega?",
+    "tresc_eng": "Single-variable linear regression is easy to solve analytically — what does this mean?",
+    "odp_a_pl": "Wystarczy podstawić dane do gotowych wzorów na $\\hat{b}$ i $\\hat{a}$ bez iteracyjnego uczenia.",
+    "odp_b_pl": "Wymaga wylosowania wag początkowych i wielokrotnego stosowania gradientu prostego.",
+    "odp_c_pl": "Polega na zamianie wszystkich cech na reprezentację tf-idf przed dopasowaniem prostej.",
+    "odp_d_pl": "Wymaga odwrócenia macierzy $\\mathbf{X}^{\\rm T}\\mathbf{X}$ o wymiarze równym liczbie słów w słowniku.",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb",
+    "id": 183
+  },
+  {
+    "tresc_pl": "Na czym polega regresja na tekście w odróżnieniu od klasyfikacji na tekście?",
+    "tresc_eng": "What is text regression as opposed to text classification?",
+    "odp_a_pl": "Regresja przewiduje ciągłą wartość liczbową (np. ocena sentymentu 1–5), a klasyfikacja przypisuje etykiety dyskretne (np. spam / nie-spam).",
+    "odp_b_pl": "Regresja działa wyłącznie na obrazach, a klasyfikacja wyłącznie na tekstach.",
+    "odp_c_pl": "Regresja wymaga softmax na wyjściu, a klasyfikacja jednego neuronu liniowego.",
+    "odp_d_pl": "Regresja zawsze korzysta z wektorów one-hot, a klasyfikacja z embeddingów Word2vec.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 184
+  },
+  {
+    "tresc_pl": "Jaką funkcję stosuje regresja logistyczna na tekście, aby przekształcić surowy wynik liniowy w prawdopodobieństwo z przedziału $(0, 1)$?",
+    "tresc_eng": "Which function does logistic regression on text use to transform a raw linear score into a probability in the $(0, 1)$ interval?",
+    "odp_a_pl": "Funkcję sigmoidalną $\\sigma(z) = \\frac{1}{1 + e^{-z}}$.",
+    "odp_b_pl": "Funkcję ReLU $\\max(0, z)$.",
+    "odp_c_pl": "Funkcję tangens hiperboliczny $\\tanh(z)$ bez normalizacji.",
+    "odp_d_pl": "Funkcję pierwiastka kwadratowego $\\sqrt{|z|}$.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 185
+  },
+  {
+    "tresc_pl": "Jak różni się warstwa wyjściowa wielowarstwowej sieci feedforward (MLP) stosowanej do klasyfikacji tekstu od warstwy wyjściowej tej samej sieci w zadaniu regresji na tekście?",
+    "tresc_eng": "How does the output layer of a feedforward MLP for text classification differ from that of the same network for text regression?",
+    "odp_a_pl": "W klasyfikacji ostatnia warstwa ma tyle neuronów, co klas, i kończy się Softmax (lub Sigmoid przy klasyfikacji binarnej); w regresji zwykle jeden neuron z liniową aktywacją.",
+    "odp_b_pl": "W klasyfikacji stosuje się jeden neuron liniowy, a w regresji Softmax na całym słowniku.",
+    "odp_c_pl": "W obu przypadkach wyjście to zawsze wektor one-hot o długości $|V|$.",
+    "odp_d_pl": "W regresji wymagana jest funkcja sigmoidalna, a w klasyfikacji wyłącznie RMSE.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 186
+  },
+  {
+    "tresc_pl": "Na czym polega tokenizacja tekstu?",
+    "tresc_eng": "What is text tokenization?",
+    "odp_a_pl": "Na dzieleniu ciągłego tekstu na mniejsze jednostki (tokeny): wyrazy, znaki interpunkcyjne lub podwyrazy (BPE/subwords).",
+    "odp_b_pl": "Na zamianie każdego dokumentu w pojedynczy wektor o stałym rozmiarze $2^b$.",
+    "odp_c_pl": "Na obliczaniu średniej arytmetycznej embeddingów wszystkich słów w zdaniu.",
+    "odp_d_pl": "Na odwracaniu macierzy cech $\\mathbf{X}^{\\rm T}\\mathbf{X}$ przed klasyfikacją.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 187
+  },
+  {
+    "tresc_pl": "Na czym polega lematyzacja w przetwarzaniu języka naturalnego?",
+    "tresc_eng": "What is lemmatization in natural language processing?",
+    "odp_a_pl": "Na sprowadzaniu wyrazów odmienionych do formy podstawowej, słownikowej (lematu), np. „będziemy” $\\rightarrow$ „być”, „kotami” $\\rightarrow$ „kot”.",
+    "odp_b_pl": "Na losowym zamianie 15% wyrazów tokenem [MASK] podczas pretrenowania BERT.",
+    "odp_c_pl": "Na mapowaniu słów funkcją skrótu $H$ do przegródek o rozmiarze $2^b$.",
+    "odp_d_pl": "Na obliczaniu iloczynu skalarnego macierzy zapytań $Q$ i kluczy $K$.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 188
+  },
+  {
+    "tresc_pl": "Jak definiowany jest one-hot encoding słowa w kontekście słownika (vocabulary) korpusu?",
+    "tresc_eng": "How is one-hot word encoding defined in the context of a corpus vocabulary?",
+    "odp_a_pl": "Jako rzadki wektor długości $|V|$ z samymi zerami, z wyjątkiem jednej pozycji (indeksu słowa w słowniku), gdzie wartość wynosi 1.",
+    "odp_b_pl": "Jako gęsty wektor Word2vec o stałym wymiarze 300, niezależny od słownika.",
+    "odp_c_pl": "Jako suma wektorów idf wszystkich termów dokumentu po hashing trick.",
+    "odp_d_pl": "Jako macierz atencji $\\operatorname{softmax}(QK^T)V$ o wymiarze równym liczbie zdań.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 189
+  },
+  {
+    "tresc_pl": "Co oznacza składnik TF (Term Frequency) w reprezentacji tf-idf?",
+    "tresc_eng": "What does the TF (Term Frequency) component mean in tf-idf representation?",
+    "odp_a_pl": "Częstość występowania danego słowa w obrębie jednego dokumentu.",
+    "odp_b_pl": "Odwróconą częstość dokumentów zawierających dane słowo w całym korpusie.",
+    "odp_c_pl": "Stały rozmiar wektora równy $2^b$ niezależnie od słownika.",
+    "odp_d_pl": "Prawdopodobieństwo następnego słowa w modelu autoregresyjnym GPT.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 190
+  },
+  {
+    "tresc_pl": "Dlaczego w statystyce TF-IDF słowa takie jak spójniki „i”, „w”, „że” otrzymują zwykle niską wagę?",
+    "tresc_eng": "Why do words such as conjunctions \"i\", \"w\", \"że\" usually receive a low weight in TF-IDF statistics?",
+    "odp_a_pl": "Ponieważ występują niemal w każdym dokumencie, więc składnik IDF (powszechność w korpusie) obniża ich wagę.",
+    "odp_b_pl": "Ponieważ hashing trick zawsze mapuje spójniki do tej samej zerowej pozycji wektora.",
+    "odp_c_pl": "Ponieważ BERT maskuje je w 80% przypadków tokenem [MASK].",
+    "odp_d_pl": "Ponieważ regresja logistyczna stosuje na nich wyłącznie funkcję sigmoidalną.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 191
+  },
+  {
+    "tresc_pl": "Na czym opiera się uczenie Word2vec według hipotezy dystrybucyjnej?",
+    "tresc_eng": "What is Word2vec training based on according to the distributional hypothesis?",
+    "odp_a_pl": "Na założeniu, że słowa występujące w podobnych kontekstach mają podobne znaczenie; model przewiduje słowo z kontekstu (CBOW) lub kontekst ze słowa (Skip-gram).",
+    "odp_b_pl": "Na ręcznym etykietowaniu każdego słowa w korpusie przez anotatorów.",
+    "odp_c_pl": "Na odgadywaniu roku publikacji tekstu metodą regresji liniowej.",
+    "odp_d_pl": "Na klasyfikacji każdego piksela obrazu do osobnej kategorii semantycznej.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 192
+  },
+  {
+    "tresc_pl": "Który przykład ilustruje operacje arytmetyczne na embeddingach Word2vec wymieniony w materiale?",
+    "tresc_eng": "Which example illustrates arithmetic operations on Word2vec embeddings mentioned in the material?",
+    "odp_a_pl": "$\\vec{w}_{\\text{król}} - \\vec{w}_{\\text{mężczyzna}} + \\vec{w}_{\\text{kobieta}} \\approx \\vec{w}_{\\text{królowa}}$",
+    "odp_b_pl": "$\\vec{w}_{\\text{spam}} + \\vec{w}_{\\text{ham}} = \\vec{w}_{\\text{zero}}$",
+    "odp_c_pl": "$\\vec{w}_{\\text{TF}} \\times \\vec{w}_{\\text{IDF}} = \\vec{w}_{\\text{one-hot}}$",
+    "odp_d_pl": "$Q K^T V = \\vec{w}_{\\text{BERT}}$",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 193
+  },
+  {
+    "tresc_pl": "Które sposoby agregowania wektorów słów do reprezentacji całego dokumentu wymieniono w materiale?",
+    "tresc_eng": "Which methods of aggregating word vectors into a document representation are listed in the material?",
+    "odp_a_pl": "Średnia arytmetyczna wektorów słów, sumowanie wektorów oraz średnia ważona (np. wagami TF-IDF).",
+    "odp_b_pl": "Wyłącznie mnożenie macierzy wag $W^Q$, $W^K$ i $W^V$ przez embeddingi tokenów.",
+    "odp_c_pl": "Tylko one-hot encoding każdego słowa bez żadnej agregacji.",
+    "odp_d_pl": "Jedynie klasyfikacja każdego piksela maski segmentacyjnej.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 194
+  },
+  {
+    "tresc_pl": "Jak definiowane jest podobieństwo kosinusowe (cosine similarity) między wektorami $A$ i $B$?",
+    "tresc_eng": "How is cosine similarity between vectors $A$ and $B$ defined?",
+    "odp_a_pl": "$\\text{sim}(A, B) = \\frac{A \\cdot B}{\\|A\\| \\|B\\|}$; wartość $1$ oznacza ten sam kierunek (maksymalne podobieństwo), $0$ — ortogonalność.",
+    "odp_b_pl": "$\\text{sim}(A, B) = \\sum_i |A_i - B_i|$; im mniejsza wartość, tym większe podobieństwo semantyczne.",
+    "odp_c_pl": "$\\text{sim}(A, B) = \\operatorname{softmax}(A^T B)$; suma wyników zawsze wynosi $|V|$.",
+    "odp_d_pl": "$\\text{sim}(A, B) = \\sqrt{\\frac{1}{n}\\sum (A_i - B_i)^2}$; odpowiada metryce RMSE regresji.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 195
+  },
+  {
+    "tresc_pl": "Jakie trzy główne typy architektur modeli Transformer wyróżniono ze względu na strukturę i typ zadań?",
+    "tresc_eng": "What three main types of Transformer model architectures are distinguished by structure and task type?",
+    "odp_a_pl": "Encoder-only (np. BERT, RoBERTa — klasyfikacja, NER), Decoder-only (np. GPT — generowanie tekstu) oraz Encoder-decoder (np. T5, mT5 — sekwencja do sekwencji).",
+    "odp_b_pl": "Convolution-only, Pooling-only oraz Fully-connected-only.",
+    "odp_c_pl": "RNN-only, LSTM-only oraz GRU-only.",
+    "odp_d_pl": "Slow R-CNN, Fast R-CNN oraz Faster R-CNN.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 196
+  },
+  {
+    "tresc_pl": "Co oznacza pełna nazwa skrótu BERT i jaki typ architektury Transformer reprezentuje ten model?",
+    "tresc_eng": "What does the full name of the acronym BERT mean and which type of Transformer architecture does this model represent?",
+    "odp_a_pl": "Bidirectional Encoder Representations from Transformers — czysty model typu encoder-only.",
+    "odp_b_pl": "Basic Encoder-Decoder Recurrent Transformer — model typu encoder-decoder.",
+    "odp_c_pl": "Binary Entropy Regression Tokenizer — model typu decoder-only.",
+    "odp_d_pl": "Bag-of-Embeddings Recurrent Text model — hybryda RNN i CNN.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 197
+  },
+  {
+    "tresc_pl": "Na czym polega mechanizm Self-Attention w modelach encoder-only (np. BERT)?",
+    "tresc_eng": "What is the Self-Attention mechanism in encoder-only models (e.g., BERT)?",
+    "odp_a_pl": "Każdy token w sekwencji może „patrzeć” na wszystkie inne tokeny w tym samym zdaniu — zarówno po lewej, jak i po prawej stronie.",
+    "odp_b_pl": "Każdy token widzi wyłącznie poprzednie tokeny z lewej strony (autoregresja).",
+    "odp_c_pl": "Atencja działa wyłącznie między obrazem wejściowym a sekwencją wyjściową w R-CNN.",
+    "odp_d_pl": "Self-Attention polega na zapamiętywaniu wszystkich etykiet treningowych w czasie $O(1)$.",
+    "nazwa_pliku": "Grali.pdf",
+    "id": 198
+  },
+  {
+    "tresc_pl": "Jak w materiale zdefiniowano sztuczną inteligencję (AI) w sensie najszerszym?",
+    "tresc_eng": "How is artificial intelligence (AI) defined in the broadest sense in the material?",
+    "odp_a_pl": "Jako dowolna technika umożliwiająca komputerom naśladowanie ludzkiej inteligencji (logika, reguły if-then, drzewa decyzyjne, uczenie maszynowe).",
+    "odp_b_pl": "Wyłącznie jako wielowarstwowe sieci neuronowe trenowane na obrazach ImageNet.",
+    "odp_c_pl": "Jako algorytm k-NN zapamiętujący wszystkie przykłady treningowe bez parametrów.",
+    "odp_d_pl": "Jako mechanizm atencji w modelach Transformer bez rekurencji RNN.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 199
+  },
+  {
+    "tresc_pl": "Jak zdefiniowano uczenie maszynowe (ML) w relacji do sztucznej inteligencji?",
+    "tresc_eng": "How is machine learning (ML) defined in relation to artificial intelligence?",
+    "odp_a_pl": "Jako podzbiór AI obejmujący techniki statystyczne, które pozwalają maszynom ulepszać wykonywanie zadań wraz z nabywanym doświadczeniem.",
+    "odp_b_pl": "Jako nadrzędny zbiór obejmujący wszystkie reguły if-then i systemy ekspertowe bez danych.",
+    "odp_c_pl": "Jako synonim detekcji obiektów w wizji komputerowej.",
+    "odp_d_pl": "Jako metoda wyłącznie analitycznego odwracania macierzy Hessianu.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 200
+  },
+  {
+    "tresc_pl": "Na czym polega zadanie segmentacji semantycznej (Semantic Segmentation) w wizji komputerowej?",
+    "tresc_eng": "What is the Semantic Segmentation task in computer vision?",
+    "odp_a_pl": "Na klasyfikacji każdego pojedynczego piksela obrazu do danej kategorii (np. trawa, niebo, kot).",
+    "odp_b_pl": "Na przypisaniu jednej etykiety do całego obrazu bez informacji o położeniu obiektu.",
+    "odp_c_pl": "Na wyznaczeniu ramki otaczającej (bounding box) wokół każdego obiektu.",
+    "odp_d_pl": "Na rozróżnieniu dwóch osobnych obiektów tej samej klasy i narysowaniu osobnej maski dla każdego z nich.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 201
+  },
+  {
+    "tresc_pl": "Co jest wyjściem zadania detekcji obiektów (Object Detection) według materiału?",
+    "tresc_eng": "What is the output of the Object Detection task according to the material?",
+    "odp_a_pl": "Zestaw wykrytych obiektów: klasa oraz 4 współrzędne ramki ($x$, $y$, width, height); wyzwaniem jest zmienna liczba obiektów na zdjęciu.",
+    "odp_b_pl": "Pojedyncza etykieta klasy dla całego obrazu bez współrzędnych przestrzennych.",
+    "odp_c_pl": "Macierz podobieństwa kosinusowego między embeddingami słów w opisie obrazu.",
+    "odp_d_pl": "Wektor one-hot o długości $|V|$ reprezentujący podpis zdjęcia.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 202
+  },
+  {
+    "tresc_pl": "Jakie wady klasyfikatora k-NN (K-Najbliższych Sąsiadów) wymieniono w kontekście granic decyzyjnych?",
+    "tresc_eng": "What disadvantages of the k-NN (K-Nearest Neighbors) classifier are mentioned regarding decision boundaries?",
+    "odp_a_pl": "Granice decyzyjne mogą być zaszumione przez wartości odstające (outliers).",
+    "odp_b_pl": "Granice decyzyjne są zawsze idealnymi hiperpłaszczyznami niezależnie od danych.",
+    "odp_c_pl": "Klasyfikator k-NN nie działa na danych obrazowych o wymiarze większym niż 3.",
+    "odp_d_pl": "Faza treningowa wymaga odwrócenia macierzy o rozmiarze $10^9 \\times 10^9$.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 203
+  },
+  {
+    "tresc_pl": "Jakie ograniczenie klasyfikatora liniowego $f(x, W) = Wx + b$ podkreślono w materiale?",
+    "tresc_eng": "What limitation of the linear classifier $f(x, W) = Wx + b$ is emphasized in the material?",
+    "odp_a_pl": "Uczy się tylko jednego szablonu (template) na klasę i nie separuje poprawnie danych, których nie da się rozdzielić hiperpłaszczyzną.",
+    "odp_b_pl": "Nie pozwala na mapowanie pikseli obrazu na surowe wyniki klas (scores).",
+    "odp_c_pl": "Wymaga softmax loss zamiast hinge loss we wszystkich zadaniach wizyjnych.",
+    "odp_d_pl": "Działa wyłącznie na sekwencjach tekstowych o stałej długości 512 tokenów.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 204
+  },
+  {
+    "tresc_pl": "Który wzór opisuje podstawową dwuwarstwową sieć MLP z funkcją aktywacji ReLU w materiale?",
+    "tresc_eng": "Which formula describes the basic two-layer MLP with ReLU activation in the material?",
+    "odp_a_pl": "$f = W_{2} \\max(0, W_{1}x)$, gdzie $\\max(0, z)$ to ReLU.",
+    "odp_b_pl": "$f = W_{2} \\sigma(W_{1}x)$, gdzie $\\sigma$ to wyłącznie funkcja sigmoidalna bez warstw ukrytych.",
+    "odp_c_pl": "$f = \\operatorname{softmax}(QK^T)V$ bez macierzy wag.",
+    "odp_d_pl": "$f = h_t = f_W(h_{t-1}, x_t)$ — rekurencyjna aktualizacja stanu ukrytego.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 205
+  },
+  {
+    "tresc_pl": "Czym charakteryzuje się algorytm Adam w kontekście optymalizacji sieci neuronowych?",
+    "tresc_eng": "What characterizes the Adam algorithm in the context of neural network optimization?",
+    "odp_a_pl": "Popularny algorytm pierwszego rzędu łączący zalety SGD z momentum oraz adaptacyjnym dopasowywaniem współczynnika uczenia (learning rate).",
+    "odp_b_pl": "Metoda drugiego rzędu wymagająca odwrócenia pełnej macierzy Hessianu o rozmiarze $10^9 \\times 10^9$.",
+    "odp_c_pl": "Algorytm k-NN zapamiętujący wszystkie mini-batch'e w pamięci RAM.",
+    "odp_d_pl": "Technika generowania propozycji regionów RPN w detekcji obiektów.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 206
+  },
+  {
+    "tresc_pl": "Jaki jest cel warstw łączących (Pooling Layers) w konwolucyjnych sieciach neuronowych (CNN)?",
+    "tresc_eng": "What is the purpose of Pooling Layers in convolutional neural networks (CNNs)?",
+    "odp_a_pl": "Redukcja wymiarowości przestrzennej (downsampling, np. Max Pooling), mniejsza liczba parametrów oraz częściowa niezmienniczość na przesunięcia.",
+    "odp_b_pl": "Wykonywanie konwolucji 2D z uczonymi filtrami wychwytującymi krawędzie i kształty.",
+    "odp_c_pl": "Ostateczna klasyfikacja na podstawie spłaszczonych cech po operacji flatten.",
+    "odp_d_pl": "Normalizacja batchowa wyłącznie w modelach typu encoder-only BERT.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 207
+  },
+  {
+    "tresc_pl": "Jak aktualizowany jest stan wewnętrzny (hidden state) sieci rekurencyjnej RNN w kolejnym kroku czasowym?",
+    "tresc_eng": "How is the internal hidden state of an RNN updated at each time step?",
+    "odp_a_pl": "$h_{t} = f_{W}(h_{t-1}, x_{t})$ — stan zależy od poprzedniego stanu i bieżącego wejścia.",
+    "odp_b_pl": "$h_{t} = Wx + b$ — niezależnie od historii sekwencji, jak w klasyfikatorze liniowym.",
+    "odp_c_pl": "$h_{t} = \\operatorname{softmax}(QK^T)V$ — wyłącznie mechanizm atencji bez rekurencji.",
+    "odp_d_pl": "$h_{t} = \\max(0, W_1 x)$ — pojedyncza warstwa ReLU bez pamięci poprzednich kroków.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 208
+  },
+  {
+    "tresc_pl": "Które zadanie jest przykładem relacji one-to-many (jeden do wielu) w architekturach sekwencyjnych?",
+    "tresc_eng": "Which task is an example of a one-to-many relationship in sequential architectures?",
+    "odp_a_pl": "Podpisywanie zdjęć (Image Captioning) — wejściem jest obraz, wyjściem sekwencja słów.",
+    "odp_b_pl": "Klasyfikacja wideo (many-to-one) — sekwencja klatek na jedną etykietę.",
+    "odp_c_pl": "Tłumaczenie maszynowe (many-to-many) — sekwencja słów na sekwencję słów.",
+    "odp_d_pl": "Klasyfikacja obrazu (one-to-one) — jeden obraz na jedną etykietę.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 209
+  },
+  {
+    "tresc_pl": "Dlaczego architektura Transformer stanowi przełom w porównaniu z klasycznymi RNN?",
+    "tresc_eng": "Why is the Transformer architecture a breakthrough compared to classic RNNs?",
+    "odp_a_pl": "Całkowicie rezygnuje z rekurencji na rzecz uogólnionego Self-Attention, co umożliwia pełne zrównoleglenie obliczeń.",
+    "odp_b_pl": "Zastępuje atencję wyłącznie warstwami Max Pooling w sieciach splotowych.",
+    "odp_c_pl": "Wymaga sekwencyjnego przetwarzania od lewej do prawej bez możliwości równoległości.",
+    "odp_d_pl": "Opiera się wyłącznie na klasyfikatorze k-NN z czasem predykcji $O(1)$.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 210
+  },
+  {
+    "tresc_pl": "Na czym polega rozszerzenie Mask R-CNN względem Faster R-CNN?",
+    "tresc_eng": "What is the Mask R-CNN extension over Faster R-CNN?",
+    "odp_a_pl": "Dodaje równoległą gałąź (głowicę) przewidującą maskę pikseli dla każdego obiektu, realizując segmentację instancji (Instance Segmentation).",
+    "odp_b_pl": "Zastępuje sieć bazową CNN modelem decoder-only GPT-3.",
+    "odp_c_pl": "Usuwa Region Proposal Network i wraca do ~2000 niezależnych regionów jak w Slow R-CNN.",
+    "odp_d_pl": "Wprowadza hashing trick do mapowania słów opisu obrazu na wektory $2^b$.",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 211
+  },
+  {
+    "tresc_pl": "Ile regionów próbnych (propozycji) wybiera klasyczna architektura „Slow” R-CNN z obrazu?",
+    "tresc_eng": "How many proposal regions does the classic \"Slow\" R-CNN architecture select from an image?",
+    "odp_a_pl": "Około 2000 regionów, z których każdy jest niezależnie przepuszczany przez sieć CNN (duży koszt obliczeniowy).",
+    "odp_b_pl": "Dokładnie 10 regionów wyznaczanych algorytmem k-NN.",
+    "odp_c_pl": "Jeden globalny wektor cech — obraz przetwarzany tylko raz bez wycinania regionów.",
+    "odp_d_pl": "Tyle regionów, ile pikseli ma obraz wejściowy (klasyfikacja per-piksel).",
+    "nazwa_pliku": "Palub.pdf",
+    "id": 212
   }
 ]
