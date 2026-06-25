@@ -822,7 +822,7 @@
     "odp_c_pl": "W fazie treningu i testu losuje wagi modelu $W$, dążąc do zminimalizowania błędu średniokwadratowego (MSE).",
     "odp_d_pl": "W fazie treningu maskuje 15% pikseli, a w fazie testowej odpytuje bazę danych o pary klucz-wartość.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 76,
@@ -833,7 +833,7 @@
     "odp_c_pl": "Train: $O(N^2)$, Predict: $O(N)$.",
     "odp_d_pl": "Train: $O(1)$, Predict: $O(1)$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 77,
@@ -844,7 +844,7 @@
     "odp_c_pl": "$d(I_1, I_2) = \\operatorname{softmax}(I_1 \\cdot I_2^T)$",
     "odp_d_pl": "$d(I_1, I_2) = -\\frac{1}{n}\\sum (I_1^p \\log I_2^p)$[cite: 5, 6]",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 78,
@@ -855,7 +855,7 @@
     "odp_c_pl": "Pozwala na automatyczne uczenie hiperparametrów bezpośrednio z danych treningowych bez użycia zbioru walidacyjnego.",
     "odp_d_pl": "Działa efektywnie wyłącznie na dużych zbiorach danych uczenia głębokiego, drastycznie przyspieszając fazę predykcji.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 79,
@@ -866,7 +866,7 @@
     "odp_c_pl": "Wybór tych konfiguracji, które działają najlepiej na danych testowych (test data) przed ostatecznym wdrożeniem modelu.",
     "odp_d_pl": "Ręczne ustawienie parametru $k=1$ dla każdej kolekcji danych, niezależnie od specyfiki problemu.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 80,
@@ -877,7 +877,7 @@
     "odp_c_pl": "Zawiera wyłącznie obrazy binarne o wymiarach 32x32 piksele, których łączna liczba wynosi $10^{308}$.",
     "odp_d_pl": "Jest zbiorem rzadkich wektorów tekstowych służących do ekstrakcji informacji metodą HoG.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 81,
@@ -888,7 +888,7 @@
     "odp_c_pl": "(10, 1)",
     "odp_d_pl": "(3072, 1)",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 82,
@@ -899,7 +899,7 @@
     "odp_c_pl": "Odpowiada za spłaszczanie trójwymiarowych tensorów wejściowych RGB do postaci wektora jednowymiarowego.",
     "odp_d_pl": "Umożliwia całkowite wyeliminowanie wyrazu wolnego b (bias) ze wzoru $f(x,W) = Wx + b$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 83,
@@ -976,7 +976,7 @@
     "odp_c_pl": "Polega na iteracyjnym minimalizowaniu funkcji straty za pomocą algorytmu Adam.",
     "odp_d_pl": "Polega na losowaniu wag W aż do uzyskania zerowego błędu kwadratowego.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL3.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 90,
@@ -987,7 +987,7 @@
     "odp_c_pl": "Wyznacza średnią ważoną ze wszystkich klas dostępnych w zbiorze CIFAR10.",
     "odp_d_pl": "Wykorzystuje architekturę koder-dekoder do wygenerowania nowej etykiety tekstowej.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL3.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 91,
@@ -998,7 +998,7 @@
     "odp_c_pl": "$L_i = \\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2$",
     "odp_d_pl": "$L_i = -[y_i \\log(p_i) + (1-y_i) \\log(1-p_i)]$",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL3.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 92,
@@ -1009,7 +1009,7 @@
     "odp_c_pl": "Gdy macierz wag W zostanie w pełni znormalizowana za pomocą funkcji logarytmicznej.",
     "odp_d_pl": "Gdy funkcja aktywacji $logit^{-1}$ ściśnie całą oś wartości do przedziału (0, 1).",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL3.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 93,
@@ -1075,7 +1075,7 @@
     "odp_c_pl": "Modele liniowe automatycznie usuwają problem braku liniowej separowalności danych.",
     "odp_d_pl": "Umożliwiają one bezkosztowe odwracanie macierzy wag o rozmiarach rzędu setek milionów parametrów.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL4.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 99,
@@ -1163,7 +1163,7 @@
     "odp_c_pl": "Poprzez losowe wyzerowanie pędu, jeśli błąd klasyfikacji na pakiecie danych spadnie poniżej zera.",
     "odp_d_pl": "Według funkcji logarytmicznej szans, aby uniknąć niedomiaru numerycznego.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 107,
@@ -1174,7 +1174,7 @@
     "odp_c_pl": "$w = \\operatorname{softmax}(v \\cdot dw^T)$",
     "odp_d_pl": "$w -= \\log(\\text{learning\\_rate}) \\cdot dw$",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 108,
@@ -1185,7 +1185,7 @@
     "odp_c_pl": "Z punktu widzenia kolizji haszujących funkcji MurmurHash3.",
     "odp_d_pl": "Z perspektywy kosztu obliczeniowego metod optymalizacji drugiego rzędu $O(N^3)$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 109,
@@ -1229,7 +1229,7 @@
     "odp_c_pl": "Zmniejsza wymiarowość macierzy wag W do stałego rozmiaru b bitów.",
     "odp_d_pl": "Eliminuje potrzebę definiowania oraz dobierania współczynnika uczenia (learning rate).",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 113,
@@ -1240,7 +1240,7 @@
     "odp_c_pl": "Liczbę kanałów kolorów (np. 3 dla RGB) w spłaszczanym obrazie wejściowym.",
     "odp_d_pl": "Złożoność obliczeniową algorytmu wyznaczania pochodnych cząstkowych.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 114,
@@ -1251,7 +1251,7 @@
     "odp_c_pl": "W pętli realizującej wyłącznie lematyzację słownika w jednostkach BPE.",
     "odp_d_pl": "W fazie inicjalizacji wag przed rozpoczęciem właściwego procesu uczenia.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 115,
@@ -1262,7 +1262,7 @@
     "odp_d_pl": "Wszystkie ujemne wartości cech są usuwane przez funkcję straty hinge loss.",
     "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf",
-    "b_pl": "Wektory są rozciągane do nieskończoności za pomocą funkcji logit."
+    "odp_b_pl": "Wektory są rozciągane do nieskończoności za pomocą funkcji logit."
   },
   {
     "id": 116,
@@ -1273,7 +1273,7 @@
     "odp_c_pl": "Ponieważ bez tego operacja gradientu prostego SGD z pędem miałaby złożoność $O(N^3)$.",
     "odp_d_pl": "W celu automatycznego mapowania cech tekstowych tf-idf do wektorów gęstych.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 117,
@@ -1284,7 +1284,7 @@
     "odp_c_pl": "Autoregresyjny punkt widzenia na model języka.",
     "odp_d_pl": "Statystyczny punkt widzenia na rzadkość macierzy.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 118,
@@ -1306,7 +1306,7 @@
     "odp_c_pl": "Funkcje skrótu (Hashing), tokenizacja (Tokenization), lematyzacja (Lemmatization) oraz warstwy gęste.",
     "odp_d_pl": "Metryka L1, metryka L2, odległość Manhattan oraz funkcja wiarygodności log-loss.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL6.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 120,
@@ -1317,7 +1317,7 @@
     "odp_c_pl": "$\\hat{x}_{i,j}=\\operatorname{softmax}(x_{i,j}) \\cdot \\eta$",
     "odp_d_pl": "$\\hat{x}_{i,j}=W_2 \\cdot \\max(0, W_1x)$",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL6.pdf"
+    "nazwa_pliku": "DL5.pdf"
   },
   {
     "id": 121,
@@ -1328,7 +1328,7 @@
     "odp_c_pl": "Pole recepcyjne ulega zmniejszeniu o połowę ($K/2$) po każdej operacji splotu.",
     "odp_d_pl": "Rozmiar pola pozostaje stały i zależy wyłącznie od początkowych wymiarów obrazu.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL6.pdf"
+    "nazwa_pliku": "DL5.pdf"
   },
   {
     "id": 122,
@@ -1339,7 +1339,7 @@
     "odp_c_pl": "Liczba kanałów wejściowych, funkcja skrótu oraz wielkość słownika BPE.",
     "odp_d_pl": "Macierz Hessianu, liczba grup oraz wielkość pędu gradientu.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL6.pdf"
+    "nazwa_pliku": "DL5.pdf"
   },
   {
     "id": 123,
@@ -1570,7 +1570,7 @@
     "odp_c_pl": "Wektor wag zaczyna oscylować wokół punktu początkowego, uniemożliwiając zbieżność.",
     "odp_d_pl": "Algorytm automatycznie przełącza się na optymalizację drugiego rzędu L-BFGS.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 144,
@@ -1581,7 +1581,7 @@
     "odp_c_pl": "Przyjmuje wartość równą początkowemu gradientowi $dw$.",
     "odp_d_pl": "Jest ustawiany na stałą wartość parametru $\\rho$ (np. 0.9).",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 145,
@@ -1592,7 +1592,7 @@
     "odp_c_pl": "$L = -\\log(R(W)) \\cdot \\frac{1}{N}\\sum L_i$",
     "odp_d_pl": "$L = L_i + \\operatorname{softmax}(R(W))$",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 146,
@@ -1603,7 +1603,7 @@
     "odp_c_pl": "Jako odległość euklidesową pomiędzy wektorem $x$ a macierzą $W$.",
     "odp_d_pl": "Jako iloczyn prawdopodobieństw warunkowych $s = P(x|W)$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 147,
@@ -1614,7 +1614,7 @@
     "odp_c_pl": "Ponieważ funkcja straty Softmax uniemożliwia reprezentowanie zwierząt.",
     "odp_d_pl": "Ponieważ waga $w_0$ (bias) przyjmuje wtedy wartości ujemne.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 148,
@@ -1647,7 +1647,7 @@
     "odp_c_pl": "Log-loss dla klasyfikacji binarnej z haszowaniem.",
     "odp_d_pl": "Szarża euklidesowa L2.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL4.pdf"
   },
   {
     "id": 151,
@@ -1669,7 +1669,7 @@
     "odp_c_pl": "Są automatycznie dzielone przez sumę kwadratów różnic w celu obliczenia RMSE.",
     "odp_d_pl": "Zostają spłaszczone do postaci wektora jednowymiarowego o stałym rozmiarze.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "DL5.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 153,
@@ -1823,7 +1823,7 @@
     "odp_d_pl": "Liczba głów wynosi odpowiednio 512 dla wersji Base oraz 1024 dla wersji Large.",
     "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf",
-    "b_pl": "Transformer-Base posiada 12 głów, natomiast Transformer-Large posiada 24 głowy."
+    "odp_b_pl": "Transformer-Base posiada 12 głów, natomiast Transformer-Large posiada 24 głowy."
   },
   {
     "id": 167,
@@ -2032,7 +2032,7 @@
     "odp_c_pl": "Funkcję tangens hiperboliczny $\\tanh(z)$ bez normalizacji.",
     "odp_d_pl": "Funkcję pierwiastka kwadratowego $\\sqrt{|z|}$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
     "id": 186,
@@ -2142,7 +2142,7 @@
     "odp_c_pl": "$\\text{sim}(A, B) = \\operatorname{softmax}(A^T B)$; suma wyników zawsze wynosi $|V|$.",
     "odp_d_pl": "$\\text{sim}(A, B) = \\sqrt{\\frac{1}{n}\\sum (A_i - B_i)^2}$; odpowiada metryce RMSE regresji.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 196,
@@ -2153,7 +2153,7 @@
     "odp_c_pl": "RNN-only, LSTM-only oraz GRU-only.",
     "odp_d_pl": "Slow R-CNN, Fast R-CNN oraz Faster R-CNN.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 197,
@@ -2164,7 +2164,7 @@
     "odp_c_pl": "Binary Entropy Regression Tokenizer — model typu decoder-only.",
     "odp_d_pl": "Bag-of-Embeddings Recurrent Text model — hybryda RNN i CNN.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 198,
@@ -2175,7 +2175,7 @@
     "odp_c_pl": "Atencja działa wyłącznie między obrazem wejściowym a sekwencją wyjściową w R-CNN.",
     "odp_d_pl": "Self-Attention polega na zapamiętywaniu wszystkich etykiet treningowych w czasie $O(1)$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
     "id": 199,
@@ -2208,7 +2208,7 @@
     "odp_c_pl": "Na wyznaczeniu ramki otaczającej (bounding box) wokół każdego obiektu.",
     "odp_d_pl": "Na rozróżnieniu dwóch osobnych obiektów tej samej klasy i narysowaniu osobnej maski dla każdego z nich.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL12.pdf"
   },
   {
     "id": 202,
@@ -2219,7 +2219,7 @@
     "odp_c_pl": "Macierz podobieństwa kosinusowego między embeddingami słów w opisie obrazu.",
     "odp_d_pl": "Wektor one-hot o długości $|V|$ reprezentujący podpis zdjęcia.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL11.pdf"
   },
   {
     "id": 203,
@@ -2241,7 +2241,7 @@
     "odp_c_pl": "Wymaga softmax loss zamiast hinge loss we wszystkich zadaniach wizyjnych.",
     "odp_d_pl": "Działa wyłącznie na sekwencjach tekstowych o stałej długości 512 tokenów.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 205,
@@ -2263,7 +2263,7 @@
     "odp_c_pl": "Algorytm k-NN zapamiętujący wszystkie mini-batch'e w pamięci RAM.",
     "odp_d_pl": "Technika generowania propozycji regionów RPN w detekcji obiektów.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL3.pdf"
   },
   {
     "id": 207,
@@ -2274,7 +2274,7 @@
     "odp_c_pl": "Ostateczna klasyfikacja na podstawie spłaszczonych cech po operacji flatten.",
     "odp_d_pl": "Normalizacja batchowa wyłącznie w modelach typu encoder-only BERT.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL6.pdf"
   },
   {
     "id": 208,
@@ -2285,7 +2285,7 @@
     "odp_c_pl": "$h_{t} = \\operatorname{softmax}(QK^T)V$ — wyłącznie mechanizm atencji bez rekurencji.",
     "odp_d_pl": "$h_{t} = \\max(0, W_1 x)$ — pojedyncza warstwa ReLU bez pamięci poprzednich kroków.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL9.pdf"
   },
   {
     "id": 209,
@@ -2318,7 +2318,7 @@
     "odp_c_pl": "Usuwa Region Proposal Network i wraca do ~2000 niezależnych regionów jak w Slow R-CNN.",
     "odp_d_pl": "Wprowadza hashing trick do mapowania słów opisu obrazu na wektory $2^b$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL12.pdf"
   },
   {
     "id": 212,
@@ -2329,7 +2329,7 @@
     "odp_c_pl": "Jeden globalny wektor cech — obraz przetwarzany tylko raz bez wycinania regionów.",
     "odp_d_pl": "Tyle regionów, ile pikseli ma obraz wejściowy (klasyfikacja per-piksel).",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL11.pdf"
   },
   {
     "tresc_pl": "Jakie cele ma kurs Deep Learning według wykładu wprowadzającego (DL1)?",
@@ -2561,5 +2561,1710 @@
     "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL12.pdf",
     "id": 230
+  },
+  {
+    "tresc_pl": "Który wzór definiuje odległość L2 (Euclidean distance) między dwoma obrazami w k-NN według DL2?",
+    "tresc_eng": "Which formula defines the L2 (Euclidean) distance between two images in k-NN according to DL2?",
+    "odp_a_pl": "$d_{2}(I_{1},I_{2})=\\sqrt{\\sum_{p}(I_{1}^{p}-I_{2}^{p})^{2}}$",
+    "odp_b_pl": "$d_{1}(I_{1},I_{2})=\\sum_{p}|I_{1}^{p}-I_{2}^{p}|$",
+    "odp_c_pl": "$d(I_1,I_2)=\\operatorname{softmax}(I_1\\cdot I_2^T)$",
+    "odp_d_pl": "$d(I_1,I_2)=-\\sum_p I_1^p \\log I_2^p$",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 234
+  },
+  {
+    "tresc_pl": "Które wielkości w algorytmie k-NN są hiperparametrami według DL2?",
+    "tresc_eng": "Which quantities in the k-NN algorithm are hyperparameters according to DL2?",
+    "odp_a_pl": "Wartość $k$ oraz wybór metryki odległości (np. L1 lub L2).",
+    "odp_b_pl": "Wyłącznie liczba klas w zbiorze CIFAR10.",
+    "odp_c_pl": "Macierz wag $W$ i wektor bias $b$ klasyfikatora liniowego.",
+    "odp_d_pl": "Parametr regularyzacji $\\lambda$ w funkcji straty softmax.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 235
+  },
+  {
+    "tresc_pl": "Na czym polega Idea #4 doboru hiperparametrów w k-NN omówiona w DL2?",
+    "tresc_eng": "What is Idea #4 for hyperparameter selection in k-NN discussed in DL2?",
+    "odp_a_pl": "Cross-validation: podział danych na foldy, każdy fold po kolei jako walidacja, uśrednienie wyników.",
+    "odp_b_pl": "Dobór hiperparametrów wyłącznie na zbiorze testowym przed publikacją wyników.",
+    "odp_c_pl": "Ręczne ustawienie $k=1$ bez sprawdzania innych wartości.",
+    "odp_d_pl": "Losowe próbkowanie wag $W$ bez użycia zbioru walidacyjnego.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 236
+  },
+  {
+    "tresc_pl": "Jakie wady klasyfikatora k-NN wymieniono na slajdzie podsumowującym w DL2?",
+    "tresc_eng": "What drawbacks of the k-NN classifier are listed on the summary slide in DL2?",
+    "odp_a_pl": "Metryki odległości na pikselach są mało informatywne oraz predykcja jest bardzo wolna.",
+    "odp_b_pl": "Wymaga softmax loss i nie działa bez GPU z biblioteki FAISS.",
+    "odp_c_pl": "Nie pozwala na użycie zbioru CIFAR10 ani metryki L1.",
+    "odp_d_pl": "Zawsze daje granice decyzyjne w postaci idealnych hiperpłaszczyzn.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 237
+  },
+  {
+    "tresc_pl": "Jak w DL2 opisano szybką predykcję klasyfikatora liniowego po wytrenowaniu wag?",
+    "tresc_eng": "How is fast prediction of a linear classifier described in DL2 after training the weights?",
+    "odp_a_pl": "Obliczenie wyników: $\\text{scores} = W \\cdot \\text{image} + b$ (mnożenie macierz-wektor).",
+    "odp_b_pl": "Dla każdego testu przeszukanie wszystkich $N$ przykładów treningowych w czasie $O(N)$.",
+    "odp_c_pl": "Odwrócenie macierzy Hessianu o rozmiarze $N^2$ przed każdą predykcją.",
+    "odp_d_pl": "Głosowanie większościowe z $k$ najbliższych sąsiadów w przestrzeni pikseli.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 238
+  },
+  {
+    "tresc_pl": "Jak w DL2 zbudowano wektor cech HoG (Histogram of Oriented Gradients) dla obrazu $320\\times240$?",
+    "tresc_eng": "How is the HoG (Histogram of Oriented Gradients) feature vector built for a $320\\times240$ image in DL2?",
+    "odp_a_pl": "Podział na regiony $8\\times8$ pikseli; w każdym 9 binów kierunków krawędzi $\\Rightarrow$ $40\\times30\\times9=10800$ liczb.",
+    "odp_b_pl": "Spłaszczenie RGB do wektora 3072 i zastosowanie softmax na 10 klasach.",
+    "odp_c_pl": "Jednowymiarowy histogram 256 poziomów szarości bez informacji o kierunku gradientu.",
+    "odp_d_pl": "Wektor one-hot o długości równej liczbie słów w słowniku BPE.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 239
+  },
+  {
+    "tresc_pl": "Do czego w DL2 wskazano bibliotekę FAISS w kontekście k-NN?",
+    "tresc_eng": "What is the FAISS library pointed to for in DL2 in the context of k-NN?",
+    "odp_a_pl": "Do szybkiego wyszukiwania najbliższych sąsiadów w dużej skali (billion-scale similarity search).",
+    "odp_b_pl": "Do trenowania modeli Transformer w architekturze encoder-decoder.",
+    "odp_c_pl": "Do obliczania straty cross-entropy w segmentacji panoptycznej.",
+    "odp_d_pl": "Do normalizacji batchowej w sieciach RNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 240
+  },
+  {
+    "tresc_pl": "Jak w DL2 zapisano stratę cross-entropy dla pojedynczego przykładu w klasyfikatorze Softmax?",
+    "tresc_eng": "How is the cross-entropy loss for a single example written in the Softmax classifier in DL2?",
+    "odp_a_pl": "$L_i = -\\log(p_{y_i})$, gdzie $p_{y_i}$ to prawdopodobieństwo poprawnej klasy po softmax.",
+    "odp_b_pl": "$L_i = \\sum_{j\\ne y_i}\\max(0, s_j - s_{y_i} + 1)$",
+    "odp_c_pl": "$L_i = \\frac{1}{n}\\sum (\\hat{y}_i - y_i)^2$",
+    "odp_d_pl": "$L_i = \\lambda \\sum_k W_k^2$",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 241
+  },
+  {
+    "tresc_pl": "Jak w DL2 zdefiniowano prostą regularyzację L2 w pełnej funkcji straty?",
+    "tresc_eng": "How is simple L2 regularization defined in the complete loss function in DL2?",
+    "odp_a_pl": "$R(W) = \\sum_k W_k^2$ (kara za duże wagi; w pełnej stracie mnożona przez $\\lambda$).",
+    "odp_b_pl": "$R(W) = \\sum_k |W_k|$ jako jedyna część funkcji celu bez data loss.",
+    "odp_c_pl": "$R(W) = \\max(0, s_j - s_{y_i} + 1)$ dla wszystkich klas $j$.",
+    "odp_d_pl": "$R(W) = -\\log(\\sum_j e^{s_j})$",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 242
+  },
+  {
+    "tresc_pl": "Czym różni się klasyfikator Softmax od straty SVM (hinge) według porównania w DL2?",
+    "tresc_eng": "How does the Softmax classifier differ from SVM (hinge) loss according to the comparison in DL2?",
+    "odp_a_pl": "Softmax daje prawdopodobieństwa klas (log-wiarygodność); SVM/hinge karze marginesy między wynikami klas bez pełnego rozkładu prawdopodobieństwa.",
+    "odp_b_pl": "Softmax działa wyłącznie na tekstach tf-idf, a SVM wyłącznie na obrazach RGB.",
+    "odp_c_pl": "SVM zawsze wymaga $k=7$ w cross-validation, a Softmax wymaga $k=1$.",
+    "odp_d_pl": "Nie ma różnicy — oba używają identycznej funkcji $\\max(0, s_j-s_{y_i}+1)$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 243
+  },
+  {
+    "tresc_pl": "Jak w DL2 opisano pipeline klasyfikacji na cechach obrazu (feature extraction)?",
+    "tresc_eng": "How is the image feature classification pipeline described in DL2?",
+    "odp_a_pl": "Ekstrakcja cech $f_1(x), f_2(x), \\ldots$, konkatenacja $\\oplus$, następnie klasyfikator liniowy na wektorze cech.",
+    "odp_b_pl": "Wyłącznie k-NN na surowych pikselach bez transformacji cech.",
+    "odp_c_pl": "Autoregresyjne generowanie opisu obrazu modelem GPT-3.",
+    "odp_d_pl": "Hashing trick na tokenach BPE przed warstwą self-attention.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 244
+  },
+  {
+    "tresc_pl": "W którym kierunku wykonuje się krok w klasycznym spadku wzdłuż gradientu (Gradient Descent) według DL3?",
+    "tresc_eng": "In which direction is a step taken in classic Gradient Descent according to DL3?",
+    "odp_a_pl": "W kierunku ujemnego gradientu — lokalnie najstromszego spadku funkcji straty.",
+    "odp_b_pl": "W kierunku dodatniego gradientu — najstromszego wzrostu funkcji straty.",
+    "odp_c_pl": "W kierunku losowym niezależnym od pochodnych cząstkowych.",
+    "odp_d_pl": "W kierunku odwróconej macierzy Hessianu o złożoności $O(N^3)$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 245
+  },
+  {
+    "tresc_pl": "Jak w DL3 porównano gradient numeryczny i analityczny oraz co zalecano w praktyce?",
+    "tresc_eng": "How does DL3 compare numeric and analytic gradients and what is recommended in practice?",
+    "odp_a_pl": "Numeryczny: przybliżony i wolny, łatwy do zapisania; analityczny: dokładny i szybki, podatny na błędy — używać analitycznego, ale weryfikować gradient checkiem.",
+    "odp_b_pl": "Zawsze używać wyłącznie gradientu numerycznego z powodu dokładności $O(N^3)$.",
+    "odp_c_pl": "Analityczny gradient jest zabroniony w sieciach głębokich — tylko k-NN na pikselach.",
+    "odp_d_pl": "Gradient check polega na losowym zerowaniu wszystkich wag co epokę.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 246
+  },
+  {
+    "tresc_pl": "Które hiperparametry wymieniono dla podstawowego Gradient Descent w DL3?",
+    "tresc_eng": "Which hyperparameters are listed for basic Gradient Descent in DL3?",
+    "odp_a_pl": "Metoda inicjalizacji wag, liczba kroków oraz learning rate.",
+    "odp_b_pl": "Wyłącznie liczba klas w CIFAR10 i metryka L1 w k-NN.",
+    "odp_c_pl": "Parametr $k$ w k-NN oraz rozmiar słownika BPE.",
+    "odp_d_pl": "Liczba filtrów RoI Align i próg IoU w detekcji obiektów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 247
+  },
+  {
+    "tresc_pl": "Dlaczego w DL3 przechodzi się od pełnego Batch Gradient Descent do SGD?",
+    "tresc_eng": "Why does DL3 move from full Batch Gradient Descent to SGD?",
+    "odp_a_pl": "Pełna suma po wszystkich $N$ przykładach jest kosztowna przy dużym $N$; SGD przybliża gradient na mini-batchu.",
+    "odp_b_pl": "SGD wymaga odwrócenia macierzy Hessianu przed każdą aktualizacją wag.",
+    "odp_c_pl": "Batch GD działa tylko na tekstach tf-idf, a SGD wyłącznie na obrazach RGB.",
+    "odp_d_pl": "SGD eliminuje konieczność definiowania funkcji straty softmax.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 248
+  },
+  {
+    "tresc_pl": "Jakie typowe rozmiary mini-batcha podano w DL3 dla SGD?",
+    "tresc_eng": "What typical minibatch sizes are given in DL3 for SGD?",
+    "odp_a_pl": "32, 64 lub 128 przykładów.",
+    "odp_b_pl": "Dokładnie 3072 — tyle co spłaszczony obraz CIFAR10.",
+    "odp_c_pl": "Zawsze pełny zbiór treningowy ($N$ przykładów).",
+    "odp_d_pl": "1 piksel na mini-batch niezależnie od rozmiaru obrazu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 249
+  },
+  {
+    "tresc_pl": "Jakie dodatkowe hiperparametry SGD (poza learning rate i liczbą kroków) wymieniono w DL3?",
+    "tresc_eng": "Which additional SGD hyperparameters (besides learning rate and number of steps) are listed in DL3?",
+    "odp_a_pl": "Rozmiar batcha (batch size) oraz sposób próbkowania danych.",
+    "odp_b_pl": "Wyłącznie liczba klas ImageNet (1000) i rozmiar filtra $7\\times7$.",
+    "odp_c_pl": "Parametr $k$ w k-NN oraz wybór metryki Manhattan.",
+    "odp_d_pl": "Liczba binów HoG (9) i rozmiar regionu $8\\times8$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 250
+  },
+  {
+    "tresc_pl": "Który problem SGD opisano w DL3 dla „płytkiego” i „stromego” kierunku funkcji straty?",
+    "tresc_eng": "Which SGD problem is described in DL3 for shallow and steep directions of the loss function?",
+    "odp_a_pl": "Bardzo wolny postęp wzdłuż płytkiego wymiaru i „drgania” (jitter) wzdłuż stromego kierunku.",
+    "odp_b_pl": "Natychmiastowa zbieżność do globalnego minimum bez żadnych oscylacji.",
+    "odp_c_pl": "Brak możliwości obliczenia gradientu na mini-batchu.",
+    "odp_d_pl": "Konieczność użycia wyłącznie hinge loss zamiast softmax.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 251
+  },
+  {
+    "tresc_pl": "Co dzieje się ze spadkiem wzdłuż gradientu w punkcie siodłowym lub lokalnym minimum według DL3?",
+    "tresc_eng": "What happens to gradient descent at a saddle point or local minimum according to DL3?",
+    "odp_a_pl": "Gradient jest zerowy, więc zwykły gradient descent może utknąć.",
+    "odp_b_pl": "Gradient rośnie w nieskończoność i automatycznie wybiera najlepsze $k$ w k-NN.",
+    "odp_c_pl": "Funkcja straty staje się identyczna z regularyzacją L2 bez data loss.",
+    "odp_d_pl": "SGD zawsze omija te punkty dzięki softmax loss.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 252
+  },
+  {
+    "tresc_pl": "Skąd bierze się szum (noise) gradientu w SGD według DL3?",
+    "tresc_eng": "Where does gradient noise in SGD come from according to DL3?",
+    "odp_a_pl": "Gradient jest liczony na mini-batchu, a nie na pełnym zbiorze danych.",
+    "odp_b_pl": "Wynika wyłącznie z błędów zaokrągleń w funkcji softmax na CPU.",
+    "odp_c_pl": "Pochodzi z hashowania cech tekstowych metodą MurmurHash3.",
+    "odp_d_pl": "Jest artefaktem operacji RoI Align w detekcji obiektów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 253
+  },
+  {
+    "tresc_pl": "Na czym polega AdaGrad według DL3?",
+    "tresc_eng": "What is AdaGrad according to DL3?",
+    "odp_a_pl": "Skaluje gradient element-wise na podstawie historycznej sumy kwadratów — adaptacyjne współczynniki uczenia per parametr.",
+    "odp_b_pl": "Zapamiętuje wszystkie obrazy treningowe i klasyfikuje metryką L1 w czasie $O(1)$.",
+    "odp_c_pl": "Łączy softmax z RoI Pooling w sieciach detekcyjnych.",
+    "odp_d_pl": "Odwraca macierz Hessianu w każdej iteracji optymalizacji.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 254
+  },
+  {
+    "tresc_pl": "Jaki efekt AdaGrad ma na kierunki „stromych” i „płaskich” według DL3?",
+    "tresc_eng": "What effect does AdaGrad have on steep and flat directions according to DL3?",
+    "odp_a_pl": "Tłumi postęp wzdłuż stromych kierunków i przyspiesza wzdłuż płaskich.",
+    "odp_b_pl": "Całkowicie eliminuje potrzebę funkcji straty i regularyzacji.",
+    "odp_c_pl": "Zwiększa learning rate w stromych kierunkach i zeruje płaskie.",
+    "odp_d_pl": "Zastępuje gradient losowym wyborem $k$ sąsiadów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 255
+  },
+  {
+    "tresc_pl": "Czym RMSProp różni się od AdaGrad w DL3?",
+    "tresc_eng": "How does RMSProp differ from AdaGrad in DL3?",
+    "odp_a_pl": "Używa „leakych” (wyciekających) drugich momentów zamiast czystej kumulacji sumy kwadratów jak AdaGrad.",
+    "odp_b_pl": "Wymaga pełnego batcha i odwracania Hessianu w każdym kroku.",
+    "odp_c_pl": "Nie korzysta z informacji o drugich momentach gradientu.",
+    "odp_d_pl": "Jest synonimem klasyfikatora k-NN z $k=7$ na CIFAR10.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 256
+  },
+  {
+    "tresc_pl": "Z czego składa się algorytm Adam według DL3?",
+    "tresc_eng": "What does the Adam algorithm consist of according to DL3?",
+    "odp_a_pl": "RMSProp + Momentum + korekta biasu dla estymatorów momentów (np. $\\beta_1=0.9$, $\\beta_2=0.999$).",
+    "odp_b_pl": "Wyłącznie odwrócenie macierzy Hessianu i reguła Newtona.",
+    "odp_c_pl": "Hashing trick i negative sampling w Word2vec.",
+    "odp_d_pl": "Wyłącznie głosowanie k-NN bez uczenia parametrów $W$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 257
+  },
+  {
+    "tresc_pl": "Który algorytm optymalizacji z tabeli porównawczej DL3 śledzi pierwsze momenty, drugie momenty (leaky) oraz stosuje korektę biasu?",
+    "tresc_eng": "Which optimization algorithm in the DL3 comparison table tracks first moments, second moments (leaky), and applies bias correction?",
+    "odp_a_pl": "Adam.",
+    "odp_b_pl": "Czysty SGD bez momentów.",
+    "odp_c_pl": "AdaGrad.",
+    "odp_d_pl": "Klasyfikator najbliższego sąsiada.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 258
+  },
+  {
+    "tresc_pl": "Czym różni się optymalizacja pierwszego rzędu od drugiego rzędu w DL3?",
+    "tresc_eng": "How does first-order optimization differ from second-order optimization in DL3?",
+    "odp_a_pl": "Pierwszy rząd: liniowa aproksymacja gradientem; drugi rząd: kwadratowa aproksymacja z gradientem i Hessianem (większe kroki w obszarach małej krzywizny).",
+    "odp_b_pl": "Pierwszy rząd wymaga Hessianu $O(N^2)$, a drugi rząd używa tylko learning rate.",
+    "odp_c_pl": "Nie ma różnicy — oba to k-NN na surowych pikselach.",
+    "odp_d_pl": "Drugorzędowe metody nie używają pochodnych funkcji straty.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 259
+  },
+  {
+    "tresc_pl": "Jaką praktyczną radę podano w DL3 o SGD+Momentum w porównaniu z Adamem?",
+    "tresc_eng": "What practical advice is given in DL3 about SGD+Momentum compared to Adam?",
+    "odp_a_pl": "SGD+Momentum może działać lepiej niż Adam, ale często wymaga więcej strojenia hiperparametrów.",
+    "odp_b_pl": "SGD+Momentum zawsze gorsze od Adam i nigdy nie warto go używać.",
+    "odp_c_pl": "Adam wymaga pełnego batcha, a SGD+Momentum wyłącznie k-NN.",
+    "odp_d_pl": "Oba wymagają wyłączenia funkcji straty softmax.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 260
+  },
+  {
+    "tresc_pl": "Jakie trzy kroki wymieniono w podsumowaniu DL3 dla trenowania klasyfikatorów obrazów?",
+    "tresc_eng": "What three steps are listed in the DL3 summary for training image classifiers?",
+    "odp_a_pl": "Modele liniowe do klasyfikacji, funkcje straty wyrażające preferencje wag, SGD do minimalizacji straty i treningu.",
+    "odp_b_pl": "k-NN na pikselach, hashing trick na tekstach, detekcja obiektów R-CNN.",
+    "odp_c_pl": "Tokenizacja BPE, pretrenowanie BERT, generowanie GPT-3.",
+    "odp_d_pl": "Regresja liniowa na ceny mieszkań, tf-idf, Word2vec skip-gram.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL3.pdf",
+    "id": 261
+  },
+  {
+    "tresc_pl": "Jakie trzy interpretacje klasyfikatora liniowego wymieniono w DL4?",
+    "tresc_eng": "What three interpretations of the linear classifier are listed in DL4?",
+    "odp_a_pl": "Algebraiczna, wizualna (Visual) i geometryczna (Geometric).",
+    "odp_b_pl": "Wyłącznie bayesowska, autoregresyjna i tokenowa.",
+    "odp_c_pl": "Tylko numeryczna, analityczna i heurystyczna k-NN.",
+    "odp_d_pl": "Softmax, hinge loss i cross-entropy.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 262
+  },
+  {
+    "tresc_pl": "Co oznacza geometryczna interpretacja klasyfikatora liniowego w DL4?",
+    "tresc_eng": "What does the geometric interpretation of the linear classifier mean in DL4?",
+    "odp_a_pl": "Klasy są rozdzielane hiperpłaszczyznami w przestrzeni cech; część danych nie da się rozdzielić hiperpłaszczyzną.",
+    "odp_b_pl": "Każda klasa ma dokładnie jeden szablon obrazu w przestrzeni pikseli RGB.",
+    "odp_c_pl": "Granice decyzyjne są zawsze obliczane dopiero w fazie predykcji k-NN.",
+    "odp_d_pl": "Wynik klasy to zawsze odległość L1 między obrazami treningowymi.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 263
+  },
+  {
+    "tresc_pl": "Jak w DL4 wyjaśniono związek między klasyfikatorem liniowym w przestrzeni cech a nieliniowością w oryginalnej przestrzeni wejścia?",
+    "tresc_eng": "How does DL4 explain the relationship between a linear classifier in feature space and nonlinearity in the original input space?",
+    "odp_a_pl": "Ekstrakcja cech + klasyfikator liniowy w przestrzeni cech daje klasyfikator nieliniowy w oryginalnej przestrzeni obrazu.",
+    "odp_b_pl": "Każda warstwa splotowa zawsze redukuje sieć do klasyfikatora k-NN.",
+    "odp_c_pl": "Nieliniowość wymaga wyłącznie usunięcia funkcji aktywacji ReLU.",
+    "odp_d_pl": "Transformacja cech musi być zawsze odwróceniem macierzy Hessianu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 264
+  },
+  {
+    "tresc_pl": "Jak w DL4 łączy się wiele ekstraktorów cech $f_1(x), f_2(x), f_3(x)$ przed klasyfikacją?",
+    "tresc_eng": "How are multiple feature extractors $f_1(x), f_2(x), f_3(x)$ combined before classification in DL4?",
+    "odp_a_pl": "Konkatenacją: $f_1(x) \\oplus f_2(x) \\oplus f_3(x)$, a następnie klasyfikator liniowy na złączonym wektorze.",
+    "odp_b_pl": "Wyłącznie uśrednianiem softmax po wszystkich klasach ImageNet.",
+    "odp_c_pl": "Mnożeniem macierzy Hessianu przez wektor one-hot BPE.",
+    "odp_d_pl": "Losowym haszowaniem pikseli do $2^b$ przegródek.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 265
+  },
+  {
+    "tresc_pl": "Jakie wymiary ma przykładowa 2-warstwowa sieć neuronowa z DL4 dla obrazu CIFAR (spłaszczony wejściowy)?",
+    "tresc_eng": "What are the dimensions of the example 2-layer neural network from DL4 for a flattened CIFAR image?",
+    "odp_a_pl": "Wejście 3072, warstwa ukryta 100, wyjście 10 klas.",
+    "odp_b_pl": "Wejście 10, ukryta 3072, wyjście 100.",
+    "odp_c_pl": "Wejście 9216, ukryta 4096, wyjście 1000.",
+    "odp_d_pl": "Wejście 75, ukryta 28, wyjście 6.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 266
+  },
+  {
+    "tresc_pl": "Jak w DL4 nazwano w pełni połączoną sieć neuronową (2-layer Neural Network)?",
+    "tresc_eng": "What is the fully connected neural network (2-layer Neural Network) also called in DL4?",
+    "odp_a_pl": "Multi-Layer Perceptron (MLP) / w pełni połączona sieć neuronowa.",
+    "odp_b_pl": "Region Proposal Network (RPN).",
+    "odp_c_pl": "Histogram of Oriented Gradients (HoG) bez warstw ukrytych.",
+    "odp_d_pl": "Transformer encoder-decoder z self-attention.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 267
+  },
+  {
+    "tresc_pl": "Co oznacza w DL4 zwiększanie liczby jednostek ukrytych (np. 3 vs 6 vs 20)?",
+    "tresc_eng": "What does increasing the number of hidden units (e.g., 3 vs 6 vs 20) mean in DL4?",
+    "odp_a_pl": "Więcej ukrytych jednostek = większa pojemność (capacity) modelu.",
+    "odp_b_pl": "Mniejsza pojemność i gorsza zbieżność SGD.",
+    "odp_c_pl": "Automatyczne przejście do klasyfikatora k-NN bez parametrów.",
+    "odp_d_pl": "Konieczność użycia wyłącznie hinge loss zamiast softmax.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 268
+  },
+  {
+    "tresc_pl": "Jak w DL4 nazwano funkcję $\\max(0, z)$ używaną w 2-warstwowej sieci?",
+    "tresc_eng": "What is the function $\\max(0, z)$ used in the 2-layer network called in DL4?",
+    "odp_a_pl": "Rectified Linear Unit (ReLU) — funkcja aktywacji sieci.",
+    "odp_b_pl": "Softmax — normalizacja logarytmów prawdopodobieństw klas.",
+    "odp_c_pl": "Hinge loss — kara za złe marginesy SVM.",
+    "odp_d_pl": "Local Response Normalization (LRN) w AlexNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 269
+  },
+  {
+    "tresc_pl": "Jaki problem z obrazami opisano w DL4 przy spłaszczaniu (flatten) siatki pikseli do wektora?",
+    "tresc_eng": "What problem with images is described in DL4 when flattening the pixel lattice into a vector?",
+    "odp_a_pl": "Dotychczasowe klasyfikatory/sieci nie respektują struktury przestrzennej obrazu.",
+    "odp_b_pl": "Spłaszczenie zawsze zwiększa rozdzielczość z 32x32 do 227x227.",
+    "odp_c_pl": "Flatten usuwa konieczność funkcji straty podczas treningu.",
+    "odp_d_pl": "Problem dotyczy wyłącznie tekstów tf-idf, nie obrazów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 270
+  },
+  {
+    "tresc_pl": "Jak w DL4 opisano działanie pojedynczego filtra splotowego $3\\times5\\times5$ na obrazie $3\\times32\\times32$?",
+    "tresc_eng": "How is a single $3\\times5\\times5$ convolution filter on a $3\\times32\\times32$ image described in DL4?",
+    "odp_a_pl": "Filtr obejmuje pełną głębię wejścia; przesuwa się po obrazie licząc iloczyn skalarny $3\\cdot5\\cdot5=75$ (+ bias) z lokalnym fragmentem.",
+    "odp_b_pl": "Filtr działa tylko na jednym kanale szarości bez biasu.",
+    "odp_c_pl": "Każdy filtr porównuje obraz z jednym zapisanym przykładem k-NN.",
+    "odp_d_pl": "Filtr odwraca macierz Hessianu o rozmiarze $10^6 \\times 10^6$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 271
+  },
+  {
+    "tresc_pl": "Dlaczego sieć neuronowa może lepiej obsłużyć wiele „trybów” klasy niż klasyfikator liniowy według DL4?",
+    "tresc_eng": "Why can a neural network better handle multiple modes of a class than a linear classifier according to DL4?",
+    "odp_a_pl": "Może używać wielu różnych szablonów/wzorców w warstwie ukrytej, a nie jednego szablonu na klasę.",
+    "odp_b_pl": "Bo zawsze zapamiętuje wszystkie obrazy treningowe bez parametrów $W$.",
+    "odp_c_pl": "Bo eliminuje potrzebę funkcji aktywacji i regularyzacji.",
+    "odp_d_pl": "Bo działa wyłącznie na histogramach kolorów bez wag.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL4.pdf",
+    "id": 272
+  },
+  {
+    "tresc_pl": "Jaki jest rozmiar wyjścia przestrzennego bez paddingu dla wejścia $W$ i filtra $K$ według DL5?",
+    "tresc_eng": "What is the spatial output size without padding for input $W$ and filter $K$ according to DL5?",
+    "odp_a_pl": "$W - K + 1$ (mapy cech „kurczą się” z każdą warstwą).",
+    "odp_b_pl": "$W + K - 1$.",
+    "odp_c_pl": "$W / K$ zawsze zaokrąglane w górę do 32.",
+    "odp_d_pl": "$1 + L \\cdot (K-1)$ — wzór pola recepcyjnego.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 273
+  },
+  {
+    "tresc_pl": "Po co stosuje się padding w warstwie splotowej według DL5?",
+    "tresc_eng": "Why is padding used in a convolution layer according to DL5?",
+    "odp_a_pl": "Aby kontrolować rozmiar wyjścia; często $P=(K-1)/2$ daje ten sam rozmiar przestrzenny co wejście.",
+    "odp_b_pl": "Aby zastąpić funkcję straty softmax w AlexNet.",
+    "odp_c_pl": "Wyłącznie do normalizacji batchowej w czasie testu.",
+    "odp_d_pl": "Aby zapamiętać wszystkie przykłady treningowe k-NN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 274
+  },
+  {
+    "tresc_pl": "Jak w DL5 wyznacza się rozmiar pola recepcyjnego po $L$ warstwach splotu o jądrze $K$?",
+    "tresc_eng": "How is the receptive field size computed after $L$ convolution layers with kernel $K$ in DL5?",
+    "odp_a_pl": "$1 + L \\cdot (K - 1)$.",
+    "odp_b_pl": "$W - K + 2P$.",
+    "odp_c_pl": "$(W - K + 2P) / S + 1$.",
+    "odp_d_pl": "$C_{out} \\times H' \\times W'$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 275
+  },
+  {
+    "tresc_pl": "Jaki jest wzór na rozmiar wyjścia warstwy splotowej ze stride $S$ i paddingiem $P$ w DL5?",
+    "tresc_eng": "What is the output size formula for a convolution layer with stride $S$ and padding $P$ in DL5?",
+    "odp_a_pl": "$(W - K + 2P) / S + 1$.",
+    "odp_b_pl": "$W \\cdot K + P$.",
+    "odp_c_pl": "$\\sqrt{W^2 + K^2}$.",
+    "odp_d_pl": "$N \\times C_{in} \\times H \\times W$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 276
+  },
+  {
+    "tresc_pl": "Dla wejścia $3\\times32\\times32$, 10 filtrów $5\\times5$, stride 1, pad 2 — jaki jest rozmiar wyjścia w przykładzie z DL5?",
+    "tresc_eng": "For input $3\\times32\\times32$, 10 filters $5\\times5$, stride 1, pad 2 — what is the output size in the DL5 example?",
+    "odp_a_pl": "$10 \\times 32 \\times 32$.",
+    "odp_b_pl": "$10 \\times 28 \\times 28$.",
+    "odp_c_pl": "$3 \\times 28 \\times 28$.",
+    "odp_d_pl": "$1 \\times 9216$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 277
+  },
+  {
+    "tresc_pl": "Ile uczonych parametrów ma warstwa z przykładu DL5: 10 filtrów $5\\times5\\times3$ + bias?",
+    "tresc_eng": "How many learnable parameters does the layer from the DL5 example have: 10 filters $5\\times5\\times3$ + bias?",
+    "odp_a_pl": "760 ($76$ parametrów na filtr: $3\\cdot5\\cdot5+1$, razy 10 filtrów).",
+    "odp_b_pl": "3072.",
+    "odp_c_pl": "9216.",
+    "odp_d_pl": "0 — warstwy splotowe nie mają parametrów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 278
+  },
+  {
+    "tresc_pl": "Do czego służy splot $1\\times1$ według DL5?",
+    "tresc_eng": "What is $1\\times1$ convolution used for according to DL5?",
+    "odp_a_pl": "Daje MLP działający niezależnie na każdej pozycji przestrzennej mapy cech (Network in Network).",
+    "odp_b_pl": "Zastępuje wyłącznie operację flatten przed fc6.",
+    "odp_c_pl": "Oblicza wyłącznie pole recepcyjne bez wag.",
+    "odp_d_pl": "Normalizuje batch podczas inferencji testowej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 279
+  },
+  {
+    "tresc_pl": "Co charakteryzuje warstwy poolingowe w kontekście liczby parametrów według tabeli AlexNet w DL5?",
+    "tresc_eng": "What characterizes pooling layers regarding the number of parameters in the AlexNet table in DL5?",
+    "odp_a_pl": "Nie mają uczonych parametrów (0 parametrów).",
+    "odp_b_pl": "Zawierają najwięcej parametrów w całej sieci.",
+    "odp_c_pl": "Mają tyle samo wag co warstwa fc6.",
+    "odp_d_pl": "Wymagają macierzy $C_{out} \\times C_{in} \\times K \\times K$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 280
+  },
+  {
+    "tresc_pl": "Gdzie w sieci zwykle umieszcza się Batch Normalization według DL5?",
+    "tresc_eng": "Where is Batch Normalization usually placed in a network according to DL5?",
+    "odp_a_pl": "Po warstwach FC lub splotowych, przed nieliniowością (np. przed tanh/ReLU).",
+    "odp_b_pl": "Wyłącznie po warstwie softmax na wyjściu.",
+    "odp_c_pl": "Przed wczytaniem obrazu, na surowych pikselach RGB.",
+    "odp_d_pl": "Tylko w klasyfikatorze k-NN podczas fazy treningu $O(1)$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 281
+  },
+  {
+    "tresc_pl": "Jak Batch Normalization działa w czasie testu według DL5?",
+    "tresc_eng": "How does Batch Normalization work at test time according to DL5?",
+    "odp_a_pl": "Używa (running) średnich wartości mean/std zebrane podczas treningu zamiast statystyk z bieżącego mini-batcha.",
+    "odp_b_pl": "Ponownie losuje mini-batch i uczy od zera wszystkie wagi $W$.",
+    "odp_c_pl": "Wyłącza wszystkie nieliniowości i redukuje sieć do klasyfikatora liniowego.",
+    "odp_d_pl": "Zastępuje pooling max $3\\times3$ stride 2.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 282
+  },
+  {
+    "tresc_pl": "Które właściwości Batch Normalization wymieniono w DL5?",
+    "tresc_eng": "Which Batch Normalization properties are listed in DL5?",
+    "odp_a_pl": "Ułatwia trening głębokich sieci, pozwala na wyższy learning rate, szybszą zbieżność, odporność na inicjalizację, działa jak regularyzacja; zerowy narzut w inferencji.",
+    "odp_b_pl": "Zawsze zwiększa błąd walidacji i wymaga LRN.",
+    "odp_c_pl": "Zastępuje wszystkie warstwy splotowe operacją flatten.",
+    "odp_d_pl": "Działa tylko w k-NN i wymaga metryki L2 na pikselach.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 283
+  },
+  {
+    "tresc_pl": "Z czego składa się architektura AlexNet według DL5?",
+    "tresc_eng": "What does the AlexNet architecture consist of according to DL5?",
+    "odp_a_pl": "Wejście $227\\times227$, 5 warstw splotowych, max pooling, 3 warstwy FC, nieliniowości ReLU.",
+    "odp_b_pl": "Wyłącznie 3 warstwy MLP bez splotów i bez ReLU.",
+    "odp_c_pl": "12 warstw Transformer z self-attention i BPE.",
+    "odp_d_pl": "Jeden klasyfikator liniowy $Wx+b$ bez ukrytych warstw.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 284
+  },
+  {
+    "tresc_pl": "Co w DL5 powiedziano o Local Response Normalization (LRN) w AlexNet?",
+    "tresc_eng": "What did DL5 say about Local Response Normalization (LRN) in AlexNet?",
+    "odp_a_pl": "Była użyta w AlexNet, ale dziś już się jej nie stosuje.",
+    "odp_b_pl": "Jest obowiązkowa we wszystkich nowoczesnych ResNet.",
+    "odp_c_pl": "Zastępuje softmax w funkcji straty klasyfikatora.",
+    "odp_d_pl": "To synonim batch normalization z 2015 roku.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 285
+  },
+  {
+    "tresc_pl": "Według podsumowania tabeli AlexNet w DL5, gdzie jest najwięcej pamięci, parametrów i operacji FLOP?",
+    "tresc_eng": "According to the AlexNet table summary in DL5, where are memory, parameters, and FLOPs concentrated?",
+    "odp_a_pl": "Pamięć głównie we wczesnych warstwach splotowych; parametry prawie wszystkie w FC; FLOPs głównie w warstwach splotowych.",
+    "odp_b_pl": "Wszystko równomiernie tylko w warstwie flatten.",
+    "odp_c_pl": "Parametry głównie w pooling; FLOPs wyłącznie w fc8.",
+    "odp_d_pl": "Pamięć tylko w softmax; FLOPs tylko w k-NN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 286
+  },
+  {
+    "tresc_pl": "Na czym polega splot rozszerzony (Dilated Convolution) w DL5?",
+    "tresc_eng": "What is Dilated Convolution in DL5?",
+    "odp_a_pl": "Splot z parametrem rate $R$ rozszerzającym odstępy między elementami jądra (większe pole recepcyjne bez zmniejszania rozdzielczości).",
+    "odp_b_pl": "Splot $1\\times1$ stosowany wyłącznie w ResNet bottleneck.",
+    "odp_c_pl": "Operacja flatten przed fc6 w AlexNet.",
+    "odp_d_pl": "Metoda trenowania Word2vec skip-gram.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "id": 287
+  },
+  {
+    "tresc_pl": "Jaki rozmiar ma mapa cech $C_M$ przy splotie 2D macierzy wejścia $6\\times6$ z filtrem $3\\times3$ i stride 1 według DL6?",
+    "tresc_eng": "What is the size of feature map $C_M$ for 2D convolution of a $6\\times6$ input matrix with a $3\\times3$ filter and stride 1 according to DL6?",
+    "odp_a_pl": "Macierz $4\\times4$ (czasem nazywana feature map).",
+    "odp_b_pl": "Macierz $6\\times6$ bez zmian rozmiaru.",
+    "odp_c_pl": "Wektor długości 3072 po operacji flatten.",
+    "odp_d_pl": "Pojedyncza liczba — wynik softmax na 10 klasach.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 288
+  },
+  {
+    "tresc_pl": "Jakie reguły projektowe VGG wymieniono w DL6?",
+    "tresc_eng": "What VGG design rules are listed in DL6?",
+    "odp_a_pl": "Wszystkie conv $3\\times3$ stride 1 pad 1; max pool $2\\times2$ stride 2; po pool podwojenie liczby kanałów; 5 etapów splotowych.",
+    "odp_b_pl": "Wszystkie conv $11\\times11$ stride 4; brak warstw poolingowych.",
+    "odp_c_pl": "Wyłącznie warstwy FC $4096$ bez splotów.",
+    "odp_d_pl": "Jeden filtr $1\\times1$ na cały obraz ImageNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 289
+  },
+  {
+    "tresc_pl": "Jak w DL6 porównano aktywacje (pamięć) AlexNet i VGG-16?",
+    "tresc_eng": "How does DL6 compare AlexNet and VGG-16 activations (memory)?",
+    "odp_a_pl": "VGG-16 wymaga około 25 razy więcej pamięci na aktywacje niż AlexNet.",
+    "odp_b_pl": "AlexNet wymaga 25 razy więcej pamięci niż VGG-16.",
+    "odp_c_pl": "Obie sieci mają identyczny rozmiar aktywacji 9216.",
+    "odp_d_pl": "VGG-16 nie przechowuje aktywacji między warstwami.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 290
+  },
+  {
+    "tresc_pl": "Jak w DL6 porównano liczbę parametrów i koszt FLOP AlexNet vs VGG-16?",
+    "tresc_eng": "How does DL6 compare parameter count and FLOP cost of AlexNet vs VGG-16?",
+    "odp_a_pl": "VGG-16 ma ok. 2.3× więcej parametrów i ok. 19.4× więcej FLOP niż AlexNet.",
+    "odp_b_pl": "AlexNet ma 19.4× więcej parametrów niż VGG-16.",
+    "odp_c_pl": "VGG-16 ma mniej parametrów, bo nie używa warstw FC.",
+    "odp_d_pl": "Obie sieci mają dokładnie 61M parametrów i 0.7 GFLOP.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 291
+  },
+  {
+    "tresc_pl": "Na czym polega moduł Inception w GoogLeNet według DL6?",
+    "tresc_eng": "What is the Inception module in GoogLeNet according to DL6?",
+    "odp_a_pl": "Lokalna jednostka z równoległymi gałęziami; filtry różnych rozmiarów lepiej obsługują obiekty w wielu skalach.",
+    "odp_b_pl": "Pojedyncza warstwa FC $4096$ bez splotów.",
+    "odp_c_pl": "Wyłącznie max pooling bez filtrów conv.",
+    "odp_d_pl": "Mechanizm RPN generujący 2000 regionów jak w R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 292
+  },
+  {
+    "tresc_pl": "Do czego służą warstwy $1\\times1$ „Bottleneck” w module Inception według DL6?",
+    "tresc_eng": "What are $1\\times1$ “Bottleneck” layers for in the Inception module according to DL6?",
+    "odp_a_pl": "Do redukcji wymiaru kanałów (channel dimension) przed kosztowniejszymi splotami.",
+    "odp_b_pl": "Do zastąpienia wszystkich warstw ReLU w ResNet.",
+    "odp_c_pl": "Do obliczania gradientu numerycznego w k-NN.",
+    "odp_d_pl": "Do tokenizacji tekstu metodą BPE w Transformerze.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 293
+  },
+  {
+    "tresc_pl": "Jak GoogLeNet redukuje liczbę parametrów w warstwach klasyfikujących według DL6?",
+    "tresc_eng": "How does GoogLeNet reduce parameters in classifying layers according to DL6?",
+    "odp_a_pl": "Global average pooling + jedna warstwa liniowa (zamiast dużych FC jak w VGG-16).",
+    "odp_b_pl": "Wyłącznie k-NN na surowych pikselach bez uczenia wag.",
+    "odp_c_pl": "Hashing trick mapujący obrazy do $2^b$ przegródek.",
+    "odp_d_pl": "Podwojenie liczby kanałów po każdym max pool bez FC.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 294
+  },
+  {
+    "tresc_pl": "Jak w DL6 opisano projekt etapów (stages) w ResNet?",
+    "tresc_eng": "How are stages designed in ResNet according to DL6?",
+    "odp_a_pl": "Pierwszy blok każdego etapu zmniejsza rozdzielczość (conv stride 2) i podwaja liczbę kanałów.",
+    "odp_b_pl": "Każdy etap zwiększa rozdzielczość dwukrotnie i halvuje kanały.",
+    "odp_c_pl": "Wszystkie bloki mają stałe 64 kanały bez skip connections.",
+    "odp_d_pl": "Etapy zastępują rekurencję RNN w tłumaczeniu maszynowym.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 295
+  },
+  {
+    "tresc_pl": "Jak ResNet ogranicza liczbę parametrów na końcu sieci według DL6?",
+    "tresc_eng": "How does ResNet limit parameters at the end of the network according to DL6?",
+    "odp_a_pl": "Podobnie jak GoogLeNet: global average pooling i pojedyncza warstwa liniowa zamiast dużych FC.",
+    "odp_b_pl": "Używa wyłącznie klasyfikatora liniowego $Wx+b$ na pikselach $227\\times227$.",
+    "odp_c_pl": "Wymaga trzech warstw FC po $4096$ neuronów jak w VGG-16.",
+    "odp_d_pl": "Nie ma żadnej warstwy wyjściowej — tylko hinge loss.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 296
+  },
+  {
+    "tresc_pl": "Jak w DL6 opisano strukturę ResNet-18 (stem i etapy)?",
+    "tresc_eng": "How is ResNet-18 structure (stem and stages) described in DL6?",
+    "odp_a_pl": "Stem: 1 warstwa conv; 4 etapy z 2 blokami rezydualnymi każdy (po 2 conv w bloku) — łącznie 18 warstw wagowych.",
+    "odp_b_pl": "Stem: 7 warstw FC; brak bloków rezydualnych.",
+    "odp_c_pl": "Tylko jeden blok Inception i global average pooling.",
+    "odp_d_pl": "Wyłącznie RNN z pętlą czasową bez splotów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 297
+  },
+  {
+    "tresc_pl": "Na czym polega problem degradacji (degradation) w „plain” głębokich sieciach według DL6?",
+    "tresc_eng": "What is the degradation problem in “plain” deep networks according to DL6?",
+    "odp_a_pl": "Wraz ze wzrostem głębokości błąd treningowy (a potem testowy) rośnie — optymalizacja staje się trudna.",
+    "odp_b_pl": "Sieć staje się zawsze liniowym klasyfikatorem po usunięciu ReLU.",
+    "odp_c_pl": "Gradient jest zawsze zerowy już po pierwszej epoce SGD.",
+    "odp_d_pl": "Liczba parametrów maleje wykładniczo z każdą warstwą.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL6.pdf",
+    "id": 298
+  },
+  {
+    "tresc_pl": "Jak w DL9 nazwano prostą sieć rekurencyjną ze stanem ukrytym $h$?",
+    "tresc_eng": "What is the simple recurrent network with hidden state $h$ called in DL9?",
+    "odp_a_pl": "Vanilla RNN (czasem Elman RNN).",
+    "odp_b_pl": "Transformer encoder-only.",
+    "odp_c_pl": "Klasyfikator k-NN z metryką Manhattan.",
+    "odp_d_pl": "ResNet Bottleneck block.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 299
+  },
+  {
+    "tresc_pl": "Jaka jest kluczowa idea RNN według DL9?",
+    "tresc_eng": "What is the key idea of RNNs according to DL9?",
+    "odp_a_pl": "RNN ma wewnętrzny stan aktualizowany w miarę przetwarzania sekwencji.",
+    "odp_b_pl": "RNN zapamiętuje wszystkie obrazy treningowe bez parametrów $W$.",
+    "odp_c_pl": "RNN nie współdzieli wag między krokami czasowymi.",
+    "odp_d_pl": "RNN działa wyłącznie na pojedynczych obrazach bez sekwencji.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 300
+  },
+  {
+    "tresc_pl": "Co w grafie obliczeniowym RNN oznacza ponowne użycie tej samej macierzy $W$ w każdym kroku czasowym?",
+    "tresc_eng": "What does reusing the same matrix $W$ at every time step mean in the RNN computational graph?",
+    "odp_a_pl": "Te same parametry są stosowane na każdym kroku sekwencji (współdzielenie wag w czasie).",
+    "odp_b_pl": "W każdym kroku losowana jest nowa macierz Hessianu.",
+    "odp_c_pl": "Macierz $W$ jest odwracana tylko raz na końcu sekwencji.",
+    "odp_d_pl": "Każdy krok wymaga osobnego klasyfikatora k-NN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 301
+  },
+  {
+    "tresc_pl": "Jak można zainicjalizować stan ukryty $h_0$ w RNN według DL9?",
+    "tresc_eng": "How can the initial hidden state $h_0$ be initialized in an RNN according to DL9?",
+    "odp_a_pl": "Ustawić na zera lub nauczyć (learn it) jako parametr.",
+    "odp_b_pl": "Zawsze jako wynik softmax na 1000 klas ImageNet.",
+    "odp_c_pl": "Wyłącznie jako odwrócona macierz wag $W^{-1}$.",
+    "odp_d_pl": "Jako stały wektor HoG o długości 10800.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 302
+  },
+  {
+    "tresc_pl": "Na czym polega architektura seq2seq (Sequence to Sequence) w DL9?",
+    "tresc_eng": "What is the Sequence to Sequence (seq2seq) architecture in DL9?",
+    "odp_a_pl": "Many-to-one: enkoder koduje sekwencję wejściową w wektor; one-to-many: dekoder generuje sekwencję wyjściową.",
+    "odp_b_pl": "One-to-one: jeden obraz na jedną etykietę bez rekurencji.",
+    "odp_c_pl": "Wyłącznie k-NN na pikselach bez enkodera.",
+    "odp_d_pl": "Wyłącznie self-attention bez dekodera.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 303
+  },
+  {
+    "tresc_pl": "Na czym polega Backpropagation Through Time (BPTT) według DL9?",
+    "tresc_eng": "What is Backpropagation Through Time (BPTT) according to DL9?",
+    "odp_a_pl": "Przejście do przodu przez całą sekwencję (obliczenie straty), potem wstecz przez całą sekwencję (gradient).",
+    "odp_b_pl": "Gradient liczony tylko na pierwszym tokenie sekwencji.",
+    "odp_c_pl": "Odwrócenie macierzy Hessianu w każdym kroku czasowym.",
+    "odp_d_pl": "Losowe zerowanie wag co 10 kroków bez propagacji błędu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 304
+  },
+  {
+    "tresc_pl": "Czym różni się Truncated BPTT od pełnego BPTT w DL9?",
+    "tresc_eng": "How does Truncated BPTT differ from full BPTT in DL9?",
+    "odp_a_pl": "Stan ukryty niesiony w przód w czasie, ale wsteczna propagacja tylko przez mniejszą liczbę ostatnich kroków.",
+    "odp_b_pl": "W ogóle nie propaguje gradientu — tylko forward pass.",
+    "odp_c_pl": "Wymaga pełnego batcha całego ImageNet w jednym kroku.",
+    "odp_d_pl": "Zastępuje RNN klasyfikatorem liniowym $Wx+b$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 305
+  },
+  {
+    "tresc_pl": "Jak w DL9 zbudowano model Image Captioning (CNN + RNN)?",
+    "tresc_eng": "How is the Image Captioning model (CNN + RNN) built in DL9?",
+    "odp_a_pl": "CNN ekstrahuje cechy obrazu; RNN generuje sekwencję słów opisu.",
+    "odp_b_pl": "Wyłącznie RNN na surowych pikselach bez CNN.",
+    "odp_c_pl": "Wyłącznie klasyfikator liniowy na histogramie kolorów.",
+    "odp_d_pl": "Transformer bez enkodera obrazu i bez dekodera tekstu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 306
+  },
+  {
+    "tresc_pl": "Jak mechanizm uwagi w seq2seq rozwiązuje problem „wąskiej gardzieli” pojedynczego wektora kontekstu w DL9?",
+    "tresc_eng": "How does attention in seq2seq solve the single context vector bottleneck problem in DL9?",
+    "odp_a_pl": "W każdym kroku dekodera używa innego wektora kontekstu „patrzącego” na inne części sekwencji wejściowej.",
+    "odp_b_pl": "Kompresuje całą sekwencję do jednego wektora 3072 bez możliwości odwzorowania.",
+    "odp_c_pl": "Usuwa dekoder i generuje wszystkie słowa jednocześnie softmaxem na obrazie.",
+    "odp_d_pl": "Zastępuje RNN wyłącznie max poolingiem $3\\times3$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 307
+  },
+  {
+    "tresc_pl": "Jakie zadanie generowania obrazów opisano w DL9 jako sekwencyjne przetwarzanie danych niesekwencyjnych (DRAW)?",
+    "tresc_eng": "Which image generation task is described in DL9 as sequential processing of non-sequential data (DRAW)?",
+    "odp_a_pl": "Generowanie obrazu kawałek po kawałku (one piece at a time) modelem rekurencyjnym.",
+    "odp_b_pl": "Klasyfikacja całego obrazu jedną etykietą many-to-one.",
+    "odp_c_pl": "Tłumaczenie maszynowe słowo po słowie bez CNN.",
+    "odp_d_pl": "Detekcja obiektów z RPN w Faster R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "id": 308
+  },
+  {
+    "id": 309,
+    "tresc_pl": "Jak definiowana jest metryka IoU (Intersection over Union) przy porównywaniu przewidywanej ramki z etykietą referencyjną według DL11?",
+    "tresc_eng": "How is the IoU (Intersection over Union) metric defined when comparing a predicted box to a ground-truth box according to DL11?",
+    "odp_a_pl": "Stosunek pola części wspólnej do pola sumy (union) obu ramek; nazywana też Jaccard similarity/index.",
+    "odp_b_pl": "Suma bezwzględnych różnic współrzędnych $(x, y, w, h)$ bez uwzględnienia nakładania się.",
+    "odp_c_pl": "Średnia precyzja AP uśredniona po wszystkich klasach w zbiorze PASCAL VOC.",
+    "odp_d_pl": "Logarytmiczna strata cross-entropy obliczana osobno dla każdego piksela maski.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 310,
+    "tresc_pl": "Na czym polega algorytm Non-Max Suppression (NMS) stosowany po detekcji obiektów w DL11?",
+    "tresc_eng": "What does the Non-Max Suppression (NMS) algorithm do after object detection in DL11?",
+    "odp_a_pl": "Wybiera ramki o najwyższym score i usuwa nakładające się detekcje o niższym score, gdy IoU przekracza próg (np. 0.7).",
+    "odp_b_pl": "Normalizuje mapy cech Batch Normalization przed pierwszym splotem AlexNet.",
+    "odp_c_pl": "Dzieli obraz na okna 224×224 i klasyfikuje środkowy piksel każdego okna.",
+    "odp_d_pl": "Trenuje RPN wyłącznie na zbiorze tekstowym bez obrazów RGB.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 311,
+    "tresc_pl": "Skąd pochodziły propozycje regionów (region proposals) w architekturze R-CNN przed wprowadzeniem Faster R-CNN według DL11?",
+    "tresc_eng": "Where did region proposals come from in the R-CNN architecture before Faster R-CNN according to DL11?",
+    "odp_a_pl": "Z zewnętrznych algorytmów heurystycznych na CPU, np. Selective Search (~2000 propozycji w kilka sekund).",
+    "odp_b_pl": "Wyłącznie z losowego inicjalizowania wag warstw w pełni połączonych fc6/fc7.",
+    "odp_c_pl": "Z mechanizmu self-attention w architekturze Transformer bez CNN.",
+    "odp_d_pl": "Z klasyfikacji per-piksel FCN bez żadnych ramek otaczających.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 312,
+    "tresc_pl": "Jak w DL11 traktowana jest lokalizacja pojedynczego obiektu w kontekście detekcji?",
+    "tresc_eng": "How is single-object localization treated in the detection context in DL11?",
+    "odp_a_pl": "Jako problem regresji — sieć przewiduje współrzędne ramki otaczającej (bounding box).",
+    "odp_b_pl": "Jako klasyfikacja wieloklasowa softmax bez współrzędnych przestrzennych.",
+    "odp_c_pl": "Jako segmentacja semantyczna z etykietą per piksel dla całego obrazu.",
+    "odp_d_pl": "Jako autoregresyjne generowanie opisu tekstowego regionu metodą LSTM.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 313,
+    "tresc_pl": "Czym są kotwice (anchors) w Region Proposal Network (RPN) omawianym w DL11?",
+    "tresc_eng": "What are anchors in the Region Proposal Network (RPN) discussed in DL11?",
+    "odp_a_pl": "Ramki o ustalonym rozmiarze w każdym punkcie mapy cech; w każdej pozycji używa się K różnych anchorów.",
+    "odp_b_pl": "Wektory one-hot reprezentujące słowa w opisie obrazu w Dense Captioning.",
+    "odp_c_pl": "Maski segmentacji instancji o rozmiarze $C \\times 28 \\times 28$ w Mask R-CNN.",
+    "odp_d_pl": "Filtry $1\\times1$ redukujące liczbę kanałów w sieci Inception.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 314,
+    "tresc_pl": "Jak opisano strukturę detektora Faster R-CNN jako modelu dwuetapowego (two-stage) w DL11?",
+    "tresc_eng": "How is the Faster R-CNN detector described as a two-stage model in DL11?",
+    "odp_a_pl": "Etap 1: backbone + RPN raz na obraz; etap 2: wycinanie cech (RoI pool/align) i predykcja klasy oraz offsetu ramki dla każdego regionu.",
+    "odp_b_pl": "Jeden etap: pełna predykcja klas i ramek bez osobnej sieci propozycji regionów.",
+    "odp_c_pl": "Trzy etapy: enkoder tekstu, dekoder obrazu i osobny klasyfikator k-NN.",
+    "odp_d_pl": "Wyłącznie regresja liniowa $Wx+b$ na spłaszczonych pikselach CIFAR-10.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 315,
+    "tresc_pl": "Które wyzwanie detekcji obiektów wymieniono w DL11 w porównaniu do klasyfikacji obrazu 224×224?",
+    "tresc_eng": "Which object detection challenge is mentioned in DL11 compared to 224×224 image classification?",
+    "odp_a_pl": "Potrzeba wyższej rozdzielczości wejścia (np. ~800×600) oraz zmienna liczba obiektów na obrazie.",
+    "odp_b_pl": "Brak możliwości użycia jakichkolwiek sieci splotowych do ekstrakcji cech.",
+    "odp_c_pl": "Konieczność haszowania pikseli do wektora $2^b$ przed detekcją.",
+    "odp_d_pl": "Wymóg jednej globalnej etykiety tekstowej bez współrzędnych ramki.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 316,
+    "tresc_pl": "Jakie cztery funkcje straty są wspólnie trenowane w architekturze Faster R-CNN według DL11?",
+    "tresc_eng": "Which four loss functions are jointly trained in the Faster R-CNN architecture according to DL11?",
+    "odp_a_pl": "Klasyfikacja RPN, regresja RPN, klasyfikacja obiektu, regresja ramki obiektu.",
+    "odp_b_pl": "Data loss, regularization loss, hinge loss i log-loss Bayesa.",
+    "odp_c_pl": "Per-pixel cross-entropy, Dice loss, focal loss i triplet loss.",
+    "odp_d_pl": "Strata atencji Q, K, V oraz strata pozycyjna sinusoidalna.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 317,
+    "tresc_pl": "Które architektury wymieniono w DL11 jako przykłady jednofazowych detektorów obiektów (single-stage)?",
+    "tresc_eng": "Which architectures are listed in DL11 as examples of single-stage object detectors?",
+    "odp_a_pl": "YOLO, SSD oraz RetinaNet (Focal Loss).",
+    "odp_b_pl": "Slow R-CNN, Fast R-CNN i Faster R-CNN.",
+    "odp_c_pl": "AlexNet, VGG-16 i ResNet-152 wyłącznie do klasyfikacji ImageNet.",
+    "odp_d_pl": "FCN, U-Net i DenseCap do segmentacji semantycznej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 318,
+    "tresc_pl": "Jak w DL11 interpretowane są progi IoU przy ocenie jakości dopasowania ramek?",
+    "tresc_eng": "How are IoU thresholds interpreted when evaluating box matching quality in DL11?",
+    "odp_a_pl": "IoU > 0.5 to „decent”, > 0.7 „pretty good”, > 0.9 „almost perfect”.",
+    "odp_b_pl": "IoU > 0.1 oznacza idealne dopasowanie, a IoU < 0.5 jest zawsze akceptowalne.",
+    "odp_c_pl": "IoU nie ma zastosowania w detekcji — używa się wyłącznie RMSE na pikselach.",
+    "odp_d_pl": "IoU mierzy wyłącznie podobieństwo kosinusowe embeddingów słów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 319,
+    "tresc_pl": "Co przewiduje RPN dla dodatnich kotwic (anchor boxes) według DL11?",
+    "tresc_eng": "What does the RPN predict for positive anchor boxes according to DL11?",
+    "odp_a_pl": "Transformację (regresję) przesuwającą kotwicę do ramki obiektu (box transform).",
+    "odp_b_pl": "Maskę segmentacji $C \\times 28 \\times 28$ dla każdej klasy.",
+    "odp_c_pl": "Opis tekstowy regionu w języku naturalnym (dense caption).",
+    "odp_d_pl": "Trójwymiarową siatkę trójkątów (mesh) dla każdego wykrytego obiektu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 320,
+    "tresc_pl": "Dlaczego czas działania „Slow” R-CNN był dominowany przez propozycje regionów według DL11?",
+    "tresc_eng": "Why was runtime in \"Slow\" R-CNN dominated by region proposals according to DL11?",
+    "odp_a_pl": "Każdy z ~2000 regionów był osobno przepuszczany przez ConvNet, a propozycje generował wolny algorytm heurystyczny na CPU.",
+    "odp_b_pl": "Sieć przetwarzała cały obraz tylko raz i współdzieliła mapy cech między regionami.",
+    "odp_c_pl": "RPN była już zintegrowana z backbone i eliminowała zewnętrzne propozycje.",
+    "odp_d_pl": "Detektor był w pełni jednofazowy i nie używał żadnych ramek otaczających.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL11.pdf"
+  },
+  {
+    "id": 321,
+    "tresc_pl": "Na czym polega idea w pełni konwolucyjnej sieci (FCN) do segmentacji semantycznej według DL12?",
+    "tresc_eng": "What is the idea of a Fully Convolutional Network (FCN) for semantic segmentation according to DL12?",
+    "odp_a_pl": "Sieć zbudowana z warstw splotowych przewiduje etykiety dla wszystkich pikseli naraz (mapa $C \\times H \\times W$), zamiast klasyfikować osobne okna.",
+    "odp_b_pl": "Sieć w pełni połączona spłaszcza obraz do wektora 4096 i zwraca jedną etykietę globalną.",
+    "odp_c_pl": "Sieć RNN przetwarza piksele sekwencyjnie od lewej do prawej bez map cech.",
+    "odp_d_pl": "Sieć k-NN liczy odległość L2 między każdą parą pikseli w CIFAR-10.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 322,
+    "tresc_pl": "Dlaczego naiwne podejście sliding window jest nieefektywne w segmentacji semantycznej według DL12?",
+    "tresc_eng": "Why is the naive sliding window approach inefficient for semantic segmentation according to DL12?",
+    "odp_a_pl": "Nakładające się fragmenty obrazu nie współdzielą obliczeń cech — bardzo kosztowne obliczeniowo.",
+    "odp_b_pl": "Nie pozwala na użycie jakichkolwiek warstw konwolucyjnych.",
+    "odp_c_pl": "Wymaga osobnego przepuszczenia całego obrazu przez RPN dla każdego piksela.",
+    "odp_d_pl": "Daje lepsze wyniki niż FCN przy znacznie mniejszym koszcie.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 323,
+    "tresc_pl": "Jaki problem pola recepcyjnego (receptive field) wskazano dla głębokiej sieci FCN w DL12?",
+    "tresc_eng": "What receptive field problem is pointed out for a deep FCN network in DL12?",
+    "odp_a_pl": "Efektywne pole recepcyjne rośnie liniowo z liczbą warstw: dla $L$ splotów $3\\times3$ wynosi $1+2L$.",
+    "odp_b_pl": "Pole recepcyjne jest zawsze równe $1\\times1$ niezależnie od głębokości sieci.",
+    "odp_c_pl": "Pole recepcyjne maleje wykładniczo z każdą warstwą max pooling.",
+    "odp_d_pl": "FCN nie ma pola recepcyjnego, bo nie używa splotów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 324,
+    "tresc_pl": "Jakie operacje downsamplingu wymieniono w architekturze FCN z downsamplingiem i upsamplingiem (DL12)?",
+    "tresc_eng": "Which downsampling operations are listed in the FCN architecture with downsampling and upsampling (DL12)?",
+    "odp_a_pl": "Pooling oraz splot ze stride > 1 (strided convolution).",
+    "odp_b_pl": "Wyłącznie warstwy w pełni połączone bez zmiany rozmiaru przestrzennego.",
+    "odp_c_pl": "RoI Align i RoI Pool na mapach cech detektora.",
+    "odp_d_pl": "Hashing trick mapujący piksele do przegródek $2^b$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 325,
+    "tresc_pl": "Które metody upsamplingu w sieci omówiono w DL12 przed wprowadzeniem transposed convolution?",
+    "tresc_eng": "Which upsampling methods in the network are discussed in DL12 before transposed convolution is introduced?",
+    "odp_a_pl": "Unpooling (np. nearest neighbor, bed of nails), interpolacja biliniowa i bikubiczna oraz max unpooling.",
+    "odp_b_pl": "Wyłącznie softmax na poziomie całego obrazu bez zmiany rozdzielczości.",
+    "odp_c_pl": "NMS i IoU do łączenia nakładających się masek.",
+    "odp_d_pl": "Backpropagation through time w sieciach RNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 326,
+    "tresc_pl": "Na czym polega max unpooling w kontekście segmentacji według DL12?",
+    "tresc_eng": "What is max unpooling in the segmentation context according to DL12?",
+    "odp_a_pl": "Przy upsamplingu wartości są umieszczane w pozycjach, które miały maksimum podczas odpowiadającego max poolingu.",
+    "odp_b_pl": "Losowo zeruje 15% pikseli maski podczas treningu jak w BERT MLM.",
+    "odp_c_pl": "Usuwa wszystkie detekcje o IoU > 0.7 w post-processingu NMS.",
+    "odp_d_pl": "Łączy kotwice RPN z maskami $28\\times28$ w Mask R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 327,
+    "tresc_pl": "Jakie podejście do segmentacji instancji opisano w DL12?",
+    "tresc_eng": "What approach to instance segmentation is described in DL12?",
+    "odp_a_pl": "Wykryj wszystkie obiekty (detekcja), a następnie przewidź maskę pikseli dla każdego obiektu — dotyczy kategorii „things”.",
+    "odp_b_pl": "Przypisz jedną etykietę do całego obrazu bez informacji przestrzennej.",
+    "odp_c_pl": "Klasyfikuj wyłącznie tło (stuff) bez wykrywania obiektów.",
+    "odp_d_pl": "Generuj opis tekstowy całego obrazu bez lokalizacji regionów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 328,
+    "tresc_pl": "Jaki rozmiar ma przewidywana maska segmentacji w architekturze Mask R-CNN według DL12?",
+    "tresc_eng": "What is the size of the predicted segmentation mask in Mask R-CNN according to DL12?",
+    "odp_a_pl": "$C \\times 28 \\times 28$ — osobna maska dla każdej z $C$ klas.",
+    "odp_b_pl": "$1 \\times 224 \\times 224$ — jedna globalna mapa dla całego obrazu.",
+    "odp_c_pl": "$K \\times 56 \\times 56$ — maski keypointów szkieletu.",
+    "odp_d_pl": "$4096$ — wektor po spłaszczeniu warstwy pool5 AlexNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 329,
+    "tresc_pl": "Dlaczego Mask R-CNN używa RoI Align zamiast RoI Pool według DL12?",
+    "tresc_eng": "Why does Mask R-CNN use RoI Align instead of RoI Pool according to DL12?",
+    "odp_a_pl": "RoI Align unika „przyciągania” siatki (snapping) i próbkuje cechy interpolacją biliniową, co daje dokładniejsze maski pikseli.",
+    "odp_b_pl": "RoI Align wymaga osobnego ConvNet dla każdego z ~2000 regionów jak w Slow R-CNN.",
+    "odp_c_pl": "RoI Pool jest konieczny do trenowania masek, a RoI Align służy tylko do klasyfikacji.",
+    "odp_d_pl": "RoI Align działa wyłącznie na tekstach tokenizowanych BPE.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 330,
+    "tresc_pl": "Czym jest idea „per-region heads” rozszerzających Faster/Mask R-CNN omówiona pod koniec DL12?",
+    "tresc_eng": "What is the idea of \"per-region heads\" extending Faster/Mask R-CNN discussed at the end of DL12?",
+    "odp_a_pl": "Dodatkowe głowice na cechach po RoI Pool/Align przewidują różne zadania per region: maskę, keypointy, opis (caption) lub siatkę 3D (mesh).",
+    "odp_b_pl": "Jedna globalna warstwa softmax klasyfikująca cały obraz bez regionów.",
+    "odp_c_pl": "Mechanizm self-attention zastępujący wszystkie warstwy splotowe.",
+    "odp_d_pl": "Hashing trick mapujący regiony obrazu na wektory $2^b$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 331,
+    "tresc_pl": "Jakie ograniczenie ma detekcja obiektów w porównaniu do segmentacji semantycznej według zestawienia zadań w DL12?",
+    "tresc_eng": "What limitation does object detection have compared to semantic segmentation in the task overview in DL12?",
+    "odp_a_pl": "Wykrywa instancje obiektów, ale daje tylko ramkę otaczającą (box), nie maskę pikseli — dotyczy głównie „things”.",
+    "odp_b_pl": "Nie może wykrywać wielu obiektów na jednym obrazie.",
+    "odp_c_pl": "Nie używa sieci splotowych do ekstrakcji cech.",
+    "odp_d_pl": "Zwraca wyłącznie opisy tekstowe bez współrzędnych.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 332,
+    "tresc_pl": "Jakie alternatywne nazwy wymieniono dla operacji transposed convolution w DL12 (poza zalecaną)?",
+    "tresc_eng": "Which alternative names are listed for the transposed convolution operation in DL12 (besides the recommended one)?",
+    "odp_a_pl": "Deconvolution (zła nazwa), upconvolution, fractionally strided convolution, backward strided convolution.",
+    "odp_b_pl": "RoI Pool, RoI Align, NMS i IoU.",
+    "odp_c_pl": "Batch Normalization, Dropout, ReLU i Max Pooling.",
+    "odp_d_pl": "Encoder, decoder, self-attention i positional encoding.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf"
+  },
+  {
+    "id": 333,
+    "tresc_pl": "Jakie dwie drogi do regresji logistycznej wymieniono na początku wykładu regresja-logistyczna I?",
+    "tresc_eng": "Which two paths to logistic regression are listed at the start of the logistic regression I lecture?",
+    "odp_a_pl": "Od naiwnego Bayesa oraz od klasyfikacji liniowej.",
+    "odp_b_pl": "Od regresji liniowej na cenach mieszkań oraz od architektury Transformer.",
+    "odp_c_pl": "Od detekcji obiektów R-CNN oraz od segmentacji semantycznej FCN.",
+    "odp_d_pl": "Od Word2vec Skip-gram oraz od klasyfikatora k-NN na obrazach CIFAR-10.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 334,
+    "tresc_pl": "Jak w wykładzie regresja-logistyczna I zdefiniowano wagi $w_0$ i $w_i$ wynikające z naiwnego Bayesa?",
+    "tresc_eng": "How were weights $w_0$ and $w_i$ from Naive Bayes defined in the logistic regression I lecture?",
+    "odp_a_pl": "$w_0 = \\log\\frac{P(c)}{P(\\bar{c})}$, $w_i = \\log\\frac{P(t_i|c)}{P(t_i|\\bar{c})}$.",
+    "odp_b_pl": "$w_0 = \\sigma(P(c))$, $w_i = \\text{tf-idf}(t_i)$.",
+    "odp_c_pl": "$w_0 = \\frac{1}{n}\\sum y_i$, $w_i = \\text{MurmurHash3}(t_i)$.",
+    "odp_d_pl": "$w_0 = \\operatorname{softmax}(z_0)$, $w_i = QK^T V$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 335,
+    "tresc_pl": "Co w wykładzie oznacza „optymalne” dobieranie wag w kontekście przejścia od naiwnego Bayesa do regresji logistycznej?",
+    "tresc_eng": "What does \"optimal\" weight fitting mean in the transition from Naive Bayes to logistic regression in the lecture?",
+    "odp_a_pl": "Regresja logistyczna — wagi z naiwnego Bayesa nie są dobierane optymalnie (idiot-model), ale w praktyce działają całkiem nieźle.",
+    "odp_b_pl": "Dokładne odwrócenie macierzy $\\mathbf{X}^{\\mathrm{T}}\\mathbf{X}$ jak w regresji liniowej.",
+    "odp_c_pl": "Losowe inicjalizowanie wag bez iteracyjnej aktualizacji gradientem.",
+    "odp_d_pl": "Hashing trick z parametrem $b=6$ bez funkcji straty.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 336,
+    "tresc_pl": "Jaki związek między logarytmem szans a funkcją logitową podano w regresja-logistyczna I?",
+    "tresc_eng": "What relationship between log-odds and the logit function is given in logistic regression I?",
+    "odp_a_pl": "$\\log\\frac{P(c|q)}{P(\\bar{c}|q)} = \\logit(P(c|q))$.",
+    "odp_b_pl": "$\\log\\frac{P(c|q)}{P(\\bar{c}|q)} = \\operatorname{softmax}(P(c|q))$.",
+    "odp_c_pl": "$\\logit(P(c|q)) = \\frac{z_i}{\\sum_j z_j}$.",
+    "odp_d_pl": "$\\log\\frac{P(c|q)}{P(\\bar{c}|q)} = \\text{RMSE}(y, \\hat{y})$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 337,
+    "tresc_pl": "Jaki wzór opisuje jednostkę dokonującą regresji logistycznej według regresja-logistyczna I?",
+    "tresc_eng": "Which formula describes the logistic regression unit according to logistic regression I?",
+    "odp_a_pl": "$\\hat{p} = \\logit^{-1}\\!\\left(w_0 + \\sum_{i=1}^{k} w_i x_i\\right)$ — najpierw liniowo, potem nieliniowo.",
+    "odp_b_pl": "$\\hat{p} = w_0 + \\sum w_i x_i$ bez żadnej funkcji aktywacji.",
+    "odp_c_pl": "$\\hat{p} = \\operatorname{softmax}(z_1, \\ldots, z_k)$ dla klasyfikacji binarnej.",
+    "odp_d_pl": "$\\hat{p} = \\log\\frac{x}{1-x}$ stosowane bezpośrednio na etykietach $y \\in \\{0,1\\}$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 338,
+    "tresc_pl": "Co robi odwrotna funkcja logitu ($\\logit^{-1}$) według slajdu w regresja-logistyczna I?",
+    "tresc_eng": "What does the inverse logit function ($\\logit^{-1}$) do according to the slide in logistic regression I?",
+    "odp_a_pl": "Ściska całą oś wartości do przedziału $(0, 1)$.",
+    "odp_b_pl": "Rozciąga prawdopodobieństwa z $[0,1]$ do $(-\\infty, +\\infty)$.",
+    "odp_c_pl": "Normalizuje wyjścia $z_1, \\ldots, z_k$ do rozkładu prawdopodobieństwa sumującego się do 1.",
+    "odp_d_pl": "Mapuje słowa funkcją skrótu $H$ do przegródek o rozmiarze $2^b$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 339,
+    "tresc_pl": "Dlaczego w regresja-logistyczna I nie można zastosować wzoru z odwracaniem macierzy z regresji liniowej do uczenia regresji logistycznej?",
+    "tresc_eng": "Why can't the matrix inversion formula from linear regression be used to train logistic regression in logistic regression I?",
+    "odp_a_pl": "Pojawiają się nieskończoności — etykiety uczące to 0 lub 1, a logit(y) daje $\\pm\\infty$.",
+    "odp_b_pl": "Macierz cech tekstowych ma zawsze rozmiar dokładnie $2^b$, więc jest nieodwracalna.",
+    "odp_c_pl": "Regresja logistyczna wymaga wyłącznie klasyfikacji wieloklasowej ze softmaxem.",
+    "odp_d_pl": "Wzór działa tylko na obrazach RGB, nie na tekstach.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 340,
+    "tresc_pl": "Jakie kroki obejmuje iteracyjny algorytm uczenia regresji logistycznej w regresja-logistyczna I?",
+    "tresc_eng": "What steps does the iterative logistic regression training algorithm include in logistic regression I?",
+    "odp_a_pl": "Losowy przykład uczący → oblicz $\\hat{y}$ → oblicz błąd → lekko zmodyfikuj wagi w kierunku spadku błędu → powtarzaj.",
+    "odp_b_pl": "Zbuduj słownik $|V|$ → one-hot każde słowo → odwróć macierz $\\mathbf{X}^{\\mathrm{T}}\\mathbf{X}$ → koniec.",
+    "odp_c_pl": "Przepuść obraz przez AlexNet → RoI Pool → NMS → regresja ramki.",
+    "odp_d_pl": "Tokenizuj BPE → pretrenuj BERT → fine-tuning MLM → softmax na obrazie.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 341,
+    "tresc_pl": "Dlaczego regresja liniowa jest „głupia” do klasyfikacji spam/nie-spam pokazanej w regresja-logistyczna I?",
+    "tresc_eng": "Why is linear regression \"silly\" for the spam/non-spam classification shown in logistic regression I?",
+    "odp_a_pl": "Regresja liniowa nie „lubi” ograniczonych wartości $y$ — może przewidywać wyniki poza $[0,1]$ (np. 1.25).",
+    "odp_b_pl": "Nie obsługuje cech tekstowych typu tf-idf ani słów w języku angielskim.",
+    "odp_c_pl": "Wymaga zawsze dokładnie 2000 regionów propozycji jak w Slow R-CNN.",
+    "odp_d_pl": "Działa wyłącznie na obrazach $224\\times224$, a nie na tekstach.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 342,
+    "tresc_pl": "Jaki trzyetapowy schemat (przed problemem nieskończoności) zaproponowano w regresja-logistyczna I dla klasyfikacji przez regresję liniową?",
+    "tresc_eng": "What three-step scheme (before the infinity problem) was proposed in logistic regression I for classification via linear regression?",
+    "odp_a_pl": "Przepuścić prawdopodobieństwa przez logit → regresja liniowa na wagach → odgadywać przez odwrócony logit.",
+    "odp_b_pl": "Softmax → hinge loss → odwrócenie macierzy Hessianu.",
+    "odp_c_pl": "Hashing trick → MurmurHash3 → VowpalWabbit -nn.",
+    "odp_d_pl": "Max pooling → flatten → fc6 w AlexNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 343,
+    "tresc_pl": "Jak w regresja-logistyczna I opisano komponenty jednostki regresji logistycznej na schemacie (wejście, wagi, aktywacja)?",
+    "tresc_eng": "How are the components of the logistic regression unit described on the diagram in logistic regression I (input, weights, activation)?",
+    "odp_a_pl": "Wejścia $x_i$, wagi $w_i$, suma ważona, funkcja aktywacji $\\logit^{-1}$ na wyjściu $y$ (z obciążeniem $w_0$).",
+    "odp_b_pl": "Wyłącznie warstwy splotowe $3\\times3$ bez funkcji aktywacji.",
+    "odp_c_pl": "Mechanizm self-attention $QK^T V$ bez wag liniowych.",
+    "odp_d_pl": "RoI Align + maska $C\\times28\\times28$ dla każdego regionu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna.pdf"
+  },
+  {
+    "id": 344,
+    "tresc_pl": "Jaki wzór regresji logistycznej na tekście podano w regresja-logistyczna II?",
+    "tresc_eng": "What is the logistic regression on text formula given in logistic regression II?",
+    "odp_a_pl": "$p(c|\\vec{x}) = \\sigma(w_0 + w_1 x_1 + \\cdots + w_{|V|} x_{|V|}) = \\sigma(\\vec{w}\\cdot\\vec{x})$.",
+    "odp_b_pl": "$p(c|\\vec{x}) = \\frac{z_i}{\\sum_j z_j}$ bez funkcji $\\sigma$.",
+    "odp_c_pl": "$p(c|\\vec{x}) = \\logit(x)$ stosowany bezpośrednio na tokenach BPE.",
+    "odp_d_pl": "$p(c|\\vec{x}) = \\operatorname{ReLU}(Wx+b)$ dla klasyfikacji wieloklasowej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 345,
+    "tresc_pl": "Jaki przykład zdania do klasyfikacji podano na slajdzie regresja-logistyczna II?",
+    "tresc_eng": "Which example sentence for classification is given on the logistic regression II slide?",
+    "odp_a_pl": "„aardvark in Aachen” — klasyfikacja wyrazu „aardvark”.",
+    "odp_b_pl": "„The cat sat on the mat” — klasyfikacja sentymentu pięciogwiazdkowego.",
+    "odp_c_pl": "„DOG, DOG, CAT” — segmentacja instancji obrazu.",
+    "odp_d_pl": "„RetroC2” — regresja liniowa na platformie gonito.net.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 346,
+    "tresc_pl": "Jaki przykład kolizji funkcji skrótu w hashing trick podano w regresja-logistyczna II?",
+    "tresc_eng": "Which hash collision example for the hashing trick is given in logistic regression II?",
+    "odp_a_pl": "„aardvark in Aachen” daje ten sam wektor co „Stancarist in Aachen” — różne słowa trafiają do tej samej przegródki.",
+    "odp_b_pl": "„Aachen” i „zygote” zawsze mapują się na różne przegródki bez kolizji.",
+    "odp_c_pl": "Kolizje są niemożliwe, bo MurmurHash3 jest injektywny na całym $\\Sigma^{*}$.",
+    "odp_d_pl": "Kolizja występuje wyłącznie między embeddingami Word2vec, nie w hashing trick.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 347,
+    "tresc_pl": "Dlaczego sigmoida $\\sigma$ nie jest poprawną odpowiedzią w klasyfikacji wieloklasowej ($k>2$) według regresja-logistyczna II?",
+    "tresc_eng": "Why is the sigmoid $\\sigma$ not the correct answer in multi-class classification ($k>2$) according to logistic regression II?",
+    "odp_a_pl": "Wyjścia $z_1, \\ldots, z_k$ nie tworzą rozkładu prawdopodobieństwa — $\\sigma$ stosowana osobno nie gwarantuje $\\sum_i p_i = 1$.",
+    "odp_b_pl": "Sigmoida działa wyłącznie na obrazach RGB, nie na tekstach.",
+    "odp_c_pl": "Sigmoida wymaga wcześniejszego zbudowania słownika $|V|$ o rozmiarze 4096.",
+    "odp_d_pl": "Sigmoida jest równoważna softmaxowi dla dowolnej liczby klas.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 348,
+    "tresc_pl": "Jakie trzy właściwości musi spełniać funkcja $s: \\mathbb{R}^k \\rightarrow [0,1]^k$ w klasyfikacji wieloklasowej według regresja-logistyczna II?",
+    "tresc_eng": "What three properties must function $s: \\mathbb{R}^k \\rightarrow [0,1]^k$ satisfy in multi-class classification according to logistic regression II?",
+    "odp_a_pl": "$s(z_i) \\in [0,1]$, $\\sum_i s(z_i) = 1$ oraz $z_i > z_j \\Rightarrow s(z_i) > s(z_j)$.",
+    "odp_b_pl": "$s(z_i) \\in \\{-1,0,1\\}$, brak sumowania oraz monotoniczność względem tf-idf.",
+    "odp_c_pl": "Wartości zawsze ujemne, suma równa $|V|$ oraz równość $s(z_i)=\\logit(z_i)$.",
+    "odp_d_pl": "Wyjście binarne one-hot, brak normalizacji oraz wymóg RoI Align.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 349,
+    "tresc_pl": "Jaką zaletę hashing trick wymieniono w regresja-logistyczna II w kontekście słownika?",
+    "tresc_eng": "What advantage of the hashing trick is mentioned in logistic regression II regarding the vocabulary?",
+    "odp_a_pl": "Brak potrzeby wcześniejszego budowania słownika (no need to precompute a vocabulary).",
+    "odp_b_pl": "Gwarantuje brak jakichkolwiek kolizji między różnymi słowami.",
+    "odp_c_pl": "Automatycznie trenuje embeddingi Word2vec o wymiarze 300.",
+    "odp_d_pl": "Zastępuje softmax funkcją sigmoidalną dla każdej klasy osobno.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 350,
+    "tresc_pl": "Które typy cech tekstowych (poza samymi słowami) wymieniono w regresja-logistyczna II jako obsługiwane przez hashing trick?",
+    "tresc_eng": "Which text feature types (besides words alone) are listed in logistic regression II as supported by the hashing trick?",
+    "odp_a_pl": "N-gramy znakowe, prefiksy, sufiksy oraz cechy morfologiczne (np. POS) i metryki tekstu (np. długość).",
+    "odp_b_pl": "Wyłącznie embeddingi BERT i maski segmentacji instancji.",
+    "odp_c_pl": "Tylko współrzędne bounding boxów z detekcji Faster R-CNN.",
+    "odp_d_pl": "Jedynie piksele obrazu $224\\times224$ po normalizacji ImageNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 351,
+    "tresc_pl": "Co pozwala zbudować opcja `-nn` w VowpalWabbit według regresja-logistyczna II?",
+    "tresc_eng": "What does the `-nn` option in VowpalWabbit allow you to build according to logistic regression II?",
+    "odp_a_pl": "Małą sieć neuronową (warstwa ukryta $u_i$ z sigmoidą $\\sigma$ na wejściach z hashing trick).",
+    "odp_b_pl": "Wyłącznie klasyfikator naiwnego Bayesa bez żadnych wag.",
+    "odp_c_pl": "Architekturę Transformer encoder-decoder do tłumaczenia maszynowego.",
+    "odp_d_pl": "Detektor jednofazowy YOLO na mapach cech ResNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 352,
+    "tresc_pl": "Jak w regresja-logistyczna II przedstawiono rozszerzenie regresji logistycznej na sieć neuronową z warstwą ukrytą?",
+    "tresc_eng": "How is extending logistic regression to a neural network with a hidden layer presented in logistic regression II?",
+    "odp_a_pl": "Dodanie warstwy ukrytej $u_0, u_1, \\ldots$ z sigmoidą $\\sigma$ między wejściem (po hashing trick) a wyjściem — opcja `-nn` w VowpalWabbit.",
+    "odp_b_pl": "Zastąpienie wszystkich wag mechanizmem self-attention bez warstw liniowych.",
+    "odp_c_pl": "Użycie wyłącznie klasyfikatora k-NN na surowych pikselach obrazu.",
+    "odp_d_pl": "Wymiana sigmoidy na RoI Pool w architekturze Faster R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
+  },
+  {
+    "id": 353,
+    "tresc_pl": "Dlaczego pretrenowanie na dużym korpusie tekstu jest praktyczne według wykładu o pretrenowaniu modeli?",
+    "tresc_eng": "Why is pretraining on a large text corpus practical according to the pretraining lecture?",
+    "odp_a_pl": "Tekst jest tani — łatwo zebrać duży korpus do samouczenia (odgadywania następnego lub zamaskowanego słowa).",
+    "odp_b_pl": "Tekst wymaga ręcznej anotacji każdego tokenu przez ekspertów jak w ImageNet.",
+    "odp_c_pl": "Korpus tekstowy musi mieć dokładnie 1 431 167 dokumentów jak w ILSVRC.",
+    "odp_d_pl": "Pretrenowanie działa wyłącznie na obrazach RGB, nie na tekstach.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 354,
+    "tresc_pl": "Jakie „sztuczki” wspomniano przy stosowaniu softmax podczas pretrenowania modeli językowych?",
+    "tresc_eng": "Which \"tricks\" were mentioned when using softmax during language model pretraining?",
+    "odp_a_pl": "Negatywne próbkowanie (negative sampling) oraz hierarchiczny softmax.",
+    "odp_b_pl": "Hashing trick z parametrem $b=6$ oraz MurmurHash3.",
+    "odp_c_pl": "RoI Align i Non-Max Suppression na mapach cech CNN.",
+    "odp_d_pl": "Batch Normalization i Max Pooling w AlexNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 355,
+    "tresc_pl": "Które modele wymieniono w wykładzie jako przykłady autoregresyjnego przewidywania następnego słowa?",
+    "tresc_eng": "Which models are listed in the lecture as examples of autoregressive next-word prediction?",
+    "odp_a_pl": "GPT, GPT-2, GPT-3 oraz DialoGPT.",
+    "odp_b_pl": "BERT, RoBERTa i Polish RoBERTa.",
+    "odp_c_pl": "T5 i mT5.",
+    "odp_d_pl": "Slow R-CNN, Fast R-CNN i Faster R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 356,
+    "tresc_pl": "Które zalety prostego przewidywania następnego słowa (np. GPT-2) wymieniono w wykładzie?",
+    "tresc_eng": "Which advantages of simple next-word prediction (e.g. GPT-2) are listed in the lecture?",
+    "odp_a_pl": "Prostota, dobra podstawa do generowania tekstu otwartego (dialogi, fake newsy, streszczenia) oraz skuteczność few-shot/zero-shot.",
+    "odp_b_pl": "Pełna symetria kontekstu lewego i prawego oraz wyższa skuteczność w klasyfikacji niż BERT.",
+    "odp_c_pl": "Brak konieczności użycia softmax i log-loss podczas treningu.",
+    "odp_d_pl": "Gwarantowana idealna jakość tłumaczenia maszynowego bez dostrajania.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 357,
+    "tresc_pl": "Do jakich zadań modele autoregresyjne (GPT) są według wykładu mniej odpowiednie niż do generowania otwartego?",
+    "tresc_eng": "For which tasks are autoregressive models (GPT) less suitable than for open generation according to the lecture?",
+    "odp_a_pl": "Do zadań klasyfikacji i innych nie opartych na prostym generowaniu tekstu; niekoniecznie do tłumaczenia maszynowego.",
+    "odp_b_pl": "Wyłącznie do generowania fake newsów i streszczeń.",
+    "odp_c_pl": "Do detekcji obiektów i segmentacji instancji w wizji komputerowej.",
+    "odp_d_pl": "Do regresji liniowej cen mieszkań na platformie gonito.net.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 358,
+    "tresc_pl": "Jaka zaleta maskowania słów (MLM) w BERT wynika z wykorzystania prawego kontekstu?",
+    "tresc_eng": "What advantage of word masking (MLM) in BERT comes from using right context?",
+    "odp_a_pl": "Model odgaduje zamaskowane słowa z uwzględnieniem kontekstu po prawej stronie — w przeciwieństwie do autoregresji tylko z lewej.",
+    "odp_b_pl": "Model ignoruje prawy kontekst i patrzy wyłącznie na poprzednie tokeny.",
+    "odp_c_pl": "Model wymaga osobnego dekodera autoregresyjnego dla każdego tokenu [MASK].",
+    "odp_d_pl": "Model zastępuje softmax funkcją sigmoidalną na poziomie całego dokumentu.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 359,
+    "tresc_pl": "Czy w schemacie BERT trenowane są wyłącznie słowa zastąpione tokenem [MASK]?",
+    "tresc_eng": "In the BERT scheme, are only words replaced with the [MASK] token trained?",
+    "odp_a_pl": "Nie — w BERT odgadywane są też niezamaskowane słowa spośród losowo wybranych 15% wyrazów.",
+    "odp_b_pl": "Tak — trenuje się wyłącznie pozycje z tokenem [MASK], reszta jest ignorowana.",
+    "odp_c_pl": "Tak — ale tylko dla słów o długości większej niż 4 znaki.",
+    "odp_d_pl": "Nie — BERT nie używa w ogóle tokenów [MASK], tylko hashing trick.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 360,
+    "tresc_pl": "Które modele wymieniono w wykładzie jako przykłady podejścia Masked Language Modeling (MLM)?",
+    "tresc_eng": "Which models are listed in the lecture as examples of the Masked Language Modeling (MLM) approach?",
+    "odp_a_pl": "BERT, RoBERTa (również Polish RoBERTa).",
+    "odp_b_pl": "GPT-3, DialoGPT i GPT-2.",
+    "odp_c_pl": "AlexNet, VGG-16 i ResNet-152.",
+    "odp_d_pl": "YOLO, SSD i RetinaNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 361,
+    "tresc_pl": "Które przykłady zadań text-to-text podano dla modelu T5 w wykładzie?",
+    "tresc_eng": "Which text-to-text task examples are given for the T5 model in the lecture?",
+    "odp_a_pl": "Tłumaczenie (translate English to German), ocena zdania COLA, streszczenie tekstu oraz wypełnianie luk w zdaniu.",
+    "odp_b_pl": "Wyłącznie klasyfikacja obrazów ImageNet i detekcja obiektów PASCAL VOC.",
+    "odp_c_pl": "Jedynie regresja liniowa cen mieszkań i wycena przez $Wx+b$.",
+    "odp_d_pl": "Tylko segmentacja panoptyczna i Mask R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 362,
+    "tresc_pl": "Jak w wykładzie opisano rolę reprezentacji kontekstowej $\\vec{c}$ w funkcji pretrenowania?",
+    "tresc_eng": "How is the role of contextual representation $\\vec{c}$ described in the pretraining function in the lecture?",
+    "odp_a_pl": "Prawdopodobieństwa wyrazów oblicza się jako $\\vec{p} = \\operatorname{softmax}(f(\\vec{c}))$ na reprezentacji kontekstowej.",
+    "odp_b_pl": "Reprezentacja kontekstowa to zawsze wektor one-hot bez użycia softmax.",
+    "odp_c_pl": "Kontekst jest kodowany wyłącznie przez RoI Pool w Faster R-CNN.",
+    "odp_d_pl": "Funkcja $f(\\vec{c})$ zwraca wyłącznie błąd średniokwadratowy MSE na cenach mieszkań.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
+  },
+  {
+    "id": 363,
+    "tresc_pl": "Z jakich jednostek pochodzą embeddingi tokenów w pierwszej warstwie Transformer według wykładu?",
+    "tresc_eng": "What units do token embeddings in the first Transformer layer come from according to the lecture?",
+    "odp_a_pl": "Z jednostek BPE (byte-pair encoding / podwyrazy).",
+    "odp_b_pl": "Z surowych pikseli obrazu $224\\times224$ po flatten.",
+    "odp_c_pl": "Z gotowych wektorów tf-idf o rozmiarze $|V|$.",
+    "odp_d_pl": "Z propozycji regionów R-CNN (~2000 RoI).",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 364,
+    "tresc_pl": "Jaki jest pełny, praktyczny wzór na atencję ze skalowaniem według wykładu o sieciach Transformer?",
+    "tresc_eng": "What is the full, practical scaled attention formula according to the Transformer networks lecture?",
+    "odp_a_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{softmax}\\!\\left(\\frac{QK^T}{\\sqrt{d_k}}\\right)V$.",
+    "odp_b_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{softmax}(QK^T) + V$.",
+    "odp_c_pl": "$\\operatorname{Attention}(Q,K,V) = \\logit^{-1}(QK^T)V$.",
+    "odp_d_pl": "$\\operatorname{Attention}(Q,K,V) = \\frac{QK^T}{\\sum V}$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 365,
+    "tresc_pl": "Jaki jest ostatni krok obliczeń atencji po wyznaczeniu znormalizowanych wag z $\\operatorname{softmax}(QK^T)$?",
+    "tresc_eng": "What is the final step of attention computation after obtaining normalized weights from $\\operatorname{softmax}(QK^T)$?",
+    "odp_a_pl": "Przemnożenie wag atencji przez macierz wartości $V$ (np. $M_n @ V$).",
+    "odp_b_pl": "Odwrócenie macierzy $V$ i dodanie biasu $w_0$.",
+    "odp_c_pl": "Zastosowanie RoI Align na mapach cech detektora.",
+    "odp_d_pl": "Haszowanie wyniku funkcją MurmurHash3 do rozmiaru $2^b$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 366,
+    "tresc_pl": "Co pokazuje uproszczony przykład numeryczny w wykładzie o Transformer: pierwszy wektor $Q$ najlepiej pasuje do którego wektora $K$?",
+    "tresc_eng": "What does the simplified numerical example in the Transformer lecture show: which $K$ vector does the first $Q$ vector match best?",
+    "odp_a_pl": "Do drugiego wektora $K$ (najwyższy iloczyn skalarny w macierzy $QK^T$).",
+    "odp_b_pl": "Do trzeciego wektora $K$ wyłącznie przy zerowym embeddingu.",
+    "odp_c_pl": "Do żadnego — wszystkie dopasowania są identyczne.",
+    "odp_d_pl": "Do wektora $V$ z warstwy poprzedniej bez użycia $K$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 367,
+    "tresc_pl": "Co oznacza w przykładzie z wykładu, że drugi wektor zapytania $Q$ „najbardziej patrzy” na pierwszy klucz $K$?",
+    "tresc_eng": "What does it mean in the lecture example that the second query vector $Q$ 'looks at' the first key $K$ the most?",
+    "odp_a_pl": "Wektor atencji dla drugiego tokenu ma najwyższą wagę na pierwszym kluczu — największy wkład od $V$ pierwszego tokenu.",
+    "odp_b_pl": "Drugi token zostanie usunięty przez Non-Max Suppression.",
+    "odp_c_pl": "Pierwszy token otrzymuje etykietę [MASK] w pretrenowaniu BERT.",
+    "odp_d_pl": "Macierze $W^Q$, $W^K$, $W^V$ nie są uczone w tej warstwie.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 368,
+    "tresc_pl": "Którą pracę podano w literaturze na końcu wykładu o sieciach Transformer?",
+    "tresc_eng": "Which paper is cited in the literature section at the end of the Transformer networks lecture?",
+    "odp_a_pl": "„Attention Is All You Need” (Vaswani i in., 2017; arXiv:1706.03762).",
+    "odp_b_pl": "„ImageNet Classification with Deep Convolutional Neural Networks” (AlexNet, 2012).",
+    "odp_c_pl": "„Rich feature hierarchies for accurate object detection” (R-CNN, 2014).",
+    "odp_d_pl": "„Fully Convolutional Networks for Semantic Segmentation” (FCN, 2015).",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 369,
+    "tresc_pl": "Jakie parametry przyjęto w uproszczonym przykładzie atencji w wykładzie o Transformer?",
+    "tresc_eng": "What parameters were used in the simplified attention example in the Transformer lecture?",
+    "odp_a_pl": "Rozmiar embeddingu $d=4$ oraz zdanie z 3 wyrazami (3 wektory w macierzach $Q$, $K$, $V$).",
+    "odp_b_pl": "Rozmiar embeddingu $d=512$ oraz sekwencja 1024 tokenów BPE.",
+    "odp_c_pl": "Rozmiar $d_k=4096$ jak po flatten w AlexNet.",
+    "odp_d_pl": "Dokładnie 2000 regionów propozycji jak w Slow R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 370,
+    "tresc_pl": "Dlaczego w praktycznym wzorze atencji dzieli się iloczyn $QK^T$ przez $\\sqrt{d_k}$ według wykładu?",
+    "tresc_eng": "Why is the product $QK^T$ divided by $\\sqrt{d_k}$ in the practical attention formula according to the lecture?",
+    "odp_a_pl": "Aby znormalizować iloczyn skalarny — $d_k$ to rozmiar wektora klucza; bez tego wartości mogą być zbyt duże przed softmaxem.",
+    "odp_b_pl": "Aby zamienić atencję w regresję liniową $Wx+b$.",
+    "odp_c_pl": "Aby wymusić rozkład prawdopodobieństwa sumujący się do $|V|$ tokenów BPE.",
+    "odp_d_pl": "Aby zastąpić softmax funkcją logitową na etykietach 0/1.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 371,
+    "tresc_pl": "Jak w wykładzie opisano mechanizm atencji jako odpytywanie bazy danych?",
+    "tresc_eng": "How is the attention mechanism described as database querying in the lecture?",
+    "odp_a_pl": "Miękkie odpytywanie bazy par klucz–wartość: zapytania $Q$ dopasowują się do kluczy $K$, a wynik to ważona suma wartości $V$.",
+    "odp_b_pl": "Twarde odpytywanie relacyjnej bazy SQL z zapytaniami SELECT bez softmax.",
+    "odp_c_pl": "Losowe haszowanie par klucz–wartość funkcją MurmurHash3.",
+    "odp_d_pl": "Sekwencyjne odpytywanie wyłącznie poprzednich tokenów jak w RNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 372,
+    "tresc_pl": "Do jakiego zadania ekstrakcji informacji można w prosty sposób wykorzystać sieć Transformer według wykładu?",
+    "tresc_eng": "For which information extraction task can a Transformer network be easily used according to the lecture?",
+    "odp_a_pl": "Etykietowanie sekwencji (sequence labeling) — przez dołączenie odpowiedniej głowicy.",
+    "odp_b_pl": "Wyłącznie detekcji obiektów z bounding boxami w obrazach RGB.",
+    "odp_c_pl": "Jedynie regresji liniowej cen mieszkań na gonito.net.",
+    "odp_d_pl": "Wyłącznie trenowania klasyfikatora k-NN na histogramach kolorów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
+  },
+  {
+    "id": 373,
+    "tresc_pl": "Jak zdefiniowano funkcję mieszającą $H$ w hashing trick według wykładu o gęstych reprezentacjach?",
+    "tresc_eng": "How is the hashing function $H$ defined in the hashing trick according to the dense representations lecture?",
+    "odp_a_pl": "$H : \\Sigma^{*} \\rightarrow \\{0, \\ldots, 2^b-1\\}$ — rzutuje napisy na liczby o $b$-bitowej reprezentacji binarnej.",
+    "odp_b_pl": "$H : \\mathbb{R}^k \\rightarrow \\{0,1\\}$ — mapuje wektory tf-idf na etykiety binarne.",
+    "odp_c_pl": "$H : V \\rightarrow \\mathbb{R}^{300}$ — zwraca embedding Word2vec o stałym wymiarze.",
+    "odp_d_pl": "$H : \\text{obraz} \\rightarrow \\text{bounding box}$ — wyznacza regiony w detekcji R-CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 374,
+    "tresc_pl": "Które zalety hashing trick wymieniono w podsumowaniu wykładu 05_Geste_wektory (poza uwzględnianiem nowych termów)?",
+    "tresc_eng": "Which advantages of the hashing trick are listed in the summary of lecture 05_Geste_wektory (besides handling new terms)?",
+    "odp_a_pl": "Zagwarantowany stały rozmiar wektora $2^b$, szybsze obliczenia oraz brak potrzeby pamiętania odwzorowania słowo→indeks.",
+    "odp_b_pl": "Gwarantowany brak kolizji oraz automatyczna lematyzacja wszystkich tokenów.",
+    "odp_c_pl": "Wymóg budowania pełnego słownika przed każdą predykcją oraz spowolnienie obliczeń.",
+    "odp_d_pl": "Zastąpienie idf wartościami softmax i usunięcie tf z reprezentacji.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 377,
+    "tresc_pl": "Jakie kroki normalizacji tekstu wymieniono w pipeline przed wektoryzacją w wykładzie 05_Geste_wektory?",
+    "tresc_eng": "What text normalization steps are listed in the pipeline before vectorization in lecture 05_Geste_wektory?",
+    "odp_a_pl": "Tokenizacja, lematyzacja (słownik), usuwanie stop-words oraz „poor man's stemming” (obcięcie do 6 znaków).",
+    "odp_b_pl": "Wyłącznie maskowanie 15% tokenów tokenem [MASK] jak w BERT.",
+    "odp_c_pl": "Hashing trick z parametrem $b=6$ bez jakiejkolwiek tokenizacji.",
+    "odp_d_pl": "RoI Align i NMS na mapach cech CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 378,
+    "tresc_pl": "Jak w wykładzie 05_Geste_wektory zbudowano wektor dokumentu z gotowego modelu Word2vec (tiny.bin)?",
+    "tresc_eng": "How was a document vector built from a pre-trained Word2vec model (tiny.bin) in lecture 05_Geste_wektory?",
+    "odp_a_pl": "Poprzez sumowanie wektorów słów dokumentu: $\\text{foldr}(+, \\text{zero}(100), \\text{map toOurVector})$.",
+    "odp_b_pl": "Poprzez iloczyn $QK^T$ i softmax na embeddingach tokenów.",
+    "odp_c_pl": "Poprzez odwrócenie macierzy tf-idf o rozmiarze $|V|\\times|V|$.",
+    "odp_d_pl": "Poprzez klasyfikację każdego piksela maski segmentacyjnej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 379,
+    "tresc_pl": "Jak w wykładzie 05_Geste_wektory uwzględniono idf przy składaniu wektora dokumentu z Word2vec?",
+    "tresc_eng": "How was idf incorporated when building a document vector from Word2vec in lecture 05_Geste_wektory?",
+    "odp_a_pl": "Przemnożono wektor Word2vec każdego słowa przez idf traktowane jako skalar: $\\text{idf}(t) * \\vec{w}_t$.",
+    "odp_b_pl": "Zastąpiono Word2vec wyłącznie wektorami one-hot bez wag.",
+    "odp_c_pl": "Usunięto idf i zastosowano wyłącznie softmax na reprezentacji kontekstowej.",
+    "odp_d_pl": "Zastosowano RoI Pool na mapach cech przed sumowaniem.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 380,
+    "tresc_pl": "Co pokazano w wykładzie, gdy dwa różne termy ze słownika trafiają do tej samej przegródki hashing trick?",
+    "tresc_eng": "What does the lecture show when two different vocabulary terms land in the same hashing trick bucket?",
+    "odp_a_pl": "To przykład kolizji haszującej — różne słowa mogą współdzielić tę samą pozycję wektora (szczególnie przy małym $b$).",
+    "odp_b_pl": "To pożądane zjawisko gwarantujące identyczne embeddingi semantyczne.",
+    "odp_c_pl": "To błąd implementacji MurmurHash wymagający restartu treningu BERT.",
+    "odp_d_pl": "To oznacza, że parametr $b$ jest zbyt duży i wektor jest większy niż tf-idf.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 381,
+    "tresc_pl": "Jakie wzory analityczne na $\\hat{b}$ i $\\hat{a}$ podano dla regresji liniowej jednej zmiennej w wykładzie 08?",
+    "tresc_eng": "What analytical formulas for $\\hat{b}$ and $\\hat{a}$ are given for single-variable linear regression in lecture 08?",
+    "odp_a_pl": "$\\hat{b}$ ze wzoru na iloczyny sum $x_i y_i$ i $\\sum x_i^2$, oraz $\\hat{a} = \\bar{y} - \\hat{b}\\,\\bar{x}$.",
+    "odp_b_pl": "$\\hat{a} = (\\mathbf{X}^{\\mathrm{T}}\\mathbf{X})^{-1}\\mathbf{X}^{\\mathrm{T}}\\mathbf{y}$ bez wyrazu wolnego.",
+    "odp_c_pl": "$\\hat{b} = \\eta(\\hat{y}-y)$ oraz $\\hat{a} = \\logit^{-1}(w_0)$.",
+    "odp_d_pl": "$\\hat{b} = \\operatorname{softmax}(QK^T)V$ oraz $\\hat{a} = 0$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 382,
+    "tresc_pl": "Jaką przykładową wagę $w_2$ przypisano liczbie pokoi ($x_2=3$) w wielowymiarowej wycenie mieszkań?",
+    "tresc_eng": "What sample weight $w_2$ was assigned to the number of rooms ($x_2=3$) in multivariate apartment pricing?",
+    "odp_a_pl": "$w_2 = -30000$.",
+    "odp_b_pl": "$w_2 = 7000$.",
+    "odp_c_pl": "$w_2 = -40000$.",
+    "odp_d_pl": "$w_2 = 5000$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 383,
+    "tresc_pl": "Jaką przykładową wagę $w_7$ przypisano cesze „czy jest jacuzzi?” ($x_7=1$) w przykładzie regresji wielowymiarowej?",
+    "tresc_eng": "What sample weight $w_7$ was assigned to the feature \"has jacuzzi?\" ($x_7=1$) in the multivariate regression example?",
+    "odp_a_pl": "$w_7 = 5000$.",
+    "odp_b_pl": "$w_7 = -30000$.",
+    "odp_c_pl": "$w_7 = -1000$.",
+    "odp_d_pl": "$w_7 = 5733.693$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 384,
+    "tresc_pl": "Jaką metaforą wizualną ilustrowano metodę gradientu prostego w wykładzie o regresji liniowej?",
+    "tresc_eng": "What visual metaphor illustrated the gradient descent method in the linear regression lecture?",
+    "odp_a_pl": "Schodzenie wzdłuż lokalnego spadku funkcji błędu (zdjęcie Morskiego Oka / zejście ze szlaku).",
+    "odp_b_pl": "Granie samemu ze sobą jak w AlphaZero na korpusie tekstowym.",
+    "odp_c_pl": "Non-Max Suppression nakładających się ramek detekcji.",
+    "odp_d_pl": "Maskowanie 15% tokenów tokenem [MASK] w BERT.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 385,
+    "tresc_pl": "Kiedy algorytm gradientu prostego wraca do kroku 2 według opisu w wykładzie 08_Regresja_liniowa?",
+    "tresc_eng": "When does the gradient descent algorithm return to step 2 according to lecture 08_Regresja_liniowa?",
+    "odp_a_pl": "Gdy błąd jest nadal duży — pętla: losowy przykład → $\\hat{y}$ → błąd → aktualizacja wag → powtórz.",
+    "odp_b_pl": "Wyłącznie po osiągnięciu dokładnie zerowego błędu RMSE.",
+    "odp_c_pl": "Po każdej iteracji bezwarunkowo, nawet gdy błąd jest minimalny.",
+    "odp_d_pl": "Nigdy — algorytm wykonuje dokładnie jeden krok i kończy.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 386,
+    "tresc_pl": "Czym różni się funkcja celu $\\sum_{i=1}^n (y_i - (ax_i+b))^2$ od miary MSE w wykładzie o regresji liniowej?",
+    "tresc_eng": "How does the objective $\\sum_{i=1}^n (y_i - (ax_i+b))^2$ differ from the MSE metric in the linear regression lecture?",
+    "odp_a_pl": "Suma błędów kwadratowych (SSE) nie dzieli przez $n$; MSE to $\\frac{1}{n}$ tej sumy — obie minimalizują ten sam optymalny model, ale MSE jest średnią.",
+    "odp_b_pl": "SSE używa wartości bezwzględnych, a MSE kwadratów odwrotnie.",
+    "odp_c_pl": "SSE wymaga softmax na wyjściu, a MSE sigmoidy.",
+    "odp_d_pl": "Nie ma żadnej różnicy — to identyczne wzory zawsze dające różne wagi.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 387,
+    "tresc_pl": "Jaką przykładową cechę tekstową wymieniono w wielowymiarowej regresji mieszkań jako zakodowany opis?",
+    "tresc_eng": "What sample text feature was mentioned in multivariate apartment regression as an encoded description?",
+    "odp_a_pl": "Wektor tf-idf opisu: $(x_{12}, \\ldots, x_{|V|+12})$.",
+    "odp_b_pl": "Wyłącznie liczba pokoi i numer piętra bez komponentu tekstowego.",
+    "odp_c_pl": "Maska segmentacji instancji $C\\times28\\times28$.",
+    "odp_d_pl": "Wektor one-hot o długości 4096 z AlexNet pool5.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 388,
+    "tresc_pl": "Które słowa z listy wag w przykładzie RetroC2 w wykładzie 08 mają dodatnie wagi związane z nowszymi datami?",
+    "tresc_eng": "Which words from the RetroC2 weight list in lecture 08 have positive weights associated with more recent dates?",
+    "odp_a_pl": "Np. „2013r”, „2000r”, „leasing”, „kontakc” — słowa kojarzące się z nowszym językiem/okresem.",
+    "odp_b_pl": "Wyłącznie „metro” i „paczka” z ujemnymi wagami.",
+    "odp_c_pl": "Wyłącznie stop-words „w”, „że”, „jest”.",
+    "odp_d_pl": "Żadne — wszystkie wagi w przykładzie są ujemne.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
+  },
+  {
+    "id": 375,
+    "tresc_pl": "Jaką wartość parametru $b$ użyto w przykładzie hashing trick przy porównaniu macierzy podobieństwa kosinusowego w wykładzie 05?",
+    "tresc_eng": "What value of parameter $b$ was used in the hashing trick example for cosine similarity matrix comparison in lecture 05?",
+    "odp_a_pl": "Najpierw $b=6$ przy analizie przegródek słownika; przy zagęszczonym porównaniu dokumentów użyto $b=8$.",
+    "odp_b_pl": "Zawsze $b=4096$ jak rozmiar wektora po flatten w AlexNet.",
+    "odp_c_pl": "Wyłącznie $b=1$, co daje wektory 2-elementowe.",
+    "odp_d_pl": "$b=0$, co eliminuje hashing trick.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
+  },
+  {
+    "id": 376,
+    "tresc_pl": "Jaki efekt ma zagęszczenie wektorów (hashing trick lub Word2vec) na macierz podobieństwa kosinusowego w wykładzie 05?",
+    "tresc_eng": "What effect does vector densification (hashing trick or Word2vec) have on the cosine similarity matrix in lecture 05?",
+    "odp_a_pl": "Wartości podobieństwa rosną i lepiej odzwierciedlają semantyczne podobieństwo dokumentów niż rzadkie tf-idf (np. z ~0.02 do ~0.9 dla Word2vec).",
+    "odp_b_pl": "Macierz staje się zerowa — wszystkie dokumenty ortogonalne.",
+    "odp_c_pl": "Podobieństwo kosinusowe nie można obliczyć dla wektorów gęstych.",
+    "odp_d_pl": "Wszystkie wartości na diagonali maleją do zera.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   }
 ]
