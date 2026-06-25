@@ -778,7 +778,7 @@
     "odp_c_pl": "Jako zestaw zaawansowanych technik statystycznych wykluczających stosowanie sieci neuronowych na rzecz rzadkich macierzy tf-idf.",
     "odp_d_pl": "Jako deterministyczny algorytm pamiętania etykiet obrazów testowych o stałym czasie predykcji $O(1)$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL1.pdf"
   },
   {
     "id": 72,
@@ -789,7 +789,7 @@
     "odp_c_pl": "Odkrycie przez neurofizjologów, że ludzki wzrok ma charakter hierarchiczny.",
     "odp_d_pl": "Pojawienie się myślących robotów w mitologii greckiej.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL1.pdf"
   },
   {
     "id": 73,
@@ -800,18 +800,7 @@
     "odp_c_pl": "3072 klasy obiektów i 10 000 obrazów testowych.",
     "odp_d_pl": "255 klas obiektów i milion obrazów typu RGB.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
-  },
-  {
-    "id": 74,
-    "tresc_pl": "Jak definiowana jest reprezentacja obliczeniowa cyfrowego obrazu kolorowego w kontekście systemów wizyjnych?",
-    "tresc_eng": "How is the computational representation of a digital color image defined in the context of vision systems?",
-    "odp_a_pl": "Jako tensor liczb całkowitych z przedziału [0, 255], np. o wymiarach 1920 x 1080 x 3 dla formatu RGB.",
-    "odp_b_pl": "Jako jednowymiarowy wektor o stałym rozmiarze równym zawsze $2^b$ po zastosowaniu funkcji skrótu.",
-    "odp_c_pl": "Jako macierz rzadka, w której każda unikalna wartość piksela odpowiada logarytmowi szans (log-odds).",
-    "odp_d_pl": "Jako ciągła funkcja liniowa typu $ax + by + c = 0$ niezależna od przesunięcia kamery.",
-    "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL1.pdf"
   },
   {
     "id": 75,
@@ -2021,7 +2010,7 @@
     "odp_c_pl": "Regresja wymaga softmax na wyjściu, a klasyfikacja jednego neuronu liniowego.",
     "odp_d_pl": "Regresja zawsze korzysta z wektorów one-hot, a klasyfikacja z embeddingów Word2vec.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
     "id": 185,
@@ -2043,7 +2032,7 @@
     "odp_c_pl": "W obu przypadkach wyjście to zawsze wektor one-hot o długości $|V|$.",
     "odp_d_pl": "W regresji wymagana jest funkcja sigmoidalna, a w klasyfikacji wyłącznie RMSE.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
     "id": 187,
@@ -2054,7 +2043,7 @@
     "odp_c_pl": "Na obliczaniu średniej arytmetycznej embeddingów wszystkich słów w zdaniu.",
     "odp_d_pl": "Na odwracaniu macierzy cech $\\mathbf{X}^{\\rm T}\\mathbf{X}$ przed klasyfikacją.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 188,
@@ -2065,7 +2054,7 @@
     "odp_c_pl": "Na mapowaniu słów funkcją skrótu $H$ do przegródek o rozmiarze $2^b$.",
     "odp_d_pl": "Na obliczaniu iloczynu skalarnego macierzy zapytań $Q$ i kluczy $K$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 189,
@@ -2076,7 +2065,7 @@
     "odp_c_pl": "Jako suma wektorów idf wszystkich termów dokumentu po hashing trick.",
     "odp_d_pl": "Jako macierz atencji $\\operatorname{softmax}(QK^T)V$ o wymiarze równym liczbie zdań.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 190,
@@ -2087,7 +2076,7 @@
     "odp_c_pl": "Stały rozmiar wektora równy $2^b$ niezależnie od słownika.",
     "odp_d_pl": "Prawdopodobieństwo następnego słowa w modelu autoregresyjnym GPT.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 191,
@@ -2098,7 +2087,7 @@
     "odp_c_pl": "Ponieważ BERT maskuje je w 80% przypadków tokenem [MASK].",
     "odp_d_pl": "Ponieważ regresja logistyczna stosuje na nich wyłącznie funkcję sigmoidalną.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 192,
@@ -2109,7 +2098,7 @@
     "odp_c_pl": "Na odgadywaniu roku publikacji tekstu metodą regresji liniowej.",
     "odp_d_pl": "Na klasyfikacji każdego piksela obrazu do osobnej kategorii semantycznej.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 193,
@@ -2120,7 +2109,7 @@
     "odp_c_pl": "$\\vec{w}_{\\text{TF}} \\times \\vec{w}_{\\text{IDF}} = \\vec{w}_{\\text{one-hot}}$",
     "odp_d_pl": "$Q K^T V = \\vec{w}_{\\text{BERT}}$",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 194,
@@ -2131,7 +2120,7 @@
     "odp_c_pl": "Tylko one-hot encoding każdego słowa bez żadnej agregacji.",
     "odp_d_pl": "Jedynie klasyfikacja każdego piksela maski segmentacyjnej.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Grali.pdf"
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
     "id": 195,
@@ -2186,7 +2175,7 @@
     "odp_c_pl": "Jako algorytm k-NN zapamiętujący wszystkie przykłady treningowe bez parametrów.",
     "odp_d_pl": "Jako mechanizm atencji w modelach Transformer bez rekurencji RNN.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL1.pdf"
   },
   {
     "id": 200,
@@ -2197,7 +2186,7 @@
     "odp_c_pl": "Jako synonim detekcji obiektów w wizji komputerowej.",
     "odp_d_pl": "Jako metoda wyłącznie analitycznego odwracania macierzy Hessianu.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL1.pdf"
   },
   {
     "id": 201,
@@ -2230,7 +2219,7 @@
     "odp_c_pl": "Klasyfikator k-NN nie działa na danych obrazowych o wymiarze większym niż 3.",
     "odp_d_pl": "Faza treningowa wymaga odwrócenia macierzy o rozmiarze $10^9 \\times 10^9$.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL2.pdf"
   },
   {
     "id": 204,
@@ -2242,17 +2231,6 @@
     "odp_d_pl": "Działa wyłącznie na sekwencjach tekstowych o stałej długości 512 tokenów.",
     "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
-  },
-  {
-    "id": 205,
-    "tresc_pl": "Który wzór opisuje podstawową dwuwarstwową sieć MLP z funkcją aktywacji ReLU w materiale?",
-    "tresc_eng": "Which formula describes the basic two-layer MLP with ReLU activation in the material?",
-    "odp_a_pl": "$f = W_{2} \\max(0, W_{1}x)$, gdzie $\\max(0, z)$ to ReLU.",
-    "odp_b_pl": "$f = W_{2} \\sigma(W_{1}x)$, gdzie $\\sigma$ to wyłącznie funkcja sigmoidalna bez warstw ukrytych.",
-    "odp_c_pl": "$f = \\operatorname{softmax}(QK^T)V$ bez macierzy wag.",
-    "odp_d_pl": "$f = h_t = f_W(h_{t-1}, x_t)$ — rekurencyjna aktualizacja stanu ukrytego.",
-    "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
   },
   {
     "id": 206,
@@ -2296,18 +2274,7 @@
     "odp_c_pl": "Tłumaczenie maszynowe (many-to-many) — sekwencja słów na sekwencję słów.",
     "odp_d_pl": "Klasyfikacja obrazu (one-to-one) — jeden obraz na jedną etykietę.",
     "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
-  },
-  {
-    "id": 210,
-    "tresc_pl": "Dlaczego architektura Transformer stanowi przełom w porównaniu z klasycznymi RNN?",
-    "tresc_eng": "Why is the Transformer architecture a breakthrough compared to classic RNNs?",
-    "odp_a_pl": "Całkowicie rezygnuje z rekurencji na rzecz uogólnionego Self-Attention, co umożliwia pełne zrównoleglenie obliczeń.",
-    "odp_b_pl": "Zastępuje atencję wyłącznie warstwami Max Pooling w sieciach splotowych.",
-    "odp_c_pl": "Wymaga sekwencyjnego przetwarzania od lewej do prawej bez możliwości równoległości.",
-    "odp_d_pl": "Opiera się wyłącznie na klasyfikatorze k-NN z czasem predykcji $O(1)$.",
-    "poprawna_odpowiedz": "a",
-    "nazwa_pliku": "Palub.pdf"
+    "nazwa_pliku": "DL9.pdf"
   },
   {
     "id": 211,

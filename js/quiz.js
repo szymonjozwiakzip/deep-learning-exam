@@ -62,8 +62,6 @@ export function formatFileName(filename) {
     '05_Geste_wektory.ipynb': 'Gęste reprezentacje wektorowe',
     '14_pretrenowanie.ipynb': 'Pretrenowanie modeli',
     '15_transformer.ipynb': 'Sieci Transformer',
-    'Grali.pdf': 'NLP - synteza',
-    'Palub.pdf': 'Deep Learning - synteza',
     'DL1.pdf': 'DL1 - Wprowadzenie (CV i Deep Learning)',
     'regresja-logistyczna.pdf': 'Regresja logistyczna I',
     'regresja-logistyczna2.pdf': 'Regresja logistyczna II',

@@ -67,5 +67,4 @@ git push origin main
 - `index.html` — aplikacja do nauki
 - `questions.json` — baza pytań wielokrotnego wyboru
 - `lectures/` — materiały wykładowe (notebooki, PDF)
-- `additional/` — skrócone syntezy egzaminacyjne (Grali.pdf, Palub.pdf)
 - `css/`, `js/` — zasoby front-endu
