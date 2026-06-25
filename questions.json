@@ -7,6 +7,7 @@
     "odp_b_pl": "Maksymalizacja współczynnika uczenia $\\eta$.",
     "odp_c_pl": "Odwrócenie macierzy cech tekstowych reprezentacji tf-idf.",
     "odp_d_pl": "Wyznaczenie optymalnej liczby pokoi w prognozie cen mieszkań.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -17,6 +18,7 @@
     "odp_b_pl": "Wzór ten nie uwzględnia wyrazu wolnego $w_0$.",
     "odp_c_pl": "Wzór można stosować wyłącznie do cech zerojedynkowych.",
     "odp_d_pl": "Wymaga on wcześniejszego obliczenia błędu MAE i RMSE.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -27,6 +29,7 @@
     "odp_b_pl": "Poprzez obliczenie pierwiastka kwadratowego ze średniej sumy błędów.",
     "odp_c_pl": "Poprzez losowe wyznaczenie nowej wartości z rozkładu tf-idf.",
     "odp_d_pl": "Według stałego wzoru $\\hat{a} = \\bar{y} - \\hat{b}\\,\\bar{x}$ bez użycia parametru $\\eta$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -37,6 +40,7 @@
     "odp_b_pl": "$\\frac{1}{n}\\sum_{i=1}^n |\\hat{y}_i - y_i|$",
     "odp_c_pl": "$\\sqrt{\\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2}$",
     "odp_d_pl": "$\\sum_{i=1}^n (y_i - (ax_i + b))^2$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -47,6 +51,7 @@
     "odp_b_pl": "MSE (Mean Squared Error)",
     "odp_c_pl": "RMSE (Root Mean Squared Error)",
     "odp_d_pl": "Gradient Descent",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -57,6 +62,7 @@
     "odp_b_pl": "Wyłącznie cechy zerojedynkowe określające obecność jacuzzi.",
     "odp_c_pl": "Wskaźniki liczby pokoi i numeru piętra tekstu.",
     "odp_d_pl": "Współczynnik uczenia obliczany na podstawie długości słów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -67,6 +73,7 @@
     "odp_b_pl": "$y = \\hat{b} - \\hat{a}\\,\\bar{x}$",
     "odp_c_pl": "$y = \\sqrt{|\\hat{y} - y|}$",
     "odp_d_pl": "$y = \\eta (\\hat{y} - y)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -77,6 +84,7 @@
     "odp_b_pl": "Nie pozwala na stosowanie cech o charakterze ciągłym, takich jak powierzchnia w $m^2$.",
     "odp_c_pl": "Zawsze wymaga stosowania wyłącznie algorytmów iteracyjnych bez możliwości użycia wzorów.",
     "odp_d_pl": "Błąd RMSE dla tego modelu musi być zawsze równy zero.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -87,6 +95,7 @@
     "odp_b_pl": "$logit(x) = \\log\\frac{1-x}{x}$",
     "odp_c_pl": "$logit(x) = \\frac{e^x}{\\sum e^x}$",
     "odp_d_pl": "$logit(x) = -\\frac{1}{n}\\sum x_i$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -97,6 +106,7 @@
     "odp_b_pl": "Regresja liniowa potrafi przewidywać wyłącznie wartości ujemne.",
     "odp_c_pl": "Wzór Bayesa uniemożliwia obliczenie wag dla cech ciągłych.",
     "odp_d_pl": "Funkcja logitowa nie pozwala na zastosowanie techniki gradientu prostego.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -107,6 +117,7 @@
     "odp_b_pl": "Średni błąd kwadratowy (MSE)",
     "odp_c_pl": "Pierwiastek błędu średniokwadratowego (RMSE)",
     "odp_d_pl": "Szarżę Bayesa (Naive Bayes Loss)",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -117,6 +128,7 @@
     "odp_b_pl": "$\\sigma(\\vec{w}\\vec{x}) \\cdot \\log(loss)$",
     "odp_c_pl": "$\\frac{z_i}{\\sum z_j}$",
     "odp_d_pl": "$logit^{-1}(w_0)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -127,6 +139,7 @@
     "odp_b_pl": "Na losowym usuwaniu połowy cech tekstowych w celu przyspieszenia mnożenia macierzy.",
     "odp_c_pl": "Na zamianie wszystkich słów na ich reprezentacje numeryczne przy użyciu błędu RMSE.",
     "odp_d_pl": "Na szyfrowaniu wag modelu w celu zabezpieczenia go przed przeuczeniem.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -137,6 +150,7 @@
     "odp_b_pl": "Wyłącznie standardowa biblioteka Math w Pythonie",
     "odp_c_pl": "Naiwny klasyfikator Bayesa bez rozszerzeń liniowych",
     "odp_d_pl": "Excel oraz podstawowe bazy danych SQL",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -147,6 +161,7 @@
     "odp_b_pl": "Zwykłe dzielenie przez sumę: $s(Z_{i}) = \\frac{z_{i}}{\\sum_{j=1}^{k}Z_{j}}$",
     "odp_c_pl": "Funkcję logitową: $logit(z) = \\log\\frac{z}{1-z}$",
     "odp_d_pl": "Sigmoidę jednoargumentową dla każdej klasy niezależnie",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -157,6 +172,7 @@
     "odp_b_pl": "Wyłącznie współrzędne geograficzne i cechy zerojedynkowe nieruchomości.",
     "odp_c_pl": "Wartości błędu MSE obliczone dla sieci neuronowych.",
     "odp_d_pl": "Tylko i wyłącznie słowa w ich podstawowej, nieznormalizowanej formie.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -167,6 +183,7 @@
     "odp_b_pl": "b = 7000 zł, a = -30000 zł/m$^2$",
     "odp_c_pl": "b = 0 zł, a = 1000 zł/m$^2$",
     "odp_d_pl": "b = -40000 zł, a = 5000 zł/m$^2$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -177,6 +194,7 @@
     "odp_b_pl": "czy jest jacuzzi? ($x_7 = 1$)",
     "odp_c_pl": "liczba pokoi ($x_2 = 3$)",
     "odp_d_pl": "czy to Kielce? ($x_9 = 1$)",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -187,6 +205,7 @@
     "odp_b_pl": "Logarytm z błędu średniokwadratowego (MSE).",
     "odp_c_pl": "Suma wszystkich wag modelu podzielona przez liczbę cech tekstowych.",
     "odp_d_pl": "Iloczyn prawdopodobieństw a priori dla wszystkich klas $k > 2$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -197,6 +216,7 @@
     "odp_b_pl": "Naiwny Bayes to idiot-model!",
     "odp_c_pl": "nie jesteśmy Duchem Św., żeby twierdzić coś na pewno",
     "odp_d_pl": "To nie jest błąd copy and paste!",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -207,6 +227,7 @@
     "odp_b_pl": "Wskazując, że błąd RMSE musi wynosić dokładnie zero dla ułamków.",
     "odp_c_pl": "Tłumacząc, że wymaga tego algorytm Vowpal Wabbit z opcją -b.",
     "odp_d_pl": "Ponieważ funkcja softmax zwraca liczby wyłącznie całkowite.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -217,6 +238,7 @@
     "odp_b_pl": "Zaleca natychmiastowe użycie algorytmu MurmurHash3.",
     "odp_c_pl": "Nakazuje zmianę funkcji kosztu na błąd kwadratowy.",
     "odp_d_pl": "Sugeruje dodanie sztucznej cechy tekstowej o nazwie 'zygote'.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -227,6 +249,7 @@
     "odp_b_pl": "(Wagi nie są dobierane optymalnie)",
     "odp_c_pl": "(Ograniczenie do cech zerojedynkowych)",
     "odp_d_pl": "(Odwracanie macierzy nie jest tanie :()",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna.pdf"
   },
   {
@@ -237,6 +260,7 @@
     "odp_b_pl": "a",
     "odp_c_pl": "Aachen",
     "odp_d_pl": "zygote",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -247,6 +271,7 @@
     "odp_b_pl": "VowpalWabbit-NN",
     "odp_c_pl": "Softargmax3",
     "odp_d_pl": "Tf-Idf-Hash",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -257,6 +282,7 @@
     "odp_b_pl": "Should be called logit-inverse actually",
     "odp_c_pl": "Should be called linear Bayes expansion",
     "odp_d_pl": "Should be called multi-class logloss",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -267,6 +293,7 @@
     "odp_b_pl": "-b",
     "odp_c_pl": "-logit",
     "odp_d_pl": "-softmax",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -277,6 +304,7 @@
     "odp_b_pl": "-nn option",
     "odp_c_pl": "-h option",
     "odp_d_pl": "-v option",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -287,6 +315,7 @@
     "odp_b_pl": "Ponieważ wymaga wcześniejszego obliczenia słownika metodą wycinania cech.",
     "odp_c_pl": "Ponieważ całkowicie usuwa wpływ wyrazu wolnego (bias) ze struktury sieci.",
     "odp_d_pl": "Ponieważ działa wyłącznie w środowisku scikit-learn, a nie działa w VowpalWabbit.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -297,6 +326,7 @@
     "odp_b_pl": "tokenized, vectorized, optimized",
     "odp_c_pl": "hashed, encoded, classified",
     "odp_d_pl": "gradiented, absolute, calculated",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "regresja-logistyczna2.pdf"
   },
   {
@@ -307,6 +337,7 @@
     "odp_b_pl": "AITech1",
     "odp_c_pl": "Szablon",
     "odp_d_pl": "Word2vec",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -317,6 +348,7 @@
     "odp_b_pl": "Na prognozowaniu cen mieszkań na podstawie opisu",
     "odp_c_pl": "Na klasyfikacji spamu przy użyciu wektorów tf-idf",
     "odp_d_pl": "Na obliczaniu odległości słów od Dworca Centralnego w Warszawie",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -327,6 +359,7 @@
     "odp_b_pl": "Weź losowy przykład uczący $x_1, ..., x_n, y$",
     "odp_c_pl": "Oblicz wyjście $\\hat{y}$ na podstawie cech",
     "odp_d_pl": "Odwróć macierz cech wejściowych $\\mathbf{X}$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -337,6 +370,7 @@
     "odp_b_pl": "$\\frac{1}{n}\\sum_{i=1}^n |\\hat{y}_i - y_i|$",
     "odp_c_pl": "$\\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2$",
     "odp_d_pl": "$\\sum_{i=1}^n (y_i - (ax_i + b))^2$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -347,6 +381,7 @@
     "odp_b_pl": "wiek ($x_4 = 13$)",
     "odp_c_pl": "odległość od Dworca Centralnego",
     "odp_d_pl": "czy w budynku jest parking",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -357,6 +392,7 @@
     "odp_b_pl": "Jako współczynnik uczenia $\\eta$ modyfikowany w każdym kroku gradientu.",
     "odp_c_pl": "Jako średnia wartość wszystkich zmiennych objaśniających $\\bar{x}$.",
     "odp_d_pl": "Jako ostateczny wynik błędu kwadratowego modelu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -367,6 +403,7 @@
     "odp_b_pl": "Gwarantuje osiągnięcie idealnego błędu równego zero już w pierwszej iteracji.",
     "odp_c_pl": "Wymaga całkowitego usunięcia cech ciągłych na rzecz cech zerojedynkowych.",
     "odp_d_pl": "Działa wyłącznie dla reprezentacji tekstowych typu Word2vec, ignorując tf-idf.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -377,6 +414,7 @@
     "odp_b_pl": "Liczbą wszystkich przykładów uczących dostępnych w bazie danych.",
     "odp_c_pl": "Wartością prognozowaną przez model dla losowej próbki tekstowej.",
     "odp_d_pl": "Miarą błędu bezwzględnego obliczanego na zbiorze testowym.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -387,6 +425,7 @@
     "odp_b_pl": "Wyjście rośnie logarytmicznie względem sumy kwadratów cech wejściowych.",
     "odp_c_pl": "Wartość wyjściowa jest zawsze stała i niezależna od wag modelu.",
     "odp_d_pl": "Każda cecha wejściowa musi zostać podniesiona do potęgi równej liczbie wymiarów $k$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -397,6 +436,7 @@
     "odp_b_pl": "MAE (Mean Absolute Error)",
     "odp_c_pl": "MSE (Mean Squared Error)",
     "odp_d_pl": "Suma błędu kwadratowego (SSE)",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -407,6 +447,7 @@
     "odp_b_pl": "Algorytm natychmiast zatrzymuje się i zwraca błąd krytyczny macierzy.",
     "odp_c_pl": "Wszystkie wagi są resetowane do wartości początkowych (losowych).",
     "odp_d_pl": "Zwiększa się liczbę wymiarów danych $k$ o jeden.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
@@ -417,6 +458,7 @@
     "odp_b_pl": "Uniemożliwia ona obliczanie podobieństwa kosinusowego między dokumentami.",
     "odp_c_pl": "Wymaga stosowania wyłącznie języka programowania Haskell do reprezentacji napisów.",
     "odp_d_pl": "Rozmiar wektora maleje wraz ze wzrostem wielkości słownika kolekcji.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -427,6 +469,7 @@
     "odp_b_pl": "Rozmiar dynamiczny, dokładnie równy liczbie unikalnych słów w danym dokumencie.",
     "odp_c_pl": "Rozmiar równy logarytmowi naturalnemu z liczby wszystkich dokumentów w kolekcji.",
     "odp_d_pl": "Dokładnie 100 wymiarów, niezależnie od parametru $b$ funkcji mieszającej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -437,6 +480,7 @@
     "odp_b_pl": "Word2vec-Hash.",
     "odp_c_pl": "CosineSim-Hash.",
     "odp_d_pl": "TfIdf-Optimizer.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -447,6 +491,7 @@
     "odp_b_pl": "Całkowita utrata możliwości uwzględniania słów, których nie było w początkowej kolekcji.",
     "odp_c_pl": "Konieczność ciągłego pamiętania w pamięci RAM całego odwzorowania rzutującego słowa na ich numery.",
     "odp_d_pl": "Gwałtowny spadek szybkości obliczeń matematycznych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -457,6 +502,7 @@
     "odp_b_pl": "Algorytm przestaje obsługiwać miarę idf jako skalar.",
     "odp_c_pl": "Podobieństwo kosinusowe między wszystkimi dokumentami przyjmuje zawsze wartość 1.00.",
     "odp_d_pl": "Liczba zer w wektorze spada do zera, drastycznie zagęszczając macierz.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -467,6 +513,7 @@
     "odp_b_pl": "Poprzez obliczenie funkcji skrótu MurmurHash z całego tekstu dokumentu.",
     "odp_c_pl": "Poprzez wyznaczenie odwrotności częstości dokumentowej (idf) dla całej macierzy.",
     "odp_d_pl": "Poprzez usunięcie wszystkich słów kluczowych i pozostawienie wyłącznie stop-words.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -477,6 +524,7 @@
     "odp_b_pl": "Można zastosować funkcję logiczną sprawdzającą wyłącznie obecność stop-words.",
     "odp_c_pl": "Można sztucznie ograniczyć długość każdego wektora do wartości parametru $b=6$.",
     "odp_d_pl": "Należy zastąpić model Word2vec reprezentacją binarną o rozmiarze stałym.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -487,6 +535,7 @@
     "odp_b_pl": "Całkowicie eliminuje ona potrzebę stosowania wag tf-idf lub idf.",
     "odp_c_pl": "Gwarantuje brak jakichkolwiek kolizji między różnymi napisami.",
     "odp_d_pl": "Automatycznie dokonuje pełnej lematyzacji i stemmingu tekstu bez użycia słowników.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -497,6 +546,7 @@
     "odp_b_pl": "Brak możliwości sumowania wektorów słów w celu otrzymania wektora dokumentu.",
     "odp_c_pl": "Konieczność trenowania modelu wyłącznie na systemach bez użycia procesorów GPU.",
     "odp_d_pl": "Zbyt wysoka czułość na małe i wielkie litery w korpusie tekstowym.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -507,6 +557,7 @@
     "odp_b_pl": "Bag-of-Words oraz technika Negative Sampling.",
     "odp_c_pl": "Hashing trick oraz HashingVectorizer z biblioteki scikit-learn.",
     "odp_d_pl": "Doc2vec oraz sieci neuronowe typu Deeplearning4j.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -517,6 +568,7 @@
     "odp_b_pl": "Zaobserwowano je podczas optymalizacji klasyfikacji wieloklasowej za pomocą funkcji softmax.",
     "odp_c_pl": "Wykazano je matematycznie poprzez odwrócenie rzadkiej macierzy tf-idf.",
     "odp_d_pl": "Zauważono je w trakcie analizy błędów algorytmu Latent Dirichlet Allocation (LDA).",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -527,6 +579,7 @@
     "odp_b_pl": "Architektura Skip-Gram jest znacznie szybsza w obliczeniach, lecz daje gorsze wyniki.",
     "odp_c_pl": "Skip-Gram przewiduje wyłącznie prawdopodobieństwo kolejnego słowa, ignorując słowa poprzednie.",
     "odp_d_pl": "Bag-of-Words wymaga użycia algorytmu Negative Sampling, podczas gdy Skip-Gram działa bez funkcji kosztu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -537,6 +590,7 @@
     "odp_b_pl": "Są one wykorzystywane jako ostateczna reprezentacja dokumentów (doc2vec).",
     "odp_c_pl": "Służą jako wagi wejściowe dla algorytmu GloVe.",
     "odp_d_pl": "Przechodzą proces wstępnego uczenia (pre-training) w celu eliminacji kolizji haszujących.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -547,6 +601,7 @@
     "odp_b_pl": "Dąży do zminimalizowania średniego błędu kwadratowego (MSE) dla całej kolekcji dokumentów.",
     "odp_c_pl": "Stara się przyporządkować każdemu dokumentowi unikalny kod binarnej funkcji mieszającej MurmurHash.",
     "odp_d_pl": "Dąży do maksymalizacji liczby zer w macierzy kontekstowej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -557,6 +612,7 @@
     "odp_b_pl": "$P(u|t) = \\log\\frac{\\vec{w}_t}{1-\\vec{c}_u}$",
     "odp_c_pl": "$P(u|t) = \\frac{e^{z_i}}{\\sum e^{z_j}}$",
     "odp_d_pl": "$P(u|t) = w_0 + \\sum w_i x_i$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
@@ -567,6 +623,7 @@
     "odp_b_pl": "Dostrajanie (fine-tuning) za pomocą wyłącznie algorytmu back-propagation.",
     "odp_c_pl": "Wykorzystanie zewnętrznych słowników i bazy danych Word2vec.",
     "odp_d_pl": "Stosowanie probabilistycznego próbkowania hierarchicznego w sieciach RNN.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
@@ -577,6 +634,7 @@
     "odp_b_pl": "Średniego błędu kwadratowego (MSE) mierzącego rzadkość macierzy.",
     "odp_c_pl": "Funkcji pierwiastka błędu średniokwadratowego (RMSE).",
     "odp_d_pl": "Funkcji kosinusowej wyznaczanej bezpośrednio z wag ukrytych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
@@ -587,6 +645,7 @@
     "odp_b_pl": "Niska skuteczność w zadaniach uczenia typu few-shot oraz zero-shot.",
     "odp_c_pl": "Całkowity brak możliwości wykorzystania tego podejścia do generowania fake newsów czy streszczeń.",
     "odp_d_pl": "Wymóg drastycznego obcinania słownika wejściowego do stałego rozmiaru b bitów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
@@ -597,6 +656,7 @@
     "odp_b_pl": "Zastępuje się dokładnie każde słowo w dokumencie specjalną funkcją skrótu MurmurHash.",
     "odp_c_pl": "Model odgaduje słowo w luce wyłącznie na podstawie 4 słów poprzednich, całkowicie ignorując prawy kontekst.",
     "odp_d_pl": "Ukrywa się wyraz wolny (bias) we wzorze na reprezentację kontekstową przed funkcją softmax.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
@@ -607,6 +667,7 @@
     "odp_b_pl": "BERT.",
     "odp_c_pl": "GPT-2.",
     "odp_d_pl": "RoBERTa.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
@@ -617,6 +678,7 @@
     "odp_b_pl": "Do zadań polegających wyłącznie na analitycznym odwracaniu macierzy kolekcji.",
     "odp_c_pl": "Do tradycyjnego tłumaczenia maszynowego opartego na rzadkich wektorach cech tf-idf.",
     "odp_d_pl": "Do redukcji wymiarowości gęstych reprezentacji wektorowych z błędem RMSE równym zero.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
@@ -627,6 +689,7 @@
     "odp_b_pl": "Jako dynamiczne haszowanie napisów za pomocą losowej funkcji mieszającej MurmurHash.",
     "odp_c_pl": "Jako klasyczny neuronowy model języka wyliczający wyłącznie prawdopodobieństwo następnego słowa z lewej do prawej.",
     "odp_d_pl": "Jako analityczne i bezbłędne odwracanie macierzy cech rzadkich.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -637,6 +700,7 @@
     "odp_b_pl": "Q to współczynnik uczenia, K to liczba wymiarów, a V to ostateczny wektor błędów RMSE.",
     "odp_c_pl": "Q to miara log-loss, K to token maskujący [MASK], a V to stop-word.",
     "odp_d_pl": "Q to rzadka macierz dokumentów, K to słownik jednostek BPE, a V to skalar idf.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -647,6 +711,7 @@
     "odp_b_pl": "$\\operatorname{Attention}(Q,K,V) = \\operatorname{logit}(QK^T) + V$",
     "odp_c_pl": "$\\operatorname{Attention}(Q,K,V) = \\frac{e^{QK^T}}{\\sum e^V}$",
     "odp_d_pl": "$\\operatorname{Attention}(Q,K,V) = Q \\cdot \\operatorname{softmax}(K \\cdot V)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -657,6 +722,7 @@
     "odp_b_pl": "Im słabiej klucz pasuje do zapytania, tym silniej modyfikowany jest wyraz wolny (bias).",
     "odp_c_pl": "Dopasowanie klucza do zapytania powoduje całkowite wyzerowanie odpowiadającej mu wartości.",
     "odp_d_pl": "Wynikowy wkład wartości jest stały i zależy wyłącznie od rozmiaru embeddingu słów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -667,6 +733,7 @@
     "odp_b_pl": "Przez $\\log(d_k)$.",
     "odp_c_pl": "Przez współczynnik uczenia $\\eta$.",
     "odp_d_pl": "Przez sumę kwadratów błędów bezwzględnych MAE.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -677,6 +744,7 @@
     "odp_b_pl": "Są generowane losowo na początku każdej iteracji algorytmu gradientu prostego.",
     "odp_c_pl": "Są pobierane bezpośrednio jako gotowe wektory z bazy pre-trained Word2vec.",
     "odp_d_pl": "Pochodzą bezpośrednio z wyjścia głowicy realizującej etykietowanie sekwencji.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -687,6 +755,7 @@
     "odp_b_pl": "Ponownie oblicza się je wyłącznie z bazowych embeddingów jednostek BPE.",
     "odp_c_pl": "Są pobierane z funkcji log-loss wyznaczonej na etapie MLM.",
     "odp_d_pl": "Są wprowadzane ręcznie przez mechanizm miękkiego odpytywania par klucz-wartość.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -697,6 +766,7 @@
     "odp_b_pl": "Głowicę liczącą błąd średniokwadratowy (MSE) cen nieruchomości.",
     "odp_c_pl": "Głowicę realizującą autouzupełnianie brakujących słów w locie.",
     "odp_d_pl": "Głowicę wykonującą nieliniową funkcję aktywacji logit.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "15_transformer.ipynb"
   },
   {
@@ -707,6 +777,7 @@
     "odp_b_pl": "Jako dowolna technika umożliwiająca komputerom naśladowanie ludzkiej inteligencji wyłącznie za pomocą reguł logicznych typu if-then oraz drzew decyzyjnych.",
     "odp_c_pl": "Jako zestaw zaawansowanych technik statystycznych wykluczających stosowanie sieci neuronowych na rzecz rzadkich macierzy tf-idf.",
     "odp_d_pl": "Jako deterministyczny algorytm pamiętania etykiet obrazów testowych o stałym czasie predykcji $O(1)$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -717,6 +788,7 @@
     "odp_b_pl": "Sformułowanie terminu 'sztuczna inteligencja' na seminarium w Dartmouth.",
     "odp_c_pl": "Odkrycie przez neurofizjologów, że ludzki wzrok ma charakter hierarchiczny.",
     "odp_d_pl": "Pojawienie się myślących robotów w mitologii greckiej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -727,6 +799,7 @@
     "odp_b_pl": "10 klas obiektów i 50 000 obrazów treningowych.",
     "odp_c_pl": "3072 klasy obiektów i 10 000 obrazów testowych.",
     "odp_d_pl": "255 klas obiektów i milion obrazów typu RGB.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -737,6 +810,7 @@
     "odp_b_pl": "Jako jednowymiarowy wektor o stałym rozmiarze równym zawsze $2^b$ po zastosowaniu funkcji skrótu.",
     "odp_c_pl": "Jako macierz rzadka, w której każda unikalna wartość piksela odpowiada logarytmowi szans (log-odds).",
     "odp_d_pl": "Jako ciągła funkcja liniowa typu $ax + by + c = 0$ niezależna od przesunięcia kamery.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -747,6 +821,7 @@
     "odp_b_pl": "W fazie treningu odwraca macierz cech, a w fazie testowej wykonuje nieliniowe mapowanie współrzędnych biegunowych.",
     "odp_c_pl": "W fazie treningu i testu losuje wagi modelu $W$, dążąc do zminimalizowania błędu średniokwadratowego (MSE).",
     "odp_d_pl": "W fazie treningu maskuje 15% pikseli, a w fazie testowej odpytuje bazę danych o pary klucz-wartość.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -757,6 +832,7 @@
     "odp_b_pl": "Train: $O(N)$, Predict: $O(1)$.",
     "odp_c_pl": "Train: $O(N^2)$, Predict: $O(N)$.",
     "odp_d_pl": "Train: $O(1)$, Predict: $O(1)$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -767,6 +843,7 @@
     "odp_b_pl": "$d_{2}(I_{1},I_{2})=\\sqrt{\\sum_{p}(I_{1}^{p}-I_{2}^{p})^{2}}$",
     "odp_c_pl": "$d(I_1, I_2) = \\operatorname{softmax}(I_1 \\cdot I_2^T)$",
     "odp_d_pl": "$d(I_1, I_2) = -\\frac{1}{n}\\sum (I_1^p \\log I_2^p)$[cite: 5, 6]",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -777,6 +854,7 @@
     "odp_b_pl": "Wymaga stosowania wyłącznie metryki euklidesowej L2, całkowicie odrzucając odległość L1.",
     "odp_c_pl": "Pozwala na automatyczne uczenie hiperparametrów bezpośrednio z danych treningowych bez użycia zbioru walidacyjnego.",
     "odp_d_pl": "Działa efektywnie wyłącznie na dużych zbiorach danych uczenia głębokiego, drastycznie przyspieszając fazę predykcji.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -787,6 +865,7 @@
     "odp_b_pl": "Wybór tych hiperparametrów, które dają najlepsze wyniki bezpośrednio na danych treningowych (training data).",
     "odp_c_pl": "Wybór tych konfiguracji, które działają najlepiej na danych testowych (test data) przed ostatecznym wdrożeniem modelu.",
     "odp_d_pl": "Ręczne ustawienie parametru $k=1$ dla każdej kolekcji danych, niezależnie od specyfiki problemu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -797,6 +876,7 @@
     "odp_b_pl": "Składa się z 1 000 klas i ponad miliona wielowarstwowych obrazów wysokiej rozdzielczości.",
     "odp_c_pl": "Zawiera wyłącznie obrazy binarne o wymiarach 32x32 piksele, których łączna liczba wynosi $10^{308}$.",
     "odp_d_pl": "Jest zbiorem rzadkich wektorów tekstowych służących do ekstrakcji informacji metodą HoG.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -807,6 +887,7 @@
     "odp_b_pl": "(3072, 10)",
     "odp_c_pl": "(10, 1)",
     "odp_d_pl": "(3072, 1)",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -817,6 +898,7 @@
     "odp_b_pl": "Służy do automatycznego przekształcania współrzędnych kartezjańskich obrazu na współrzędne biegunowe.",
     "odp_c_pl": "Odpowiada za spłaszczanie trójwymiarowych tensorów wejściowych RGB do postaci wektora jednowymiarowego.",
     "odp_d_pl": "Umożliwia całkowite wyeliminowanie wyrazu wolnego b (bias) ze wzoru $f(x,W) = Wx + b$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "Palub.pdf"
   },
   {
@@ -827,6 +909,7 @@
     "odp_b_pl": "Ponieważ funkcja logarytmiczna automatycznie odwraca macierz wag bez kosztu obliczeniowego.",
     "odp_c_pl": "Mnożenie prawdopodobieństw jest niemożliwe do zrealizowania w architekturze koder-dekoder.",
     "odp_d_pl": "Aby sztucznie zwiększyć liczbę zer w wektorach reprezentacji typu tf-idf.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
   },
   {
@@ -837,6 +920,7 @@
     "odp_b_pl": "$\\log(a + b) = \\log(a) \\cdot \\log(b)$",
     "odp_c_pl": "$e^{a \\cdot b} = e^a + e^b$",
     "odp_d_pl": "$\\operatorname{logit}(a \\cdot b) = \\operatorname{logit}(a) \\cdot \\operatorname{logit}(b)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
   },
   {
@@ -847,6 +931,7 @@
     "odp_b_pl": "Wielowymiarowa regresja liniowa jednej zmiennej objaśniającej.",
     "odp_c_pl": "Klasyfikator naiwnego Bayesa z trikiem haszującym (Hashing trick).",
     "odp_d_pl": "Klasyfikator k-Najbliższych Sąsiadów z metryką odległości L1.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
   },
   {
@@ -857,6 +942,7 @@
     "odp_b_pl": "Ostatecznym rozkładem prawdopodobieństwa sumującym się do jedynki.",
     "odp_c_pl": "Wartościami błędu średniokwadratowego (MSE) obliczonymi na zbiorze walidacyjnym.",
     "odp_d_pl": "Wektorami cech wyodrębnionymi za pomocą algorytmu Histogram of Oriented Gradients (HoG).",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
   },
   {
@@ -867,6 +953,7 @@
     "odp_b_pl": "Podzielenie każdego wyniku przez sumę wszystkich wartości wejściowych macierzy wag W.",
     "odp_c_pl": "Wyznaczenie pierwiastka kwadratowego z sumy kwadratów różnic (RMSE).",
     "odp_d_pl": "Zastosowanie odwrotnej funkcji logitowej ($logit^{-1}$) niezależnie dla każdej klasy.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
   },
   {
@@ -877,6 +964,7 @@
     "odp_b_pl": "Należy wyciąć z nich stop-words i zredukować ich wymiarowość przy użyciu stałego parametru $b$.",
     "odp_c_pl": "Należy obliczyć z nich logarytm naturalny, a następnie pomnożyć przez współczynnik uczenia $\\eta$.",
     "odp_d_pl": "Wystarczy odrzucić wartości ujemne, ponieważ wartości dodatnie automatycznie sumują się do 1.00.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL2.pdf"
   },
   {
@@ -887,6 +975,7 @@
     "odp_b_pl": "Polega na obliczeniu odwrotności macierzy Hesperiana (Hessian).",
     "odp_c_pl": "Polega na iteracyjnym minimalizowaniu funkcji straty za pomocą algorytmu Adam.",
     "odp_d_pl": "Polega na losowaniu wag W aż do uzyskania zerowego błędu kwadratowego.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -897,6 +986,7 @@
     "odp_b_pl": "Oblicza iloczyn wag i wektora cech z dodatkiem nieliniowej funkcji logitowej.",
     "odp_c_pl": "Wyznacza średnią ważoną ze wszystkich klas dostępnych w zbiorze CIFAR10.",
     "odp_d_pl": "Wykorzystuje architekturę koder-dekoder do wygenerowania nowej etykiety tekstowej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -907,6 +997,7 @@
     "odp_b_pl": "$L_i = -\\log\\frac{e^{s_{y_i}}}{\\sum e^{s_j}}$",
     "odp_c_pl": "$L_i = \\frac{1}{n}\\sum_{i=1}^n (\\hat{y}_i - y_i)^2$",
     "odp_d_pl": "$L_i = -[y_i \\log(p_i) + (1-y_i) \\log(1-p_i)]$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -917,6 +1008,7 @@
     "odp_b_pl": "Gdy prawdopodobieństwo poprawnej klasy wynosi dokładnie 0.50.",
     "odp_c_pl": "Gdy macierz wag W zostanie w pełni znormalizowana za pomocą funkcji logarytmicznej.",
     "odp_d_pl": "Gdy funkcja aktywacji $logit^{-1}$ ściśnie całą oś wartości do przedziału (0, 1).",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -927,6 +1019,7 @@
     "odp_b_pl": "Odwracanie macierzy kowariancji cech tekstowych tf-idf.",
     "odp_c_pl": "Algorytm Negative Sampling połączony z transformacją softmax.",
     "odp_d_pl": "Losowe próbkowanie przestrzeni wag bez wyznaczania pochodnych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -937,6 +1030,7 @@
     "odp_b_pl": "$O(N^2)$",
     "odp_c_pl": "$O(N)$",
     "odp_d_pl": "$O(1)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -947,6 +1041,7 @@
     "odp_b_pl": "Zawiera dokładnie $2^b$ elementów zależnych od funkcji skrótu.",
     "odp_c_pl": "Zawiera $O(N^3)$ elementów.",
     "odp_d_pl": "Liczba jej elementów jest stała i wynosi zawsze 3072.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -957,6 +1052,7 @@
     "odp_b_pl": "L-BFGS",
     "odp_c_pl": "Czyste SGD bez momentu pędu",
     "odp_d_pl": "Newton parameter update",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -967,6 +1063,7 @@
     "odp_b_pl": "Gdy zbiór danych treningowych jest skrajnie rzadki i zawiera wyłącznie cechy zerojedynkowe.",
     "odp_c_pl": "Gdy funkcja straty opiera się na prawdopodobieństwach warunkowych modelu języka GPT-2.",
     "odp_d_pl": "Wyłącznie przy trenowaniu klasyfikatora najbliższego sąsiada z odległością L1.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL3.pdf"
   },
   {
@@ -977,6 +1074,7 @@
     "odp_b_pl": "Klasyfikatory parametryczne eliminują całkowicie konieczność stosowania jakichkolwiek funkcji straty.",
     "odp_c_pl": "Modele liniowe automatycznie usuwają problem braku liniowej separowalności danych.",
     "odp_d_pl": "Umożliwiają one bezkosztowe odwracanie macierzy wag o rozmiarach rzędu setek milionów parametrów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -987,6 +1085,7 @@
     "odp_b_pl": "Wartością prawdopodobieństwa warunkowego przekształconą bezpośrednio przez funkcję skrótu MurmurHash.",
     "odp_c_pl": "Wskaźnikiem błędu średniokwadratowego (MSE) dla konkretnego piksela.",
     "odp_d_pl": "Wymiarem ukrytej warstwy (hidden layer) o stałej wielkości 100 neuronów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -997,6 +1096,7 @@
     "odp_b_pl": "$f = W_{3}max(0, W_{2}max(0, W_{1}x))$",
     "odp_c_pl": "$f = W_{2}W_{1}x$",
     "odp_d_pl": "$f = \\sigma(W_0 + W_1x_1)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -1007,6 +1107,7 @@
     "odp_b_pl": "Jej błąd treningowy spadłby automatycznie do zera z powodu braku szumu gradientu.",
     "odp_c_pl": "Przekształciłaby się w klasyfikator najbliższego sąsiada (Nearest Neighbor) o złożoności predykcji $O(1)$.",
     "odp_d_pl": "Zaczęłaby przetwarzać dane wyłącznie w przestrzeni cech z uogólnieniem wielomianowym.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -1017,6 +1118,7 @@
     "odp_b_pl": "Klasyfikator liniowy tworzy nieskończoną liczbę wzorców dla każdej klasy, które są niemożliwe do interpretacji.",
     "odp_c_pl": "Wykorzystuje on bank filtrów lokalnych, które automatycznie wykrywają krawędzie i kolory kontrastowe.",
     "odp_d_pl": "Przechowuje w pamięci RAM wszystkie surowe obrazy ze zbioru treningowego i porównuje je metryką L1.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -1027,6 +1129,7 @@
     "odp_b_pl": "Obraz jest spłaszczany do wektora jednowymiarowego, a następnie mnożony przez pełną macierz wag $W$ o rozmiarze (10, 3072).",
     "odp_c_pl": "Wszystkie piksele obrazu są losowo haszowane do stałej liczby przegródek przy użyciu algorytmu MurmurHash3.",
     "odp_d_pl": "Działa ona jak sztywny algorytm k-NN, wyznaczając odległość Manhattan dla każdego kanału kolorów RGB.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -1037,6 +1140,7 @@
     "odp_b_pl": "Globalnych, pełnoobrazkowych szablonów całych obiektów (np. kompletnego kształtu konia z dwoma głowami).",
     "odp_c_pl": "Analitycznych wag matematycznych służących do odwracania rzadkich macierzy danych.",
     "odp_d_pl": "Wartości stałych wyrazów wolnych (bias) niezależnych od tekstury wejściowej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -1047,6 +1151,7 @@
     "odp_b_pl": "Maksymalizacja dopasowania predykcji modelu do surowych etykiet w zbiorze uczącym.",
     "odp_c_pl": "Sztuczne zwiększenie pojemności (capacity) sieci poprzez dodawanie nowych jednostek ukrytych.",
     "odp_d_pl": "Przekształcenie nieliniowego klasyfikatora z powrotem w model w pełni połączony (fully-connected).",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL4.pdf"
   },
   {
@@ -1057,6 +1162,7 @@
     "odp_b_pl": "Poprzez odwrócenie macierzy Hessianu i pomnożenie jej przez stałą wartość uczenia.",
     "odp_c_pl": "Poprzez losowe wyzerowanie pędu, jeśli błąd klasyfikacji na pakiecie danych spadnie poniżej zera.",
     "odp_d_pl": "Według funkcji logarytmicznej szans, aby uniknąć niedomiaru numerycznego.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1067,6 +1173,7 @@
     "odp_b_pl": "$w += \\rho \\cdot dw$",
     "odp_c_pl": "$w = \\operatorname{softmax}(v \\cdot dw^T)$",
     "odp_d_pl": "$w -= \\log(\\text{learning\\_rate}) \\cdot dw$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1077,6 +1184,7 @@
     "odp_b_pl": "Wyłącznie z perspektywy asymetrii kontekstowej modeli autoregresyjnych.",
     "odp_c_pl": "Z punktu widzenia kolizji haszujących funkcji MurmurHash3.",
     "odp_d_pl": "Z perspektywy kosztu obliczeniowego metod optymalizacji drugiego rzędu $O(N^3)$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1087,6 +1195,7 @@
     "odp_b_pl": "Zmniejszenie liczby kanałów mapy cech przy zachowaniu niezmienionych wymiarów przestrzennych.",
     "odp_c_pl": "Zastosowanie nieliniowej funkcji aktywacji typu Hinge Loss na pikselach obrazu.",
     "odp_d_pl": "Akumulacja momentu pędu gradientu w celu przyspieszenia zbieżności algorytmu Adam.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1097,6 +1206,7 @@
     "odp_b_pl": "Ponieważ jest to stała, optymalna wielkość słownika jednostek BPE dla danych wizyjnych.",
     "odp_c_pl": "Rozmiar ten wynika bezpośrednio z przemnożenia liczby filtrów przez wymiar marginesu SVM.",
     "odp_d_pl": "Jest to maksymalna dopuszczalna liczba parametrów, przy której macierz Hessianu ma złożoność $O(1)$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1107,6 +1217,7 @@
     "odp_b_pl": "Warstwa w pełni połączona (fc6).",
     "odp_c_pl": "Obliczanie błędu średniokwadratowego (MSE).",
     "odp_d_pl": "Nieliniowa aktywacja logitowa typu Softmax.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1117,6 +1228,7 @@
     "odp_b_pl": "Całkowicie zapobiega zjawisku przeuczenia (overfitting) na zbiorze treningowym.",
     "odp_c_pl": "Zmniejsza wymiarowość macierzy wag W do stałego rozmiaru b bitów.",
     "odp_d_pl": "Eliminuje potrzebę definiowania oraz dobierania współczynnika uczenia (learning rate).",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1127,6 +1239,7 @@
     "odp_b_pl": "Wartość marginesu bezpieczeństwa w wieloklasowej funkcji straty SVM.",
     "odp_c_pl": "Liczbę kanałów kolorów (np. 3 dla RGB) w spłaszczanym obrazie wejściowym.",
     "odp_d_pl": "Złożoność obliczeniową algorytmu wyznaczania pochodnych cząstkowych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1137,6 +1250,7 @@
     "odp_b_pl": "Wewnątrz warstwy splotowej podczas przestrzennego przesuwania filtrów.",
     "odp_c_pl": "W pętli realizującej wyłącznie lematyzację słownika w jednostkach BPE.",
     "odp_d_pl": "W fazie inicjalizacji wag przed rozpoczęciem właściwego procesu uczenia.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1144,10 +1258,11 @@
     "tresc_pl": "Patrząc na strukturę AlexNet opisaną w slajdach, co dzieje się z rozmiarem wektora/mapy cech pomiędzy warstwą 'flatten' (rozmiar 9216) a pierwszą warstwą w pełni połączoną 'fc6' (rozmiar 4096)?",
     "tresc_eng": "Looking at the AlexNet structure described in the slides, what happens to the size of the feature vector/map between the 'flatten' layer (size 9216) and the first fully connected layer 'fc6' (size 4096)?",
     "odp_a_pl": "Następuje rzutowanie i redukcja wymiarów przestrzeni cech do 4096 za pomocą operacji mnożenia przez macierz wag warstwy fc6.",
-    "b_pl": "Wektory są rozciągane do nieskończoności za pomocą funkcji logit.",
     "odp_c_pl": "Liczba cech rośnie logarytmicznie, aby dopasować się do wymogów ImageNet.",
     "odp_d_pl": "Wszystkie ujemne wartości cech są usuwane przez funkcję straty hinge loss.",
-    "nazwa_pliku": "DL5.pdf"
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL5.pdf",
+    "b_pl": "Wektory są rozciągane do nieskończoności za pomocą funkcji logit."
   },
   {
     "id": 116,
@@ -1157,6 +1272,7 @@
     "odp_b_pl": "Aby zmusić model do pamiętania wszystkich surowych pikseli ze zbioru walidacyjnego.",
     "odp_c_pl": "Ponieważ bez tego operacja gradientu prostego SGD z pędem miałaby złożoność $O(N^3)$.",
     "odp_d_pl": "W celu automatycznego mapowania cech tekstowych tf-idf do wektorów gęstych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1167,6 +1283,7 @@
     "odp_b_pl": "Wizualny punkt widzenia (Visual Viewpoint).",
     "odp_c_pl": "Autoregresyjny punkt widzenia na model języka.",
     "odp_d_pl": "Statystyczny punkt widzenia na rzadkość macierzy.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1177,6 +1294,7 @@
     "odp_b_pl": "Początkowe warstwy splotowe, takie jak conv1 i conv2.",
     "odp_c_pl": "Warstwy łączenia (pooling), ponieważ wymagają odwracania macierzy.",
     "odp_d_pl": "Warstwa 'flatten', ponieważ zawiera miliardy operacji skrótu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1187,6 +1305,7 @@
     "odp_b_pl": "Warstwy spłaszczające (Flatten), atencja (Attention), kodery (Encoders) oraz dekodery (Decoders).",
     "odp_c_pl": "Funkcje skrótu (Hashing), tokenizacja (Tokenization), lematyzacja (Lemmatization) oraz warstwy gęste.",
     "odp_d_pl": "Metryka L1, metryka L2, odległość Manhattan oraz funkcja wiarygodności log-loss.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1197,6 +1316,7 @@
     "odp_b_pl": "$\\hat{x}_{i,j}=\\log\\frac{x_{i,j}}{1-x_{i,j}}$",
     "odp_c_pl": "$\\hat{x}_{i,j}=\\operatorname{softmax}(x_{i,j}) \\cdot \\eta$",
     "odp_d_pl": "$\\hat{x}_{i,j}=W_2 \\cdot \\max(0, W_1x)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1207,6 +1327,7 @@
     "odp_b_pl": "Rozmiar pola recepcyjnego rośnie wykładniczo według stałej zależności $K^L$.",
     "odp_c_pl": "Pole recepcyjne ulega zmniejszeniu o połowę ($K/2$) po każdej operacji splotu.",
     "odp_d_pl": "Rozmiar pola pozostaje stały i zależy wyłącznie od początkowych wymiarów obrazu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1217,6 +1338,7 @@
     "odp_b_pl": "Współczynnik uczenia, wyraz wolny (bias) oraz człon regularyzacji.",
     "odp_c_pl": "Liczba kanałów wejściowych, funkcja skrótu oraz wielkość słownika BPE.",
     "odp_d_pl": "Macierz Hessianu, liczba grup oraz wielkość pędu gradientu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1227,6 +1349,7 @@
     "odp_b_pl": "Wymagała tego konieczność eliminacji warstw w pełni połączonych na rzecz reprezentacji rzadkich.",
     "odp_c_pl": "Klasyfikatory te były niezbędne do automatycznego wyliczania wielkości filtrów splotowych.",
     "odp_d_pl": "Służyły one do realizowania techniki Negative Sampling w wieloklasowej regresji logistycznej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1237,6 +1360,7 @@
     "odp_b_pl": "Ponieważ zwiększały one złożoność obliczeniową fazy testowej do poziomu $O(N^3)$.",
     "odp_c_pl": "Metoda ta powodowała powstawanie kolizji haszujących w architekturze koder-dekoder.",
     "odp_d_pl": "Zostały one całkowicie zastąpione przez algorytm stochastycznego spadku z pędem.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1247,6 +1371,7 @@
     "odp_b_pl": "Wagi modelu zaczynają gwałtownie dążyć do nieskończoności z powodu braku funkcji aktywacji.",
     "odp_c_pl": "Rozmiar pamięci RAM wymaganej przez model zaczyna maleć poniżej krytycznej granicy 3GB.",
     "odp_d_pl": "Wszystkie warstwy splotowe automatycznie przekształcają się w klasyfikatory najbliższego sąsiada.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1257,6 +1382,7 @@
     "odp_b_pl": "Przekształcają mapy cech za pomocą nieliniowej funkcji logitowej, rozciągając je do nieskończoności.",
     "odp_c_pl": "Zastępują standardowe mnożenie macierzy sumowaniem logarytmów prawdopodobieństw warunkowych.",
     "odp_d_pl": "Automatycznie redukują liczbę kanałów wejściowych do 1 we wszystkich stadiach przetwarzania.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1267,6 +1393,7 @@
     "odp_b_pl": "Blok 'Bottleneck' rezygnuje całkowicie ze splotów $3 \\times 3$ na rzecz filtrów globalnych o rozmiarze $7 \\times 7$.",
     "odp_c_pl": "Wymaga dwukrotnie większej liczby parametrów uczonych bez używania normalizacji BatchNorm.",
     "odp_d_pl": "Przeznaczony jest wyłącznie dla małych sieci (poniżej 20 warstw) uczonych na urządzeniach mobilnych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1277,6 +1404,7 @@
     "odp_b_pl": "Spłaszczają obraz wejściowy i haszują go za pomocą algorytmu MurmurHash3 przed każdym splotem.",
     "odp_c_pl": "Wymuszają separowalność głębokościową filtrów splotowych poprzez usunięcie funkcji aktywacji ReLU.",
     "odp_d_pl": "Łączą ze sobą losowo wybrane podsieci AlexNet i VGG w jeden gigantyczny model ensemble.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1287,6 +1415,7 @@
     "odp_b_pl": "Polega na analitycznym wyznaczaniu optymalnej liczby filtrów splotowych bezpośrednio z odwrócenia macierzy kowariancji danych.",
     "odp_c_pl": "Jest to deterministyczna metoda przeszukiwania w głąb (DFS) wszystkich możliwych kombinacji kroków (Stride) i marginesów (Pad).",
     "odp_d_pl": "To algorytm optymalizacji drugiego rzędu, który wyznacza położenie lokalnych minimów funkcji straty typu hinge loss.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1297,6 +1426,7 @@
     "odp_b_pl": "Daje modele o bardzo niskiej dokładności, gorsze od wczesnego klasyfikatora liniowego AlexNet.",
     "odp_c_pl": "Działa wyłącznie na małych obrazach binarnych i nie obsługuje przestrzeni barw RGB.",
     "odp_d_pl": "Generuje architektury, które całkowicie pomijają warstwy normalizacji BatchNorm i funkcje aktywacji.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL6.pdf"
   },
   {
@@ -1307,6 +1437,7 @@
     "odp_b_pl": "Detekcja obiektów nie wymaga stosowania głębokich sieci splotowych i opiera się wyłącznie na wektorach tf-idf.",
     "odp_c_pl": "Klasyfikacja obrazu przetwarza pełne tensory RGB, podczas gdy detekcja działa tylko na obrazach czarno-białych.",
     "odp_d_pl": "Detekcja obiektów zwraca wyłącznie jedną globalną etykietę tekstową dla całego zbioru danych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1317,6 +1448,7 @@
     "odp_b_pl": "Wykorzystuje w pełni splotowy detektor jednofazowy przetwarzający cały obraz w jednym kroku.",
     "odp_c_pl": "Polega na generowaniu propozycji regionów za pomocą sieci RPN zintegrowanej bezpośrednio z klasyfikatorem Softmax.",
     "odp_d_pl": "Stosuje różniczkowalne wycinanie cech wyłącznie z warstwy wyjściowej ukrytego perceptrona.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1327,6 +1459,7 @@
     "odp_b_pl": "Całkowicie wyeliminowała potrzebę stosowania algorytmów klasyfikacji i regresji ramek otaczających.",
     "odp_c_pl": "Zastąpiła sieci splotowe modelami transformacji językowej typu koder-dekoder.",
     "odp_d_pl": "Wprowadziła pęd (Momentum) do obliczania macierzy Hessianu o złożonści $O(N^3)$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1337,6 +1470,7 @@
     "odp_b_pl": "Model ten stał się pierwszym detektorem jednofazowym (Single-Stage), który nie posiada dedykowanej sieci dla regionów.",
     "odp_c_pl": "Przekształca mapy cech za pomocą funkcji skrótu MurmurHash3 w celu zagwarantowania stałego rozmiaru wektora $2^b$.",
     "odp_d_pl": "Wymaga trenowania wyłącznie na pełnych pakietach danych (full batch updates) bez użycia gradientu stochastycznego.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1347,6 +1481,7 @@
     "odp_b_pl": "Wykonują predykcję niezależnie dla każdego piksela przy użyciu algorytmu najbliższego sąsiada z odległością L1.",
     "odp_c_pl": "Wymagają ręcznego przygotowania szablonów (templates) dla każdej wykrywanej klasy obiektów.",
     "odp_d_pl": "Służą wyłącznie do segmentacji semantycznej tła (np. nieba lub trawy), ignorując obiekty pierwszoplanowe.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1357,6 +1492,7 @@
     "odp_b_pl": "Całkowite usunięcie nieliniowych funkcji aktywacji ReLU ze wszystkich warstw pośrednich.",
     "odp_c_pl": "Zastąpienie sieci neuronowych regresją logistyczną opartą na naiwnym Bayesie.",
     "odp_d_pl": "Sztuczne ograniczenie czasu uczenia modelu w celu wywołania kolizji w pędzie gradientu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1367,6 +1503,7 @@
     "odp_b_pl": "Algorytm automatycznego wycinania stop-words z etykiet klas podczas ewaluacji.",
     "odp_c_pl": "Metoda optymalizacji drugiego rzędu, która zastępuje krok aktualizacji parametrów Newtona.",
     "odp_d_pl": "Sposób regularyzacji wag modelu zapobiegający przeuczeniu w pętli uczenia.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL11.pdf"
   },
   {
@@ -1377,6 +1514,7 @@
     "odp_b_pl": "Segmentacja instancji nie wyznacza dokładnych granic pikseli, lecz rysuje jedynie globalne ramki otaczające (bounding boxes).",
     "odp_c_pl": "Segmentacja semantyczna działa wyłącznie na trójwymiarowych siatkach trójkątów (meshes), ignorując surowe pliki RGB.",
     "odp_d_pl": "Segmentacja instancji jest zadaniem jednofazowym, które całkowicie rezygnuje z używania współdzielonych map cech.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL12.pdf"
   },
   {
@@ -1387,6 +1525,7 @@
     "odp_b_pl": "RMSE (Root Mean Squared Error)",
     "odp_c_pl": "Log-loss (funkcja kosztu prawdopodobieństwa warunkowego)",
     "odp_d_pl": "Złożoność czasowa predykcji wyrażona jako $O(N^3)$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL12.pdf"
   },
   {
@@ -1397,6 +1536,7 @@
     "odp_b_pl": "Na spłaszczaniu pikseli tła i haszowaniu ich za pomocą algorytmu MurmurHash3 do stałego rozmiaru wektora.",
     "odp_c_pl": "Na przewidywaniu jednej globalnej etykiety kategorii dla całego obrazu z pominięciem struktury przestrzennej.",
     "odp_d_pl": "Na automatycznym usuwaniu stop-words z opisów wygenerowanych przez pomocnicze klasyfikatory.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL12.pdf"
   },
   {
@@ -1407,6 +1547,7 @@
     "odp_b_pl": "Zadanie sekwencyjnego maskowania 15% pikseli obrazu w celu optymalizacji drugiego rzędu L-BFGS.",
     "odp_c_pl": "Zadanie liniowego dopasowania prostej $y = ax + b$ do chmury punktów przestrzeni barw RGB.",
     "odp_d_pl": "Zadanie redukcji wymiarowości gęstych reprezentacji wektorowych słownika do stałego parametru $b=6$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL12.pdf"
   },
   {
@@ -1417,6 +1558,7 @@
     "odp_b_pl": "Błąd bezwzględny MAE, błąd średniokwadratowy MSE oraz pierwiastek błędu kwadratowego RMSE.",
     "odp_c_pl": "Logarytm szans Naiwnego Bayesa, funkcja kosztu log-loss oraz tarcie pędu gradientu $\\rho$.",
     "odp_d_pl": "Strata atencji zapytań Q, strata dopasowania kluczy K oraz unormowana strata wartości V.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL12.pdf"
   },
   {
@@ -1427,6 +1569,7 @@
     "odp_b_pl": "Prędkość $v$ natychmiast spada do zera z powodu tarcia wywołanego parametrem $\\rho$.",
     "odp_c_pl": "Wektor wag zaczyna oscylować wokół punktu początkowego, uniemożliwiając zbieżność.",
     "odp_d_pl": "Algorytm automatycznie przełącza się na optymalizację drugiego rzędu L-BFGS.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1437,6 +1580,7 @@
     "odp_b_pl": "Jest losowany z rozkładu normalnego o średniej równej współczynnikowi uczenia.",
     "odp_c_pl": "Przyjmuje wartość równą początkowemu gradientowi $dw$.",
     "odp_d_pl": "Jest ustawiany na stałą wartość parametru $\\rho$ (np. 0.9).",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1447,6 +1591,7 @@
     "odp_b_pl": "$L = \\sum_{i=1}^{N}L_{i} \\cdot R(W)$",
     "odp_c_pl": "$L = -\\log(R(W)) \\cdot \\frac{1}{N}\\sum L_i$",
     "odp_d_pl": "$L = L_i + \\operatorname{softmax}(R(W))$",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1457,6 +1602,7 @@
     "odp_b_pl": "Jako nieliniową transformację $s = \\max(0, Wx)$.",
     "odp_c_pl": "Jako odległość euklidesową pomiędzy wektorem $x$ a macierzą $W$.",
     "odp_d_pl": "Jako iloczyn prawdopodobieństw warunkowych $s = P(x|W)$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1467,6 +1613,7 @@
     "odp_b_pl": "Ponieważ wymaga to nieskończonej liczby kanałów wejściowych RGB.",
     "odp_c_pl": "Ponieważ funkcja straty Softmax uniemożliwia reprezentowanie zwierząt.",
     "odp_d_pl": "Ponieważ waga $w_0$ (bias) przyjmuje wtedy wartości ujemne.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1477,6 +1624,7 @@
     "odp_b_pl": "9216",
     "odp_c_pl": "1000",
     "odp_d_pl": "256",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1487,6 +1635,7 @@
     "odp_b_pl": "4096",
     "odp_c_pl": "1000",
     "odp_d_pl": "384",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1497,6 +1646,7 @@
     "odp_b_pl": "MAE (Mean Absolute Error).",
     "odp_c_pl": "Log-loss dla klasyfikacji binarnej z haszowaniem.",
     "odp_d_pl": "Szarża euklidesowa L2.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1507,6 +1657,7 @@
     "odp_b_pl": "fc1, fc2, fc3",
     "odp_c_pl": "fc5, fc6, flatten",
     "odp_d_pl": "pool5, flatten, fc1",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1517,6 +1668,7 @@
     "odp_b_pl": "Są one resetowane do wartości całkowicie losowych z przedziału [0, 255].",
     "odp_c_pl": "Są automatycznie dzielone przez sumę kwadratów różnic w celu obliczenia RMSE.",
     "odp_d_pl": "Zostają spłaszczone do postaci wektora jednowymiarowego o stałym rozmiarze.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL5.pdf"
   },
   {
@@ -1527,6 +1679,7 @@
     "odp_b_pl": "Klasyfikacja pojedynczych obrazów (Image Classification) do jednej kategorii.",
     "odp_c_pl": "Klasyfikacja wideo (Video classification), gdzie sekwencja klatek jest mapowana do jednej etykiety.",
     "odp_d_pl": "Tłumaczenie maszynowe (Machine Translation) sekwencji słów na inną sekwencję słów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1537,6 +1690,7 @@
     "odp_b_pl": "Generowanie tekstu na podstawie pojedynczego wektora cech warstwy ukrytej.",
     "odp_c_pl": "Klasyfikacja klatek wideo w czasie rzeczywistym (Per-frame video classification), dająca osobną etykietę dla każdej klatki.",
     "odp_d_pl": "Trójwymiarowa rekonstrukcja obiektów (3D shape prediction) na bazie rzadkich chmur punktów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1547,6 +1701,7 @@
     "odp_b_pl": "Klasyfikacja pojedynczych obrazów (Image Classification) za pomocą sieci AlexNet.",
     "odp_c_pl": "Gęste opisywanie obrazu (Dense Captioning) realizowane przez detektory dwufazowe.",
     "odp_d_pl": "Inicjalizacja wag wektora prędkości w stochastycznym spadku z pędem.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1557,6 +1712,7 @@
     "odp_b_pl": "Na spłaszczaniu pikseli tła i poddawaniu ich deterministycznej normalizacji BatchNorm.",
     "odp_c_pl": "Na sekwencyjnym wyliczaniu elementów macierzy Hessianu w celu przyspieszenia zbieżności.",
     "odp_d_pl": "Na rzutowaniu gęstych wektorów słownika do przestrzeni cech zerojedynkowych.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1567,6 +1723,7 @@
     "odp_b_pl": "Zmniejsza wymiarowość ukrytych tensorów do stałej wartości $2^b$ bez ryzyka kolizji.",
     "odp_c_pl": "Eliminuje konieczność stosowania funkcji aktywacji Softmax na rzecz błędu Hinge Loss.",
     "odp_d_pl": "Wymusza przetwarzanie danych wyłącznie w kierunku autoregresyjnym od prawej do lewej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1577,6 +1734,7 @@
     "odp_b_pl": "Jako wielowarstwowe perceptrony wykorzystujące wyłącznie filtry splotowe $1 \\times 1$.",
     "odp_c_pl": "Jako specyficzny podzbiór klasyfikatorów liniowych o rzadkiej reprezentacji typu tf-idf.",
     "odp_d_pl": "Jako rekurencyjne sieci neuronowe (RNN) pozbawione operacji normalizacji warstwowej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1587,6 +1745,7 @@
     "odp_b_pl": "Normalizacja pakietowa (Batch Normalization) oraz warstwy łączenia typu Max Pooling.",
     "odp_c_pl": "Regresja ramek otaczających (Bbox regression) oraz predyktory siatek trójwymiarowych 3D.",
     "odp_d_pl": "Funkcje skrótu MurmurHash3 oraz filtry wykrywania krawędzi pierwszej warstwy splotowej.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1597,6 +1756,7 @@
     "odp_b_pl": "Transformer-Base ma 12 milionów parametrów, a Transformer-Large ma miliard parametrów.",
     "odp_c_pl": "Oba modele posiadają stałą, identyczną liczbę 4096 parametrów wagowych.",
     "odp_d_pl": "Liczba ich parametrów zależy dynamicznie od wielkości wejściowych obrazów RGB.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1607,6 +1767,7 @@
     "odp_b_pl": "Jest to sieć przetwarzająca wyłącznie długie sekwencje tekstu za pomocą mechanizmu maskowania słów.",
     "odp_c_pl": "To specyficzny koder-dekoder, który w każdym kroku czasowym generuje nową trójwymiarową siatkę trójkątów.",
     "odp_d_pl": "To podzbiór klasyfikatora k-NN o stałej liczbie najbliższych sąsiadów wynoszącej dokładnie $k=1$.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1617,6 +1778,7 @@
     "odp_b_pl": "Globalne tłumaczenie maszynowe (Machine Translation) całego bloku zdań.",
     "odp_c_pl": "Automatyczne opisywanie pojedynczych obrazów (Image Captioning) za pomocą filtrów splotowych.",
     "odp_d_pl": "Wyznaczanie pędu gradientu w stochastycznym spadku wzdłuż gradientu z regularyzacją.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1627,6 +1789,7 @@
     "odp_b_pl": "Gwarantują całkowite wyeliminowanie problemu zanikającego lub wybuchającego gradientu bez użycia komórek LSTM.",
     "odp_c_pl": "Wykonują operacje matematyczne w stałym czasie $O(1)$ bez względu na długość przetwarzanego wideo.",
     "odp_d_pl": "Umożliwiają bezkosztowe odwracanie macierzy ukrytych stanów za pomocą Taylor Expansion.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1637,6 +1800,7 @@
     "odp_b_pl": "Obraz jest spłaszczany i haszowany algorytmem MurmurHash3, co eliminuje potrzebę analizy kontekstu.",
     "odp_c_pl": "Model generuje cały tekst opisu naraz, bezpośrednio z wektora prędkości stochastycznego gradientu.",
     "odp_d_pl": "Usuwa on stop-words z obrazu wejściowego za pomocą filtrów splotowych pierwszej warstwy conv.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1647,6 +1811,7 @@
     "odp_b_pl": "Jako liniowy odpowiednik klasyfikatora najbliższego sąsiada z metryką odległości L1.",
     "odp_c_pl": "Jako pomocniczy klasyfikator (Auxiliary Classifier) służący do poprawnej propagacji błędu.",
     "odp_d_pl": "Jako funkcja kosztu typu hinge loss przeznaczona do optymalizacji drugiego rzędu.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1654,10 +1819,11 @@
     "tresc_pl": "Ile unikalnych głów atencji (Heads) posiada podstawowy model Transformer-Base, a ile jego powiększona wersja Transformer-Large według tabeli parametrów?",
     "tresc_eng": "How many unique attention heads does the basic Transformer-Base model have, and how many does its enlarged version Transformer-Large have according to the parameter table?",
     "odp_a_pl": "Transformer-Base posiada 8 głów, natomiast Transformer-Large posiada 16 głów.",
-    "b_pl": "Transformer-Base posiada 12 głów, natomiast Transformer-Large posiada 24 głowy.",
     "odp_c_pl": "Oba modele posiadają stałą i identyczną liczbę 4 głów atencji przestrzennej.",
     "odp_d_pl": "Liczba głów wynosi odpowiednio 512 dla wersji Base oraz 1024 dla wersji Large.",
-    "nazwa_pliku": "DL9.pdf"
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL9.pdf",
+    "b_pl": "Transformer-Base posiada 12 głów, natomiast Transformer-Large posiada 24 głowy."
   },
   {
     "id": 167,
@@ -1667,6 +1833,7 @@
     "odp_b_pl": "65 dla modelu Transformer-Base oraz 213 dla modelu Transformer-Large.",
     "odp_c_pl": "Rozmiar ten jest zmienny i zależy od liczby klatek w sekwencji wideo wejściowego.",
     "odp_d_pl": "Wynosi dokładnie 4096 dla obu wariantów z uwagi na wymogi warstwy 'flatten'.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1677,6 +1844,7 @@
     "odp_b_pl": "Normalizacja pakietowa (Batch Normalization).",
     "odp_c_pl": "Lokalna normalizacja kontrastu (Local Contrast Normalization).",
     "odp_d_pl": "Skalowanie min-max pikseli wejściowych do przedziału [0, 255].",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1687,6 +1855,7 @@
     "odp_b_pl": "Warstwa splotowa z jądrem $3 \\times 3$ (Conv Layer).",
     "odp_c_pl": "Regresor ramek otaczających (Bounding-box regressor).",
     "odp_d_pl": "Blok rezydualny typu Bottleneck z połączeniem Skip connection.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
@@ -1697,426 +1866,667 @@
     "odp_b_pl": "Transformers przetwarzają dane wyłącznie krok po kroku, co drastycznie wydłuża czas ich trenowania.",
     "odp_c_pl": "Networks RNN wymagają użycia procesorów graficznych GPU, podczas gdy Transformers uczą się efektywnie bez GPU.",
     "odp_d_pl": "Transformers działają tylko na rzadkich reprezentacjach słowników, nie obsługując embeddingów.",
+    "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL9.pdf"
   },
   {
+    "id": 171,
     "tresc_pl": "Czy funkcja mieszająca $H$ używana w hashing trick może być różnowartościowa (injektywna)?",
     "tresc_eng": "Can the hashing function $H$ used in the hashing trick be injective (one-to-one)?",
     "odp_a_pl": "Nie — domena napisów $\\Sigma^{*}$ jest nieskończona, a wartości funkcji mieszczą się w skończonym zbiorze $\\{0,\\dots,2^b-1\\}$.",
     "odp_b_pl": "Tak — MurmurHash gwarantuje brak kolizji dla wszystkich par słów w słowniku.",
     "odp_c_pl": "Tak — injektywność jest warunkiem koniecznym poprawnego działania tf-idf.",
     "odp_d_pl": "Nie — ale wyłącznie dlatego, że wektory dokumentów muszą być gęste.",
-    "nazwa_pliku": "05_Geste_wektory.ipynb",
-    "id": 171
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
+    "id": 172,
     "tresc_pl": "Podobne napisy mają zupełnie różne wartości funkcji haszującej — czy to zjawisko jest pożądane w kontekście hashing trick?",
     "tresc_eng": "Similar strings have completely different hash function values — is this phenomenon desirable in the context of the hashing trick?",
     "odp_a_pl": "Tak — pożądane jest, by podobne napisy nie koncentrowały się w tych samych przegródkach; liczy się raczej równomierny rozkład.",
     "odp_b_pl": "Nie — podobne napisy powinny zawsze trafiać do tej samej przegródki, aby zachować semantykę.",
     "odp_c_pl": "Nie — różne wartości hash oznaczają błąd implementacji MurmurHash.",
     "odp_d_pl": "Tak — ale tylko wtedy, gdy parametr $b$ jest ustawiony na wartość mniejszą niż 4.",
-    "nazwa_pliku": "05_Geste_wektory.ipynb",
-    "id": 172
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
+    "id": 173,
     "tresc_pl": "Jak zbudowany jest wektor pojedynczego termu $t$ przy stosowaniu hashing trick ze schematem tf-idf?",
     "tresc_eng": "How is the vector of a single term $t$ constructed when using the hashing trick with the tf-idf weighting scheme?",
     "odp_a_pl": "Wektor rozmiaru $2^b$ wypełniony zerami, z wyjątkiem pozycji $H(t)$, gdzie umieszcza się wartość idf danego termu.",
     "odp_b_pl": "Wektor one-hot o długości równej liczbie unikalnych słów w kolekcji.",
     "odp_c_pl": "Wektor Word2vec pobrany bezpośrednio z gotowej bazy embeddingów.",
     "odp_d_pl": "Wektor dwuwymiarowy zawierający tf na pierwszej pozycji i idf na drugiej.",
-    "nazwa_pliku": "05_Geste_wektory.ipynb",
-    "id": 173
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
+    "id": 174,
     "tresc_pl": "Jak uzyskuje się wektor całego dokumentu $d = (t_1, \\ldots, t_n)$ przy hashing trick ze schematem tf-idf?",
     "tresc_eng": "How is the vector of an entire document $d = (t_1, \\ldots, t_n)$ obtained when using the hashing trick with tf-idf?",
     "odp_a_pl": "Poprzez zsumowanie wektorów poszczególnych termów: $\\vec{d} = \\sum_i \\vec{t_i}$.",
     "odp_b_pl": "Poprzez uśrednienie wektorów Word2vec wszystkich słów dokumentu.",
     "odp_c_pl": "Poprzez iloczyn macierzy odwrotnej $\\mathbf{X}^{-1}$ i wektora etykiet.",
     "odp_d_pl": "Poprzez wybranie wektora termu o najwyższej wartości idf w dokumencie.",
-    "nazwa_pliku": "05_Geste_wektory.ipynb",
-    "id": 174
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
+    "id": 175,
     "tresc_pl": "Co dzieje się w hashing trick, gdy zwiększamy parametr $b$ (rozmiar odcisku)?",
     "tresc_eng": "What happens in the hashing trick when we increase the parameter $b$ (fingerprint size)?",
     "odp_a_pl": "Kolizje stają się mniej prawdopodobne, ale wektory mogą stać się większe niż w standardowym podejściu tf-idf.",
     "odp_b_pl": "Wektory stają się krótsze, a liczba kolizji rośnie proporcjonalnie do $b$.",
     "odp_c_pl": "Traci się możliwość uwzględniania słów spoza początkowej kolekcji.",
     "odp_d_pl": "Konieczne staje się przechowywanie pełnego słownika w pamięci RAM.",
-    "nazwa_pliku": "05_Geste_wektory.ipynb",
-    "id": 175
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
+    "id": 176,
     "tresc_pl": "Jakie własności powinny mieć „dobre” wektory słów według wykładu o gęstych reprezentacjach?",
     "tresc_eng": "What properties should 'good' word vectors have according to the dense representations lecture?",
     "odp_a_pl": "Podobne znaczeniowo słowa powinny być reprezentowane przez podobne wektory (blisko siebie w przestrzeni wektorowej).",
     "odp_b_pl": "Każde słowo powinno mieć wektor one-hot o rozmiarze całego słownika języka.",
     "odp_c_pl": "Wektory muszą być rzadkie i zawierać jak najwięcej zer.",
     "odp_d_pl": "Wartości wektorów powinny odpowiadać dokładnie wagom regresji liniowej wyceny mieszkań.",
-    "nazwa_pliku": "05_Geste_wektory.ipynb",
-    "id": 176
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "05_Geste_wektory.ipynb"
   },
   {
+    "id": 177,
     "tresc_pl": "Do czego sprowadza się pretrenowanie modelu językowego na dużym korpusie tekstu, według wykładu?",
     "tresc_eng": "What does pretraining a language model on a large text corpus boil down to, according to the lecture?",
     "odp_a_pl": "Do odgadywania następnego lub zamaskowanego słowa, z użyciem softmax na reprezentacji kontekstowej $\\vec{p} = \\operatorname{softmax}(f(\\vec{c}))$.",
     "odp_b_pl": "Do ręcznego etykietowania każdego słowa w korpusie przez anotatorów.",
     "odp_c_pl": "Do minimalizacji błędu MAE między ceną mieszkania a opisem tekstowym.",
     "odp_d_pl": "Do budowy słownika odwzorowującego słowa na indeksy bez użycia funkcji skrótu.",
-    "nazwa_pliku": "14_pretrenowanie.ipynb",
-    "id": 177
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
+    "id": 178,
     "tresc_pl": "Jaka jest dokładna proporcja w schemacie maskowania BERT dla wybranych 15% wyrazów do odgadnięcia?",
     "tresc_eng": "What is the exact proportion in the BERT masking scheme for the 15% of words selected for prediction?",
     "odp_a_pl": "80% zastępuje się tokenem [MASK], 10% innym losowym wyrazem, a 10% pozostawia bez zmian.",
     "odp_b_pl": "100% zastępuje się tokenem [MASK], bez wyjątków.",
     "odp_c_pl": "50% zastępuje się tokenem [MASK], a 50% pozostawia bez zmian.",
     "odp_d_pl": "15% zastępuje się tokenem [MASK], 15% losowym wyrazem, a 70% pozostawia bez zmian.",
-    "nazwa_pliku": "14_pretrenowanie.ipynb",
-    "id": 178
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
+    "id": 179,
     "tresc_pl": "Która z wymienionych zalet przypisano w wykładzie modelom autoregresyjnym typu GPT pod kątem uczenia few-shot i zero-shot?",
     "tresc_eng": "Which of the following advantages was attributed in the lecture to autoregressive models like GPT regarding few-shot and zero-shot learning?",
     "odp_a_pl": "Zaskakującą skuteczność przy uczeniu few-shot i zero-shot.",
     "odp_b_pl": "Pełną symetrię przetwarzania kontekstu lewego i prawego.",
     "odp_c_pl": "Wyższą skuteczność niż BERT w zadaniach klasyfikacji sekwencji.",
     "odp_d_pl": "Brak konieczności stosowania funkcji softmax na reprezentacji kontekstowej.",
-    "nazwa_pliku": "14_pretrenowanie.ipynb",
-    "id": 179
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "14_pretrenowanie.ipynb"
   },
   {
+    "id": 180,
     "tresc_pl": "Jak w pierwszej warstwie sieci Transformer wyznaczane są macierze Q, K i V z embeddingów tokenów $E$?",
     "tresc_eng": "How are the Q, K, and V matrices computed from token embeddings $E$ in the first layer of a Transformer network?",
     "odp_a_pl": "$Q = EW^Q$, $K = EW^K$, $V = EW^V$, gdzie $W^Q$, $W^K$, $W^V$ to wyuczone macierze wag.",
     "odp_b_pl": "$Q = K = V = E$ — embeddingi są używane bezpośrednio bez transformacji.",
     "odp_c_pl": "$Q$, $K$ i $V$ są losowane na początku każdej epoki uczenia.",
     "odp_d_pl": "$Q$, $K$ i $V$ pochodzą z gotowych wektorów Word2vec pobranych z zewnętrznej bazy.",
-    "nazwa_pliku": "15_transformer.ipynb",
-    "id": 180
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
+    "id": 181,
     "tresc_pl": "Co oznacza w praktyce wektor atencji wskazujący, że drugie słowo zdania „najbardziej patrzy” na pierwsze słowo?",
     "tresc_eng": "What does it mean in practice when an attention vector indicates that the second word in a sentence 'looks at' the first word the most?",
     "odp_a_pl": "Że przy obliczaniu reprezentacji drugiego tokena największy wkład pochodzi od wartości $V$ powiązanej z pierwszym tokenem (najwyższa zgodność zapytania $Q$ z kluczem $K$).",
     "odp_b_pl": "Że drugi token zostanie zastąpiony tokenem [MASK] podczas pretrenowania BERT.",
     "odp_c_pl": "Że pierwszy token ma zerową wagę w funkcji straty log-loss.",
     "odp_d_pl": "Że macierze $W^Q$, $W^K$ i $W^V$ nie wymagają uczenia w tej warstwie.",
-    "nazwa_pliku": "15_transformer.ipynb",
-    "id": 181
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "15_transformer.ipynb"
   },
   {
+    "id": 182,
     "tresc_pl": "Które cechy w przykładzie wielowymiarowej regresji liniowej (wycena mieszkań) mają charakter zerojedynkowy?",
     "tresc_eng": "Which features in the multivariate linear regression example (apartment pricing) are binary (zero-one) features?",
     "odp_a_pl": "Np. czy wielka płyta?, czy jest jacuzzi?, czy jest grzyb?, czy to Kielce/Kraków/Katowice.",
     "odp_b_pl": "Wyłącznie powierzchnia w $m^2$ i liczba pokoi.",
     "odp_c_pl": "Wiek budynku i odległość od Dworca Centralnego.",
     "odp_d_pl": "Wektor tf-idf opisu mieszkania.",
-    "nazwa_pliku": "08_Regresja_liniowa.ipynb",
-    "id": 182
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
+    "id": 183,
     "tresc_pl": "Regresja liniowa jednej zmiennej jest łatwa do rozwiązania analitycznie — na czym to polega?",
     "tresc_eng": "Single-variable linear regression is easy to solve analytically — what does this mean?",
     "odp_a_pl": "Wystarczy podstawić dane do gotowych wzorów na $\\hat{b}$ i $\\hat{a}$ bez iteracyjnego uczenia.",
     "odp_b_pl": "Wymaga wylosowania wag początkowych i wielokrotnego stosowania gradientu prostego.",
     "odp_c_pl": "Polega na zamianie wszystkich cech na reprezentację tf-idf przed dopasowaniem prostej.",
     "odp_d_pl": "Wymaga odwrócenia macierzy $\\mathbf{X}^{\\rm T}\\mathbf{X}$ o wymiarze równym liczbie słów w słowniku.",
-    "nazwa_pliku": "08_Regresja_liniowa.ipynb",
-    "id": 183
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "08_Regresja_liniowa.ipynb"
   },
   {
+    "id": 184,
     "tresc_pl": "Na czym polega regresja na tekście w odróżnieniu od klasyfikacji na tekście?",
     "tresc_eng": "What is text regression as opposed to text classification?",
     "odp_a_pl": "Regresja przewiduje ciągłą wartość liczbową (np. ocena sentymentu 1–5), a klasyfikacja przypisuje etykiety dyskretne (np. spam / nie-spam).",
     "odp_b_pl": "Regresja działa wyłącznie na obrazach, a klasyfikacja wyłącznie na tekstach.",
     "odp_c_pl": "Regresja wymaga softmax na wyjściu, a klasyfikacja jednego neuronu liniowego.",
     "odp_d_pl": "Regresja zawsze korzysta z wektorów one-hot, a klasyfikacja z embeddingów Word2vec.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 184
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 185,
     "tresc_pl": "Jaką funkcję stosuje regresja logistyczna na tekście, aby przekształcić surowy wynik liniowy w prawdopodobieństwo z przedziału $(0, 1)$?",
     "tresc_eng": "Which function does logistic regression on text use to transform a raw linear score into a probability in the $(0, 1)$ interval?",
     "odp_a_pl": "Funkcję sigmoidalną $\\sigma(z) = \\frac{1}{1 + e^{-z}}$.",
     "odp_b_pl": "Funkcję ReLU $\\max(0, z)$.",
     "odp_c_pl": "Funkcję tangens hiperboliczny $\\tanh(z)$ bez normalizacji.",
     "odp_d_pl": "Funkcję pierwiastka kwadratowego $\\sqrt{|z|}$.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 185
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 186,
     "tresc_pl": "Jak różni się warstwa wyjściowa wielowarstwowej sieci feedforward (MLP) stosowanej do klasyfikacji tekstu od warstwy wyjściowej tej samej sieci w zadaniu regresji na tekście?",
     "tresc_eng": "How does the output layer of a feedforward MLP for text classification differ from that of the same network for text regression?",
     "odp_a_pl": "W klasyfikacji ostatnia warstwa ma tyle neuronów, co klas, i kończy się Softmax (lub Sigmoid przy klasyfikacji binarnej); w regresji zwykle jeden neuron z liniową aktywacją.",
     "odp_b_pl": "W klasyfikacji stosuje się jeden neuron liniowy, a w regresji Softmax na całym słowniku.",
     "odp_c_pl": "W obu przypadkach wyjście to zawsze wektor one-hot o długości $|V|$.",
     "odp_d_pl": "W regresji wymagana jest funkcja sigmoidalna, a w klasyfikacji wyłącznie RMSE.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 186
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 187,
     "tresc_pl": "Na czym polega tokenizacja tekstu?",
     "tresc_eng": "What is text tokenization?",
     "odp_a_pl": "Na dzieleniu ciągłego tekstu na mniejsze jednostki (tokeny): wyrazy, znaki interpunkcyjne lub podwyrazy (BPE/subwords).",
     "odp_b_pl": "Na zamianie każdego dokumentu w pojedynczy wektor o stałym rozmiarze $2^b$.",
     "odp_c_pl": "Na obliczaniu średniej arytmetycznej embeddingów wszystkich słów w zdaniu.",
     "odp_d_pl": "Na odwracaniu macierzy cech $\\mathbf{X}^{\\rm T}\\mathbf{X}$ przed klasyfikacją.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 187
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 188,
     "tresc_pl": "Na czym polega lematyzacja w przetwarzaniu języka naturalnego?",
     "tresc_eng": "What is lemmatization in natural language processing?",
     "odp_a_pl": "Na sprowadzaniu wyrazów odmienionych do formy podstawowej, słownikowej (lematu), np. „będziemy” $\\rightarrow$ „być”, „kotami” $\\rightarrow$ „kot”.",
     "odp_b_pl": "Na losowym zamianie 15% wyrazów tokenem [MASK] podczas pretrenowania BERT.",
     "odp_c_pl": "Na mapowaniu słów funkcją skrótu $H$ do przegródek o rozmiarze $2^b$.",
     "odp_d_pl": "Na obliczaniu iloczynu skalarnego macierzy zapytań $Q$ i kluczy $K$.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 188
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 189,
     "tresc_pl": "Jak definiowany jest one-hot encoding słowa w kontekście słownika (vocabulary) korpusu?",
     "tresc_eng": "How is one-hot word encoding defined in the context of a corpus vocabulary?",
     "odp_a_pl": "Jako rzadki wektor długości $|V|$ z samymi zerami, z wyjątkiem jednej pozycji (indeksu słowa w słowniku), gdzie wartość wynosi 1.",
     "odp_b_pl": "Jako gęsty wektor Word2vec o stałym wymiarze 300, niezależny od słownika.",
     "odp_c_pl": "Jako suma wektorów idf wszystkich termów dokumentu po hashing trick.",
     "odp_d_pl": "Jako macierz atencji $\\operatorname{softmax}(QK^T)V$ o wymiarze równym liczbie zdań.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 189
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 190,
     "tresc_pl": "Co oznacza składnik TF (Term Frequency) w reprezentacji tf-idf?",
     "tresc_eng": "What does the TF (Term Frequency) component mean in tf-idf representation?",
     "odp_a_pl": "Częstość występowania danego słowa w obrębie jednego dokumentu.",
     "odp_b_pl": "Odwróconą częstość dokumentów zawierających dane słowo w całym korpusie.",
     "odp_c_pl": "Stały rozmiar wektora równy $2^b$ niezależnie od słownika.",
     "odp_d_pl": "Prawdopodobieństwo następnego słowa w modelu autoregresyjnym GPT.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 190
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 191,
     "tresc_pl": "Dlaczego w statystyce TF-IDF słowa takie jak spójniki „i”, „w”, „że” otrzymują zwykle niską wagę?",
     "tresc_eng": "Why do words such as conjunctions \"i\", \"w\", \"że\" usually receive a low weight in TF-IDF statistics?",
     "odp_a_pl": "Ponieważ występują niemal w każdym dokumencie, więc składnik IDF (powszechność w korpusie) obniża ich wagę.",
     "odp_b_pl": "Ponieważ hashing trick zawsze mapuje spójniki do tej samej zerowej pozycji wektora.",
     "odp_c_pl": "Ponieważ BERT maskuje je w 80% przypadków tokenem [MASK].",
     "odp_d_pl": "Ponieważ regresja logistyczna stosuje na nich wyłącznie funkcję sigmoidalną.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 191
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 192,
     "tresc_pl": "Na czym opiera się uczenie Word2vec według hipotezy dystrybucyjnej?",
     "tresc_eng": "What is Word2vec training based on according to the distributional hypothesis?",
     "odp_a_pl": "Na założeniu, że słowa występujące w podobnych kontekstach mają podobne znaczenie; model przewiduje słowo z kontekstu (CBOW) lub kontekst ze słowa (Skip-gram).",
     "odp_b_pl": "Na ręcznym etykietowaniu każdego słowa w korpusie przez anotatorów.",
     "odp_c_pl": "Na odgadywaniu roku publikacji tekstu metodą regresji liniowej.",
     "odp_d_pl": "Na klasyfikacji każdego piksela obrazu do osobnej kategorii semantycznej.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 192
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 193,
     "tresc_pl": "Który przykład ilustruje operacje arytmetyczne na embeddingach Word2vec wymieniony w materiale?",
     "tresc_eng": "Which example illustrates arithmetic operations on Word2vec embeddings mentioned in the material?",
     "odp_a_pl": "$\\vec{w}_{\\text{król}} - \\vec{w}_{\\text{mężczyzna}} + \\vec{w}_{\\text{kobieta}} \\approx \\vec{w}_{\\text{królowa}}$",
     "odp_b_pl": "$\\vec{w}_{\\text{spam}} + \\vec{w}_{\\text{ham}} = \\vec{w}_{\\text{zero}}$",
     "odp_c_pl": "$\\vec{w}_{\\text{TF}} \\times \\vec{w}_{\\text{IDF}} = \\vec{w}_{\\text{one-hot}}$",
     "odp_d_pl": "$Q K^T V = \\vec{w}_{\\text{BERT}}$",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 193
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 194,
     "tresc_pl": "Które sposoby agregowania wektorów słów do reprezentacji całego dokumentu wymieniono w materiale?",
     "tresc_eng": "Which methods of aggregating word vectors into a document representation are listed in the material?",
     "odp_a_pl": "Średnia arytmetyczna wektorów słów, sumowanie wektorów oraz średnia ważona (np. wagami TF-IDF).",
     "odp_b_pl": "Wyłącznie mnożenie macierzy wag $W^Q$, $W^K$ i $W^V$ przez embeddingi tokenów.",
     "odp_c_pl": "Tylko one-hot encoding każdego słowa bez żadnej agregacji.",
     "odp_d_pl": "Jedynie klasyfikacja każdego piksela maski segmentacyjnej.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 194
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 195,
     "tresc_pl": "Jak definiowane jest podobieństwo kosinusowe (cosine similarity) między wektorami $A$ i $B$?",
     "tresc_eng": "How is cosine similarity between vectors $A$ and $B$ defined?",
     "odp_a_pl": "$\\text{sim}(A, B) = \\frac{A \\cdot B}{\\|A\\| \\|B\\|}$; wartość $1$ oznacza ten sam kierunek (maksymalne podobieństwo), $0$ — ortogonalność.",
     "odp_b_pl": "$\\text{sim}(A, B) = \\sum_i |A_i - B_i|$; im mniejsza wartość, tym większe podobieństwo semantyczne.",
     "odp_c_pl": "$\\text{sim}(A, B) = \\operatorname{softmax}(A^T B)$; suma wyników zawsze wynosi $|V|$.",
     "odp_d_pl": "$\\text{sim}(A, B) = \\sqrt{\\frac{1}{n}\\sum (A_i - B_i)^2}$; odpowiada metryce RMSE regresji.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 195
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 196,
     "tresc_pl": "Jakie trzy główne typy architektur modeli Transformer wyróżniono ze względu na strukturę i typ zadań?",
     "tresc_eng": "What three main types of Transformer model architectures are distinguished by structure and task type?",
     "odp_a_pl": "Encoder-only (np. BERT, RoBERTa — klasyfikacja, NER), Decoder-only (np. GPT — generowanie tekstu) oraz Encoder-decoder (np. T5, mT5 — sekwencja do sekwencji).",
     "odp_b_pl": "Convolution-only, Pooling-only oraz Fully-connected-only.",
     "odp_c_pl": "RNN-only, LSTM-only oraz GRU-only.",
     "odp_d_pl": "Slow R-CNN, Fast R-CNN oraz Faster R-CNN.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 196
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 197,
     "tresc_pl": "Co oznacza pełna nazwa skrótu BERT i jaki typ architektury Transformer reprezentuje ten model?",
     "tresc_eng": "What does the full name of the acronym BERT mean and which type of Transformer architecture does this model represent?",
     "odp_a_pl": "Bidirectional Encoder Representations from Transformers — czysty model typu encoder-only.",
     "odp_b_pl": "Basic Encoder-Decoder Recurrent Transformer — model typu encoder-decoder.",
     "odp_c_pl": "Binary Entropy Regression Tokenizer — model typu decoder-only.",
     "odp_d_pl": "Bag-of-Embeddings Recurrent Text model — hybryda RNN i CNN.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 197
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 198,
     "tresc_pl": "Na czym polega mechanizm Self-Attention w modelach encoder-only (np. BERT)?",
     "tresc_eng": "What is the Self-Attention mechanism in encoder-only models (e.g., BERT)?",
     "odp_a_pl": "Każdy token w sekwencji może „patrzeć” na wszystkie inne tokeny w tym samym zdaniu — zarówno po lewej, jak i po prawej stronie.",
     "odp_b_pl": "Każdy token widzi wyłącznie poprzednie tokeny z lewej strony (autoregresja).",
     "odp_c_pl": "Atencja działa wyłącznie między obrazem wejściowym a sekwencją wyjściową w R-CNN.",
     "odp_d_pl": "Self-Attention polega na zapamiętywaniu wszystkich etykiet treningowych w czasie $O(1)$.",
-    "nazwa_pliku": "Grali.pdf",
-    "id": 198
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Grali.pdf"
   },
   {
+    "id": 199,
     "tresc_pl": "Jak w materiale zdefiniowano sztuczną inteligencję (AI) w sensie najszerszym?",
     "tresc_eng": "How is artificial intelligence (AI) defined in the broadest sense in the material?",
     "odp_a_pl": "Jako dowolna technika umożliwiająca komputerom naśladowanie ludzkiej inteligencji (logika, reguły if-then, drzewa decyzyjne, uczenie maszynowe).",
     "odp_b_pl": "Wyłącznie jako wielowarstwowe sieci neuronowe trenowane na obrazach ImageNet.",
     "odp_c_pl": "Jako algorytm k-NN zapamiętujący wszystkie przykłady treningowe bez parametrów.",
     "odp_d_pl": "Jako mechanizm atencji w modelach Transformer bez rekurencji RNN.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 199
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 200,
     "tresc_pl": "Jak zdefiniowano uczenie maszynowe (ML) w relacji do sztucznej inteligencji?",
     "tresc_eng": "How is machine learning (ML) defined in relation to artificial intelligence?",
     "odp_a_pl": "Jako podzbiór AI obejmujący techniki statystyczne, które pozwalają maszynom ulepszać wykonywanie zadań wraz z nabywanym doświadczeniem.",
     "odp_b_pl": "Jako nadrzędny zbiór obejmujący wszystkie reguły if-then i systemy ekspertowe bez danych.",
     "odp_c_pl": "Jako synonim detekcji obiektów w wizji komputerowej.",
     "odp_d_pl": "Jako metoda wyłącznie analitycznego odwracania macierzy Hessianu.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 200
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 201,
     "tresc_pl": "Na czym polega zadanie segmentacji semantycznej (Semantic Segmentation) w wizji komputerowej?",
     "tresc_eng": "What is the Semantic Segmentation task in computer vision?",
     "odp_a_pl": "Na klasyfikacji każdego pojedynczego piksela obrazu do danej kategorii (np. trawa, niebo, kot).",
     "odp_b_pl": "Na przypisaniu jednej etykiety do całego obrazu bez informacji o położeniu obiektu.",
     "odp_c_pl": "Na wyznaczeniu ramki otaczającej (bounding box) wokół każdego obiektu.",
     "odp_d_pl": "Na rozróżnieniu dwóch osobnych obiektów tej samej klasy i narysowaniu osobnej maski dla każdego z nich.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 201
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 202,
     "tresc_pl": "Co jest wyjściem zadania detekcji obiektów (Object Detection) według materiału?",
     "tresc_eng": "What is the output of the Object Detection task according to the material?",
     "odp_a_pl": "Zestaw wykrytych obiektów: klasa oraz 4 współrzędne ramki ($x$, $y$, width, height); wyzwaniem jest zmienna liczba obiektów na zdjęciu.",
     "odp_b_pl": "Pojedyncza etykieta klasy dla całego obrazu bez współrzędnych przestrzennych.",
     "odp_c_pl": "Macierz podobieństwa kosinusowego między embeddingami słów w opisie obrazu.",
     "odp_d_pl": "Wektor one-hot o długości $|V|$ reprezentujący podpis zdjęcia.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 202
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 203,
     "tresc_pl": "Jakie wady klasyfikatora k-NN (K-Najbliższych Sąsiadów) wymieniono w kontekście granic decyzyjnych?",
     "tresc_eng": "What disadvantages of the k-NN (K-Nearest Neighbors) classifier are mentioned regarding decision boundaries?",
     "odp_a_pl": "Granice decyzyjne mogą być zaszumione przez wartości odstające (outliers).",
     "odp_b_pl": "Granice decyzyjne są zawsze idealnymi hiperpłaszczyznami niezależnie od danych.",
     "odp_c_pl": "Klasyfikator k-NN nie działa na danych obrazowych o wymiarze większym niż 3.",
     "odp_d_pl": "Faza treningowa wymaga odwrócenia macierzy o rozmiarze $10^9 \\times 10^9$.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 203
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 204,
     "tresc_pl": "Jakie ograniczenie klasyfikatora liniowego $f(x, W) = Wx + b$ podkreślono w materiale?",
     "tresc_eng": "What limitation of the linear classifier $f(x, W) = Wx + b$ is emphasized in the material?",
     "odp_a_pl": "Uczy się tylko jednego szablonu (template) na klasę i nie separuje poprawnie danych, których nie da się rozdzielić hiperpłaszczyzną.",
     "odp_b_pl": "Nie pozwala na mapowanie pikseli obrazu na surowe wyniki klas (scores).",
     "odp_c_pl": "Wymaga softmax loss zamiast hinge loss we wszystkich zadaniach wizyjnych.",
     "odp_d_pl": "Działa wyłącznie na sekwencjach tekstowych o stałej długości 512 tokenów.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 204
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 205,
     "tresc_pl": "Który wzór opisuje podstawową dwuwarstwową sieć MLP z funkcją aktywacji ReLU w materiale?",
     "tresc_eng": "Which formula describes the basic two-layer MLP with ReLU activation in the material?",
     "odp_a_pl": "$f = W_{2} \\max(0, W_{1}x)$, gdzie $\\max(0, z)$ to ReLU.",
     "odp_b_pl": "$f = W_{2} \\sigma(W_{1}x)$, gdzie $\\sigma$ to wyłącznie funkcja sigmoidalna bez warstw ukrytych.",
     "odp_c_pl": "$f = \\operatorname{softmax}(QK^T)V$ bez macierzy wag.",
     "odp_d_pl": "$f = h_t = f_W(h_{t-1}, x_t)$ — rekurencyjna aktualizacja stanu ukrytego.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 205
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 206,
     "tresc_pl": "Czym charakteryzuje się algorytm Adam w kontekście optymalizacji sieci neuronowych?",
     "tresc_eng": "What characterizes the Adam algorithm in the context of neural network optimization?",
     "odp_a_pl": "Popularny algorytm pierwszego rzędu łączący zalety SGD z momentum oraz adaptacyjnym dopasowywaniem współczynnika uczenia (learning rate).",
     "odp_b_pl": "Metoda drugiego rzędu wymagająca odwrócenia pełnej macierzy Hessianu o rozmiarze $10^9 \\times 10^9$.",
     "odp_c_pl": "Algorytm k-NN zapamiętujący wszystkie mini-batch'e w pamięci RAM.",
     "odp_d_pl": "Technika generowania propozycji regionów RPN w detekcji obiektów.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 206
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 207,
     "tresc_pl": "Jaki jest cel warstw łączących (Pooling Layers) w konwolucyjnych sieciach neuronowych (CNN)?",
     "tresc_eng": "What is the purpose of Pooling Layers in convolutional neural networks (CNNs)?",
     "odp_a_pl": "Redukcja wymiarowości przestrzennej (downsampling, np. Max Pooling), mniejsza liczba parametrów oraz częściowa niezmienniczość na przesunięcia.",
     "odp_b_pl": "Wykonywanie konwolucji 2D z uczonymi filtrami wychwytującymi krawędzie i kształty.",
     "odp_c_pl": "Ostateczna klasyfikacja na podstawie spłaszczonych cech po operacji flatten.",
     "odp_d_pl": "Normalizacja batchowa wyłącznie w modelach typu encoder-only BERT.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 207
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 208,
     "tresc_pl": "Jak aktualizowany jest stan wewnętrzny (hidden state) sieci rekurencyjnej RNN w kolejnym kroku czasowym?",
     "tresc_eng": "How is the internal hidden state of an RNN updated at each time step?",
     "odp_a_pl": "$h_{t} = f_{W}(h_{t-1}, x_{t})$ — stan zależy od poprzedniego stanu i bieżącego wejścia.",
     "odp_b_pl": "$h_{t} = Wx + b$ — niezależnie od historii sekwencji, jak w klasyfikatorze liniowym.",
     "odp_c_pl": "$h_{t} = \\operatorname{softmax}(QK^T)V$ — wyłącznie mechanizm atencji bez rekurencji.",
     "odp_d_pl": "$h_{t} = \\max(0, W_1 x)$ — pojedyncza warstwa ReLU bez pamięci poprzednich kroków.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 208
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 209,
     "tresc_pl": "Które zadanie jest przykładem relacji one-to-many (jeden do wielu) w architekturach sekwencyjnych?",
     "tresc_eng": "Which task is an example of a one-to-many relationship in sequential architectures?",
     "odp_a_pl": "Podpisywanie zdjęć (Image Captioning) — wejściem jest obraz, wyjściem sekwencja słów.",
     "odp_b_pl": "Klasyfikacja wideo (many-to-one) — sekwencja klatek na jedną etykietę.",
     "odp_c_pl": "Tłumaczenie maszynowe (many-to-many) — sekwencja słów na sekwencję słów.",
     "odp_d_pl": "Klasyfikacja obrazu (one-to-one) — jeden obraz na jedną etykietę.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 209
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 210,
     "tresc_pl": "Dlaczego architektura Transformer stanowi przełom w porównaniu z klasycznymi RNN?",
     "tresc_eng": "Why is the Transformer architecture a breakthrough compared to classic RNNs?",
     "odp_a_pl": "Całkowicie rezygnuje z rekurencji na rzecz uogólnionego Self-Attention, co umożliwia pełne zrównoleglenie obliczeń.",
     "odp_b_pl": "Zastępuje atencję wyłącznie warstwami Max Pooling w sieciach splotowych.",
     "odp_c_pl": "Wymaga sekwencyjnego przetwarzania od lewej do prawej bez możliwości równoległości.",
     "odp_d_pl": "Opiera się wyłącznie na klasyfikatorze k-NN z czasem predykcji $O(1)$.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 210
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 211,
     "tresc_pl": "Na czym polega rozszerzenie Mask R-CNN względem Faster R-CNN?",
     "tresc_eng": "What is the Mask R-CNN extension over Faster R-CNN?",
     "odp_a_pl": "Dodaje równoległą gałąź (głowicę) przewidującą maskę pikseli dla każdego obiektu, realizując segmentację instancji (Instance Segmentation).",
     "odp_b_pl": "Zastępuje sieć bazową CNN modelem decoder-only GPT-3.",
     "odp_c_pl": "Usuwa Region Proposal Network i wraca do ~2000 niezależnych regionów jak w Slow R-CNN.",
     "odp_d_pl": "Wprowadza hashing trick do mapowania słów opisu obrazu na wektory $2^b$.",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 211
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
   },
   {
+    "id": 212,
     "tresc_pl": "Ile regionów próbnych (propozycji) wybiera klasyczna architektura „Slow” R-CNN z obrazu?",
     "tresc_eng": "How many proposal regions does the classic \"Slow\" R-CNN architecture select from an image?",
     "odp_a_pl": "Około 2000 regionów, z których każdy jest niezależnie przepuszczany przez sieć CNN (duży koszt obliczeniowy).",
     "odp_b_pl": "Dokładnie 10 regionów wyznaczanych algorytmem k-NN.",
     "odp_c_pl": "Jeden globalny wektor cech — obraz przetwarzany tylko raz bez wycinania regionów.",
     "odp_d_pl": "Tyle regionów, ile pikseli ma obraz wejściowy (klasyfikacja per-piksel).",
-    "nazwa_pliku": "Palub.pdf",
-    "id": 212
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "Palub.pdf"
+  },
+  {
+    "tresc_pl": "Jakie cele ma kurs Deep Learning według wykładu wprowadzającego (DL1)?",
+    "tresc_eng": "What are the goals of the Deep Learning course according to the introductory lecture (DL1)?",
+    "odp_a_pl": "Część 1: wprowadzenie do wizji komputerowej i rozwój głębokich sieci do zadań wizyjnych; część 2: NLP i sieci do zadań językowych.",
+    "odp_b_pl": "Wyłącznie regresję liniową na tekstach i klasyfikację spamu metodą tf-idf.",
+    "odp_c_pl": "Trenowanie modeli Transformer bez jakiegokolwiek omówienia wizji komputerowej.",
+    "odp_d_pl": "Naukę programowania w Haskellu i implementację Word2vec od podstaw.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 213
+  },
+  {
+    "tresc_pl": "Jak opisano zasady oceniania w wykładzie DL1?",
+    "tresc_eng": "How was grading described in the DL1 lecture?",
+    "odp_a_pl": "Egzamin pisemny (test wielokrotnego wyboru) stanowi 50% oceny końcowej; wymagane minimum 3+ z laboratoriów.",
+    "odp_b_pl": "Wyłącznie projekt końcowy w Pythonie bez egzaminu pisemnego.",
+    "odp_c_pl": "Ocena zależy wyłącznie od obecności na wykładach bez testu z materiału.",
+    "odp_d_pl": "100% oceny pochodzi z implementacji klasyfikatora k-NN w bibliotece FAISS.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 214
+  },
+  {
+    "tresc_pl": "Jak definiowana jest reprezentacja obliczeniowa obrazu kolorowego w wykładzie DL1?",
+    "tresc_eng": "How is the computational representation of a color image defined in the DL1 lecture?",
+    "odp_a_pl": "Obraz to tensor liczb całkowitych z przedziału [0, 255], np. o wymiarach 1920 × 1080 × 3 (RGB).",
+    "odp_b_pl": "Obraz to wektor one-hot o długości równej liczbie słów w słowniku języka angielskiego.",
+    "odp_c_pl": "Obraz to macierz embeddingów BPE o stałym rozmiarze 512 tokenów.",
+    "odp_d_pl": "Obraz to zawsze wektor 3072 liczb zmiennoprzecinkowych po normalizacji softmax.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 215
+  },
+  {
+    "tresc_pl": "Na czym polega zadanie klasyfikacji obrazu (Image Classification) według DL1?",
+    "tresc_eng": "What is the Image Classification task according to DL1?",
+    "odp_a_pl": "Na wybraniu poprawnej klasy z zadanego, zamkniętego zbioru etykiet dla całego obrazu.",
+    "odp_b_pl": "Na przypisaniu etykiety każdemu pikselowi osobno z uwzględnieniem instancji obiektów.",
+    "odp_c_pl": "Na wyznaczeniu ramki otaczającej i maski pikseli dla każdego obiektu na zdjęciu.",
+    "odp_d_pl": "Na generowaniu opisu tekstowego każdego regionu obrazu metodą Dense Captioning.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 216
+  },
+  {
+    "tresc_pl": "Które wyzwanie klasyfikacji obrazów wynika z faktu, że wartości pikseli zmieniają się, gdy przesuwamy kamerę?",
+    "tresc_eng": "Which image classification challenge arises from pixel values changing when the camera moves?",
+    "odp_a_pl": "Różne punkty widzenia (Different Viewpoints).",
+    "odp_b_pl": "Segmentacja instancji (Instance Segmentation).",
+    "odp_c_pl": "Maskowanie słów w modelu BERT (MLM).",
+    "odp_d_pl": "Kolizje w hashing trick przy zbyt małym parametrze $b$.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 217
+  },
+  {
+    "tresc_pl": "Które z wymienionych stanowi wyzwanie dla klasyfikacji obrazów omówione w DL1?",
+    "tresc_eng": "Which of the following is an image classification challenge discussed in DL1?",
+    "odp_a_pl": "Okluzja (Occlusion) — częściowe zasłonięcie obiektu.",
+    "odp_b_pl": "Konieczność stosowania wyłącznie regresji logistycznej na tekstach.",
+    "odp_c_pl": "Brak możliwości zapisu postępu w localStorage przeglądarki.",
+    "odp_d_pl": "Wymóg użycia wyłącznie architektury decoder-only GPT-3.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 218
+  },
+  {
+    "tresc_pl": "Jakie trzy kroki obejmuje data-driven approach do klasyfikacji obrazów w DL1?",
+    "tresc_eng": "What three steps does the data-driven approach to image classification include in DL1?",
+    "odp_a_pl": "Zebrać zbiór obrazów z etykietami, wytrenować klasyfikator algorytmami ML, ocenić na nowych obrazach.",
+    "odp_b_pl": "Zbudować słownik BPE, wytrenować BERT metodą MLM, wygenerować tekst autoregresyjnie.",
+    "odp_c_pl": "Odwrócić macierz Hessianu, zastosować L-BFGS na pełnym batchu, usunąć warstwy ReLU.",
+    "odp_d_pl": "Ręcznie napisać reguły if-then dla każdej klasy bez użycia danych treningowych.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 219
+  },
+  {
+    "tresc_pl": "Dlaczego według DL1 nie istnieje trywialny, deterministyczny sposób klasyfikacji obrazu?",
+    "tresc_eng": "Why, according to DL1, is there no trivial, deterministic way to classify an image?",
+    "odp_a_pl": "Nie da się w prosty, regułowy sposób wskazać poprawnej klasy wyłącznie na podstawie surowego obrazu wejściowego.",
+    "odp_b_pl": "Obrazy RGB zawsze mają zerowy rozmiar po operacji flatten.",
+    "odp_c_pl": "Klasyfikator k-NN ma złożoność treningu $O(N^3)$, co uniemożliwia jakiekolwiek uczenie.",
+    "odp_d_pl": "Softmax nie może być stosowany do więcej niż dwóch klas jednocześnie.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 220
+  },
+  {
+    "tresc_pl": "Jaki jest wzór parametrycznego klasyfikatora liniowego podany w materiale DL2?",
+    "tresc_eng": "What is the formula for the parametric linear classifier given in the DL2 material?",
+    "odp_a_pl": "$f(x, W) = Wx + b$",
+    "odp_b_pl": "$f(x, W) = \\operatorname{softmax}(Wx)$",
+    "odp_c_pl": "$f(x, W) = \\log\\frac{x}{1-x}$",
+    "odp_d_pl": "$f(x, W) = h_t = f_W(h_{t-1}, x_t)$",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 221
+  },
+  {
+    "tresc_pl": "Jaki jest cel regularyzacji (regularization) w pełnej funkcji straty omówionej w DL2?",
+    "tresc_eng": "What is the purpose of regularization in the full loss function discussed in DL2?",
+    "odp_a_pl": "Zapobieganie zbyt dobremu dopasowaniu modelu do danych treningowych (overfitting).",
+    "odp_b_pl": "Wymuszenie użycia wyłącznie metryki odległości L1 w klasyfikatorze k-NN.",
+    "odp_c_pl": "Automatyczne zwiększenie liczby regionów propozycji R-CNN do około 2000.",
+    "odp_d_pl": "Zastąpienie funkcji straty softmax funkcją MSE regresji liniowej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 222
+  },
+  {
+    "tresc_pl": "Jak definiowana jest pełna funkcja straty (complete loss) w podsumowaniu wykładu DL2?",
+    "tresc_eng": "How is the complete loss function defined in the DL2 lecture summary?",
+    "odp_a_pl": "Jako suma straty na danych (data loss) oraz członu regularyzacji $R(W)$.",
+    "odp_b_pl": "Wyłącznie jako pierwiastek błędu średniokwadratowego RMSE na zbiorze testowym.",
+    "odp_c_pl": "Jako iloczyn prawdopodobieństw softmax bez logarytmowania.",
+    "odp_d_pl": "Jako odległość L1 między embeddingami Word2vec sąsiadujących słów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 223
+  },
+  {
+    "tresc_pl": "Jaka wartość $k$ osiągnęła najlepszą skuteczność w przykładzie doboru hiperparametru k-NN na zbiorze CIFAR10 (5-fold cross-validation) w DL2?",
+    "tresc_eng": "What value of $k$ achieved the best performance in the k-NN hyperparameter selection example on CIFAR10 (5-fold cross-validation) in DL2?",
+    "odp_a_pl": "Około $k \\approx 7$.",
+    "odp_b_pl": "Dokładnie $k = 1$ dla wszystkich eksperymentów.",
+    "odp_c_pl": "$k = 3072$ odpowiadające liczbie pikseli po flatten.",
+    "odp_d_pl": "$k = 0$, co oznacza brak sąsiadów w głosowaniu większościowym.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL2.pdf",
+    "id": 224
+  },
+  {
+    "tresc_pl": "Czym różni się RoI Align od RoI Pool w architekturze detekcji obiektów (DL12)?",
+    "tresc_eng": "How does RoI Align differ from RoI Pool in object detection architecture (DL12)?",
+    "odp_a_pl": "RoI Align nie „przyciąga” siatki (no snapping) i próbkuje cechy metodą interpolacji bilinearnej w równomiernych podregionach.",
+    "odp_b_pl": "RoI Align wymaga osobnego przepuszczenia całego obrazu przez CNN dla każdego z ~2000 regionów.",
+    "odp_c_pl": "RoI Pool stosuje wyłącznie embeddingi BPE zamiast map cech konwolucyjnych.",
+    "odp_d_pl": "RoI Align działa tylko na tekstach i nie ma zastosowania w wizji komputerowej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf",
+    "id": 225
+  },
+  {
+    "tresc_pl": "Ile rodzajów strat (losses) jest wspólnie trenowanych w architekturze Faster R-CNN według DL12?",
+    "tresc_eng": "How many types of losses are jointly trained in the Faster R-CNN architecture according to DL12?",
+    "odp_a_pl": "Cztery: klasyfikacja RPN, regresja RPN, klasyfikacja obiektu, regresja ramki obiektu.",
+    "odp_b_pl": "Jedna: wyłącznie per-pixel cross-entropy segmentacji semantycznej.",
+    "odp_c_pl": "Dwie: data loss i regularization loss klasyfikatora liniowego.",
+    "odp_d_pl": "Sześć: po jednej dla każdej warstwy Batch Normalization w AlexNet.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf",
+    "id": 226
+  },
+  {
+    "tresc_pl": "Jak rozróżniono kategorie „things” i „stuff” w kontekście segmentacji (DL12)?",
+    "tresc_eng": "How were the categories \"things\" and \"stuff\" distinguished in the segmentation context (DL12)?",
+    "odp_a_pl": "Things to instancje rozdzielalne (np. kot, samochód); stuff to kategorie nierozdzielalne na instancje (np. niebo, trawa).",
+    "odp_b_pl": "Things to wyłącznie słowa w modelu Word2vec; stuff to parametr $b$ w hashing trick.",
+    "odp_c_pl": "Things oznaczają warstwy encoder-only; stuff oznaczają warstwy decoder-only.",
+    "odp_d_pl": "Nie ma żadnej różnicy — oba terminy to synonimy klasyfikacji binarnej.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf",
+    "id": 227
+  },
+  {
+    "tresc_pl": "Na czym polega segmentacja panoptyczna (Panoptic Segmentation) omówiona w DL12?",
+    "tresc_eng": "What is Panoptic Segmentation as discussed in DL12?",
+    "odp_a_pl": "Etykietuje wszystkie piksele (things i stuff) oraz rozdziela instancje kategorii „thing”.",
+    "odp_b_pl": "Klasyfikuje wyłącznie jedną etykietę dla całego obrazu bez informacji przestrzennej.",
+    "odp_c_pl": "Generuje wyłącznie opisy tekstowe regionów bez masek pikseli.",
+    "odp_d_pl": "Mapuje słowa dokumentu na wektory o stałym rozmiarze $2^b$ bez użycia CNN.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf",
+    "id": 228
+  },
+  {
+    "tresc_pl": "Jaka funkcja straty jest stosowana w w pełni konwolucyjnej sieci segmentacji semantycznej (FCN) według DL12?",
+    "tresc_eng": "What loss function is used in the Fully Convolutional Network (FCN) for semantic segmentation according to DL12?",
+    "odp_a_pl": "Cross-entropy obliczana osobno dla każdego piksela (per-pixel cross-entropy).",
+    "odp_b_pl": "Hinge loss wieloklasowego SVM na poziomie całego obrazu.",
+    "odp_c_pl": "Log-loss autoregresyjnego modelu języka GPT-2.",
+    "odp_d_pl": "RMSE regresji liniowej na ceny mieszkań.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf",
+    "id": 229
+  },
+  {
+    "tresc_pl": "Która nazwa jest uznawana za najlepsze określenie operacji upsamplingu „transposed convolution” w DL12?",
+    "tresc_eng": "Which name is considered the best term for the \"transposed convolution\" upsampling operation in DL12?",
+    "odp_a_pl": "Transposed Convolution (nie „deconvolution”).",
+    "odp_b_pl": "Deconvolution jako jedyna poprawna nazwa.",
+    "odp_c_pl": "Hashing trick stosowany do map cech CNN.",
+    "odp_d_pl": "RoI Pool z operacją snapping do siatki.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL12.pdf",
+    "id": 230
   }
 ]
