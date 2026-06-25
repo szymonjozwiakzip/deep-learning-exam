@@ -168,6 +168,29 @@ function renderHome() {
     </section>
 
     <section class="section-block">
+      <h2 class="section-title">Losowy test</h2>
+      <div class="random-quiz-panel">
+        <p class="random-quiz-desc">Wylosuj określoną liczbę pytań z całej bazy (bez powtórzeń).</p>
+        <form class="random-quiz-form" id="random-quiz-form">
+          <label class="random-quiz-label" for="random-count">Liczba pytań</label>
+          <div class="random-quiz-input-wrap">
+            <input
+              type="number"
+              id="random-count"
+              class="random-quiz-input"
+              min="1"
+              max="${allQuestions.length}"
+              value="${Math.min(10, allQuestions.length)}"
+              required
+            />
+            <span class="random-quiz-hint">z ${allQuestions.length}</span>
+          </div>
+          <button type="submit" class="btn btn-primary">Start losowego testu</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-block">
       <h2 class="section-title">Wykłady</h2>
       <div class="tiles-grid">
         ${allLectureTiles.map(([f, c]) => tile(f, c)).join('')}
@@ -188,10 +211,23 @@ function renderHome() {
       startQuiz({ mode: file ? 'file' : 'all', sourceFile: file || null });
     });
   });
+
+  main.querySelector('#random-quiz-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = document.getElementById('random-count');
+    const raw = parseInt(input?.value ?? '', 10);
+    const max = allQuestions.length;
+    if (!Number.isFinite(raw) || raw < 1) {
+      toast('Podaj liczbę pytań (minimum 1)');
+      input?.focus();
+      return;
+    }
+    startQuiz({ mode: 'random', limit: Math.min(raw, max) });
+  });
 }
 
 /**
- * @param {{ mode: 'all'|'file'|'retry', sourceFile?: string|null, questionIds?: number[], sourceLabel?: string }} opts
+ * @param {{ mode: 'all'|'file'|'retry'|'random', sourceFile?: string|null, questionIds?: number[], sourceLabel?: string, limit?: number }} opts
  */
 function startQuiz(opts) {
   let questionIds = opts.questionIds;
@@ -200,8 +236,18 @@ function startQuiz(opts) {
 
   if (!questionIds) {
     const filtered = filterQuestions(allQuestions, sourceFile);
-    questionIds = shuffleArray(filtered.map((q) => q.id));
-    sourceLabel = sourceFile ? formatFileName(sourceFile) : 'Wszystkie pytania';
+    let ids = shuffleArray(filtered.map((q) => q.id));
+    if (opts.limit != null && opts.limit > 0) {
+      ids = ids.slice(0, Math.min(opts.limit, ids.length));
+    }
+    questionIds = ids;
+    if (!sourceLabel) {
+      if (opts.mode === 'random') {
+        sourceLabel = `Losowy test · ${questionIds.length} pytań`;
+      } else {
+        sourceLabel = sourceFile ? formatFileName(sourceFile) : 'Wszystkie pytania';
+      }
+    }
   }
 
   if (!questionIds.length) {

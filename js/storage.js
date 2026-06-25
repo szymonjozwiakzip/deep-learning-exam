@@ -4,7 +4,7 @@ const STORAGE_KEY = 'dl-exam-platform-v1';
 /** @typedef {{ label: string, originalKey: string, text: string }} ShuffledOption */
 /** @typedef {{
  *   id: string,
- *   mode: 'all' | 'file' | 'retry',
+ *   mode: 'all' | 'file' | 'retry' | 'random',
  *   sourceLabel: string,
  *   sourceFile: string | null,
  *   questionIds: number[],

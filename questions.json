@@ -2343,12 +2343,12 @@
     "id": 213
   },
   {
-    "tresc_pl": "Jak opisano zasady oceniania w wykładzie DL1?",
-    "tresc_eng": "How was grading described in the DL1 lecture?",
-    "odp_a_pl": "Egzamin pisemny (test wielokrotnego wyboru) stanowi 50% oceny końcowej; wymagane minimum 3+ z laboratoriów.",
-    "odp_b_pl": "Wyłącznie projekt końcowy w Pythonie bez egzaminu pisemnego.",
-    "odp_c_pl": "Ocena zależy wyłącznie od obecności na wykładach bez testu z materiału.",
-    "odp_d_pl": "100% oceny pochodzi z implementacji klasyfikatora k-NN w bibliotece FAISS.",
+    "tresc_pl": "Jakie podejście do klasyfikacji obrazów wskazano w DL1 przed wprowadzeniem data-driven approach?",
+    "tresc_eng": "Which approach to image classification is shown in DL1 before the data-driven approach is introduced?",
+    "odp_a_pl": "Metody oparte na regułach (rule-based methods) — ręczne projektowanie reguł na podstawie cech obrazu.",
+    "odp_b_pl": "Autoregresyjne generowanie opisów obrazu modelem GPT bez danych treningowych.",
+    "odp_c_pl": "Hashing trick z losowymi cechami do klasyfikacji tekstu tf-idf.",
+    "odp_d_pl": "Panoptyczna segmentacja z maskami RLE dla każdego piksela.",
     "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL1.pdf",
     "id": 214
@@ -2418,6 +2418,39 @@
     "poprawna_odpowiedz": "a",
     "nazwa_pliku": "DL1.pdf",
     "id": 220
+  },
+  {
+    "tresc_pl": "Które wyzwanie klasyfikacji obrazów omówione w DL1 dotyczy sytuacji, gdy ten sam obiekt występuje na bardzo różnych tłach?",
+    "tresc_eng": "Which image classification challenge discussed in DL1 concerns the same object appearing against very different backgrounds?",
+    "odp_a_pl": "Różne tła (Different Backgrounds).",
+    "odp_b_pl": "Maskowanie językowe (MLM) w modelu BERT.",
+    "odp_c_pl": "Konieczność użycia RoI Align w detekcji obiektów.",
+    "odp_d_pl": "Hashing trick przy zbyt małym parametrze $b$ w tf-idf.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 231
+  },
+  {
+    "tresc_pl": "Które wyzwanie klasyfikacji obrazów w DL1 dotyczy zmiany warunków oświetlenia sceny?",
+    "tresc_eng": "Which image classification challenge in DL1 concerns changes in scene lighting conditions?",
+    "odp_a_pl": "Różne oświetlenie (Different Illumination).",
+    "odp_b_pl": "Segmentacja panoptyczna z łączeniem semantyki i instancji.",
+    "odp_c_pl": "Autoregresyjne generowanie tekstu modelem GPT-3.",
+    "odp_d_pl": "Regularyzacja L2 w klasyfikatorze k-NN bez parametrów.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 232
+  },
+  {
+    "tresc_pl": "Które wyzwanie klasyfikacji obrazów w DL1 odnosi się do tego, że obiekty tej samej klasy mogą wyglądać bardzo różnie?",
+    "tresc_eng": "Which image classification challenge in DL1 refers to objects of the same class looking very different?",
+    "odp_a_pl": "Wewnątrzklasowa zmienność (Variation).",
+    "odp_b_pl": "Wyłącznie brak etykiet w zbiorze treningowym ImageNet.",
+    "odp_c_pl": "Konieczność stosowania wyłącznie regresji logistycznej na tekstach.",
+    "odp_d_pl": "Zapis postępu wyłącznie w pliku questions.json.",
+    "poprawna_odpowiedz": "a",
+    "nazwa_pliku": "DL1.pdf",
+    "id": 233
   },
   {
     "tresc_pl": "Jaki jest wzór parametrycznego klasyfikatora liniowego podany w materiale DL2?",
